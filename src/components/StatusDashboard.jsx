@@ -50,9 +50,19 @@ const StatusDashboard = ({ apiUrl }) => {
   };
 
   const formatUptime = (seconds) => {
-    const hours = Math.floor(seconds / 3600);
+    if (!seconds) return 'Unknown';
+    
+    const days = Math.floor(seconds / 86400);
+    const hours = Math.floor((seconds % 86400) / 3600);
     const minutes = Math.floor((seconds % 3600) / 60);
-    return `${hours}h ${minutes}m`;
+    
+    if (days > 0) {
+      return `${days}d ${hours}h ${minutes}m`;
+    } else if (hours > 0) {
+      return `${hours}h ${minutes}m`;
+    } else {
+      return `${minutes}m`;
+    }
   };
 
   if (loading) {
@@ -96,7 +106,9 @@ const StatusDashboard = ({ apiUrl }) => {
               <Clock className="status-metric-icon" />
               <div className="status-details">
                 <span className="status-label">Uptime</span>
-                <span className="status-value">{formatUptime(status.uptime)}</span>
+                <span className="status-value">
+                  {status.uptimeFormatted || formatUptime(status.uptime)}
+                </span>
               </div>
             </div>
             
@@ -109,6 +121,21 @@ const StatusDashboard = ({ apiUrl }) => {
                 </span>
               </div>
             </div>
+            
+            {status.deploymentInfo?.commitSha && (
+              <div className="status-item">
+                <Zap className="status-metric-icon" />
+                <div className="status-details">
+                  <span className="status-label">Deployment</span>
+                  <span className="status-value">
+                    {status.deploymentInfo.commitSha}
+                  </span>
+                  <div style={{ fontSize: '10px', opacity: 0.7 }}>
+                    {status.deploymentInfo.commitMessage}
+                  </div>
+                </div>
+              </div>
+            )}
           </>
         )}
       </div>
