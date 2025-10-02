@@ -27,7 +27,7 @@ export class DataStorage {
       try {
         await fs.access(this.tickersFile);
       } catch (error) {
-        await fs.writeFile(this.tickersFile, JSON.stringify(['AAPL', 'MSFT', 'GOOGL', 'AMZN', 'TSLA'], null, 2));
+        await fs.writeFile(this.tickersFile, JSON.stringify([], null, 2));
       }
     } catch (error) {
       console.error('Error initializing data storage:', error);
@@ -40,7 +40,7 @@ export class DataStorage {
       return JSON.parse(data);
     } catch (error) {
       console.error('Error reading tickers:', error);
-      return ['AAPL', 'MSFT', 'GOOGL']; // Default tickers
+      return []; // Start with no tickers by default
     }
   }
 

@@ -15,39 +15,7 @@ const initializeStorage = async () => {
     console.log('Initializing data storage...');
     await dataStorage.init();
     console.log('Data storage initialized successfully');
-    
-    // Auto-process default tickers that don't have summaries
-    await autoProcessDefaultTickers();
-    
     initialized = true;
-  }
-};
-
-// Auto-process default tickers that don't have data
-const autoProcessDefaultTickers = async () => {
-  try {
-    const tickers = await dataStorage.getTickers();
-    console.log(`🔄 Checking ${tickers.length} tickers for auto-processing...`);
-    
-    for (const ticker of tickers) {
-      const summaries = await dataStorage.getSummaries(ticker);
-      
-      // If ticker has no summary or is very old (>1 day), process it
-      const needsProcessing = summaries.length === 0 || 
-        (summaries[0] && new Date() - new Date(summaries[0].timestamp) > 24 * 60 * 60 * 1000);
-      
-      if (needsProcessing) {
-        console.log(`📰 Auto-processing default ticker: ${ticker}`);
-        // Process in background without waiting
-        processTickerNewsAsync(ticker).catch(error => {
-          console.error(`❌ Auto-processing failed for ${ticker}:`, error);
-        });
-      } else {
-        console.log(`✅ Ticker ${ticker} already has recent data`);
-      }
-    }
-  } catch (error) {
-    console.error('❌ Error in auto-processing default tickers:', error);
   }
 };
 
@@ -223,28 +191,6 @@ export default async function handler(req, res) {
         const summaries = await dataStorage.getSummaries(ticker);
         if (summaries.length > 0) {
           allSummaries[ticker] = summaries[0];
-        } else {
-          // If no summary exists, trigger background processing
-          console.log(`📰 No summary found for ${ticker}, triggering background processing...`);
-          processTickerNewsAsync(ticker).catch(error => {
-            console.error(`❌ Background processing failed for ${ticker}:`, error);
-          });
-          
-          // Return placeholder data indicating processing
-          allSummaries[ticker] = {
-            ticker: ticker,
-            summary: null,
-            articles: [],
-            timestamp: new Date().toISOString(),
-            date: new Date().toISOString().split('T')[0],
-            sources: [],
-            isProcessing: true,
-            meta: {
-              totalArticlesFound: 0,
-              articlesAnalyzed: 0,
-              processingStatus: 'initializing'
-            }
-          };
         }
       }
       
@@ -272,30 +218,6 @@ export default async function handler(req, res) {
           availableTickers: tickers
         }
       });
-    }
-
-    // Initialize default tickers endpoint
-    if (method === 'POST' && path === '/init-defaults') {
-      try {
-        const tickers = await dataStorage.getTickers();
-        console.log(`🚀 Manually initializing ${tickers.length} default tickers...`);
-        
-        // Process each ticker in background
-        for (const ticker of tickers) {
-          processTickerNewsAsync(ticker).catch(error => {
-            console.error(`❌ Initialization failed for ${ticker}:`, error);
-          });
-        }
-        
-        return res.json({ 
-          success: true, 
-          message: `Initialization started for ${tickers.length} tickers`,
-          tickers: tickers
-        });
-      } catch (error) {
-        console.error('Error initializing default tickers:', error);
-        return res.status(500).json({ error: 'Failed to initialize default tickers' });
-      }
     }
 
     if (method === 'POST' && path === '/tickers') {

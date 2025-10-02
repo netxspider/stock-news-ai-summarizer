@@ -10,7 +10,7 @@ export class ProductionDataStorage {
   constructor() {
     // In-memory storage for production (Vercel functions are stateless)
     this.memoryStorage = {
-      tickers: ['AAPL', 'MSFT', 'GOOGL', 'AMZN', 'TSLA', 'META', 'NVDA'],
+      tickers: [], // Start with no tickers by default
       summaries: {},
       newsHistory: {}
     };
