@@ -1,49 +1,40 @@
 # Stock News AI Summarizer Deployment Guide
 
-## Cloud Hosting Options (Under $5/month)
+## Vercel Deployment (Recommended - FREE)
 
-### 1. Railway (Recommended)
-- **Cost**: $5/month for hobby plan
-- **Features**: Automatic deployments, environment variables, custom domains
-- **Setup**:
-  1. Connect GitHub repository to Railway
-  2. Set environment variables in Railway dashboard
-  3. Deploy both frontend and backend
+### Why Vercel?
+- **Cost**: 100% FREE for this project
+- **Features**: Serverless functions, automatic deployments, CDN
+- **Architecture**: Full-stack deployment (frontend + backend API)
 
-### 2. Render
-- **Cost**: Free tier available, $7/month for paid plans
-- **Features**: Auto-deploy from Git, custom domains, environment variables
-- **Setup**:
-  1. Create web service for backend (Node.js)
-  2. Create static site for frontend
-  3. Set environment variables
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/netxspider/stock-news-ai-summarizer)
 
-### 3. Vercel + Railway/Heroku
-- **Cost**: Vercel free + Railway $5/month = $5/month total
-- **Frontend**: Deploy to Vercel (free)
-- **Backend**: Deploy to Railway or Heroku
+## Quick Deployment Steps
 
-### 4. DigitalOcean App Platform
-- **Cost**: $5/month for basic droplet
-- **Features**: Managed hosting, automatic scaling
+### 1. One-Click Deploy
+```bash
+# Click the Deploy button above OR manually:
+npx vercel --prod
+```
 
-## Deployment Steps
+### 2. Set Environment Variables in Vercel Dashboard
+**Required Environment Variables:**
+- `GEMINI_API_KEY` - Your Google Gemini API key
+- `POLYGON_API_KEY` - Your Polygon.io API key
+- `USE_REAL_AI` - Set to `true`
+- `NODE_ENV` - Set to `production`
 
-### Frontend (Vercel)
-1. Push code to GitHub
-2. Connect repository to Vercel
-3. Set environment variables:
-   - `VITE_API_URL=https://your-backend-url.com`
-4. Deploy automatically
+### 3. Get API Keys (Free)
 
-### Backend (Railway)
-1. Create new project on Railway
-2. Connect GitHub repository
-3. Set environment variables:
-   - `POLYGON_API_KEY=your_key`
-   - `GEMINI_API_KEY=your_key`
-   - `PORT=3001`
-4. Deploy from `server/` directory
+#### Google Gemini API
+1. Visit [Google AI Studio](https://makersuite.google.com/app/apikey)
+2. Create API key
+3. Copy to Vercel environment variables
+
+#### Polygon.io API  
+1. Sign up at [Polygon.io](https://polygon.io/)
+2. Get free API key (5 calls/minute)
+3. Copy to Vercel environment variables
 
 ## Environment Variables
 

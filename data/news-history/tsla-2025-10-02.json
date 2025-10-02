@@ -1,43 +1,43 @@
 {
   "ticker": "TSLA",
   "date": "2025-10-02",
-  "timestamp": "2025-10-02T15:55:23.219Z",
+  "timestamp": "2025-10-02T17:04:01.561Z",
   "articles": [
-    {
-      "title": "Tesla Delivers Record 497,099 EVs In Q3 On Expiring Tax Credits. TSLA Stock Falls.",
-      "url": "https://finance.yahoo.com/m/44bc136a-35c6-33e6-87cd-8632dd910b3a/tesla-delivers-record-497%2C099.html",
-      "source": "Finviz",
-      "publishedAt": "2025-10-02T15:55:22.310Z",
-      "content": "Tesla Delivers Record 497,099 EVs In Q3 On Expiring Tax Credits. TSLA Stock Falls.",
-      "dateText": "11:32AM",
-      "storedAt": "2025-10-02T15:55:23.219Z"
-    },
     {
       "title": "Tesla Delivered Record 497,099 EVs In Q3 On Expiring Tax Credits; TSLA Stock Turns Lower (Live)",
       "url": "https://finance.yahoo.com/m/44bc136a-35c6-33e6-87cd-8632dd910b3a/tesla-delivered-record.html",
       "source": "Finviz",
-      "publishedAt": "2025-10-02T15:55:22.310Z",
+      "publishedAt": "2025-10-02T17:04:01.556Z",
       "content": "Tesla Delivered Record 497,099 EVs In Q3 On Expiring Tax Credits; TSLA Stock Turns Lower (Live)",
       "dateText": "11:11AM",
-      "storedAt": "2025-10-02T15:55:23.219Z"
+      "storedAt": "2025-10-02T17:04:01.561Z"
+    },
+    {
+      "title": "Tesla Delivers Record 497,099 EVs In Q3 On Expiring Tax Credits. TSLA Stock Reverses Lower.",
+      "url": "https://finance.yahoo.com/m/44bc136a-35c6-33e6-87cd-8632dd910b3a/tesla-delivers-record-497%2C099.html",
+      "source": "Finviz",
+      "publishedAt": "2025-10-02T17:04:01.555Z",
+      "content": "Tesla Delivers Record 497,099 EVs In Q3 On Expiring Tax Credits. TSLA Stock Reverses Lower.",
+      "dateText": "12:50PM",
+      "storedAt": "2025-10-02T17:04:01.561Z"
     },
     {
       "title": "TSLA",
       "url": "/symbols/NASDAQ-TSLA/",
       "source": "TradingView",
       "provider": "TradingView",
-      "publishedAt": "2025-10-02T15:55:21.991Z",
+      "publishedAt": "2025-10-02T17:04:00.328Z",
       "content": "TSLA",
-      "storedAt": "2025-10-02T15:55:23.219Z"
+      "storedAt": "2025-10-02T17:04:01.561Z"
     },
     {
       "title": "TSLA news",
       "url": "https://in.tradingview.com/symbols/NASDAQ-TSLA/news/",
       "source": "TradingView",
       "provider": "TradingView",
-      "publishedAt": "2025-10-02T15:55:21.991Z",
+      "publishedAt": "2025-10-02T17:04:00.328Z",
       "content": "TSLA news",
-      "storedAt": "2025-10-02T15:55:23.219Z"
+      "storedAt": "2025-10-02T17:04:01.561Z"
     },
     {
       "title": "TSLA INVESTOR ALERT: Bronstein, Gewirtz & Grossman LLC Announces that Tesla, Inc. Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit",
@@ -50,7 +50,7 @@
       "tickers": [
         "TSLA"
       ],
-      "storedAt": "2025-10-02T15:55:23.219Z"
+      "storedAt": "2025-10-02T17:04:01.561Z"
     },
     {
       "title": "The Best AI Stock to Buy Right Now, According to a Wall Street Analyst (Hint: Not Nvidia or Palantir)",
@@ -66,7 +66,7 @@
         "PLTR",
         "BYDDY"
       ],
-      "storedAt": "2025-10-02T15:55:23.219Z"
+      "storedAt": "2025-10-02T17:04:01.561Z"
     },
     {
       "title": "Tesla Earnings Loom: Bulls Eye $600, Bears Warn of $300",
@@ -79,7 +79,7 @@
       "tickers": [
         "TSLA"
       ],
-      "storedAt": "2025-10-02T15:55:23.219Z"
+      "storedAt": "2025-10-02T17:04:01.561Z"
     },
     {
       "title": "S&P 500 Earnings: Tech EPS Expectations Point to Strong Q3 Results",
@@ -96,7 +96,7 @@
         "MSFT",
         "AAPL"
       ],
-      "storedAt": "2025-10-02T15:55:23.219Z"
+      "storedAt": "2025-10-02T17:04:01.561Z"
     },
     {
       "title": "S&P 500: Tech-Led Rally Masks Weakness in Broader Sectors Ahead of Earnings Season",
@@ -112,7 +112,7 @@
         "AMZN",
         "AAPL"
       ],
-      "storedAt": "2025-10-02T15:55:23.219Z"
+      "storedAt": "2025-10-02T17:04:01.561Z"
     }
   ],
   "totalArticles": 9

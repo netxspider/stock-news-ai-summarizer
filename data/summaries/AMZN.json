@@ -2,81 +2,33 @@
   {
     "ticker": "AMZN",
     "summary": {
-      "summary": "Today's news for Amazon (AMZN) presents a mixed, but largely positive, picture for investors. A significant development is the agreement by Amazon to pay $2.5 billion in fines and reimbursements to resolve claims made by the Federal Trade Commission (FTC). While a substantial financial hit, this settlement resolves past issues, removing a regulatory overhang. Simultaneously, Amazon announced a strong earnings beat, which has strengthened its growth outlook, complemented by an expanded investment in its Demand-Side Platform (DSP) for advertising, indicating robust performance in key segments beyond e-commerce.\\n\\nAdding to the positive sentiment, Wells Fargo upgraded AMZN stock from Equal Weight to Overweight, citing strong potential in AWS cloud services and AI workloads, despite recent stock price resistance. This aligns with broader market expectations for the tech sector, which anticipates strong Q3 2025 results driven by AI investments. Analysts are increasingly optimistic, with one analyst explicitly stating that AMZN stock could move 'quite a bit higher' soon, and a previous prediction by Josh Brown about a 'breakout' is being revisited.\\n\\nAmazon's strategic focus on artificial intelligence remains a key driver, as it races with Google to upgrade voice assistants with AI, acknowledging the heightened stakes set by OpenAI. This competitive landscape, coupled with the ",
+      "summary": "Today's news for Amazon (AMZN) presents a mixed, yet cautiously optimistic, picture for investors. On the positive front, Amazon reported an earnings beat and announced expanded investment in its Demand-Side Platform (DSP), signaling robust operational performance and strategic growth in advertising. This positive momentum is reinforced by a recent Wells Fargo upgrade of AMZN stock to Overweight, citing strong potential in AWS cloud services and AI workloads, with other analysts also predicting significant upside. These endorsements highlight the ongoing strength of AWS as a \\",
       "keyPoints": [
+        "Amazon strengthened its growth outlook with an earnings beat and expanded DSP investment.",
         "Amazon agreed to pay $2.5 billion in fines and reimbursements to resolve FTC claims.",
-        "The company reported an earnings beat and strengthened its growth outlook, along with expanded DSP investment.",
-        "Wells Fargo upgraded AMZN stock from Equal Weight to Overweight, citing AWS and AI potential.",
-        "Analysts are increasingly bullish, with predictions of AMZN stock moving 'quite a bit higher' and a 'breakout'.",
-        "Amazon is actively competing in the AI space, focusing on upgrading voice assistants with AI."
+        "Wells Fargo upgraded AMZN stock to Overweight, citing strong AWS cloud services and AI potential.",
+        "Analysts predict AMZN stock can move 'quite a bit higher' soon, emphasizing AWS as a 'crown jewel' despite AI cloud concerns.",
+        "Amazon is racing with Google to upgrade voice assistants with AI, facing the broader 'show me' test for AI stocks."
       ],
       "sentiment": "positive",
       "sentimentReasoning": "Partial analysis - full response was truncated",
-      "whatChangedToday": "Today's news brought several significant developments for AMZN. The most concrete change is the agreement to pay a $2.5 billion fine to the FTC, which resolves regulatory claims but imposes a substantial financial cost. This is counterbalanced by the announcement of a strong earnings beat and a strengthened growth outlook, indicating robust underlying business performance. Furthermore, Amazon's expanded investment in its Demand-Side Platform (DSP) signals a strategic focus on growing its advertising revenue. The Wells Fargo upgrade from Equal Weight to Overweight, specifically citing AWS cloud services and AI workloads, represents a material shift in institutional sentiment and investment thesis. Lastly, explicit mentions of AMZN's role in the AI race and the 'show me' test for AI stocks highlight the increasing importance of its AI strategy and execution to its future valuation.",
-      "marketImplications": "The market is likely to react with initial caution to the $2.5 billion FTC fine, which could put some short-term downward pressure on the stock. However, this impact is expected to be largely mitigated, if not fully offset, by the positive news of an earnings beat, strengthened growth outlook, and strategic investments in DSP. The Wells Fargo upgrade, coupled with other analysts' bullish predictions, should provide a strong tailwind, potentially driving increased investor confidence and buying interest. The emphasis on AWS and AI as key growth drivers will reinforce Amazon's position as a leading tech company, attracting investors focused on these high-growth sectors. Overall, the long-term implications are positive, suggesting potential upward momentum for AMZN stock as investors digest the strong operational performance and strategic direction, outweighing the one-time regulatory cost.",
-      "marketImpact": "high",
+      "whatChangedToday": "Today's news brought several key changes for Amazon. Most notably, the company agreed to a substantial $2.5 billion settlement with the FTC, resolving past claims. Operationally, Amazon strengthened its growth outlook with an earnings beat and announced expanded investments in its Demand-Side Platform (DSP). Analyst sentiment saw a significant boost with a Wells Fargo upgrade (published yesterday but impactful today) and other analysts predicting significant upside for the stock, emphasizing AWS's enduring value and Amazon's commitment to the AI race, particularly in voice assistants. The broader context of the 'show me' test for AI stocks also became more prominent, putting pressure on AMZN to demonstrate tangible AI returns.",
+      "marketImplications": "The market's reaction is likely to be mixed initially but could lean positive over the medium term. The $2.5 billion FTC fine will likely create a temporary dip or cap on immediate upside as investors digest the financial impact, even if it's a one-time event. This represents a significant cash outflow. However, the strong earnings beat, expanded DSP investment, and the renewed analyst confidence in AWS and AI capabilities are powerful positive catalysts. These factors, especially the 'crown jewel' status of AWS and aggressive AI development, suggest a strong underlying business trajectory that could drive the stock 'quite a bit higher' as analysts predict. The resolution of the FTC claims, while costly, removes ongoing regulatory uncertainty. The stock might see some initial volatility but could trend upwards as the focus shifts back to fundamental growth and the company's strategic positioning in key growth areas like AI and cloud services.",
+      "marketImpact": "medium",
       "confidence": "low",
-      "articlesAnalyzed": 10,
-      "totalArticles": 10,
+      "articlesAnalyzed": 11,
+      "totalArticles": 11,
       "historicalArticlesUsed": 0,
-      "lastUpdated": "2025-10-02T15:58:34.048Z",
+      "lastUpdated": "2025-10-02T17:00:40.955Z",
       "ticker": "AMZN",
       "_recovered": true
     },
     "articles": [
       {
-        "title": "AMZN",
-        "url": "/symbols/NASDAQ-AMZN/",
-        "source": "TradingView",
-        "provider": "TradingView",
-        "publishedAt": "2025-10-02T15:58:02.502Z",
-        "content": "AMZN"
-      },
-      {
-        "title": "AMZN news",
-        "url": "https://in.tradingview.com/symbols/NASDAQ-AMZN/news/",
-        "source": "TradingView",
-        "provider": "TradingView",
-        "publishedAt": "2025-10-02T15:58:02.502Z",
-        "content": "AMZN news"
-      },
-      {
-        "title": "AI Stocks Face 'Show Me' Test. Why Oracle, Salesforce Analyst Days Will Be Big Events.",
-        "url": "https://finance.yahoo.com/m/684c930d-1475-3adc-b013-ae604c056ebc/ai-stocks-face-%27show-me%27.html",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T15:58:02.329Z",
-        "content": "AI Stocks Face 'Show Me' Test. Why Oracle, Salesforce Analyst Days Will Be Big Events.",
-        "dateText": "10:19AM"
-      },
-      {
-        "title": "Analyst Explains Why Amazon.com (AMZN) Stock Can Move 'Quite a Bit Higher' Soon",
-        "url": "/news/182286/analyst-explains-why-amazoncom-amzn-stock-can-move-quite-a-bit-higher-soon",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T15:58:02.329Z",
-        "content": "Analyst Explains Why Amazon.com (AMZN) Stock Can Move 'Quite a Bit Higher' Soon",
-        "dateText": "09:56AM"
-      },
-      {
-        "title": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
-        "url": "/news/181527/amazoncom-inc-amzn-agrees-to-pay-25-billion-in-fines-and-reimbursements-to-resolve-claims-made-by-the-federal-trade-commission",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T15:58:02.329Z",
-        "content": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
-        "dateText": "05:30PM"
-      },
-      {
-        "title": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
-        "url": "/news/181517/amazon-strengthens-growth-outlook-with-earnings-beat-and-expanded-dsp-investment",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T15:58:02.329Z",
-        "content": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
-        "dateText": "05:07PM"
-      },
-      {
         "title": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
         "url": "/news/181454/josh-brown-predicted-amazoncom-amzn-will-breakout-was-he-right",
         "source": "Finviz",
-        "publishedAt": "2025-10-02T15:58:02.329Z",
+        "publishedAt": "2025-10-02T16:59:52.313Z",
         "content": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
         "dateText": "04:22PM"
       },
@@ -84,9 +36,65 @@
         "title": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
         "url": "https://www.youtube.com/watch?v=6H27Ke3kHWo",
         "source": "Finviz",
-        "publishedAt": "2025-10-02T15:58:02.329Z",
+        "publishedAt": "2025-10-02T16:59:52.313Z",
         "content": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
         "dateText": "03:20PM"
+      },
+      {
+        "title": "AI Cloud Concerns Hover Over Amazon Stock. But Analyst Says Don't Forget This 'Crown Jewel.'",
+        "url": "https://www.investors.com/news/technology/amazon-stock-advertising-cloud-ai?mod=IBD_FV",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:59:52.312Z",
+        "content": "AI Cloud Concerns Hover Over Amazon Stock. But Analyst Says Don't Forget This 'Crown Jewel.'",
+        "dateText": "Today 12:15PM"
+      },
+      {
+        "title": "AI Stocks Face 'Show Me' Test. Why Oracle, Salesforce Analyst Days Will Be Big Events.",
+        "url": "https://finance.yahoo.com/m/684c930d-1475-3adc-b013-ae604c056ebc/ai-stocks-face-%27show-me%27.html",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:59:52.312Z",
+        "content": "AI Stocks Face 'Show Me' Test. Why Oracle, Salesforce Analyst Days Will Be Big Events.",
+        "dateText": "10:19AM"
+      },
+      {
+        "title": "Analyst Explains Why Amazon.com (AMZN) Stock Can Move 'Quite a Bit Higher' Soon",
+        "url": "/news/182286/analyst-explains-why-amazoncom-amzn-stock-can-move-quite-a-bit-higher-soon",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:59:52.312Z",
+        "content": "Analyst Explains Why Amazon.com (AMZN) Stock Can Move 'Quite a Bit Higher' Soon",
+        "dateText": "09:56AM"
+      },
+      {
+        "title": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
+        "url": "/news/181527/amazoncom-inc-amzn-agrees-to-pay-25-billion-in-fines-and-reimbursements-to-resolve-claims-made-by-the-federal-trade-commission",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:59:52.312Z",
+        "content": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
+        "dateText": "05:30PM"
+      },
+      {
+        "title": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
+        "url": "/news/181517/amazon-strengthens-growth-outlook-with-earnings-beat-and-expanded-dsp-investment",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:59:52.312Z",
+        "content": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
+        "dateText": "05:07PM"
+      },
+      {
+        "title": "AMZN",
+        "url": "/symbols/NASDAQ-AMZN/",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T16:59:51.934Z",
+        "content": "AMZN"
+      },
+      {
+        "title": "AMZN news",
+        "url": "https://in.tradingview.com/symbols/NASDAQ-AMZN/news/",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T16:59:51.934Z",
+        "content": "AMZN news"
       },
       {
         "title": "Amazon: Why Stock's Latest Upgrade Might Be Its Most Important Yet",
@@ -117,58 +125,64 @@
         ]
       }
     ],
-    "timestamp": "2025-10-02T15:58:34.048Z",
+    "timestamp": "2025-10-02T17:00:40.955Z",
     "date": "2025-10-02",
     "sources": [
+      {
+        "url": "/news/181454/josh-brown-predicted-amazoncom-amzn-will-breakout-was-he-right",
+        "headline": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:59:52.313Z"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=6H27Ke3kHWo",
+        "headline": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:59:52.313Z"
+      },
+      {
+        "url": "https://www.investors.com/news/technology/amazon-stock-advertising-cloud-ai?mod=IBD_FV",
+        "headline": "AI Cloud Concerns Hover Over Amazon Stock. But Analyst Says Don't Forget This 'Crown Jewel.'",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:59:52.312Z"
+      },
+      {
+        "url": "https://finance.yahoo.com/m/684c930d-1475-3adc-b013-ae604c056ebc/ai-stocks-face-%27show-me%27.html",
+        "headline": "AI Stocks Face 'Show Me' Test. Why Oracle, Salesforce Analyst Days Will Be Big Events.",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:59:52.312Z"
+      },
+      {
+        "url": "/news/182286/analyst-explains-why-amazoncom-amzn-stock-can-move-quite-a-bit-higher-soon",
+        "headline": "Analyst Explains Why Amazon.com (AMZN) Stock Can Move 'Quite a Bit Higher' Soon",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:59:52.312Z"
+      },
+      {
+        "url": "/news/181527/amazoncom-inc-amzn-agrees-to-pay-25-billion-in-fines-and-reimbursements-to-resolve-claims-made-by-the-federal-trade-commission",
+        "headline": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:59:52.312Z"
+      },
+      {
+        "url": "/news/181517/amazon-strengthens-growth-outlook-with-earnings-beat-and-expanded-dsp-investment",
+        "headline": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:59:52.312Z"
+      },
       {
         "url": "/symbols/NASDAQ-AMZN/",
         "headline": "AMZN",
         "source": "TradingView",
         "provider": "TradingView",
-        "publishedAt": "2025-10-02T15:58:02.502Z"
+        "publishedAt": "2025-10-02T16:59:51.934Z"
       },
       {
         "url": "https://in.tradingview.com/symbols/NASDAQ-AMZN/news/",
         "headline": "AMZN news",
         "source": "TradingView",
         "provider": "TradingView",
-        "publishedAt": "2025-10-02T15:58:02.502Z"
-      },
-      {
-        "url": "https://finance.yahoo.com/m/684c930d-1475-3adc-b013-ae604c056ebc/ai-stocks-face-%27show-me%27.html",
-        "headline": "AI Stocks Face 'Show Me' Test. Why Oracle, Salesforce Analyst Days Will Be Big Events.",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T15:58:02.329Z"
-      },
-      {
-        "url": "/news/182286/analyst-explains-why-amazoncom-amzn-stock-can-move-quite-a-bit-higher-soon",
-        "headline": "Analyst Explains Why Amazon.com (AMZN) Stock Can Move 'Quite a Bit Higher' Soon",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T15:58:02.329Z"
-      },
-      {
-        "url": "/news/181527/amazoncom-inc-amzn-agrees-to-pay-25-billion-in-fines-and-reimbursements-to-resolve-claims-made-by-the-federal-trade-commission",
-        "headline": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T15:58:02.329Z"
-      },
-      {
-        "url": "/news/181517/amazon-strengthens-growth-outlook-with-earnings-beat-and-expanded-dsp-investment",
-        "headline": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T15:58:02.329Z"
-      },
-      {
-        "url": "/news/181454/josh-brown-predicted-amazoncom-amzn-will-breakout-was-he-right",
-        "headline": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T15:58:02.329Z"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=6H27Ke3kHWo",
-        "headline": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T15:58:02.329Z"
+        "publishedAt": "2025-10-02T16:59:51.934Z"
       },
       {
         "url": "https://www.investing.com/analysis/amazon-why-stocks-latest-upgrade-might-be-its-most-important-yet-200667808",
@@ -187,11 +201,11 @@
     ],
     "isProcessing": false,
     "meta": {
-      "totalArticlesFound": 10,
-      "articlesAnalyzed": 10,
+      "totalArticlesFound": 11,
+      "articlesAnalyzed": 11,
       "historicalArticlesUsed": 0,
       "daysOfHistoryAnalyzed": 7,
-      "processingTime": "2025-10-02T15:58:34.048Z",
+      "processingTime": "2025-10-02T17:00:40.956Z",
       "processingStatus": "complete",
       "enhancedFeatures": {
         "tradingViewScraping": true,
@@ -201,618 +215,37 @@
         "historicalComparison": true
       }
     },
-    "id": 1759420714049
-  },
-  {
-    "ticker": "AMZN",
-    "summary": null,
-    "articles": [
-      {
-        "title": "AMZN",
-        "url": "/symbols/NASDAQ-AMZN/",
-        "source": "TradingView",
-        "provider": "TradingView",
-        "publishedAt": "2025-10-02T15:58:02.502Z",
-        "content": "AMZN"
-      },
-      {
-        "title": "AMZN news",
-        "url": "https://in.tradingview.com/symbols/NASDAQ-AMZN/news/",
-        "source": "TradingView",
-        "provider": "TradingView",
-        "publishedAt": "2025-10-02T15:58:02.502Z",
-        "content": "AMZN news"
-      },
-      {
-        "title": "AI Stocks Face 'Show Me' Test. Why Oracle, Salesforce Analyst Days Will Be Big Events.",
-        "url": "https://finance.yahoo.com/m/684c930d-1475-3adc-b013-ae604c056ebc/ai-stocks-face-%27show-me%27.html",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T15:58:02.329Z",
-        "content": "AI Stocks Face 'Show Me' Test. Why Oracle, Salesforce Analyst Days Will Be Big Events.",
-        "dateText": "10:19AM"
-      },
-      {
-        "title": "Analyst Explains Why Amazon.com (AMZN) Stock Can Move 'Quite a Bit Higher' Soon",
-        "url": "/news/182286/analyst-explains-why-amazoncom-amzn-stock-can-move-quite-a-bit-higher-soon",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T15:58:02.329Z",
-        "content": "Analyst Explains Why Amazon.com (AMZN) Stock Can Move 'Quite a Bit Higher' Soon",
-        "dateText": "09:56AM"
-      },
-      {
-        "title": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
-        "url": "/news/181527/amazoncom-inc-amzn-agrees-to-pay-25-billion-in-fines-and-reimbursements-to-resolve-claims-made-by-the-federal-trade-commission",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T15:58:02.329Z",
-        "content": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
-        "dateText": "05:30PM"
-      },
-      {
-        "title": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
-        "url": "/news/181517/amazon-strengthens-growth-outlook-with-earnings-beat-and-expanded-dsp-investment",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T15:58:02.329Z",
-        "content": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
-        "dateText": "05:07PM"
-      },
-      {
-        "title": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
-        "url": "/news/181454/josh-brown-predicted-amazoncom-amzn-will-breakout-was-he-right",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T15:58:02.329Z",
-        "content": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
-        "dateText": "04:22PM"
-      },
-      {
-        "title": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
-        "url": "https://www.youtube.com/watch?v=6H27Ke3kHWo",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T15:58:02.329Z",
-        "content": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
-        "dateText": "03:20PM"
-      },
-      {
-        "title": "Amazon: Why Stock's Latest Upgrade Might Be Its Most Important Yet",
-        "url": "https://www.investing.com/analysis/amazon-why-stocks-latest-upgrade-might-be-its-most-important-yet-200667808",
-        "source": "Polygon",
-        "provider": "Investing.com",
-        "publishedAt": "2025-10-01T12:41:00Z",
-        "content": "Wells Fargo upgraded Amazon stock from Equal Weight to Overweight, citing strong potential in AWS cloud services and AI workloads, despite recent stock price resistance around $240.",
-        "author": "Sam Quirke",
-        "tickers": [
-          "AMZN"
-        ]
-      },
-      {
-        "title": "S&P 500 Earnings: Tech EPS Expectations Point to Strong Q3 Results",
-        "url": "https://www.investing.com/analysis/sp-500-earnings-tech-eps-expectations-point-to-strong-q3-results-200667620",
-        "source": "Polygon",
-        "provider": "Investing.com",
-        "publishedAt": "2025-09-29T08:19:00Z",
-        "content": "Technology sector earnings are showing strong growth expectations for Q3 2025, with potential peak earnings and significant AI-driven investment impacting sector performance.",
-        "author": "Brian Gilmartin",
-        "tickers": [
-          "AMZN",
-          "TSLA",
-          "NKE",
-          "MSFT",
-          "AAPL"
-        ]
-      }
-    ],
-    "timestamp": "2025-10-02T15:58:03.447Z",
-    "date": "2025-10-02",
-    "sources": [
-      {
-        "url": "/symbols/NASDAQ-AMZN/",
-        "headline": "AMZN",
-        "source": "TradingView",
-        "provider": "TradingView",
-        "publishedAt": "2025-10-02T15:58:02.502Z"
-      },
-      {
-        "url": "https://in.tradingview.com/symbols/NASDAQ-AMZN/news/",
-        "headline": "AMZN news",
-        "source": "TradingView",
-        "provider": "TradingView",
-        "publishedAt": "2025-10-02T15:58:02.502Z"
-      },
-      {
-        "url": "https://finance.yahoo.com/m/684c930d-1475-3adc-b013-ae604c056ebc/ai-stocks-face-%27show-me%27.html",
-        "headline": "AI Stocks Face 'Show Me' Test. Why Oracle, Salesforce Analyst Days Will Be Big Events.",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T15:58:02.329Z"
-      },
-      {
-        "url": "/news/182286/analyst-explains-why-amazoncom-amzn-stock-can-move-quite-a-bit-higher-soon",
-        "headline": "Analyst Explains Why Amazon.com (AMZN) Stock Can Move 'Quite a Bit Higher' Soon",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T15:58:02.329Z"
-      },
-      {
-        "url": "/news/181527/amazoncom-inc-amzn-agrees-to-pay-25-billion-in-fines-and-reimbursements-to-resolve-claims-made-by-the-federal-trade-commission",
-        "headline": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T15:58:02.329Z"
-      },
-      {
-        "url": "/news/181517/amazon-strengthens-growth-outlook-with-earnings-beat-and-expanded-dsp-investment",
-        "headline": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T15:58:02.329Z"
-      },
-      {
-        "url": "/news/181454/josh-brown-predicted-amazoncom-amzn-will-breakout-was-he-right",
-        "headline": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T15:58:02.329Z"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=6H27Ke3kHWo",
-        "headline": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T15:58:02.329Z"
-      },
-      {
-        "url": "https://www.investing.com/analysis/amazon-why-stocks-latest-upgrade-might-be-its-most-important-yet-200667808",
-        "headline": "Amazon: Why Stock's Latest Upgrade Might Be Its Most Important Yet",
-        "source": "Polygon",
-        "provider": "Investing.com",
-        "publishedAt": "2025-10-01T12:41:00Z"
-      },
-      {
-        "url": "https://www.investing.com/analysis/sp-500-earnings-tech-eps-expectations-point-to-strong-q3-results-200667620",
-        "headline": "S&P 500 Earnings: Tech EPS Expectations Point to Strong Q3 Results",
-        "source": "Polygon",
-        "provider": "Investing.com",
-        "publishedAt": "2025-09-29T08:19:00Z"
-      }
-    ],
-    "isProcessing": true,
-    "meta": {
-      "totalArticlesFound": 10,
-      "articlesAnalyzed": 0,
-      "processingStatus": "generating_ai_summary"
-    },
-    "id": 1759420683456
-  },
-  {
-    "ticker": "AMZN",
-    "summary": null,
-    "articles": [
-      {
-        "title": "AMZN",
-        "url": "/symbols/NASDAQ-AMZN/",
-        "source": "TradingView",
-        "provider": "TradingView",
-        "publishedAt": "2025-10-02T15:58:02.502Z",
-        "content": "AMZN"
-      },
-      {
-        "title": "AMZN news",
-        "url": "https://in.tradingview.com/symbols/NASDAQ-AMZN/news/",
-        "source": "TradingView",
-        "provider": "TradingView",
-        "publishedAt": "2025-10-02T15:58:02.502Z",
-        "content": "AMZN news"
-      },
-      {
-        "title": "AI Stocks Face 'Show Me' Test. Why Oracle, Salesforce Analyst Days Will Be Big Events.",
-        "url": "https://finance.yahoo.com/m/684c930d-1475-3adc-b013-ae604c056ebc/ai-stocks-face-%27show-me%27.html",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T15:58:02.329Z",
-        "content": "AI Stocks Face 'Show Me' Test. Why Oracle, Salesforce Analyst Days Will Be Big Events.",
-        "dateText": "10:19AM"
-      },
-      {
-        "title": "Analyst Explains Why Amazon.com (AMZN) Stock Can Move 'Quite a Bit Higher' Soon",
-        "url": "/news/182286/analyst-explains-why-amazoncom-amzn-stock-can-move-quite-a-bit-higher-soon",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T15:58:02.329Z",
-        "content": "Analyst Explains Why Amazon.com (AMZN) Stock Can Move 'Quite a Bit Higher' Soon",
-        "dateText": "09:56AM"
-      },
-      {
-        "title": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
-        "url": "/news/181527/amazoncom-inc-amzn-agrees-to-pay-25-billion-in-fines-and-reimbursements-to-resolve-claims-made-by-the-federal-trade-commission",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T15:58:02.329Z",
-        "content": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
-        "dateText": "05:30PM"
-      },
-      {
-        "title": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
-        "url": "/news/181517/amazon-strengthens-growth-outlook-with-earnings-beat-and-expanded-dsp-investment",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T15:58:02.329Z",
-        "content": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
-        "dateText": "05:07PM"
-      },
-      {
-        "title": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
-        "url": "/news/181454/josh-brown-predicted-amazoncom-amzn-will-breakout-was-he-right",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T15:58:02.329Z",
-        "content": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
-        "dateText": "04:22PM"
-      },
-      {
-        "title": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
-        "url": "https://www.youtube.com/watch?v=6H27Ke3kHWo",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T15:58:02.329Z",
-        "content": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
-        "dateText": "03:20PM"
-      },
-      {
-        "title": "Amazon: Why Stock's Latest Upgrade Might Be Its Most Important Yet",
-        "url": "https://www.investing.com/analysis/amazon-why-stocks-latest-upgrade-might-be-its-most-important-yet-200667808",
-        "source": "Polygon",
-        "provider": "Investing.com",
-        "publishedAt": "2025-10-01T12:41:00Z",
-        "content": "Wells Fargo upgraded Amazon stock from Equal Weight to Overweight, citing strong potential in AWS cloud services and AI workloads, despite recent stock price resistance around $240.",
-        "author": "Sam Quirke",
-        "tickers": [
-          "AMZN"
-        ]
-      },
-      {
-        "title": "S&P 500 Earnings: Tech EPS Expectations Point to Strong Q3 Results",
-        "url": "https://www.investing.com/analysis/sp-500-earnings-tech-eps-expectations-point-to-strong-q3-results-200667620",
-        "source": "Polygon",
-        "provider": "Investing.com",
-        "publishedAt": "2025-09-29T08:19:00Z",
-        "content": "Technology sector earnings are showing strong growth expectations for Q3 2025, with potential peak earnings and significant AI-driven investment impacting sector performance.",
-        "author": "Brian Gilmartin",
-        "tickers": [
-          "AMZN",
-          "TSLA",
-          "NKE",
-          "MSFT",
-          "AAPL"
-        ]
-      }
-    ],
-    "timestamp": "2025-10-02T15:58:03.447Z",
-    "date": "2025-10-02",
-    "sources": [
-      {
-        "url": "/symbols/NASDAQ-AMZN/",
-        "headline": "AMZN",
-        "source": "TradingView",
-        "provider": "TradingView",
-        "publishedAt": "2025-10-02T15:58:02.502Z"
-      },
-      {
-        "url": "https://in.tradingview.com/symbols/NASDAQ-AMZN/news/",
-        "headline": "AMZN news",
-        "source": "TradingView",
-        "provider": "TradingView",
-        "publishedAt": "2025-10-02T15:58:02.502Z"
-      },
-      {
-        "url": "https://finance.yahoo.com/m/684c930d-1475-3adc-b013-ae604c056ebc/ai-stocks-face-%27show-me%27.html",
-        "headline": "AI Stocks Face 'Show Me' Test. Why Oracle, Salesforce Analyst Days Will Be Big Events.",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T15:58:02.329Z"
-      },
-      {
-        "url": "/news/182286/analyst-explains-why-amazoncom-amzn-stock-can-move-quite-a-bit-higher-soon",
-        "headline": "Analyst Explains Why Amazon.com (AMZN) Stock Can Move 'Quite a Bit Higher' Soon",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T15:58:02.329Z"
-      },
-      {
-        "url": "/news/181527/amazoncom-inc-amzn-agrees-to-pay-25-billion-in-fines-and-reimbursements-to-resolve-claims-made-by-the-federal-trade-commission",
-        "headline": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T15:58:02.329Z"
-      },
-      {
-        "url": "/news/181517/amazon-strengthens-growth-outlook-with-earnings-beat-and-expanded-dsp-investment",
-        "headline": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T15:58:02.329Z"
-      },
-      {
-        "url": "/news/181454/josh-brown-predicted-amazoncom-amzn-will-breakout-was-he-right",
-        "headline": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T15:58:02.329Z"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=6H27Ke3kHWo",
-        "headline": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T15:58:02.329Z"
-      },
-      {
-        "url": "https://www.investing.com/analysis/amazon-why-stocks-latest-upgrade-might-be-its-most-important-yet-200667808",
-        "headline": "Amazon: Why Stock's Latest Upgrade Might Be Its Most Important Yet",
-        "source": "Polygon",
-        "provider": "Investing.com",
-        "publishedAt": "2025-10-01T12:41:00Z"
-      },
-      {
-        "url": "https://www.investing.com/analysis/sp-500-earnings-tech-eps-expectations-point-to-strong-q3-results-200667620",
-        "headline": "S&P 500 Earnings: Tech EPS Expectations Point to Strong Q3 Results",
-        "source": "Polygon",
-        "provider": "Investing.com",
-        "publishedAt": "2025-09-29T08:19:00Z"
-      }
-    ],
-    "isProcessing": true,
-    "meta": {
-      "totalArticlesFound": 10,
-      "articlesAnalyzed": 0,
-      "processingStatus": "collecting_news"
-    },
-    "id": 1759420683450
+    "id": 1759424440957
   },
   {
     "ticker": "AMZN",
     "summary": {
-      "summary": "Today's news for Amazon (AMZN) presents a mixed, yet ultimately optimistic, outlook for the e-commerce and cloud giant. On the positive side, Amazon has strengthened its growth outlook, reporting an earnings beat and announcing expanded investment in its Demand-Side Platform (DSP), signaling robust performance and confidence in its advertising business. This positive operational news is further bolstered by a significant upgrade from Wells Fargo, moving Amazon stock from Equal Weight to Overweight. The upgrade specifically highlights strong potential in AWS cloud services and AI workloads, despite recent stock price resistance, aligning with broader strong Q3 earnings expectations for the technology sector.\n\nHowever, Amazon faces notable challenges. The company has agreed to pay a substantial $2.5 billion in fines and reimbursements to resolve claims made by the Federal Trade Commission, representing a significant financial hit and potential reputational concern. Additionally, a downgrade of Marvell stock by TD Cowen due to weaker visibility in custom chip business raises concerns about future sales to Amazon and Microsoft, potentially impacting the infrastructure development for AWS. The intense competition in upgrading voice assistants with AI, with Google and Amazon racing to keep pace as OpenAI raises the stakes, also points to increased R&D costs and competitive pressures.\n\nDespite the significant FTC fine and supply chain uncertainties highlighted by the Marvell downgrade, the core operational strengths demonstrated by the earnings beat, expanded strategic investments in DSP, and the strong endorsement from Wells Fargo regarding AWS and AI potential paint a resilient picture. The market seems to be weighing the one-time financial penalty against the company's fundamental growth drivers and strategic positioning in critical future technologies. The overall sentiment leans towards cautious optimism, with long-term growth prospects in cloud and AI continuing to be strong drivers.",
+      "summary": "Today's news for Amazon.com, Inc. (AMZN) presents a mixed, yet predominantly positive, picture for investors. On one hand, the company has agreed to pay a substantial $2.5 billion in fines and reimbursements to resolve claims by the Federal Trade Commission. This represents a significant direct financial hit and potential regulatory overhang that could cause some short-term pressure.\n\nConversely, Amazon announced an earnings beat, strengthening its growth outlook and highlighting expanded investment in its Delivery Service Partner (DSP) program, indicating robust operational performance and future expansion. This positive fundamental news is reinforced by strong analyst sentiment, including a recent upgrade from Wells Fargo to Overweight, citing the immense potential in its AWS cloud services and increasing AI workloads. Other analysts also predict the stock could move 'quite a bit higher' soon, suggesting strong confidence in its future trajectory.\n\nStrategically, Amazon is actively engaged in the AI race, particularly in upgrading voice assistants and leveraging AI within its cloud offerings. While broader 'AI Cloud Concerns' exist, analysts emphasize AWS as a 'crown jewel' that will benefit significantly from AI-driven investment. This positions Amazon well within the high-growth technology sector, which itself is showing strong Q3 earnings expectations driven by AI. The overall sentiment leans positive, with forward-looking growth drivers appearing to outweigh the backward-looking regulatory settlement.",
       "keyPoints": [
-        "Amazon agrees to pay $2.5 billion in fines and reimbursements to the Federal Trade Commission.",
-        "Amazon strengthens its growth outlook with an earnings beat and expanded investment in its Demand-Side Platform (DSP).",
-        "Wells Fargo upgrades Amazon stock from Equal Weight to Overweight, citing strong potential in AWS cloud services and AI workloads.",
-        "Marvell Stock is downgraded due to uncertain future sales to Amazon and Microsoft, raising concerns about custom chip supply for AWS.",
-        "Amazon is in a competitive race with Google to upgrade voice assistants with AI, driven by OpenAI's advancements."
-      ],
-      "sentiment": "neutral",
-      "sentimentReasoning": "The significant $2.5 billion FTC fine and concerns over custom chip supply for AWS are strong negatives, but these are counterbalanced by an earnings beat, strengthened growth outlook, expanded DSP investment, and a major analyst upgrade citing strong AWS and AI potential.",
-      "whatChangedToday": "Today's news brings several significant developments for AMZN. The most impactful new information is the agreement to pay a $2.5 billion fine to the FTC, a direct and substantial financial penalty. This is a material change to Amazon's immediate financial obligations. On the operational front, the reported earnings beat and strengthened growth outlook, coupled with expanded DSP investment, provide a fresh, positive update on the company's core business performance and strategic direction. The Wells Fargo upgrade, specifically highlighting AWS and AI, offers new institutional endorsement of Amazon's key growth engines. Conversely, the downgrade of Marvell, citing uncertainty in sales to Amazon, introduces new concerns regarding the supply chain for custom chips vital to AWS infrastructure, potentially signaling future cost pressures or slower build-out. The intensified AI competition is a continuation of an ongoing trend but underscores the increasing R&D demands and strategic importance of this sector for Amazon.",
-      "marketImplications": "The market implications for AMZN are complex. The $2.5 billion FTC fine will likely be viewed as a one-time, albeit significant, cost that could impact short-term earnings or cash flow, potentially leading to a temporary dip in stock price as investors digest the news. However, this could be mitigated by the strong operational performance indicated by the earnings beat and strengthened growth outlook, suggesting underlying business health. The Wells Fargo upgrade, particularly its focus on AWS and AI, is a strong positive signal for long-term investors, potentially driving upward momentum as it reinforces the narrative of Amazon's strategic positioning in high-growth areas. Conversely, the Marvell downgrade and the associated uncertainty regarding custom chip sales to Amazon could introduce headwinds for AWS's efficiency and expansion plans, which might temper some of the enthusiasm from the analyst upgrade. The ongoing AI race suggests increased R&D expenditures, which could impact profitability in the short term but are necessary for long-term competitiveness. Overall, the stock might experience initial volatility due to the fine, but the strong fundamentals and bullish analyst sentiment on AWS and AI are likely to provide underlying support, possibly leading to a net neutral to slightly positive reaction over the medium term as investors weigh the one-time cost against robust growth prospects.",
-      "marketImpact": "high",
-      "confidence": "high",
-      "articlesAnalyzed": 10,
-      "totalArticles": 10,
-      "historicalArticlesUsed": 0,
-      "lastUpdated": "2025-10-02T13:46:18.241Z",
-      "ticker": "AMZN"
-    },
-    "articles": [
-      {
-        "title": "AMZN",
-        "url": "/symbols/NASDAQ-AMZN/",
-        "source": "TradingView",
-        "provider": "TradingView",
-        "publishedAt": "2025-10-02T13:45:47.845Z",
-        "content": "AMZN"
-      },
-      {
-        "title": "AMZN news",
-        "url": "https://in.tradingview.com/symbols/NASDAQ-AMZN/news/",
-        "source": "TradingView",
-        "provider": "TradingView",
-        "publishedAt": "2025-10-02T13:45:47.845Z",
-        "content": "AMZN news"
-      },
-      {
-        "title": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
-        "url": "https://www.youtube.com/watch?v=6H27Ke3kHWo",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T13:45:47.796Z",
-        "content": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
-        "dateText": "03:20PM"
-      },
-      {
-        "title": "Marvell Stock Is Downgraded. Future Sales to Amazon and Microsoft Are Uncertain.",
-        "url": "https://www.barrons.com/articles/marvell-stock-downgraded-amazon-microsoft-37ce1f32?mod=bar_FV",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T13:45:47.796Z",
-        "content": "Marvell Stock Is Downgraded. Future Sales to Amazon and Microsoft Are Uncertain.",
-        "dateText": "10:43AM"
-      },
-      {
-        "title": "TD Cowen downgrades Marvell on weaker visibility in custom chip business",
-        "url": "https://finance.yahoo.com/news/td-cowen-downgrades-marvell-weaker-142812509.html",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T13:45:47.796Z",
-        "content": "TD Cowen downgrades Marvell on weaker visibility in custom chip business",
-        "dateText": "10:28AM"
-      },
-      {
-        "title": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
-        "url": "/news/181527/amazoncom-inc-amzn-agrees-to-pay-25-billion-in-fines-and-reimbursements-to-resolve-claims-made-by-the-federal-trade-commission",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T13:45:47.795Z",
-        "content": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
-        "dateText": "05:30PM"
-      },
-      {
-        "title": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
-        "url": "/news/181517/amazon-strengthens-growth-outlook-with-earnings-beat-and-expanded-dsp-investment",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T13:45:47.795Z",
-        "content": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
-        "dateText": "05:07PM"
-      },
-      {
-        "title": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
-        "url": "/news/181454/josh-brown-predicted-amazoncom-amzn-will-breakout-was-he-right",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T13:45:47.795Z",
-        "content": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
-        "dateText": "04:22PM"
-      },
-      {
-        "title": "Amazon: Why Stock's Latest Upgrade Might Be Its Most Important Yet",
-        "url": "https://www.investing.com/analysis/amazon-why-stocks-latest-upgrade-might-be-its-most-important-yet-200667808",
-        "source": "Polygon",
-        "provider": "Investing.com",
-        "publishedAt": "2025-10-01T12:41:00Z",
-        "content": "Wells Fargo upgraded Amazon stock from Equal Weight to Overweight, citing strong potential in AWS cloud services and AI workloads, despite recent stock price resistance around $240.",
-        "author": "Sam Quirke",
-        "tickers": [
-          "AMZN"
-        ]
-      },
-      {
-        "title": "S&P 500 Earnings: Tech EPS Expectations Point to Strong Q3 Results",
-        "url": "https://www.investing.com/analysis/sp-500-earnings-tech-eps-expectations-point-to-strong-q3-results-200667620",
-        "source": "Polygon",
-        "provider": "Investing.com",
-        "publishedAt": "2025-09-29T08:19:00Z",
-        "content": "Technology sector earnings are showing strong growth expectations for Q3 2025, with potential peak earnings and significant AI-driven investment impacting sector performance.",
-        "author": "Brian Gilmartin",
-        "tickers": [
-          "AMZN",
-          "TSLA",
-          "NKE",
-          "MSFT",
-          "AAPL"
-        ]
-      }
-    ],
-    "timestamp": "2025-10-02T13:46:18.241Z",
-    "date": "2025-10-02",
-    "sources": [
-      {
-        "url": "/symbols/NASDAQ-AMZN/",
-        "headline": "AMZN",
-        "source": "TradingView",
-        "provider": "TradingView",
-        "publishedAt": "2025-10-02T13:45:47.845Z"
-      },
-      {
-        "url": "https://in.tradingview.com/symbols/NASDAQ-AMZN/news/",
-        "headline": "AMZN news",
-        "source": "TradingView",
-        "provider": "TradingView",
-        "publishedAt": "2025-10-02T13:45:47.845Z"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=6H27Ke3kHWo",
-        "headline": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T13:45:47.796Z"
-      },
-      {
-        "url": "https://www.barrons.com/articles/marvell-stock-downgraded-amazon-microsoft-37ce1f32?mod=bar_FV",
-        "headline": "Marvell Stock Is Downgraded. Future Sales to Amazon and Microsoft Are Uncertain.",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T13:45:47.796Z"
-      },
-      {
-        "url": "https://finance.yahoo.com/news/td-cowen-downgrades-marvell-weaker-142812509.html",
-        "headline": "TD Cowen downgrades Marvell on weaker visibility in custom chip business",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T13:45:47.796Z"
-      },
-      {
-        "url": "/news/181527/amazoncom-inc-amzn-agrees-to-pay-25-billion-in-fines-and-reimbursements-to-resolve-claims-made-by-the-federal-trade-commission",
-        "headline": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T13:45:47.795Z"
-      },
-      {
-        "url": "/news/181517/amazon-strengthens-growth-outlook-with-earnings-beat-and-expanded-dsp-investment",
-        "headline": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T13:45:47.795Z"
-      },
-      {
-        "url": "/news/181454/josh-brown-predicted-amazoncom-amzn-will-breakout-was-he-right",
-        "headline": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T13:45:47.795Z"
-      },
-      {
-        "url": "https://www.investing.com/analysis/amazon-why-stocks-latest-upgrade-might-be-its-most-important-yet-200667808",
-        "headline": "Amazon: Why Stock's Latest Upgrade Might Be Its Most Important Yet",
-        "source": "Polygon",
-        "provider": "Investing.com",
-        "publishedAt": "2025-10-01T12:41:00Z"
-      },
-      {
-        "url": "https://www.investing.com/analysis/sp-500-earnings-tech-eps-expectations-point-to-strong-q3-results-200667620",
-        "headline": "S&P 500 Earnings: Tech EPS Expectations Point to Strong Q3 Results",
-        "source": "Polygon",
-        "provider": "Investing.com",
-        "publishedAt": "2025-09-29T08:19:00Z"
-      }
-    ],
-    "isProcessing": false,
-    "meta": {
-      "totalArticlesFound": 10,
-      "articlesAnalyzed": 10,
-      "historicalArticlesUsed": 0,
-      "daysOfHistoryAnalyzed": 7,
-      "processingTime": "2025-10-02T13:46:18.241Z",
-      "processingStatus": "complete",
-      "enhancedFeatures": {
-        "tradingViewScraping": true,
-        "finvizEnhanced": true,
-        "polygonAPI": true,
-        "geminiAnalysis": true,
-        "historicalComparison": true
-      }
-    },
-    "id": 1759412778246
-  },
-  {
-    "ticker": "AMZN",
-    "summary": {
-      "summary": "Today's news for Amazon (AMZN) presents a complex but largely positive outlook, marked by a significant regulatory resolution alongside strong operational performance and strategic growth initiatives. The company has agreed to pay a substantial $2.5 billion in fines and reimbursements to resolve claims made by the Federal Trade Commission. While a considerable sum, this settlement could remove a significant regulatory overhang that has been a point of uncertainty for the company.\n\nSimultaneously, Amazon delivered an earnings beat and strengthened its growth outlook, signaling robust underlying business performance. This positive momentum is further bolstered by expanded investments in DSP (Demand-Side Platform), indicating a strategic focus on enhancing its advertising capabilities and market reach. These operational successes and forward-looking investments underscore Amazon's commitment to sustained growth across its diverse segments.\n\nHowever, some potential supply chain concerns emerged with TD Cowen downgrading Marvell Technology due to weaker visibility in its custom chip business, specifically noting uncertain future sales to Amazon and Microsoft. This development could prompt a closer look at Amazon's custom silicon strategy, particularly for its critical AWS division. Despite this, the broader sentiment around AMZN remains optimistic, with Wells Fargo having upgraded the stock to Overweight yesterday, citing strong potential in AWS cloud services and AI workloads, even as the stock recently faced resistance around the $240 mark. Amazon is also actively engaged in the competitive race to upgrade voice assistants with AI, reflecting its continued innovation in key technological frontiers and its strong positioning within a technology sector poised for robust Q3 2025 earnings driven by AI investments.",
-      "keyPoints": [
-        "Amazon agreed to pay $2.5 billion in fines and reimbursements to resolve Federal Trade Commission claims.",
-        "The company reported an earnings beat and strengthened its growth outlook, supported by expanded DSP investment.",
-        "TD Cowen downgraded Marvell Technology due to weaker visibility in custom chip business, raising concerns about future sales to Amazon and Microsoft.",
-        "Wells Fargo upgraded Amazon stock to Overweight, citing strong potential in AWS cloud services and AI workloads.",
-        "Amazon is actively competing with Google to upgrade voice assistants with AI, highlighting its focus on innovation."
+        "Amazon agreed to pay $2.5 billion in fines and reimbursements to resolve claims made by the Federal Trade Commission.",
+        "The company reported an earnings beat, strengthening its growth outlook and expanding investment in its Delivery Service Partner (DSP) program.",
+        "Wells Fargo upgraded AMZN stock from Equal Weight to Overweight, citing strong potential in AWS cloud services and AI workloads.",
+        "Amazon is actively racing to upgrade voice assistants with AI and is seen as leveraging AI through its AWS 'crown jewel.'",
+        "Analysts are expressing strong positive sentiment, predicting AMZN stock can move 'quite a bit higher' soon."
       ],
       "sentiment": "positive",
-      "sentimentReasoning": "Despite a significant $2.5 billion FTC fine and concerns about a supplier's custom chip business, Amazon's positive earnings beat, strengthened growth outlook, expanded DSP investment, and a key analyst upgrade focused on AWS and AI potential indicate strong fundamental performance and strategic positioning for future growth, outweighing the one-off regulatory cost and supplier-specific issue.",
-      "whatChangedToday": "Today's news brings several significant developments for AMZN. The most impactful is the resolution of FTC claims with a $2.5 billion payment, which, while a substantial financial hit, removes a regulatory overhang. Furthermore, Amazon's announcement of an earnings beat and a strengthened growth outlook, coupled with expanded DSP investment, provides a strong positive signal on its operational performance and future trajectory. A new potential concern arose from TD Cowen's downgrade of Marvell Technology, citing weaker custom chip sales visibility to Amazon and Microsoft, which could impact AMZN's internal chip strategy. While published yesterday, Wells Fargo's upgrade of AMZN to Overweight, emphasizing AWS and AI potential, gained significant relevance today by reinforcing the long-term bullish case for the stock. The ongoing race to upgrade voice assistants with AI also highlights Amazon's continuous innovation efforts.",
-      "marketImplications": "The market reaction to AMZN today will likely be mixed initially. The $2.5 billion FTC fine is a direct negative and could lead to some short-term selling pressure, as investors digest the one-time cost. However, the fine also represents a resolution, potentially removing a long-standing uncertainty, which could be viewed positively in the longer term. More importantly, the earnings beat and strengthened growth outlook, combined with strategic DSP investments, will provide strong fundamental support for the stock, likely counteracting much of the negative sentiment from the fine. The Wells Fargo upgrade, focused on AWS and AI, provides a strong bullish signal, validating Amazon's core growth drivers and potentially attracting new institutional interest. The Marvell downgrade, while not directly about AMZN, could introduce some cautious sentiment regarding custom silicon supply chain resilience, though Amazon's scale and internal capabilities might mitigate the long-term impact. Overall, the positive operational news and strong analyst endorsement, especially concerning AWS and AI, are likely to overshadow the fine, leading to potential resilience or even upward movement as the market processes the comprehensive news flow.",
-      "marketImpact": "high",
+      "sentimentReasoning": "Despite the significant $2.5 billion FTC fine, the strong Q3 earnings beat, strengthened growth outlook, expanded DSP investment, and overwhelmingly positive analyst upgrades (especially Wells Fargo's Overweight rating on AWS and AI potential) point to robust fundamental performance and future upside. The forward-looking growth drivers and strategic AI positioning appear to outweigh the one-time regulatory cost, which investors may view as a cleared hurdle.",
+      "whatChangedToday": "The most significant new developments today are the announcement of the $2.5 billion FTC settlement, which provides clarity on a major regulatory overhang. Simultaneously, the earnings beat and strengthened growth outlook, coupled with expanded DSP investment, signal strong operational health and future revenue potential. The explicit mention of Amazon's aggressive push in AI for voice assistants and the re-emphasis on AWS as a key AI beneficiary (the 'crown jewel') further solidify its strategic direction. The Wells Fargo upgrade, while published yesterday, is a critical piece of recent analyst sentiment contributing to today's market perception, reinforcing the positive outlook on AWS and AI.",
+      "marketImplications": "The $2.5 billion fine could introduce some short-term selling pressure or cap immediate gains as investors digest the financial impact and potential for future regulatory scrutiny. However, the overwhelmingly positive fundamental news – the earnings beat, robust growth outlook, and strategic investments in high-growth areas like AI and logistics (DSP) – are likely to be the dominant drivers. The strong analyst endorsement, particularly the Wells Fargo upgrade emphasizing AWS and AI, provides a compelling narrative for long-term value. This combination suggests that while there might be initial volatility, the stock is poised for potential upward movement, with investors likely prioritizing future growth and profitability over the one-time regulatory cost. AMZN's strong position in the AI race via AWS and its voice assistants further bolsters its competitive advantage and long-term valuation within a tech sector showing strong Q3 earnings expectations.",
+      "marketImpact": "medium",
       "confidence": "high",
-      "articlesAnalyzed": 10,
-      "totalArticles": 10,
+      "articlesAnalyzed": 11,
+      "totalArticles": 11,
       "historicalArticlesUsed": 0,
-      "lastUpdated": "2025-10-02T10:56:00.822Z",
+      "lastUpdated": "2025-10-02T16:40:00.616Z",
       "ticker": "AMZN"
     },
     "articles": [
       {
-        "title": "AMZN",
-        "url": "/symbols/NASDAQ-AMZN/",
-        "source": "TradingView",
-        "provider": "TradingView",
-        "publishedAt": "2025-10-02T10:55:31.914Z",
-        "content": "AMZN"
-      },
-      {
-        "title": "AMZN news",
-        "url": "https://in.tradingview.com/symbols/NASDAQ-AMZN/news/",
-        "source": "TradingView",
-        "provider": "TradingView",
-        "publishedAt": "2025-10-02T10:55:31.914Z",
-        "content": "AMZN news"
-      },
-      {
-        "title": "Marvell Stock Is Downgraded. Future Sales to Amazon and Microsoft Are Uncertain.",
-        "url": "https://www.barrons.com/articles/marvell-stock-downgraded-amazon-microsoft-37ce1f32?mod=bar_FV",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:55:31.890Z",
-        "content": "Marvell Stock Is Downgraded. Future Sales to Amazon and Microsoft Are Uncertain.",
-        "dateText": "10:43AM"
-      },
-      {
-        "title": "TD Cowen downgrades Marvell on weaker visibility in custom chip business",
-        "url": "https://finance.yahoo.com/news/td-cowen-downgrades-marvell-weaker-142812509.html",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:55:31.890Z",
-        "content": "TD Cowen downgrades Marvell on weaker visibility in custom chip business",
-        "dateText": "10:28AM"
-      },
-      {
         "title": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
         "url": "/news/181527/amazoncom-inc-amzn-agrees-to-pay-25-billion-in-fines-and-reimbursements-to-resolve-claims-made-by-the-federal-trade-commission",
         "source": "Finviz",
-        "publishedAt": "2025-10-02T10:55:31.889Z",
+        "publishedAt": "2025-10-02T16:39:34.275Z",
         "content": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
         "dateText": "05:30PM"
       },
@@ -820,7 +253,7 @@
         "title": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
         "url": "/news/181517/amazon-strengthens-growth-outlook-with-earnings-beat-and-expanded-dsp-investment",
         "source": "Finviz",
-        "publishedAt": "2025-10-02T10:55:31.889Z",
+        "publishedAt": "2025-10-02T16:39:34.275Z",
         "content": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
         "dateText": "05:07PM"
       },
@@ -828,7 +261,7 @@
         "title": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
         "url": "/news/181454/josh-brown-predicted-amazoncom-amzn-will-breakout-was-he-right",
         "source": "Finviz",
-        "publishedAt": "2025-10-02T10:55:31.889Z",
+        "publishedAt": "2025-10-02T16:39:34.275Z",
         "content": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
         "dateText": "04:22PM"
       },
@@ -836,9 +269,49 @@
         "title": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
         "url": "https://www.youtube.com/watch?v=6H27Ke3kHWo",
         "source": "Finviz",
-        "publishedAt": "2025-10-02T10:55:31.889Z",
+        "publishedAt": "2025-10-02T16:39:34.275Z",
         "content": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
         "dateText": "03:20PM"
+      },
+      {
+        "title": "AI Cloud Concerns Hover Over Amazon Stock. But Analyst Says Don't Forget This 'Crown Jewel.'",
+        "url": "https://www.investors.com/news/technology/amazon-stock-advertising-cloud-ai?mod=IBD_FV",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.274Z",
+        "content": "AI Cloud Concerns Hover Over Amazon Stock. But Analyst Says Don't Forget This 'Crown Jewel.'",
+        "dateText": "Today 12:15PM"
+      },
+      {
+        "title": "AI Stocks Face 'Show Me' Test. Why Oracle, Salesforce Analyst Days Will Be Big Events.",
+        "url": "https://finance.yahoo.com/m/684c930d-1475-3adc-b013-ae604c056ebc/ai-stocks-face-%27show-me%27.html",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.274Z",
+        "content": "AI Stocks Face 'Show Me' Test. Why Oracle, Salesforce Analyst Days Will Be Big Events.",
+        "dateText": "10:19AM"
+      },
+      {
+        "title": "Analyst Explains Why Amazon.com (AMZN) Stock Can Move 'Quite a Bit Higher' Soon",
+        "url": "/news/182286/analyst-explains-why-amazoncom-amzn-stock-can-move-quite-a-bit-higher-soon",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.274Z",
+        "content": "Analyst Explains Why Amazon.com (AMZN) Stock Can Move 'Quite a Bit Higher' Soon",
+        "dateText": "09:56AM"
+      },
+      {
+        "title": "AMZN",
+        "url": "/symbols/NASDAQ-AMZN/",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T16:39:33.605Z",
+        "content": "AMZN"
+      },
+      {
+        "title": "AMZN news",
+        "url": "https://in.tradingview.com/symbols/NASDAQ-AMZN/news/",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T16:39:33.605Z",
+        "content": "AMZN news"
       },
       {
         "title": "Amazon: Why Stock's Latest Upgrade Might Be Its Most Important Yet",
@@ -869,58 +342,64 @@
         ]
       }
     ],
-    "timestamp": "2025-10-02T10:56:00.823Z",
+    "timestamp": "2025-10-02T16:40:00.616Z",
     "date": "2025-10-02",
     "sources": [
+      {
+        "url": "/news/181527/amazoncom-inc-amzn-agrees-to-pay-25-billion-in-fines-and-reimbursements-to-resolve-claims-made-by-the-federal-trade-commission",
+        "headline": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.275Z"
+      },
+      {
+        "url": "/news/181517/amazon-strengthens-growth-outlook-with-earnings-beat-and-expanded-dsp-investment",
+        "headline": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.275Z"
+      },
+      {
+        "url": "/news/181454/josh-brown-predicted-amazoncom-amzn-will-breakout-was-he-right",
+        "headline": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.275Z"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=6H27Ke3kHWo",
+        "headline": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.275Z"
+      },
+      {
+        "url": "https://www.investors.com/news/technology/amazon-stock-advertising-cloud-ai?mod=IBD_FV",
+        "headline": "AI Cloud Concerns Hover Over Amazon Stock. But Analyst Says Don't Forget This 'Crown Jewel.'",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.274Z"
+      },
+      {
+        "url": "https://finance.yahoo.com/m/684c930d-1475-3adc-b013-ae604c056ebc/ai-stocks-face-%27show-me%27.html",
+        "headline": "AI Stocks Face 'Show Me' Test. Why Oracle, Salesforce Analyst Days Will Be Big Events.",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.274Z"
+      },
+      {
+        "url": "/news/182286/analyst-explains-why-amazoncom-amzn-stock-can-move-quite-a-bit-higher-soon",
+        "headline": "Analyst Explains Why Amazon.com (AMZN) Stock Can Move 'Quite a Bit Higher' Soon",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.274Z"
+      },
       {
         "url": "/symbols/NASDAQ-AMZN/",
         "headline": "AMZN",
         "source": "TradingView",
         "provider": "TradingView",
-        "publishedAt": "2025-10-02T10:55:31.914Z"
+        "publishedAt": "2025-10-02T16:39:33.605Z"
       },
       {
         "url": "https://in.tradingview.com/symbols/NASDAQ-AMZN/news/",
         "headline": "AMZN news",
         "source": "TradingView",
         "provider": "TradingView",
-        "publishedAt": "2025-10-02T10:55:31.914Z"
-      },
-      {
-        "url": "https://www.barrons.com/articles/marvell-stock-downgraded-amazon-microsoft-37ce1f32?mod=bar_FV",
-        "headline": "Marvell Stock Is Downgraded. Future Sales to Amazon and Microsoft Are Uncertain.",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:55:31.890Z"
-      },
-      {
-        "url": "https://finance.yahoo.com/news/td-cowen-downgrades-marvell-weaker-142812509.html",
-        "headline": "TD Cowen downgrades Marvell on weaker visibility in custom chip business",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:55:31.890Z"
-      },
-      {
-        "url": "/news/181527/amazoncom-inc-amzn-agrees-to-pay-25-billion-in-fines-and-reimbursements-to-resolve-claims-made-by-the-federal-trade-commission",
-        "headline": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:55:31.889Z"
-      },
-      {
-        "url": "/news/181517/amazon-strengthens-growth-outlook-with-earnings-beat-and-expanded-dsp-investment",
-        "headline": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:55:31.889Z"
-      },
-      {
-        "url": "/news/181454/josh-brown-predicted-amazoncom-amzn-will-breakout-was-he-right",
-        "headline": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:55:31.889Z"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=6H27Ke3kHWo",
-        "headline": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:55:31.889Z"
+        "publishedAt": "2025-10-02T16:39:33.605Z"
       },
       {
         "url": "https://www.investing.com/analysis/amazon-why-stocks-latest-upgrade-might-be-its-most-important-yet-200667808",
@@ -939,11 +418,11 @@
     ],
     "isProcessing": false,
     "meta": {
-      "totalArticlesFound": 10,
-      "articlesAnalyzed": 10,
+      "totalArticlesFound": 11,
+      "articlesAnalyzed": 11,
       "historicalArticlesUsed": 0,
       "daysOfHistoryAnalyzed": 7,
-      "processingTime": "2025-10-02T10:56:00.823Z",
+      "processingTime": "2025-10-02T16:40:00.616Z",
       "processingStatus": "generating_ai_summary",
       "enhancedFeatures": {
         "tradingViewScraping": true,
@@ -953,69 +432,37 @@
         "historicalComparison": true
       }
     },
-    "id": 1759412748826
+    "id": 1759424392362
   },
   {
     "ticker": "AMZN",
     "summary": {
-      "summary": "Today's news for Amazon (AMZN) presents a complex but largely positive outlook, marked by a significant regulatory resolution alongside strong operational performance and strategic growth initiatives. The company has agreed to pay a substantial $2.5 billion in fines and reimbursements to resolve claims made by the Federal Trade Commission. While a considerable sum, this settlement could remove a significant regulatory overhang that has been a point of uncertainty for the company.\n\nSimultaneously, Amazon delivered an earnings beat and strengthened its growth outlook, signaling robust underlying business performance. This positive momentum is further bolstered by expanded investments in DSP (Demand-Side Platform), indicating a strategic focus on enhancing its advertising capabilities and market reach. These operational successes and forward-looking investments underscore Amazon's commitment to sustained growth across its diverse segments.\n\nHowever, some potential supply chain concerns emerged with TD Cowen downgrading Marvell Technology due to weaker visibility in its custom chip business, specifically noting uncertain future sales to Amazon and Microsoft. This development could prompt a closer look at Amazon's custom silicon strategy, particularly for its critical AWS division. Despite this, the broader sentiment around AMZN remains optimistic, with Wells Fargo having upgraded the stock to Overweight yesterday, citing strong potential in AWS cloud services and AI workloads, even as the stock recently faced resistance around the $240 mark. Amazon is also actively engaged in the competitive race to upgrade voice assistants with AI, reflecting its continued innovation in key technological frontiers and its strong positioning within a technology sector poised for robust Q3 2025 earnings driven by AI investments.",
+      "summary": "Today's news for Amazon.com, Inc. (AMZN) presents a mixed, yet predominantly positive, picture for investors. On one hand, the company has agreed to pay a substantial $2.5 billion in fines and reimbursements to resolve claims by the Federal Trade Commission. This represents a significant direct financial hit and potential regulatory overhang that could cause some short-term pressure.\n\nConversely, Amazon announced an earnings beat, strengthening its growth outlook and highlighting expanded investment in its Delivery Service Partner (DSP) program, indicating robust operational performance and future expansion. This positive fundamental news is reinforced by strong analyst sentiment, including a recent upgrade from Wells Fargo to Overweight, citing the immense potential in its AWS cloud services and increasing AI workloads. Other analysts also predict the stock could move 'quite a bit higher' soon, suggesting strong confidence in its future trajectory.\n\nStrategically, Amazon is actively engaged in the AI race, particularly in upgrading voice assistants and leveraging AI within its cloud offerings. While broader 'AI Cloud Concerns' exist, analysts emphasize AWS as a 'crown jewel' that will benefit significantly from AI-driven investment. This positions Amazon well within the high-growth technology sector, which itself is showing strong Q3 earnings expectations driven by AI. The overall sentiment leans positive, with forward-looking growth drivers appearing to outweigh the backward-looking regulatory settlement.",
       "keyPoints": [
-        "Amazon agreed to pay $2.5 billion in fines and reimbursements to resolve Federal Trade Commission claims.",
-        "The company reported an earnings beat and strengthened its growth outlook, supported by expanded DSP investment.",
-        "TD Cowen downgraded Marvell Technology due to weaker visibility in custom chip business, raising concerns about future sales to Amazon and Microsoft.",
-        "Wells Fargo upgraded Amazon stock to Overweight, citing strong potential in AWS cloud services and AI workloads.",
-        "Amazon is actively competing with Google to upgrade voice assistants with AI, highlighting its focus on innovation."
+        "Amazon agreed to pay $2.5 billion in fines and reimbursements to resolve claims made by the Federal Trade Commission.",
+        "The company reported an earnings beat, strengthening its growth outlook and expanding investment in its Delivery Service Partner (DSP) program.",
+        "Wells Fargo upgraded AMZN stock from Equal Weight to Overweight, citing strong potential in AWS cloud services and AI workloads.",
+        "Amazon is actively racing to upgrade voice assistants with AI and is seen as leveraging AI through its AWS 'crown jewel.'",
+        "Analysts are expressing strong positive sentiment, predicting AMZN stock can move 'quite a bit higher' soon."
       ],
       "sentiment": "positive",
-      "sentimentReasoning": "Despite a significant $2.5 billion FTC fine and concerns about a supplier's custom chip business, Amazon's positive earnings beat, strengthened growth outlook, expanded DSP investment, and a key analyst upgrade focused on AWS and AI potential indicate strong fundamental performance and strategic positioning for future growth, outweighing the one-off regulatory cost and supplier-specific issue.",
-      "whatChangedToday": "Today's news brings several significant developments for AMZN. The most impactful is the resolution of FTC claims with a $2.5 billion payment, which, while a substantial financial hit, removes a regulatory overhang. Furthermore, Amazon's announcement of an earnings beat and a strengthened growth outlook, coupled with expanded DSP investment, provides a strong positive signal on its operational performance and future trajectory. A new potential concern arose from TD Cowen's downgrade of Marvell Technology, citing weaker custom chip sales visibility to Amazon and Microsoft, which could impact AMZN's internal chip strategy. While published yesterday, Wells Fargo's upgrade of AMZN to Overweight, emphasizing AWS and AI potential, gained significant relevance today by reinforcing the long-term bullish case for the stock. The ongoing race to upgrade voice assistants with AI also highlights Amazon's continuous innovation efforts.",
-      "marketImplications": "The market reaction to AMZN today will likely be mixed initially. The $2.5 billion FTC fine is a direct negative and could lead to some short-term selling pressure, as investors digest the one-time cost. However, the fine also represents a resolution, potentially removing a long-standing uncertainty, which could be viewed positively in the longer term. More importantly, the earnings beat and strengthened growth outlook, combined with strategic DSP investments, will provide strong fundamental support for the stock, likely counteracting much of the negative sentiment from the fine. The Wells Fargo upgrade, focused on AWS and AI, provides a strong bullish signal, validating Amazon's core growth drivers and potentially attracting new institutional interest. The Marvell downgrade, while not directly about AMZN, could introduce some cautious sentiment regarding custom silicon supply chain resilience, though Amazon's scale and internal capabilities might mitigate the long-term impact. Overall, the positive operational news and strong analyst endorsement, especially concerning AWS and AI, are likely to overshadow the fine, leading to potential resilience or even upward movement as the market processes the comprehensive news flow.",
-      "marketImpact": "high",
+      "sentimentReasoning": "Despite the significant $2.5 billion FTC fine, the strong Q3 earnings beat, strengthened growth outlook, expanded DSP investment, and overwhelmingly positive analyst upgrades (especially Wells Fargo's Overweight rating on AWS and AI potential) point to robust fundamental performance and future upside. The forward-looking growth drivers and strategic AI positioning appear to outweigh the one-time regulatory cost, which investors may view as a cleared hurdle.",
+      "whatChangedToday": "The most significant new developments today are the announcement of the $2.5 billion FTC settlement, which provides clarity on a major regulatory overhang. Simultaneously, the earnings beat and strengthened growth outlook, coupled with expanded DSP investment, signal strong operational health and future revenue potential. The explicit mention of Amazon's aggressive push in AI for voice assistants and the re-emphasis on AWS as a key AI beneficiary (the 'crown jewel') further solidify its strategic direction. The Wells Fargo upgrade, while published yesterday, is a critical piece of recent analyst sentiment contributing to today's market perception, reinforcing the positive outlook on AWS and AI.",
+      "marketImplications": "The $2.5 billion fine could introduce some short-term selling pressure or cap immediate gains as investors digest the financial impact and potential for future regulatory scrutiny. However, the overwhelmingly positive fundamental news – the earnings beat, robust growth outlook, and strategic investments in high-growth areas like AI and logistics (DSP) – are likely to be the dominant drivers. The strong analyst endorsement, particularly the Wells Fargo upgrade emphasizing AWS and AI, provides a compelling narrative for long-term value. This combination suggests that while there might be initial volatility, the stock is poised for potential upward movement, with investors likely prioritizing future growth and profitability over the one-time regulatory cost. AMZN's strong position in the AI race via AWS and its voice assistants further bolsters its competitive advantage and long-term valuation within a tech sector showing strong Q3 earnings expectations.",
+      "marketImpact": "medium",
       "confidence": "high",
-      "articlesAnalyzed": 10,
-      "totalArticles": 10,
+      "articlesAnalyzed": 11,
+      "totalArticles": 11,
       "historicalArticlesUsed": 0,
-      "lastUpdated": "2025-10-02T10:56:00.822Z",
+      "lastUpdated": "2025-10-02T16:40:00.616Z",
       "ticker": "AMZN"
     },
     "articles": [
       {
-        "title": "AMZN",
-        "url": "/symbols/NASDAQ-AMZN/",
-        "source": "TradingView",
-        "provider": "TradingView",
-        "publishedAt": "2025-10-02T10:55:31.914Z",
-        "content": "AMZN"
-      },
-      {
-        "title": "AMZN news",
-        "url": "https://in.tradingview.com/symbols/NASDAQ-AMZN/news/",
-        "source": "TradingView",
-        "provider": "TradingView",
-        "publishedAt": "2025-10-02T10:55:31.914Z",
-        "content": "AMZN news"
-      },
-      {
-        "title": "Marvell Stock Is Downgraded. Future Sales to Amazon and Microsoft Are Uncertain.",
-        "url": "https://www.barrons.com/articles/marvell-stock-downgraded-amazon-microsoft-37ce1f32?mod=bar_FV",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:55:31.890Z",
-        "content": "Marvell Stock Is Downgraded. Future Sales to Amazon and Microsoft Are Uncertain.",
-        "dateText": "10:43AM"
-      },
-      {
-        "title": "TD Cowen downgrades Marvell on weaker visibility in custom chip business",
-        "url": "https://finance.yahoo.com/news/td-cowen-downgrades-marvell-weaker-142812509.html",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:55:31.890Z",
-        "content": "TD Cowen downgrades Marvell on weaker visibility in custom chip business",
-        "dateText": "10:28AM"
-      },
-      {
         "title": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
         "url": "/news/181527/amazoncom-inc-amzn-agrees-to-pay-25-billion-in-fines-and-reimbursements-to-resolve-claims-made-by-the-federal-trade-commission",
         "source": "Finviz",
-        "publishedAt": "2025-10-02T10:55:31.889Z",
+        "publishedAt": "2025-10-02T16:39:34.275Z",
         "content": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
         "dateText": "05:30PM"
       },
@@ -1023,7 +470,7 @@
         "title": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
         "url": "/news/181517/amazon-strengthens-growth-outlook-with-earnings-beat-and-expanded-dsp-investment",
         "source": "Finviz",
-        "publishedAt": "2025-10-02T10:55:31.889Z",
+        "publishedAt": "2025-10-02T16:39:34.275Z",
         "content": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
         "dateText": "05:07PM"
       },
@@ -1031,7 +478,7 @@
         "title": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
         "url": "/news/181454/josh-brown-predicted-amazoncom-amzn-will-breakout-was-he-right",
         "source": "Finviz",
-        "publishedAt": "2025-10-02T10:55:31.889Z",
+        "publishedAt": "2025-10-02T16:39:34.275Z",
         "content": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
         "dateText": "04:22PM"
       },
@@ -1039,9 +486,49 @@
         "title": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
         "url": "https://www.youtube.com/watch?v=6H27Ke3kHWo",
         "source": "Finviz",
-        "publishedAt": "2025-10-02T10:55:31.889Z",
+        "publishedAt": "2025-10-02T16:39:34.275Z",
         "content": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
         "dateText": "03:20PM"
+      },
+      {
+        "title": "AI Cloud Concerns Hover Over Amazon Stock. But Analyst Says Don't Forget This 'Crown Jewel.'",
+        "url": "https://www.investors.com/news/technology/amazon-stock-advertising-cloud-ai?mod=IBD_FV",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.274Z",
+        "content": "AI Cloud Concerns Hover Over Amazon Stock. But Analyst Says Don't Forget This 'Crown Jewel.'",
+        "dateText": "Today 12:15PM"
+      },
+      {
+        "title": "AI Stocks Face 'Show Me' Test. Why Oracle, Salesforce Analyst Days Will Be Big Events.",
+        "url": "https://finance.yahoo.com/m/684c930d-1475-3adc-b013-ae604c056ebc/ai-stocks-face-%27show-me%27.html",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.274Z",
+        "content": "AI Stocks Face 'Show Me' Test. Why Oracle, Salesforce Analyst Days Will Be Big Events.",
+        "dateText": "10:19AM"
+      },
+      {
+        "title": "Analyst Explains Why Amazon.com (AMZN) Stock Can Move 'Quite a Bit Higher' Soon",
+        "url": "/news/182286/analyst-explains-why-amazoncom-amzn-stock-can-move-quite-a-bit-higher-soon",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.274Z",
+        "content": "Analyst Explains Why Amazon.com (AMZN) Stock Can Move 'Quite a Bit Higher' Soon",
+        "dateText": "09:56AM"
+      },
+      {
+        "title": "AMZN",
+        "url": "/symbols/NASDAQ-AMZN/",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T16:39:33.605Z",
+        "content": "AMZN"
+      },
+      {
+        "title": "AMZN news",
+        "url": "https://in.tradingview.com/symbols/NASDAQ-AMZN/news/",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T16:39:33.605Z",
+        "content": "AMZN news"
       },
       {
         "title": "Amazon: Why Stock's Latest Upgrade Might Be Its Most Important Yet",
@@ -1072,7 +559,590 @@
         ]
       }
     ],
-    "timestamp": "2025-10-02T10:56:00.823Z",
+    "timestamp": "2025-10-02T16:40:00.616Z",
+    "date": "2025-10-02",
+    "sources": [
+      {
+        "url": "/news/181527/amazoncom-inc-amzn-agrees-to-pay-25-billion-in-fines-and-reimbursements-to-resolve-claims-made-by-the-federal-trade-commission",
+        "headline": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.275Z"
+      },
+      {
+        "url": "/news/181517/amazon-strengthens-growth-outlook-with-earnings-beat-and-expanded-dsp-investment",
+        "headline": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.275Z"
+      },
+      {
+        "url": "/news/181454/josh-brown-predicted-amazoncom-amzn-will-breakout-was-he-right",
+        "headline": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.275Z"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=6H27Ke3kHWo",
+        "headline": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.275Z"
+      },
+      {
+        "url": "https://www.investors.com/news/technology/amazon-stock-advertising-cloud-ai?mod=IBD_FV",
+        "headline": "AI Cloud Concerns Hover Over Amazon Stock. But Analyst Says Don't Forget This 'Crown Jewel.'",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.274Z"
+      },
+      {
+        "url": "https://finance.yahoo.com/m/684c930d-1475-3adc-b013-ae604c056ebc/ai-stocks-face-%27show-me%27.html",
+        "headline": "AI Stocks Face 'Show Me' Test. Why Oracle, Salesforce Analyst Days Will Be Big Events.",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.274Z"
+      },
+      {
+        "url": "/news/182286/analyst-explains-why-amazoncom-amzn-stock-can-move-quite-a-bit-higher-soon",
+        "headline": "Analyst Explains Why Amazon.com (AMZN) Stock Can Move 'Quite a Bit Higher' Soon",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.274Z"
+      },
+      {
+        "url": "/symbols/NASDAQ-AMZN/",
+        "headline": "AMZN",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T16:39:33.605Z"
+      },
+      {
+        "url": "https://in.tradingview.com/symbols/NASDAQ-AMZN/news/",
+        "headline": "AMZN news",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T16:39:33.605Z"
+      },
+      {
+        "url": "https://www.investing.com/analysis/amazon-why-stocks-latest-upgrade-might-be-its-most-important-yet-200667808",
+        "headline": "Amazon: Why Stock's Latest Upgrade Might Be Its Most Important Yet",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-10-01T12:41:00Z"
+      },
+      {
+        "url": "https://www.investing.com/analysis/sp-500-earnings-tech-eps-expectations-point-to-strong-q3-results-200667620",
+        "headline": "S&P 500 Earnings: Tech EPS Expectations Point to Strong Q3 Results",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-29T08:19:00Z"
+      }
+    ],
+    "isProcessing": false,
+    "meta": {
+      "totalArticlesFound": 11,
+      "articlesAnalyzed": 11,
+      "historicalArticlesUsed": 0,
+      "daysOfHistoryAnalyzed": 7,
+      "processingTime": "2025-10-02T16:40:00.616Z",
+      "processingStatus": "complete",
+      "enhancedFeatures": {
+        "tradingViewScraping": true,
+        "finvizEnhanced": true,
+        "polygonAPI": true,
+        "geminiAnalysis": true,
+        "historicalComparison": true
+      }
+    },
+    "id": 1759423200618
+  },
+  {
+    "ticker": "AMZN",
+    "summary": null,
+    "articles": [
+      {
+        "title": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
+        "url": "/news/181527/amazoncom-inc-amzn-agrees-to-pay-25-billion-in-fines-and-reimbursements-to-resolve-claims-made-by-the-federal-trade-commission",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.275Z",
+        "content": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
+        "dateText": "05:30PM"
+      },
+      {
+        "title": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
+        "url": "/news/181517/amazon-strengthens-growth-outlook-with-earnings-beat-and-expanded-dsp-investment",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.275Z",
+        "content": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
+        "dateText": "05:07PM"
+      },
+      {
+        "title": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
+        "url": "/news/181454/josh-brown-predicted-amazoncom-amzn-will-breakout-was-he-right",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.275Z",
+        "content": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
+        "dateText": "04:22PM"
+      },
+      {
+        "title": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
+        "url": "https://www.youtube.com/watch?v=6H27Ke3kHWo",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.275Z",
+        "content": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
+        "dateText": "03:20PM"
+      },
+      {
+        "title": "AI Cloud Concerns Hover Over Amazon Stock. But Analyst Says Don't Forget This 'Crown Jewel.'",
+        "url": "https://www.investors.com/news/technology/amazon-stock-advertising-cloud-ai?mod=IBD_FV",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.274Z",
+        "content": "AI Cloud Concerns Hover Over Amazon Stock. But Analyst Says Don't Forget This 'Crown Jewel.'",
+        "dateText": "Today 12:15PM"
+      },
+      {
+        "title": "AI Stocks Face 'Show Me' Test. Why Oracle, Salesforce Analyst Days Will Be Big Events.",
+        "url": "https://finance.yahoo.com/m/684c930d-1475-3adc-b013-ae604c056ebc/ai-stocks-face-%27show-me%27.html",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.274Z",
+        "content": "AI Stocks Face 'Show Me' Test. Why Oracle, Salesforce Analyst Days Will Be Big Events.",
+        "dateText": "10:19AM"
+      },
+      {
+        "title": "Analyst Explains Why Amazon.com (AMZN) Stock Can Move 'Quite a Bit Higher' Soon",
+        "url": "/news/182286/analyst-explains-why-amazoncom-amzn-stock-can-move-quite-a-bit-higher-soon",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.274Z",
+        "content": "Analyst Explains Why Amazon.com (AMZN) Stock Can Move 'Quite a Bit Higher' Soon",
+        "dateText": "09:56AM"
+      },
+      {
+        "title": "AMZN",
+        "url": "/symbols/NASDAQ-AMZN/",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T16:39:33.605Z",
+        "content": "AMZN"
+      },
+      {
+        "title": "AMZN news",
+        "url": "https://in.tradingview.com/symbols/NASDAQ-AMZN/news/",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T16:39:33.605Z",
+        "content": "AMZN news"
+      },
+      {
+        "title": "Amazon: Why Stock's Latest Upgrade Might Be Its Most Important Yet",
+        "url": "https://www.investing.com/analysis/amazon-why-stocks-latest-upgrade-might-be-its-most-important-yet-200667808",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-10-01T12:41:00Z",
+        "content": "Wells Fargo upgraded Amazon stock from Equal Weight to Overweight, citing strong potential in AWS cloud services and AI workloads, despite recent stock price resistance around $240.",
+        "author": "Sam Quirke",
+        "tickers": [
+          "AMZN"
+        ]
+      },
+      {
+        "title": "S&P 500 Earnings: Tech EPS Expectations Point to Strong Q3 Results",
+        "url": "https://www.investing.com/analysis/sp-500-earnings-tech-eps-expectations-point-to-strong-q3-results-200667620",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-29T08:19:00Z",
+        "content": "Technology sector earnings are showing strong growth expectations for Q3 2025, with potential peak earnings and significant AI-driven investment impacting sector performance.",
+        "author": "Brian Gilmartin",
+        "tickers": [
+          "AMZN",
+          "TSLA",
+          "NKE",
+          "MSFT",
+          "AAPL"
+        ]
+      }
+    ],
+    "timestamp": "2025-10-02T16:39:34.554Z",
+    "date": "2025-10-02",
+    "sources": [
+      {
+        "url": "/news/181527/amazoncom-inc-amzn-agrees-to-pay-25-billion-in-fines-and-reimbursements-to-resolve-claims-made-by-the-federal-trade-commission",
+        "headline": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.275Z"
+      },
+      {
+        "url": "/news/181517/amazon-strengthens-growth-outlook-with-earnings-beat-and-expanded-dsp-investment",
+        "headline": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.275Z"
+      },
+      {
+        "url": "/news/181454/josh-brown-predicted-amazoncom-amzn-will-breakout-was-he-right",
+        "headline": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.275Z"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=6H27Ke3kHWo",
+        "headline": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.275Z"
+      },
+      {
+        "url": "https://www.investors.com/news/technology/amazon-stock-advertising-cloud-ai?mod=IBD_FV",
+        "headline": "AI Cloud Concerns Hover Over Amazon Stock. But Analyst Says Don't Forget This 'Crown Jewel.'",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.274Z"
+      },
+      {
+        "url": "https://finance.yahoo.com/m/684c930d-1475-3adc-b013-ae604c056ebc/ai-stocks-face-%27show-me%27.html",
+        "headline": "AI Stocks Face 'Show Me' Test. Why Oracle, Salesforce Analyst Days Will Be Big Events.",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.274Z"
+      },
+      {
+        "url": "/news/182286/analyst-explains-why-amazoncom-amzn-stock-can-move-quite-a-bit-higher-soon",
+        "headline": "Analyst Explains Why Amazon.com (AMZN) Stock Can Move 'Quite a Bit Higher' Soon",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.274Z"
+      },
+      {
+        "url": "/symbols/NASDAQ-AMZN/",
+        "headline": "AMZN",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T16:39:33.605Z"
+      },
+      {
+        "url": "https://in.tradingview.com/symbols/NASDAQ-AMZN/news/",
+        "headline": "AMZN news",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T16:39:33.605Z"
+      },
+      {
+        "url": "https://www.investing.com/analysis/amazon-why-stocks-latest-upgrade-might-be-its-most-important-yet-200667808",
+        "headline": "Amazon: Why Stock's Latest Upgrade Might Be Its Most Important Yet",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-10-01T12:41:00Z"
+      },
+      {
+        "url": "https://www.investing.com/analysis/sp-500-earnings-tech-eps-expectations-point-to-strong-q3-results-200667620",
+        "headline": "S&P 500 Earnings: Tech EPS Expectations Point to Strong Q3 Results",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-29T08:19:00Z"
+      }
+    ],
+    "isProcessing": true,
+    "meta": {
+      "totalArticlesFound": 11,
+      "articlesAnalyzed": 0,
+      "processingStatus": "generating_ai_summary"
+    },
+    "id": 1759423174566
+  },
+  {
+    "ticker": "AMZN",
+    "summary": null,
+    "articles": [
+      {
+        "title": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
+        "url": "/news/181527/amazoncom-inc-amzn-agrees-to-pay-25-billion-in-fines-and-reimbursements-to-resolve-claims-made-by-the-federal-trade-commission",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.275Z",
+        "content": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
+        "dateText": "05:30PM"
+      },
+      {
+        "title": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
+        "url": "/news/181517/amazon-strengthens-growth-outlook-with-earnings-beat-and-expanded-dsp-investment",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.275Z",
+        "content": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
+        "dateText": "05:07PM"
+      },
+      {
+        "title": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
+        "url": "/news/181454/josh-brown-predicted-amazoncom-amzn-will-breakout-was-he-right",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.275Z",
+        "content": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
+        "dateText": "04:22PM"
+      },
+      {
+        "title": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
+        "url": "https://www.youtube.com/watch?v=6H27Ke3kHWo",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.275Z",
+        "content": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
+        "dateText": "03:20PM"
+      },
+      {
+        "title": "AI Cloud Concerns Hover Over Amazon Stock. But Analyst Says Don't Forget This 'Crown Jewel.'",
+        "url": "https://www.investors.com/news/technology/amazon-stock-advertising-cloud-ai?mod=IBD_FV",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.274Z",
+        "content": "AI Cloud Concerns Hover Over Amazon Stock. But Analyst Says Don't Forget This 'Crown Jewel.'",
+        "dateText": "Today 12:15PM"
+      },
+      {
+        "title": "AI Stocks Face 'Show Me' Test. Why Oracle, Salesforce Analyst Days Will Be Big Events.",
+        "url": "https://finance.yahoo.com/m/684c930d-1475-3adc-b013-ae604c056ebc/ai-stocks-face-%27show-me%27.html",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.274Z",
+        "content": "AI Stocks Face 'Show Me' Test. Why Oracle, Salesforce Analyst Days Will Be Big Events.",
+        "dateText": "10:19AM"
+      },
+      {
+        "title": "Analyst Explains Why Amazon.com (AMZN) Stock Can Move 'Quite a Bit Higher' Soon",
+        "url": "/news/182286/analyst-explains-why-amazoncom-amzn-stock-can-move-quite-a-bit-higher-soon",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.274Z",
+        "content": "Analyst Explains Why Amazon.com (AMZN) Stock Can Move 'Quite a Bit Higher' Soon",
+        "dateText": "09:56AM"
+      },
+      {
+        "title": "AMZN",
+        "url": "/symbols/NASDAQ-AMZN/",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T16:39:33.605Z",
+        "content": "AMZN"
+      },
+      {
+        "title": "AMZN news",
+        "url": "https://in.tradingview.com/symbols/NASDAQ-AMZN/news/",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T16:39:33.605Z",
+        "content": "AMZN news"
+      },
+      {
+        "title": "Amazon: Why Stock's Latest Upgrade Might Be Its Most Important Yet",
+        "url": "https://www.investing.com/analysis/amazon-why-stocks-latest-upgrade-might-be-its-most-important-yet-200667808",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-10-01T12:41:00Z",
+        "content": "Wells Fargo upgraded Amazon stock from Equal Weight to Overweight, citing strong potential in AWS cloud services and AI workloads, despite recent stock price resistance around $240.",
+        "author": "Sam Quirke",
+        "tickers": [
+          "AMZN"
+        ]
+      },
+      {
+        "title": "S&P 500 Earnings: Tech EPS Expectations Point to Strong Q3 Results",
+        "url": "https://www.investing.com/analysis/sp-500-earnings-tech-eps-expectations-point-to-strong-q3-results-200667620",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-29T08:19:00Z",
+        "content": "Technology sector earnings are showing strong growth expectations for Q3 2025, with potential peak earnings and significant AI-driven investment impacting sector performance.",
+        "author": "Brian Gilmartin",
+        "tickers": [
+          "AMZN",
+          "TSLA",
+          "NKE",
+          "MSFT",
+          "AAPL"
+        ]
+      }
+    ],
+    "timestamp": "2025-10-02T16:39:34.554Z",
+    "date": "2025-10-02",
+    "sources": [
+      {
+        "url": "/news/181527/amazoncom-inc-amzn-agrees-to-pay-25-billion-in-fines-and-reimbursements-to-resolve-claims-made-by-the-federal-trade-commission",
+        "headline": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.275Z"
+      },
+      {
+        "url": "/news/181517/amazon-strengthens-growth-outlook-with-earnings-beat-and-expanded-dsp-investment",
+        "headline": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.275Z"
+      },
+      {
+        "url": "/news/181454/josh-brown-predicted-amazoncom-amzn-will-breakout-was-he-right",
+        "headline": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.275Z"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=6H27Ke3kHWo",
+        "headline": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.275Z"
+      },
+      {
+        "url": "https://www.investors.com/news/technology/amazon-stock-advertising-cloud-ai?mod=IBD_FV",
+        "headline": "AI Cloud Concerns Hover Over Amazon Stock. But Analyst Says Don't Forget This 'Crown Jewel.'",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.274Z"
+      },
+      {
+        "url": "https://finance.yahoo.com/m/684c930d-1475-3adc-b013-ae604c056ebc/ai-stocks-face-%27show-me%27.html",
+        "headline": "AI Stocks Face 'Show Me' Test. Why Oracle, Salesforce Analyst Days Will Be Big Events.",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.274Z"
+      },
+      {
+        "url": "/news/182286/analyst-explains-why-amazoncom-amzn-stock-can-move-quite-a-bit-higher-soon",
+        "headline": "Analyst Explains Why Amazon.com (AMZN) Stock Can Move 'Quite a Bit Higher' Soon",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:39:34.274Z"
+      },
+      {
+        "url": "/symbols/NASDAQ-AMZN/",
+        "headline": "AMZN",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T16:39:33.605Z"
+      },
+      {
+        "url": "https://in.tradingview.com/symbols/NASDAQ-AMZN/news/",
+        "headline": "AMZN news",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T16:39:33.605Z"
+      },
+      {
+        "url": "https://www.investing.com/analysis/amazon-why-stocks-latest-upgrade-might-be-its-most-important-yet-200667808",
+        "headline": "Amazon: Why Stock's Latest Upgrade Might Be Its Most Important Yet",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-10-01T12:41:00Z"
+      },
+      {
+        "url": "https://www.investing.com/analysis/sp-500-earnings-tech-eps-expectations-point-to-strong-q3-results-200667620",
+        "headline": "S&P 500 Earnings: Tech EPS Expectations Point to Strong Q3 Results",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-29T08:19:00Z"
+      }
+    ],
+    "isProcessing": true,
+    "meta": {
+      "totalArticlesFound": 11,
+      "articlesAnalyzed": 0,
+      "processingStatus": "refreshing_news"
+    },
+    "id": 1759423174557
+  },
+  {
+    "ticker": "AMZN",
+    "summary": {
+      "summary": "Today's news for Amazon (AMZN) presents a mixed, yet predominantly positive, picture for the e-commerce and cloud giant. A significant development is Amazon's agreement to pay $2.5 billion in fines and reimbursements to the Federal Trade Commission, resolving various claims. While this represents a substantial financial outlay, it potentially removes a regulatory overhang that could have impacted the company's future. Simultaneously, Amazon reported an earnings beat, strengthening its growth outlook and indicating robust operational performance, further supported by expanded investments in its Delivery Service Partner (DSP) program.",
+      "keyPoints": [
+        "Amazon agrees to pay $2.5 billion in fines and reimbursements to the FTC.",
+        "Company reports an earnings beat, strengthening its growth outlook and expanding DSP investment.",
+        "Amazon is actively racing with Google to upgrade voice assistants with advanced AI capabilities.",
+        "Multiple analysts, including Josh Brown, predict AMZN stock will 'breakout' and move 'quite a bit higher' soon.",
+        "Wells Fargo upgraded AMZN stock to Overweight, citing strong potential in AWS cloud services and AI workloads."
+      ],
+      "sentiment": "positive",
+      "sentimentReasoning": "Despite a significant $2.5 billion FTC fine, the overwhelming positive news around an earnings beat, strengthened growth outlook, strategic AI investments, and strong analyst upgrades and bullish predictions (including a Wells Fargo upgrade) collectively paint a highly favorable picture for AMZN's operational performance and stock trajectory.",
+      "whatChangedToday": "Today's news brings several critical developments for Amazon. The most impactful financial change is the agreement to pay a $2.5 billion settlement to the FTC, which, while a substantial one-time cost, could resolve ongoing legal uncertainties. Operationally, the reported earnings beat and strengthened growth outlook confirm strong business momentum, indicating that Amazon's core segments are performing well and that management is confident in future expansion, particularly with expanded DSP investments. Strategically, the explicit mention of Amazon racing Google to upgrade voice assistants with AI highlights an intensified focus on AI integration into consumer products, signaling a key battleground for future innovation and market share. Furthermore, a significant shift in analyst sentiment is evident with multiple bullish predictions, including Josh Brown's 'breakout' call and a major upgrade from Wells Fargo to 'Overweight,' specifically citing the robust potential of AWS in handling AI workloads. This indicates a growing institutional belief in Amazon's future growth drivers, especially in the cloud and AI space.",
+      "marketImplications": "The market's reaction to AMZN today is likely to be driven by a balance of the significant FTC settlement against the strong operational and analyst-driven positives. The $2.5 billion fine, while large, might be perceived as a one-time event that resolves past issues, potentially removing a regulatory overhang. This could allow investors to focus more on the future. The earnings beat and strengthened growth outlook are direct indicators of financial health and future profitability, which will likely boost investor confidence and could drive the stock price higher. The strategic focus on AI in voice assistants positions Amazon well in a rapidly evolving tech landscape, suggesting future innovation and competitive advantages. Most notably, the flurry of positive analyst sentiment, including a major upgrade from Wells Fargo highlighting AWS and AI, will likely attract new investment and could lead to significant short-term and medium-term upward pressure on AMZN's stock price. The broader tech sector's strong Q3 earnings expectations and AI-driven investment trends further support a bullish outlook for AMZN, especially given its strong position in cloud computing (AWS) which is critical for AI infrastructure.",
+      "marketImpact": "high",
+      "confidence": "high",
+      "articlesAnalyzed": 10,
+      "totalArticles": 10,
+      "historicalArticlesUsed": 0,
+      "lastUpdated": "2025-10-02T16:13:29.927Z",
+      "ticker": "AMZN"
+    },
+    "articles": [
+      {
+        "title": "AMZN",
+        "url": "/symbols/NASDAQ-AMZN/",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T16:13:03.299Z",
+        "content": "AMZN"
+      },
+      {
+        "title": "AMZN news",
+        "url": "https://in.tradingview.com/symbols/NASDAQ-AMZN/news/",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T16:13:03.299Z",
+        "content": "AMZN news"
+      },
+      {
+        "title": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
+        "url": "https://www.youtube.com/watch?v=6H27Ke3kHWo",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:13:03.284Z",
+        "content": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
+        "dateText": "03:20PM"
+      },
+      {
+        "title": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
+        "url": "/news/181527/amazoncom-inc-amzn-agrees-to-pay-25-billion-in-fines-and-reimbursements-to-resolve-claims-made-by-the-federal-trade-commission",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:13:03.283Z",
+        "content": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
+        "dateText": "05:30PM"
+      },
+      {
+        "title": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
+        "url": "/news/181517/amazon-strengthens-growth-outlook-with-earnings-beat-and-expanded-dsp-investment",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:13:03.283Z",
+        "content": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
+        "dateText": "05:07PM"
+      },
+      {
+        "title": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
+        "url": "/news/181454/josh-brown-predicted-amazoncom-amzn-will-breakout-was-he-right",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:13:03.283Z",
+        "content": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
+        "dateText": "04:22PM"
+      },
+      {
+        "title": "Analyst Explains Why Amazon.com (AMZN) Stock Can Move 'Quite a Bit Higher' Soon",
+        "url": "/news/182286/analyst-explains-why-amazoncom-amzn-stock-can-move-quite-a-bit-higher-soon",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:13:03.282Z",
+        "content": "Analyst Explains Why Amazon.com (AMZN) Stock Can Move 'Quite a Bit Higher' Soon",
+        "dateText": "09:56AM"
+      },
+      {
+        "title": "AI Stocks Face 'Show Me' Test. Why Oracle, Salesforce Analyst Days Will Be Big Events.",
+        "url": "https://finance.yahoo.com/m/684c930d-1475-3adc-b013-ae604c056ebc/ai-stocks-face-%27show-me%27.html",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:13:03.280Z",
+        "content": "AI Stocks Face 'Show Me' Test. Why Oracle, Salesforce Analyst Days Will Be Big Events.",
+        "dateText": "10:19AM"
+      },
+      {
+        "title": "Amazon: Why Stock's Latest Upgrade Might Be Its Most Important Yet",
+        "url": "https://www.investing.com/analysis/amazon-why-stocks-latest-upgrade-might-be-its-most-important-yet-200667808",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-10-01T12:41:00Z",
+        "content": "Wells Fargo upgraded Amazon stock from Equal Weight to Overweight, citing strong potential in AWS cloud services and AI workloads, despite recent stock price resistance around $240.",
+        "author": "Sam Quirke",
+        "tickers": [
+          "AMZN"
+        ]
+      },
+      {
+        "title": "S&P 500 Earnings: Tech EPS Expectations Point to Strong Q3 Results",
+        "url": "https://www.investing.com/analysis/sp-500-earnings-tech-eps-expectations-point-to-strong-q3-results-200667620",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-29T08:19:00Z",
+        "content": "Technology sector earnings are showing strong growth expectations for Q3 2025, with potential peak earnings and significant AI-driven investment impacting sector performance.",
+        "author": "Brian Gilmartin",
+        "tickers": [
+          "AMZN",
+          "TSLA",
+          "NKE",
+          "MSFT",
+          "AAPL"
+        ]
+      }
+    ],
+    "timestamp": "2025-10-02T16:13:29.927Z",
     "date": "2025-10-02",
     "sources": [
       {
@@ -1080,50 +1150,50 @@
         "headline": "AMZN",
         "source": "TradingView",
         "provider": "TradingView",
-        "publishedAt": "2025-10-02T10:55:31.914Z"
+        "publishedAt": "2025-10-02T16:13:03.299Z"
       },
       {
         "url": "https://in.tradingview.com/symbols/NASDAQ-AMZN/news/",
         "headline": "AMZN news",
         "source": "TradingView",
         "provider": "TradingView",
-        "publishedAt": "2025-10-02T10:55:31.914Z"
-      },
-      {
-        "url": "https://www.barrons.com/articles/marvell-stock-downgraded-amazon-microsoft-37ce1f32?mod=bar_FV",
-        "headline": "Marvell Stock Is Downgraded. Future Sales to Amazon and Microsoft Are Uncertain.",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:55:31.890Z"
-      },
-      {
-        "url": "https://finance.yahoo.com/news/td-cowen-downgrades-marvell-weaker-142812509.html",
-        "headline": "TD Cowen downgrades Marvell on weaker visibility in custom chip business",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:55:31.890Z"
-      },
-      {
-        "url": "/news/181527/amazoncom-inc-amzn-agrees-to-pay-25-billion-in-fines-and-reimbursements-to-resolve-claims-made-by-the-federal-trade-commission",
-        "headline": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:55:31.889Z"
-      },
-      {
-        "url": "/news/181517/amazon-strengthens-growth-outlook-with-earnings-beat-and-expanded-dsp-investment",
-        "headline": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:55:31.889Z"
-      },
-      {
-        "url": "/news/181454/josh-brown-predicted-amazoncom-amzn-will-breakout-was-he-right",
-        "headline": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:55:31.889Z"
+        "publishedAt": "2025-10-02T16:13:03.299Z"
       },
       {
         "url": "https://www.youtube.com/watch?v=6H27Ke3kHWo",
         "headline": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
         "source": "Finviz",
-        "publishedAt": "2025-10-02T10:55:31.889Z"
+        "publishedAt": "2025-10-02T16:13:03.284Z"
+      },
+      {
+        "url": "/news/181527/amazoncom-inc-amzn-agrees-to-pay-25-billion-in-fines-and-reimbursements-to-resolve-claims-made-by-the-federal-trade-commission",
+        "headline": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:13:03.283Z"
+      },
+      {
+        "url": "/news/181517/amazon-strengthens-growth-outlook-with-earnings-beat-and-expanded-dsp-investment",
+        "headline": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:13:03.283Z"
+      },
+      {
+        "url": "/news/181454/josh-brown-predicted-amazoncom-amzn-will-breakout-was-he-right",
+        "headline": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:13:03.283Z"
+      },
+      {
+        "url": "/news/182286/analyst-explains-why-amazoncom-amzn-stock-can-move-quite-a-bit-higher-soon",
+        "headline": "Analyst Explains Why Amazon.com (AMZN) Stock Can Move 'Quite a Bit Higher' Soon",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:13:03.282Z"
+      },
+      {
+        "url": "https://finance.yahoo.com/m/684c930d-1475-3adc-b013-ae604c056ebc/ai-stocks-face-%27show-me%27.html",
+        "headline": "AI Stocks Face 'Show Me' Test. Why Oracle, Salesforce Analyst Days Will Be Big Events.",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:13:03.280Z"
       },
       {
         "url": "https://www.investing.com/analysis/amazon-why-stocks-latest-upgrade-might-be-its-most-important-yet-200667808",
@@ -1146,7 +1216,7 @@
       "articlesAnalyzed": 10,
       "historicalArticlesUsed": 0,
       "daysOfHistoryAnalyzed": 7,
-      "processingTime": "2025-10-02T10:56:00.823Z",
+      "processingTime": "2025-10-02T16:13:29.927Z",
       "processingStatus": "complete",
       "enhancedFeatures": {
         "tradingViewScraping": true,
@@ -1156,7 +1226,7 @@
         "historicalComparison": true
       }
     },
-    "id": 1759402560824
+    "id": 1759421609929
   },
   {
     "ticker": "AMZN",
@@ -1167,7 +1237,7 @@
         "url": "/symbols/NASDAQ-AMZN/",
         "source": "TradingView",
         "provider": "TradingView",
-        "publishedAt": "2025-10-02T10:55:31.914Z",
+        "publishedAt": "2025-10-02T16:13:03.299Z",
         "content": "AMZN"
       },
       {
@@ -1175,30 +1245,22 @@
         "url": "https://in.tradingview.com/symbols/NASDAQ-AMZN/news/",
         "source": "TradingView",
         "provider": "TradingView",
-        "publishedAt": "2025-10-02T10:55:31.914Z",
+        "publishedAt": "2025-10-02T16:13:03.299Z",
         "content": "AMZN news"
       },
       {
-        "title": "Marvell Stock Is Downgraded. Future Sales to Amazon and Microsoft Are Uncertain.",
-        "url": "https://www.barrons.com/articles/marvell-stock-downgraded-amazon-microsoft-37ce1f32?mod=bar_FV",
+        "title": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
+        "url": "https://www.youtube.com/watch?v=6H27Ke3kHWo",
         "source": "Finviz",
-        "publishedAt": "2025-10-02T10:55:31.890Z",
-        "content": "Marvell Stock Is Downgraded. Future Sales to Amazon and Microsoft Are Uncertain.",
-        "dateText": "10:43AM"
-      },
-      {
-        "title": "TD Cowen downgrades Marvell on weaker visibility in custom chip business",
-        "url": "https://finance.yahoo.com/news/td-cowen-downgrades-marvell-weaker-142812509.html",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:55:31.890Z",
-        "content": "TD Cowen downgrades Marvell on weaker visibility in custom chip business",
-        "dateText": "10:28AM"
+        "publishedAt": "2025-10-02T16:13:03.284Z",
+        "content": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
+        "dateText": "03:20PM"
       },
       {
         "title": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
         "url": "/news/181527/amazoncom-inc-amzn-agrees-to-pay-25-billion-in-fines-and-reimbursements-to-resolve-claims-made-by-the-federal-trade-commission",
         "source": "Finviz",
-        "publishedAt": "2025-10-02T10:55:31.889Z",
+        "publishedAt": "2025-10-02T16:13:03.283Z",
         "content": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
         "dateText": "05:30PM"
       },
@@ -1206,7 +1268,7 @@
         "title": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
         "url": "/news/181517/amazon-strengthens-growth-outlook-with-earnings-beat-and-expanded-dsp-investment",
         "source": "Finviz",
-        "publishedAt": "2025-10-02T10:55:31.889Z",
+        "publishedAt": "2025-10-02T16:13:03.283Z",
         "content": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
         "dateText": "05:07PM"
       },
@@ -1214,17 +1276,25 @@
         "title": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
         "url": "/news/181454/josh-brown-predicted-amazoncom-amzn-will-breakout-was-he-right",
         "source": "Finviz",
-        "publishedAt": "2025-10-02T10:55:31.889Z",
+        "publishedAt": "2025-10-02T16:13:03.283Z",
         "content": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
         "dateText": "04:22PM"
       },
       {
-        "title": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
-        "url": "https://www.youtube.com/watch?v=6H27Ke3kHWo",
+        "title": "Analyst Explains Why Amazon.com (AMZN) Stock Can Move 'Quite a Bit Higher' Soon",
+        "url": "/news/182286/analyst-explains-why-amazoncom-amzn-stock-can-move-quite-a-bit-higher-soon",
         "source": "Finviz",
-        "publishedAt": "2025-10-02T10:55:31.889Z",
-        "content": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
-        "dateText": "03:20PM"
+        "publishedAt": "2025-10-02T16:13:03.282Z",
+        "content": "Analyst Explains Why Amazon.com (AMZN) Stock Can Move 'Quite a Bit Higher' Soon",
+        "dateText": "09:56AM"
+      },
+      {
+        "title": "AI Stocks Face 'Show Me' Test. Why Oracle, Salesforce Analyst Days Will Be Big Events.",
+        "url": "https://finance.yahoo.com/m/684c930d-1475-3adc-b013-ae604c056ebc/ai-stocks-face-%27show-me%27.html",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:13:03.280Z",
+        "content": "AI Stocks Face 'Show Me' Test. Why Oracle, Salesforce Analyst Days Will Be Big Events.",
+        "dateText": "10:19AM"
       },
       {
         "title": "Amazon: Why Stock's Latest Upgrade Might Be Its Most Important Yet",
@@ -1255,7 +1325,7 @@
         ]
       }
     ],
-    "timestamp": "2025-10-02T10:55:32.921Z",
+    "timestamp": "2025-10-02T16:13:04.723Z",
     "date": "2025-10-02",
     "sources": [
       {
@@ -1263,50 +1333,50 @@
         "headline": "AMZN",
         "source": "TradingView",
         "provider": "TradingView",
-        "publishedAt": "2025-10-02T10:55:31.914Z"
+        "publishedAt": "2025-10-02T16:13:03.299Z"
       },
       {
         "url": "https://in.tradingview.com/symbols/NASDAQ-AMZN/news/",
         "headline": "AMZN news",
         "source": "TradingView",
         "provider": "TradingView",
-        "publishedAt": "2025-10-02T10:55:31.914Z"
-      },
-      {
-        "url": "https://www.barrons.com/articles/marvell-stock-downgraded-amazon-microsoft-37ce1f32?mod=bar_FV",
-        "headline": "Marvell Stock Is Downgraded. Future Sales to Amazon and Microsoft Are Uncertain.",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:55:31.890Z"
-      },
-      {
-        "url": "https://finance.yahoo.com/news/td-cowen-downgrades-marvell-weaker-142812509.html",
-        "headline": "TD Cowen downgrades Marvell on weaker visibility in custom chip business",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:55:31.890Z"
-      },
-      {
-        "url": "/news/181527/amazoncom-inc-amzn-agrees-to-pay-25-billion-in-fines-and-reimbursements-to-resolve-claims-made-by-the-federal-trade-commission",
-        "headline": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:55:31.889Z"
-      },
-      {
-        "url": "/news/181517/amazon-strengthens-growth-outlook-with-earnings-beat-and-expanded-dsp-investment",
-        "headline": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:55:31.889Z"
-      },
-      {
-        "url": "/news/181454/josh-brown-predicted-amazoncom-amzn-will-breakout-was-he-right",
-        "headline": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:55:31.889Z"
+        "publishedAt": "2025-10-02T16:13:03.299Z"
       },
       {
         "url": "https://www.youtube.com/watch?v=6H27Ke3kHWo",
         "headline": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
         "source": "Finviz",
-        "publishedAt": "2025-10-02T10:55:31.889Z"
+        "publishedAt": "2025-10-02T16:13:03.284Z"
+      },
+      {
+        "url": "/news/181527/amazoncom-inc-amzn-agrees-to-pay-25-billion-in-fines-and-reimbursements-to-resolve-claims-made-by-the-federal-trade-commission",
+        "headline": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:13:03.283Z"
+      },
+      {
+        "url": "/news/181517/amazon-strengthens-growth-outlook-with-earnings-beat-and-expanded-dsp-investment",
+        "headline": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:13:03.283Z"
+      },
+      {
+        "url": "/news/181454/josh-brown-predicted-amazoncom-amzn-will-breakout-was-he-right",
+        "headline": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:13:03.283Z"
+      },
+      {
+        "url": "/news/182286/analyst-explains-why-amazoncom-amzn-stock-can-move-quite-a-bit-higher-soon",
+        "headline": "Analyst Explains Why Amazon.com (AMZN) Stock Can Move 'Quite a Bit Higher' Soon",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:13:03.282Z"
+      },
+      {
+        "url": "https://finance.yahoo.com/m/684c930d-1475-3adc-b013-ae604c056ebc/ai-stocks-face-%27show-me%27.html",
+        "headline": "AI Stocks Face 'Show Me' Test. Why Oracle, Salesforce Analyst Days Will Be Big Events.",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:13:03.280Z"
       },
       {
         "url": "https://www.investing.com/analysis/amazon-why-stocks-latest-upgrade-might-be-its-most-important-yet-200667808",
@@ -1329,6 +1399,6 @@
       "articlesAnalyzed": 0,
       "processingStatus": "generating_ai_summary"
     },
-    "id": 1759402532931
+    "id": 1759421584737
   }
 ]

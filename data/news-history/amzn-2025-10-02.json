@@ -1,79 +1,88 @@
 {
   "ticker": "AMZN",
   "date": "2025-10-02",
-  "timestamp": "2025-10-02T15:58:03.451Z",
+  "timestamp": "2025-10-02T16:59:52.359Z",
   "articles": [
+    {
+      "title": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
+      "url": "/news/181454/josh-brown-predicted-amazoncom-amzn-will-breakout-was-he-right",
+      "source": "Finviz",
+      "publishedAt": "2025-10-02T16:59:52.313Z",
+      "content": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
+      "dateText": "04:22PM",
+      "storedAt": "2025-10-02T16:59:52.359Z"
+    },
+    {
+      "title": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
+      "url": "https://www.youtube.com/watch?v=6H27Ke3kHWo",
+      "source": "Finviz",
+      "publishedAt": "2025-10-02T16:59:52.313Z",
+      "content": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
+      "dateText": "03:20PM",
+      "storedAt": "2025-10-02T16:59:52.359Z"
+    },
+    {
+      "title": "AI Cloud Concerns Hover Over Amazon Stock. But Analyst Says Don't Forget This 'Crown Jewel.'",
+      "url": "https://www.investors.com/news/technology/amazon-stock-advertising-cloud-ai?mod=IBD_FV",
+      "source": "Finviz",
+      "publishedAt": "2025-10-02T16:59:52.312Z",
+      "content": "AI Cloud Concerns Hover Over Amazon Stock. But Analyst Says Don't Forget This 'Crown Jewel.'",
+      "dateText": "Today 12:15PM",
+      "storedAt": "2025-10-02T16:59:52.359Z"
+    },
+    {
+      "title": "AI Stocks Face 'Show Me' Test. Why Oracle, Salesforce Analyst Days Will Be Big Events.",
+      "url": "https://finance.yahoo.com/m/684c930d-1475-3adc-b013-ae604c056ebc/ai-stocks-face-%27show-me%27.html",
+      "source": "Finviz",
+      "publishedAt": "2025-10-02T16:59:52.312Z",
+      "content": "AI Stocks Face 'Show Me' Test. Why Oracle, Salesforce Analyst Days Will Be Big Events.",
+      "dateText": "10:19AM",
+      "storedAt": "2025-10-02T16:59:52.359Z"
+    },
+    {
+      "title": "Analyst Explains Why Amazon.com (AMZN) Stock Can Move 'Quite a Bit Higher' Soon",
+      "url": "/news/182286/analyst-explains-why-amazoncom-amzn-stock-can-move-quite-a-bit-higher-soon",
+      "source": "Finviz",
+      "publishedAt": "2025-10-02T16:59:52.312Z",
+      "content": "Analyst Explains Why Amazon.com (AMZN) Stock Can Move 'Quite a Bit Higher' Soon",
+      "dateText": "09:56AM",
+      "storedAt": "2025-10-02T16:59:52.359Z"
+    },
+    {
+      "title": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
+      "url": "/news/181527/amazoncom-inc-amzn-agrees-to-pay-25-billion-in-fines-and-reimbursements-to-resolve-claims-made-by-the-federal-trade-commission",
+      "source": "Finviz",
+      "publishedAt": "2025-10-02T16:59:52.312Z",
+      "content": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
+      "dateText": "05:30PM",
+      "storedAt": "2025-10-02T16:59:52.359Z"
+    },
+    {
+      "title": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
+      "url": "/news/181517/amazon-strengthens-growth-outlook-with-earnings-beat-and-expanded-dsp-investment",
+      "source": "Finviz",
+      "publishedAt": "2025-10-02T16:59:52.312Z",
+      "content": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
+      "dateText": "05:07PM",
+      "storedAt": "2025-10-02T16:59:52.359Z"
+    },
     {
       "title": "AMZN",
       "url": "/symbols/NASDAQ-AMZN/",
       "source": "TradingView",
       "provider": "TradingView",
-      "publishedAt": "2025-10-02T15:58:02.502Z",
+      "publishedAt": "2025-10-02T16:59:51.934Z",
       "content": "AMZN",
-      "storedAt": "2025-10-02T15:58:03.451Z"
+      "storedAt": "2025-10-02T16:59:52.359Z"
     },
     {
       "title": "AMZN news",
       "url": "https://in.tradingview.com/symbols/NASDAQ-AMZN/news/",
       "source": "TradingView",
       "provider": "TradingView",
-      "publishedAt": "2025-10-02T15:58:02.502Z",
+      "publishedAt": "2025-10-02T16:59:51.934Z",
       "content": "AMZN news",
-      "storedAt": "2025-10-02T15:58:03.451Z"
-    },
-    {
-      "title": "AI Stocks Face 'Show Me' Test. Why Oracle, Salesforce Analyst Days Will Be Big Events.",
-      "url": "https://finance.yahoo.com/m/684c930d-1475-3adc-b013-ae604c056ebc/ai-stocks-face-%27show-me%27.html",
-      "source": "Finviz",
-      "publishedAt": "2025-10-02T15:58:02.329Z",
-      "content": "AI Stocks Face 'Show Me' Test. Why Oracle, Salesforce Analyst Days Will Be Big Events.",
-      "dateText": "10:19AM",
-      "storedAt": "2025-10-02T15:58:03.451Z"
-    },
-    {
-      "title": "Analyst Explains Why Amazon.com (AMZN) Stock Can Move 'Quite a Bit Higher' Soon",
-      "url": "/news/182286/analyst-explains-why-amazoncom-amzn-stock-can-move-quite-a-bit-higher-soon",
-      "source": "Finviz",
-      "publishedAt": "2025-10-02T15:58:02.329Z",
-      "content": "Analyst Explains Why Amazon.com (AMZN) Stock Can Move 'Quite a Bit Higher' Soon",
-      "dateText": "09:56AM",
-      "storedAt": "2025-10-02T15:58:03.451Z"
-    },
-    {
-      "title": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
-      "url": "/news/181527/amazoncom-inc-amzn-agrees-to-pay-25-billion-in-fines-and-reimbursements-to-resolve-claims-made-by-the-federal-trade-commission",
-      "source": "Finviz",
-      "publishedAt": "2025-10-02T15:58:02.329Z",
-      "content": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
-      "dateText": "05:30PM",
-      "storedAt": "2025-10-02T15:58:03.451Z"
-    },
-    {
-      "title": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
-      "url": "/news/181517/amazon-strengthens-growth-outlook-with-earnings-beat-and-expanded-dsp-investment",
-      "source": "Finviz",
-      "publishedAt": "2025-10-02T15:58:02.329Z",
-      "content": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
-      "dateText": "05:07PM",
-      "storedAt": "2025-10-02T15:58:03.451Z"
-    },
-    {
-      "title": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
-      "url": "/news/181454/josh-brown-predicted-amazoncom-amzn-will-breakout-was-he-right",
-      "source": "Finviz",
-      "publishedAt": "2025-10-02T15:58:02.329Z",
-      "content": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
-      "dateText": "04:22PM",
-      "storedAt": "2025-10-02T15:58:03.451Z"
-    },
-    {
-      "title": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
-      "url": "https://www.youtube.com/watch?v=6H27Ke3kHWo",
-      "source": "Finviz",
-      "publishedAt": "2025-10-02T15:58:02.329Z",
-      "content": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
-      "dateText": "03:20PM",
-      "storedAt": "2025-10-02T15:58:03.451Z"
+      "storedAt": "2025-10-02T16:59:52.359Z"
     },
     {
       "title": "Amazon: Why Stock's Latest Upgrade Might Be Its Most Important Yet",
@@ -86,7 +95,7 @@
       "tickers": [
         "AMZN"
       ],
-      "storedAt": "2025-10-02T15:58:03.451Z"
+      "storedAt": "2025-10-02T16:59:52.359Z"
     },
     {
       "title": "S&P 500 Earnings: Tech EPS Expectations Point to Strong Q3 Results",
@@ -103,8 +112,8 @@
         "MSFT",
         "AAPL"
       ],
-      "storedAt": "2025-10-02T15:58:03.451Z"
+      "storedAt": "2025-10-02T16:59:52.359Z"
     }
   ],
-  "totalArticles": 10
+  "totalArticles": 11
 }

@@ -1,34 +1,12 @@
-import { useState } from 'react';
-import { Plus, X, RefreshCw } from 'lucide-react';
+import { X, RefreshCw } from 'lucide-react';
 
 const TickerSidebar = ({ 
   tickers, 
   selectedTicker, 
   onTickerSelect, 
-  onAddTicker, 
   onRemoveTicker,
   summaries 
 }) => {
-  const [newTicker, setNewTicker] = useState('');
-  const [isAdding, setIsAdding] = useState(false);
-  const [showSuggestions, setShowSuggestions] = useState(false);
-
-  // Popular stock suggestions
-  const suggestedTickers = [
-    'AMZN', 'MSFT', 'TSLA', 'GOOGL', 'AAPL', 'META', 'NFLX', 'NVDA', 
-    'AMD', 'BABA', 'CRM', 'ORCL', 'ADBE', 'PYPL', 'SHOP', 'ZOOM',
-    'DIS', 'BA', 'JPM', 'V', 'MA', 'WMT', 'PG', 'KO'
-  ].filter(ticker => !tickers.includes(ticker));
-
-  const handleAddTicker = async (e) => {
-    e.preventDefault();
-    if (newTicker.trim() && !tickers.includes(newTicker.toUpperCase())) {
-      setIsAdding(true);
-      await onAddTicker(newTicker.trim());
-      setNewTicker('');
-      setIsAdding(false);
-    }
-  };
 
   const getSentimentColor = (sentiment) => {
     switch (sentiment?.toLowerCase()) {
@@ -55,60 +33,7 @@ const TickerSidebar = ({
         <span className="ticker-count">{tickers.length}</span>
       </div>
 
-      <form onSubmit={handleAddTicker} className="add-ticker-form">
-        <div className="input-group">
-          <input
-            type="text"
-            value={newTicker}
-            onChange={(e) => setNewTicker(e.target.value.toUpperCase())}
-            onFocus={() => setShowSuggestions(true)}
-            placeholder="Add ticker (e.g., AAPL)"
-            className="ticker-input"
-            disabled={isAdding}
-          />
-          <button 
-            type="submit" 
-            className="add-btn"
-            disabled={isAdding || !newTicker.trim()}
-          >
-            {isAdding ? (
-              <RefreshCw className="icon spinning" />
-            ) : (
-              <Plus className="icon" />
-            )}
-          </button>
-        </div>
-        
-        {showSuggestions && suggestedTickers.length > 0 && (
-          <div className="suggestions-panel">
-            <div className="suggestions-header">
-              <span>Suggested Tickers</span>
-              <button 
-                type="button"
-                onClick={() => setShowSuggestions(false)}
-                className="close-suggestions"
-              >
-                ×
-              </button>
-            </div>
-            <div className="suggestions-grid">
-              {suggestedTickers.slice(0, 12).map(ticker => (
-                <button
-                  key={ticker}
-                  type="button"
-                  onClick={() => {
-                    setNewTicker(ticker);
-                    setShowSuggestions(false);
-                  }}
-                  className="suggestion-item"
-                >
-                  {ticker}
-                </button>
-              ))}
-            </div>
-          </div>
-        )}
-      </form>
+
 
       <div className="ticker-list">
         {tickers.map((ticker) => {
@@ -180,8 +105,8 @@ const TickerSidebar = ({
 
       {tickers.length === 0 && (
         <div className="empty-state">
-          <p>No tickers added yet</p>
-          <p className="empty-subtitle">Add a stock symbol to get started</p>
+          <p>No tickers in watchlist</p>
+          <p className="empty-subtitle">Use "Add New Ticker" section above to get started</p>
         </div>
       )}
     </div>

@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import './App.css';
 import TickerSidebar from './components/TickerSidebar';
+import AddTickerSection from './components/AddTickerSection';
 import NewsSummary from './components/NewsSummary';
 import SourcesList from './components/SourcesList_new';
 import Header from './components/Header';
@@ -15,7 +16,7 @@ function App() {
   const [refreshing, setRefreshing] = useState(false);
 
   const API_BASE_URL = import.meta.env.VITE_API_URL || (
-    import.meta.env.PROD ? '' : 'http://localhost:3001'
+    import.meta.env.PROD ? '/api' : 'http://localhost:3001'
   );
 
   useEffect(() => {
@@ -250,11 +251,17 @@ function App() {
 
         <div className="right-panel">
           <ErrorBoundary>
+            <AddTickerSection
+              onAddTicker={addTicker}
+              existingTickers={tickers}
+            />
+          </ErrorBoundary>
+          
+          <ErrorBoundary>
             <TickerSidebar
               tickers={tickers}
               selectedTicker={selectedTicker}
               onTickerSelect={setSelectedTicker}
-              onAddTicker={addTicker}
               onRemoveTicker={removeTicker}
               summaries={summaries}
             />

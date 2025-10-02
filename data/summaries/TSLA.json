@@ -2,6 +2,576 @@
   {
     "ticker": "TSLA",
     "summary": {
+      "summary": "Tesla announced record Q3 2025 deliveries of 497,099 EVs, a significant achievement that was, however, immediately followed by a decline in TSLA stock. This counterintuitive market reaction appears to be primarily driven by the underlying factor of expiring tax credits, which likely pulled forward demand into Q3, suggesting potential headwinds for Q4 and beyond. Investors seem to be looking past the headline delivery number to the sustainability of demand and the impact of the expiring incentives.",
+      "keyPoints": [
+        "Tesla delivered a record 497,099 EVs in Q3 2025.",
+        "Despite record deliveries, TSLA stock turned lower, primarily due to concerns over demand pull-forward from expiring tax credits.",
+        "A class-action lawsuit was filed against Tesla, alleging false statements regarding autonomous driving technology between April 2023 and June 2025.",
+        "Wedbush analyst Dan Ives views Tesla as the 'most undervalued AI stock' due to its potential in autonomous driving and robotics.",
+        "The upcoming Q3 earnings report is critical for TSLA, following a 100%+ stock surge in 2025, with wide divergence between bullish and bearish price targets."
+      ],
+      "sentiment": "negative",
+      "sentimentReasoning": "While record Q3 deliveries are a positive headline, the immediate negative stock reaction and the attributed cause (expiring tax credits implying pulled-forward demand) suggest investor apprehension about future growth. The class-action lawsuit further adds significant legal and reputational risk, collectively outweighing the bullish analyst call.",
+      "whatChangedToday": "Today's primary new development is the official announcement of Tesla's record Q3 2025 vehicle deliveries, reaching 497,099 units. Crucially, despite this record, the TSLA stock immediately reversed lower. This market reaction indicates that investors are discounting the raw delivery number, likely focusing on the *reason* for the surge—expiring tax credits—which implies a potential reduction in demand for future quarters as these incentives vanish. This marks a shift from potentially optimistic expectations for delivery sustainability to a more cautious outlook on future demand. The class-action lawsuit, while filed yesterday, is also newly impacting investor sentiment.",
+      "marketImplications": "The market's negative reaction to record deliveries signals a shift in investor focus from absolute growth to sustainable, profitable growth. The pull-forward of demand due to expiring tax credits implies a challenging Q4 2025 and potentially 2026 for delivery numbers, which could put downward pressure on the stock. The class-action lawsuit introduces a new layer of uncertainty and potential liability, potentially dampening investor confidence, especially regarding Tesla's long-term autonomous driving ambitions, which are a key part of its valuation as an AI company. While analyst Dan Ives's bullish call provides some support, the immediate market sentiment appears to be prioritizing the near-term demand challenges and legal risks. The upcoming Q3 earnings report will be critical in shaping the narrative, as investors will scrutinize margins, guidance, and any commentary on demand trends and the lawsuit. Failure to provide a clear path for sustained growth post-tax credit expiration could lead to further significant downside, potentially towards the $300 bear target. Conversely, strong guidance or a positive outlook on new models/AI could stabilize the stock, but the current signals are concerning.",
+      "marketImpact": "high",
+      "confidence": "high",
+      "articlesAnalyzed": 9,
+      "totalArticles": 9,
+      "historicalArticlesUsed": 0,
+      "lastUpdated": "2025-10-02T17:04:25.423Z",
+      "ticker": "TSLA"
+    },
+    "articles": [
+      {
+        "title": "Tesla Delivered Record 497,099 EVs In Q3 On Expiring Tax Credits; TSLA Stock Turns Lower (Live)",
+        "url": "https://finance.yahoo.com/m/44bc136a-35c6-33e6-87cd-8632dd910b3a/tesla-delivered-record.html",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T17:04:01.556Z",
+        "content": "Tesla Delivered Record 497,099 EVs In Q3 On Expiring Tax Credits; TSLA Stock Turns Lower (Live)",
+        "dateText": "11:11AM"
+      },
+      {
+        "title": "Tesla Delivers Record 497,099 EVs In Q3 On Expiring Tax Credits. TSLA Stock Reverses Lower.",
+        "url": "https://finance.yahoo.com/m/44bc136a-35c6-33e6-87cd-8632dd910b3a/tesla-delivers-record-497%2C099.html",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T17:04:01.555Z",
+        "content": "Tesla Delivers Record 497,099 EVs In Q3 On Expiring Tax Credits. TSLA Stock Reverses Lower.",
+        "dateText": "12:50PM"
+      },
+      {
+        "title": "TSLA",
+        "url": "/symbols/NASDAQ-TSLA/",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T17:04:00.328Z",
+        "content": "TSLA"
+      },
+      {
+        "title": "TSLA news",
+        "url": "https://in.tradingview.com/symbols/NASDAQ-TSLA/news/",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T17:04:00.328Z",
+        "content": "TSLA news"
+      },
+      {
+        "title": "TSLA INVESTOR ALERT: Bronstein, Gewirtz & Grossman LLC Announces that Tesla, Inc. Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit",
+        "url": "https://www.globenewswire.com/news-release/2025/10/01/3159787/9788/en/TSLA-INVESTOR-ALERT-Bronstein-Gewirtz-Grossman-LLC-Announces-that-Tesla-Inc-Investors-with-Substantial-Losses-Have-Opportunity-to-Lead-Class-Action-Lawsuit.html",
+        "source": "Polygon",
+        "provider": "GlobeNewswire Inc.",
+        "publishedAt": "2025-10-01T16:00:00Z",
+        "content": "A class action lawsuit has been filed against Tesla, alleging false statements about autonomous driving technology and potential regulatory risks during the period of April 19, 2023 to June 22, 2025.",
+        "author": "Bronstein, Gewirtz & Grossman Llc",
+        "tickers": [
+          "TSLA"
+        ]
+      },
+      {
+        "title": "The Best AI Stock to Buy Right Now, According to a Wall Street Analyst (Hint: Not Nvidia or Palantir)",
+        "url": "https://www.fool.com/investing/2025/10/01/best-ai-stock-buy-now-wall-street-nvidia-palantir/?source=iedfolrf0000001",
+        "source": "Polygon",
+        "provider": "The Motley Fool",
+        "publishedAt": "2025-10-01T08:12:00Z",
+        "content": "Wedbush analyst Dan Ives believes Tesla is the most undervalued AI stock, citing significant potential in autonomous driving and robotics, despite recent market share losses and financial challenges.",
+        "author": "Trevor Jennewine",
+        "tickers": [
+          "TSLA",
+          "NVDA",
+          "PLTR",
+          "BYDDY"
+        ]
+      },
+      {
+        "title": "Tesla Earnings Loom: Bulls Eye $600, Bears Warn of $300",
+        "url": "https://www.investing.com/analysis/tesla-earnings-loom-bulls-eye-600-bears-warn-of-300-200667732",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-30T12:06:00Z",
+        "content": "Tesla stock has surged over 100% in 2025, reaching $440, with bulls targeting $600 and bears warning of potential drop to $300. The upcoming Q3 earnings report will be crucial in determining the stock's trajectory, with key focus on AI initiatives, autonomous driving, and robotics.",
+        "author": "Sam Quirke",
+        "tickers": [
+          "TSLA"
+        ]
+      },
+      {
+        "title": "S&P 500 Earnings: Tech EPS Expectations Point to Strong Q3 Results",
+        "url": "https://www.investing.com/analysis/sp-500-earnings-tech-eps-expectations-point-to-strong-q3-results-200667620",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-29T08:19:00Z",
+        "content": "Technology sector earnings are showing strong growth expectations for Q3 2025, with potential peak earnings and significant AI-driven investment impacting sector performance.",
+        "author": "Brian Gilmartin",
+        "tickers": [
+          "AMZN",
+          "TSLA",
+          "NKE",
+          "MSFT",
+          "AAPL"
+        ]
+      },
+      {
+        "title": "S&P 500: Tech-Led Rally Masks Weakness in Broader Sectors Ahead of Earnings Season",
+        "url": "https://www.investing.com/analysis/sp-500-techled-rally-masks-weakness-in-broader-sectors-ahead-of-earnings-season-200667487",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-25T11:02:00Z",
+        "content": "The S&P 500 is experiencing a tech-driven rally that masks underlying sector weaknesses, with investors anticipating the upcoming earnings season and potential market valuation challenges outside the technology sector.",
+        "author": "Fawad Razaqzada",
+        "tickers": [
+          "TSLA",
+          "NVDA",
+          "AMZN",
+          "AAPL"
+        ]
+      }
+    ],
+    "timestamp": "2025-10-02T17:04:25.424Z",
+    "date": "2025-10-02",
+    "sources": [
+      {
+        "url": "https://finance.yahoo.com/m/44bc136a-35c6-33e6-87cd-8632dd910b3a/tesla-delivered-record.html",
+        "headline": "Tesla Delivered Record 497,099 EVs In Q3 On Expiring Tax Credits; TSLA Stock Turns Lower (Live)",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T17:04:01.556Z"
+      },
+      {
+        "url": "https://finance.yahoo.com/m/44bc136a-35c6-33e6-87cd-8632dd910b3a/tesla-delivers-record-497%2C099.html",
+        "headline": "Tesla Delivers Record 497,099 EVs In Q3 On Expiring Tax Credits. TSLA Stock Reverses Lower.",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T17:04:01.555Z"
+      },
+      {
+        "url": "/symbols/NASDAQ-TSLA/",
+        "headline": "TSLA",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T17:04:00.328Z"
+      },
+      {
+        "url": "https://in.tradingview.com/symbols/NASDAQ-TSLA/news/",
+        "headline": "TSLA news",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T17:04:00.328Z"
+      },
+      {
+        "url": "https://www.globenewswire.com/news-release/2025/10/01/3159787/9788/en/TSLA-INVESTOR-ALERT-Bronstein-Gewirtz-Grossman-LLC-Announces-that-Tesla-Inc-Investors-with-Substantial-Losses-Have-Opportunity-to-Lead-Class-Action-Lawsuit.html",
+        "headline": "TSLA INVESTOR ALERT: Bronstein, Gewirtz & Grossman LLC Announces that Tesla, Inc. Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit",
+        "source": "Polygon",
+        "provider": "GlobeNewswire Inc.",
+        "publishedAt": "2025-10-01T16:00:00Z"
+      },
+      {
+        "url": "https://www.fool.com/investing/2025/10/01/best-ai-stock-buy-now-wall-street-nvidia-palantir/?source=iedfolrf0000001",
+        "headline": "The Best AI Stock to Buy Right Now, According to a Wall Street Analyst (Hint: Not Nvidia or Palantir)",
+        "source": "Polygon",
+        "provider": "The Motley Fool",
+        "publishedAt": "2025-10-01T08:12:00Z"
+      },
+      {
+        "url": "https://www.investing.com/analysis/tesla-earnings-loom-bulls-eye-600-bears-warn-of-300-200667732",
+        "headline": "Tesla Earnings Loom: Bulls Eye $600, Bears Warn of $300",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-30T12:06:00Z"
+      },
+      {
+        "url": "https://www.investing.com/analysis/sp-500-earnings-tech-eps-expectations-point-to-strong-q3-results-200667620",
+        "headline": "S&P 500 Earnings: Tech EPS Expectations Point to Strong Q3 Results",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-29T08:19:00Z"
+      },
+      {
+        "url": "https://www.investing.com/analysis/sp-500-techled-rally-masks-weakness-in-broader-sectors-ahead-of-earnings-season-200667487",
+        "headline": "S&P 500: Tech-Led Rally Masks Weakness in Broader Sectors Ahead of Earnings Season",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-25T11:02:00Z"
+      }
+    ],
+    "isProcessing": false,
+    "meta": {
+      "totalArticlesFound": 9,
+      "articlesAnalyzed": 9,
+      "historicalArticlesUsed": 0,
+      "daysOfHistoryAnalyzed": 7,
+      "processingTime": "2025-10-02T17:04:25.424Z",
+      "processingStatus": "complete",
+      "enhancedFeatures": {
+        "tradingViewScraping": true,
+        "finvizEnhanced": true,
+        "polygonAPI": true,
+        "geminiAnalysis": true,
+        "historicalComparison": true
+      }
+    },
+    "id": 1759424665425
+  },
+  {
+    "ticker": "TSLA",
+    "summary": null,
+    "articles": [
+      {
+        "title": "Tesla Delivered Record 497,099 EVs In Q3 On Expiring Tax Credits; TSLA Stock Turns Lower (Live)",
+        "url": "https://finance.yahoo.com/m/44bc136a-35c6-33e6-87cd-8632dd910b3a/tesla-delivered-record.html",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T17:04:01.556Z",
+        "content": "Tesla Delivered Record 497,099 EVs In Q3 On Expiring Tax Credits; TSLA Stock Turns Lower (Live)",
+        "dateText": "11:11AM"
+      },
+      {
+        "title": "Tesla Delivers Record 497,099 EVs In Q3 On Expiring Tax Credits. TSLA Stock Reverses Lower.",
+        "url": "https://finance.yahoo.com/m/44bc136a-35c6-33e6-87cd-8632dd910b3a/tesla-delivers-record-497%2C099.html",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T17:04:01.555Z",
+        "content": "Tesla Delivers Record 497,099 EVs In Q3 On Expiring Tax Credits. TSLA Stock Reverses Lower.",
+        "dateText": "12:50PM"
+      },
+      {
+        "title": "TSLA",
+        "url": "/symbols/NASDAQ-TSLA/",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T17:04:00.328Z",
+        "content": "TSLA"
+      },
+      {
+        "title": "TSLA news",
+        "url": "https://in.tradingview.com/symbols/NASDAQ-TSLA/news/",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T17:04:00.328Z",
+        "content": "TSLA news"
+      },
+      {
+        "title": "TSLA INVESTOR ALERT: Bronstein, Gewirtz & Grossman LLC Announces that Tesla, Inc. Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit",
+        "url": "https://www.globenewswire.com/news-release/2025/10/01/3159787/9788/en/TSLA-INVESTOR-ALERT-Bronstein-Gewirtz-Grossman-LLC-Announces-that-Tesla-Inc-Investors-with-Substantial-Losses-Have-Opportunity-to-Lead-Class-Action-Lawsuit.html",
+        "source": "Polygon",
+        "provider": "GlobeNewswire Inc.",
+        "publishedAt": "2025-10-01T16:00:00Z",
+        "content": "A class action lawsuit has been filed against Tesla, alleging false statements about autonomous driving technology and potential regulatory risks during the period of April 19, 2023 to June 22, 2025.",
+        "author": "Bronstein, Gewirtz & Grossman Llc",
+        "tickers": [
+          "TSLA"
+        ]
+      },
+      {
+        "title": "The Best AI Stock to Buy Right Now, According to a Wall Street Analyst (Hint: Not Nvidia or Palantir)",
+        "url": "https://www.fool.com/investing/2025/10/01/best-ai-stock-buy-now-wall-street-nvidia-palantir/?source=iedfolrf0000001",
+        "source": "Polygon",
+        "provider": "The Motley Fool",
+        "publishedAt": "2025-10-01T08:12:00Z",
+        "content": "Wedbush analyst Dan Ives believes Tesla is the most undervalued AI stock, citing significant potential in autonomous driving and robotics, despite recent market share losses and financial challenges.",
+        "author": "Trevor Jennewine",
+        "tickers": [
+          "TSLA",
+          "NVDA",
+          "PLTR",
+          "BYDDY"
+        ]
+      },
+      {
+        "title": "Tesla Earnings Loom: Bulls Eye $600, Bears Warn of $300",
+        "url": "https://www.investing.com/analysis/tesla-earnings-loom-bulls-eye-600-bears-warn-of-300-200667732",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-30T12:06:00Z",
+        "content": "Tesla stock has surged over 100% in 2025, reaching $440, with bulls targeting $600 and bears warning of potential drop to $300. The upcoming Q3 earnings report will be crucial in determining the stock's trajectory, with key focus on AI initiatives, autonomous driving, and robotics.",
+        "author": "Sam Quirke",
+        "tickers": [
+          "TSLA"
+        ]
+      },
+      {
+        "title": "S&P 500 Earnings: Tech EPS Expectations Point to Strong Q3 Results",
+        "url": "https://www.investing.com/analysis/sp-500-earnings-tech-eps-expectations-point-to-strong-q3-results-200667620",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-29T08:19:00Z",
+        "content": "Technology sector earnings are showing strong growth expectations for Q3 2025, with potential peak earnings and significant AI-driven investment impacting sector performance.",
+        "author": "Brian Gilmartin",
+        "tickers": [
+          "AMZN",
+          "TSLA",
+          "NKE",
+          "MSFT",
+          "AAPL"
+        ]
+      },
+      {
+        "title": "S&P 500: Tech-Led Rally Masks Weakness in Broader Sectors Ahead of Earnings Season",
+        "url": "https://www.investing.com/analysis/sp-500-techled-rally-masks-weakness-in-broader-sectors-ahead-of-earnings-season-200667487",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-25T11:02:00Z",
+        "content": "The S&P 500 is experiencing a tech-driven rally that masks underlying sector weaknesses, with investors anticipating the upcoming earnings season and potential market valuation challenges outside the technology sector.",
+        "author": "Fawad Razaqzada",
+        "tickers": [
+          "TSLA",
+          "NVDA",
+          "AMZN",
+          "AAPL"
+        ]
+      }
+    ],
+    "timestamp": "2025-10-02T17:04:01.557Z",
+    "date": "2025-10-02",
+    "sources": [
+      {
+        "url": "https://finance.yahoo.com/m/44bc136a-35c6-33e6-87cd-8632dd910b3a/tesla-delivered-record.html",
+        "headline": "Tesla Delivered Record 497,099 EVs In Q3 On Expiring Tax Credits; TSLA Stock Turns Lower (Live)",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T17:04:01.556Z"
+      },
+      {
+        "url": "https://finance.yahoo.com/m/44bc136a-35c6-33e6-87cd-8632dd910b3a/tesla-delivers-record-497%2C099.html",
+        "headline": "Tesla Delivers Record 497,099 EVs In Q3 On Expiring Tax Credits. TSLA Stock Reverses Lower.",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T17:04:01.555Z"
+      },
+      {
+        "url": "/symbols/NASDAQ-TSLA/",
+        "headline": "TSLA",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T17:04:00.328Z"
+      },
+      {
+        "url": "https://in.tradingview.com/symbols/NASDAQ-TSLA/news/",
+        "headline": "TSLA news",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T17:04:00.328Z"
+      },
+      {
+        "url": "https://www.globenewswire.com/news-release/2025/10/01/3159787/9788/en/TSLA-INVESTOR-ALERT-Bronstein-Gewirtz-Grossman-LLC-Announces-that-Tesla-Inc-Investors-with-Substantial-Losses-Have-Opportunity-to-Lead-Class-Action-Lawsuit.html",
+        "headline": "TSLA INVESTOR ALERT: Bronstein, Gewirtz & Grossman LLC Announces that Tesla, Inc. Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit",
+        "source": "Polygon",
+        "provider": "GlobeNewswire Inc.",
+        "publishedAt": "2025-10-01T16:00:00Z"
+      },
+      {
+        "url": "https://www.fool.com/investing/2025/10/01/best-ai-stock-buy-now-wall-street-nvidia-palantir/?source=iedfolrf0000001",
+        "headline": "The Best AI Stock to Buy Right Now, According to a Wall Street Analyst (Hint: Not Nvidia or Palantir)",
+        "source": "Polygon",
+        "provider": "The Motley Fool",
+        "publishedAt": "2025-10-01T08:12:00Z"
+      },
+      {
+        "url": "https://www.investing.com/analysis/tesla-earnings-loom-bulls-eye-600-bears-warn-of-300-200667732",
+        "headline": "Tesla Earnings Loom: Bulls Eye $600, Bears Warn of $300",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-30T12:06:00Z"
+      },
+      {
+        "url": "https://www.investing.com/analysis/sp-500-earnings-tech-eps-expectations-point-to-strong-q3-results-200667620",
+        "headline": "S&P 500 Earnings: Tech EPS Expectations Point to Strong Q3 Results",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-29T08:19:00Z"
+      },
+      {
+        "url": "https://www.investing.com/analysis/sp-500-techled-rally-masks-weakness-in-broader-sectors-ahead-of-earnings-season-200667487",
+        "headline": "S&P 500: Tech-Led Rally Masks Weakness in Broader Sectors Ahead of Earnings Season",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-25T11:02:00Z"
+      }
+    ],
+    "isProcessing": true,
+    "meta": {
+      "totalArticlesFound": 9,
+      "articlesAnalyzed": 0,
+      "processingStatus": "generating_ai_summary"
+    },
+    "id": 1759424641563
+  },
+  {
+    "ticker": "TSLA",
+    "summary": null,
+    "articles": [
+      {
+        "title": "Tesla Delivered Record 497,099 EVs In Q3 On Expiring Tax Credits; TSLA Stock Turns Lower (Live)",
+        "url": "https://finance.yahoo.com/m/44bc136a-35c6-33e6-87cd-8632dd910b3a/tesla-delivered-record.html",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T17:04:01.556Z",
+        "content": "Tesla Delivered Record 497,099 EVs In Q3 On Expiring Tax Credits; TSLA Stock Turns Lower (Live)",
+        "dateText": "11:11AM"
+      },
+      {
+        "title": "Tesla Delivers Record 497,099 EVs In Q3 On Expiring Tax Credits. TSLA Stock Reverses Lower.",
+        "url": "https://finance.yahoo.com/m/44bc136a-35c6-33e6-87cd-8632dd910b3a/tesla-delivers-record-497%2C099.html",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T17:04:01.555Z",
+        "content": "Tesla Delivers Record 497,099 EVs In Q3 On Expiring Tax Credits. TSLA Stock Reverses Lower.",
+        "dateText": "12:50PM"
+      },
+      {
+        "title": "TSLA",
+        "url": "/symbols/NASDAQ-TSLA/",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T17:04:00.328Z",
+        "content": "TSLA"
+      },
+      {
+        "title": "TSLA news",
+        "url": "https://in.tradingview.com/symbols/NASDAQ-TSLA/news/",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T17:04:00.328Z",
+        "content": "TSLA news"
+      },
+      {
+        "title": "TSLA INVESTOR ALERT: Bronstein, Gewirtz & Grossman LLC Announces that Tesla, Inc. Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit",
+        "url": "https://www.globenewswire.com/news-release/2025/10/01/3159787/9788/en/TSLA-INVESTOR-ALERT-Bronstein-Gewirtz-Grossman-LLC-Announces-that-Tesla-Inc-Investors-with-Substantial-Losses-Have-Opportunity-to-Lead-Class-Action-Lawsuit.html",
+        "source": "Polygon",
+        "provider": "GlobeNewswire Inc.",
+        "publishedAt": "2025-10-01T16:00:00Z",
+        "content": "A class action lawsuit has been filed against Tesla, alleging false statements about autonomous driving technology and potential regulatory risks during the period of April 19, 2023 to June 22, 2025.",
+        "author": "Bronstein, Gewirtz & Grossman Llc",
+        "tickers": [
+          "TSLA"
+        ]
+      },
+      {
+        "title": "The Best AI Stock to Buy Right Now, According to a Wall Street Analyst (Hint: Not Nvidia or Palantir)",
+        "url": "https://www.fool.com/investing/2025/10/01/best-ai-stock-buy-now-wall-street-nvidia-palantir/?source=iedfolrf0000001",
+        "source": "Polygon",
+        "provider": "The Motley Fool",
+        "publishedAt": "2025-10-01T08:12:00Z",
+        "content": "Wedbush analyst Dan Ives believes Tesla is the most undervalued AI stock, citing significant potential in autonomous driving and robotics, despite recent market share losses and financial challenges.",
+        "author": "Trevor Jennewine",
+        "tickers": [
+          "TSLA",
+          "NVDA",
+          "PLTR",
+          "BYDDY"
+        ]
+      },
+      {
+        "title": "Tesla Earnings Loom: Bulls Eye $600, Bears Warn of $300",
+        "url": "https://www.investing.com/analysis/tesla-earnings-loom-bulls-eye-600-bears-warn-of-300-200667732",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-30T12:06:00Z",
+        "content": "Tesla stock has surged over 100% in 2025, reaching $440, with bulls targeting $600 and bears warning of potential drop to $300. The upcoming Q3 earnings report will be crucial in determining the stock's trajectory, with key focus on AI initiatives, autonomous driving, and robotics.",
+        "author": "Sam Quirke",
+        "tickers": [
+          "TSLA"
+        ]
+      },
+      {
+        "title": "S&P 500 Earnings: Tech EPS Expectations Point to Strong Q3 Results",
+        "url": "https://www.investing.com/analysis/sp-500-earnings-tech-eps-expectations-point-to-strong-q3-results-200667620",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-29T08:19:00Z",
+        "content": "Technology sector earnings are showing strong growth expectations for Q3 2025, with potential peak earnings and significant AI-driven investment impacting sector performance.",
+        "author": "Brian Gilmartin",
+        "tickers": [
+          "AMZN",
+          "TSLA",
+          "NKE",
+          "MSFT",
+          "AAPL"
+        ]
+      },
+      {
+        "title": "S&P 500: Tech-Led Rally Masks Weakness in Broader Sectors Ahead of Earnings Season",
+        "url": "https://www.investing.com/analysis/sp-500-techled-rally-masks-weakness-in-broader-sectors-ahead-of-earnings-season-200667487",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-25T11:02:00Z",
+        "content": "The S&P 500 is experiencing a tech-driven rally that masks underlying sector weaknesses, with investors anticipating the upcoming earnings season and potential market valuation challenges outside the technology sector.",
+        "author": "Fawad Razaqzada",
+        "tickers": [
+          "TSLA",
+          "NVDA",
+          "AMZN",
+          "AAPL"
+        ]
+      }
+    ],
+    "timestamp": "2025-10-02T17:04:01.557Z",
+    "date": "2025-10-02",
+    "sources": [
+      {
+        "url": "https://finance.yahoo.com/m/44bc136a-35c6-33e6-87cd-8632dd910b3a/tesla-delivered-record.html",
+        "headline": "Tesla Delivered Record 497,099 EVs In Q3 On Expiring Tax Credits; TSLA Stock Turns Lower (Live)",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T17:04:01.556Z"
+      },
+      {
+        "url": "https://finance.yahoo.com/m/44bc136a-35c6-33e6-87cd-8632dd910b3a/tesla-delivers-record-497%2C099.html",
+        "headline": "Tesla Delivers Record 497,099 EVs In Q3 On Expiring Tax Credits. TSLA Stock Reverses Lower.",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T17:04:01.555Z"
+      },
+      {
+        "url": "/symbols/NASDAQ-TSLA/",
+        "headline": "TSLA",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T17:04:00.328Z"
+      },
+      {
+        "url": "https://in.tradingview.com/symbols/NASDAQ-TSLA/news/",
+        "headline": "TSLA news",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T17:04:00.328Z"
+      },
+      {
+        "url": "https://www.globenewswire.com/news-release/2025/10/01/3159787/9788/en/TSLA-INVESTOR-ALERT-Bronstein-Gewirtz-Grossman-LLC-Announces-that-Tesla-Inc-Investors-with-Substantial-Losses-Have-Opportunity-to-Lead-Class-Action-Lawsuit.html",
+        "headline": "TSLA INVESTOR ALERT: Bronstein, Gewirtz & Grossman LLC Announces that Tesla, Inc. Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit",
+        "source": "Polygon",
+        "provider": "GlobeNewswire Inc.",
+        "publishedAt": "2025-10-01T16:00:00Z"
+      },
+      {
+        "url": "https://www.fool.com/investing/2025/10/01/best-ai-stock-buy-now-wall-street-nvidia-palantir/?source=iedfolrf0000001",
+        "headline": "The Best AI Stock to Buy Right Now, According to a Wall Street Analyst (Hint: Not Nvidia or Palantir)",
+        "source": "Polygon",
+        "provider": "The Motley Fool",
+        "publishedAt": "2025-10-01T08:12:00Z"
+      },
+      {
+        "url": "https://www.investing.com/analysis/tesla-earnings-loom-bulls-eye-600-bears-warn-of-300-200667732",
+        "headline": "Tesla Earnings Loom: Bulls Eye $600, Bears Warn of $300",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-30T12:06:00Z"
+      },
+      {
+        "url": "https://www.investing.com/analysis/sp-500-earnings-tech-eps-expectations-point-to-strong-q3-results-200667620",
+        "headline": "S&P 500 Earnings: Tech EPS Expectations Point to Strong Q3 Results",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-29T08:19:00Z"
+      },
+      {
+        "url": "https://www.investing.com/analysis/sp-500-techled-rally-masks-weakness-in-broader-sectors-ahead-of-earnings-season-200667487",
+        "headline": "S&P 500: Tech-Led Rally Masks Weakness in Broader Sectors Ahead of Earnings Season",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-25T11:02:00Z"
+      }
+    ],
+    "isProcessing": true,
+    "meta": {
+      "totalArticlesFound": 9,
+      "articlesAnalyzed": 0,
+      "processingStatus": "collecting_news"
+    },
+    "id": 1759424641560
+  },
+  {
+    "ticker": "TSLA",
+    "summary": {
       "summary": "Tesla announced record Q3 deliveries of 497,099 electric vehicles, a significant milestone for the company. However, despite this achievement, TSLA stock experienced a decline on the news. This adverse market reaction suggests that investors may be factoring in the impact of expiring tax credits, which likely pulled forward some demand into Q3, raising concerns about the sustainability of this growth rate in subsequent quarters. It also indicates that the record deliveries might have fallen short of the market's elevated expectations, or other broader concerns are weighing on investor sentiment, overshadowing the headline record.",
       "keyPoints": [
         "Tesla reported record Q3 deliveries of 497,099 EVs, potentially driven by expiring tax credits.",
@@ -785,374 +1355,5 @@
       }
     },
     "id": 1759396049739
-  },
-  {
-    "ticker": "TSLA",
-    "summary": {
-      "summary": "...",
-      "keyPoints": [
-        "Market activity continues",
-        "News developments ongoing",
-        "Investor attention warranted"
-      ],
-      "sentiment": "neutral",
-      "whatChangedToday": "Recent developments indicate continued market activity.",
-      "marketImplications": "Market implications remain to be determined.",
-      "articlesAnalyzed": 10,
-      "totalArticles": 10,
-      "lastUpdated": "2025-10-02T09:01:34.248Z",
-      "ticker": "TSLA",
-      "fallback": true
-    },
-    "articles": [
-      {
-        "title": "TSLA",
-        "url": "/symbols/NASDAQ-TSLA/",
-        "source": "TradingView",
-        "provider": "TradingView",
-        "publishedAt": "2025-10-02T09:01:14.867Z",
-        "content": "TSLA"
-      },
-      {
-        "title": "TSLA news",
-        "url": "https://in.tradingview.com/symbols/NASDAQ-TSLA/news/",
-        "source": "TradingView",
-        "provider": "TradingView",
-        "publishedAt": "2025-10-02T09:01:14.867Z",
-        "content": "TSLA news"
-      },
-      {
-        "title": "Analyst Report: Tesla, Inc.",
-        "url": "https://finance.yahoo.com/m/0acbb367-73bf-3842-a70b-34a2b128753e/analyst-report%3A-tesla%2C-inc..html",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T09:01:13.322Z",
-        "content": "Analyst Report: Tesla, Inc.",
-        "dateText": "06:44PM"
-      },
-      {
-        "title": "Analyst Explains Why He Downgraded Tesla (TSLA) to Sell Ahead of Upcoming Earnings",
-        "url": "/news/181467/analyst-explains-why-he-downgraded-tesla-tsla-to-sell-ahead-of-upcoming-earnings",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T09:01:13.322Z",
-        "content": "Analyst Explains Why He Downgraded Tesla (TSLA) to Sell Ahead of Upcoming Earnings",
-        "dateText": "04:31PM"
-      },
-      {
-        "title": "Unusual Tesla Call Options Volume Shows Investors Bullish on TSLA",
-        "url": "https://finance.yahoo.com/m/30cdf59c-a044-3901-a15b-d8eaf537ba92/unusual-tesla-call-options.html",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T09:01:13.322Z",
-        "content": "Unusual Tesla Call Options Volume Shows Investors Bullish on TSLA",
-        "dateText": "01:30PM"
-      },
-      {
-        "title": "TSLA INVESTOR ALERT: Bronstein, Gewirtz & Grossman LLC Announces that Tesla, Inc. Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit",
-        "url": "https://www.globenewswire.com/news-release/2025/10/01/3159787/9788/en/TSLA-INVESTOR-ALERT-Bronstein-Gewirtz-Grossman-LLC-Announces-that-Tesla-Inc-Investors-with-Substantial-Losses-Have-Opportunity-to-Lead-Class-Action-Lawsuit.html",
-        "source": "Polygon",
-        "provider": "GlobeNewswire Inc.",
-        "publishedAt": "2025-10-01T16:00:00Z",
-        "content": "A class action lawsuit has been filed against Tesla, alleging false statements about autonomous driving technology and potential regulatory risks during the period of April 19, 2023 to June 22, 2025.",
-        "author": "Bronstein, Gewirtz & Grossman Llc",
-        "tickers": [
-          "TSLA"
-        ]
-      },
-      {
-        "title": "The Best AI Stock to Buy Right Now, According to a Wall Street Analyst (Hint: Not Nvidia or Palantir)",
-        "url": "https://www.fool.com/investing/2025/10/01/best-ai-stock-buy-now-wall-street-nvidia-palantir/?source=iedfolrf0000001",
-        "source": "Polygon",
-        "provider": "The Motley Fool",
-        "publishedAt": "2025-10-01T08:12:00Z",
-        "content": "Wedbush analyst Dan Ives believes Tesla is the most undervalued AI stock, citing significant potential in autonomous driving and robotics, despite recent market share losses and financial challenges.",
-        "author": "Trevor Jennewine",
-        "tickers": [
-          "TSLA",
-          "NVDA",
-          "PLTR",
-          "BYDDY"
-        ]
-      },
-      {
-        "title": "Tesla Earnings Loom: Bulls Eye $600, Bears Warn of $300",
-        "url": "https://www.investing.com/analysis/tesla-earnings-loom-bulls-eye-600-bears-warn-of-300-200667732",
-        "source": "Polygon",
-        "provider": "Investing.com",
-        "publishedAt": "2025-09-30T12:06:00Z",
-        "content": "Tesla stock has surged over 100% in 2025, reaching $440, with bulls targeting $600 and bears warning of potential drop to $300. The upcoming Q3 earnings report will be crucial in determining the stock's trajectory, with key focus on AI initiatives, autonomous driving, and robotics.",
-        "author": "Sam Quirke",
-        "tickers": [
-          "TSLA"
-        ]
-      },
-      {
-        "title": "S&P 500 Earnings: Tech EPS Expectations Point to Strong Q3 Results",
-        "url": "https://www.investing.com/analysis/sp-500-earnings-tech-eps-expectations-point-to-strong-q3-results-200667620",
-        "source": "Polygon",
-        "provider": "Investing.com",
-        "publishedAt": "2025-09-29T08:19:00Z",
-        "content": "Technology sector earnings are showing strong growth expectations for Q3 2025, with potential peak earnings and significant AI-driven investment impacting sector performance.",
-        "author": "Brian Gilmartin",
-        "tickers": [
-          "AMZN",
-          "TSLA",
-          "NKE",
-          "MSFT",
-          "AAPL"
-        ]
-      },
-      {
-        "title": "S&P 500: Tech-Led Rally Masks Weakness in Broader Sectors Ahead of Earnings Season",
-        "url": "https://www.investing.com/analysis/sp-500-techled-rally-masks-weakness-in-broader-sectors-ahead-of-earnings-season-200667487",
-        "source": "Polygon",
-        "provider": "Investing.com",
-        "publishedAt": "2025-09-25T11:02:00Z",
-        "content": "The S&P 500 is experiencing a tech-driven rally that masks underlying sector weaknesses, with investors anticipating the upcoming earnings season and potential market valuation challenges outside the technology sector.",
-        "author": "Fawad Razaqzada",
-        "tickers": [
-          "TSLA",
-          "NVDA",
-          "AMZN",
-          "AAPL"
-        ]
-      }
-    ],
-    "timestamp": "2025-10-02T09:01:34.248Z",
-    "date": "2025-10-02",
-    "sources": [
-      {
-        "url": "/symbols/NASDAQ-TSLA/",
-        "headline": "TSLA",
-        "source": "TradingView",
-        "provider": "TradingView",
-        "publishedAt": "2025-10-02T09:01:14.867Z"
-      },
-      {
-        "url": "https://in.tradingview.com/symbols/NASDAQ-TSLA/news/",
-        "headline": "TSLA news",
-        "source": "TradingView",
-        "provider": "TradingView",
-        "publishedAt": "2025-10-02T09:01:14.867Z"
-      },
-      {
-        "url": "https://finance.yahoo.com/m/0acbb367-73bf-3842-a70b-34a2b128753e/analyst-report%3A-tesla%2C-inc..html",
-        "headline": "Analyst Report: Tesla, Inc.",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T09:01:13.322Z"
-      },
-      {
-        "url": "/news/181467/analyst-explains-why-he-downgraded-tesla-tsla-to-sell-ahead-of-upcoming-earnings",
-        "headline": "Analyst Explains Why He Downgraded Tesla (TSLA) to Sell Ahead of Upcoming Earnings",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T09:01:13.322Z"
-      },
-      {
-        "url": "https://finance.yahoo.com/m/30cdf59c-a044-3901-a15b-d8eaf537ba92/unusual-tesla-call-options.html",
-        "headline": "Unusual Tesla Call Options Volume Shows Investors Bullish on TSLA",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T09:01:13.322Z"
-      },
-      {
-        "url": "https://www.globenewswire.com/news-release/2025/10/01/3159787/9788/en/TSLA-INVESTOR-ALERT-Bronstein-Gewirtz-Grossman-LLC-Announces-that-Tesla-Inc-Investors-with-Substantial-Losses-Have-Opportunity-to-Lead-Class-Action-Lawsuit.html",
-        "headline": "TSLA INVESTOR ALERT: Bronstein, Gewirtz & Grossman LLC Announces that Tesla, Inc. Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit",
-        "source": "Polygon",
-        "provider": "GlobeNewswire Inc.",
-        "publishedAt": "2025-10-01T16:00:00Z"
-      },
-      {
-        "url": "https://www.fool.com/investing/2025/10/01/best-ai-stock-buy-now-wall-street-nvidia-palantir/?source=iedfolrf0000001",
-        "headline": "The Best AI Stock to Buy Right Now, According to a Wall Street Analyst (Hint: Not Nvidia or Palantir)",
-        "source": "Polygon",
-        "provider": "The Motley Fool",
-        "publishedAt": "2025-10-01T08:12:00Z"
-      },
-      {
-        "url": "https://www.investing.com/analysis/tesla-earnings-loom-bulls-eye-600-bears-warn-of-300-200667732",
-        "headline": "Tesla Earnings Loom: Bulls Eye $600, Bears Warn of $300",
-        "source": "Polygon",
-        "provider": "Investing.com",
-        "publishedAt": "2025-09-30T12:06:00Z"
-      },
-      {
-        "url": "https://www.investing.com/analysis/sp-500-earnings-tech-eps-expectations-point-to-strong-q3-results-200667620",
-        "headline": "S&P 500 Earnings: Tech EPS Expectations Point to Strong Q3 Results",
-        "source": "Polygon",
-        "provider": "Investing.com",
-        "publishedAt": "2025-09-29T08:19:00Z"
-      },
-      {
-        "url": "https://www.investing.com/analysis/sp-500-techled-rally-masks-weakness-in-broader-sectors-ahead-of-earnings-season-200667487",
-        "headline": "S&P 500: Tech-Led Rally Masks Weakness in Broader Sectors Ahead of Earnings Season",
-        "source": "Polygon",
-        "provider": "Investing.com",
-        "publishedAt": "2025-09-25T11:02:00Z"
-      }
-    ],
-    "meta": {
-      "totalArticlesFound": 10,
-      "articlesAnalyzed": 10,
-      "historicalArticlesUsed": 0,
-      "daysOfHistoryAnalyzed": 7,
-      "processingTime": "2025-10-02T09:01:34.248Z",
-      "enhancedFeatures": {
-        "tradingViewScraping": true,
-        "finvizEnhanced": true,
-        "polygonAPI": true,
-        "geminiAnalysis": true,
-        "historicalComparison": true
-      }
-    },
-    "id": 1759395694250
-  },
-  {
-    "summary": {
-      "summary": "Market analysis reveals 5 significant developments from Finviz. Key headlines include business operations, financial performance, and industry trends affecting market sentiment. Recent news suggests mixed outlook with medium potential market impact. Investors should monitor these developments closely as they may influence trading decisions and market movements.",
-      "whatChangedToday": "Today's developments show 5 new stories emerging from reliable financial sources. Compared to previous sessions, we observe mixed sentiment shift with notable coverage from Finviz. The market appears to be responding to ongoing business developments and industry trends.",
-      "keyPoints": [
-        "Tesla chief designer: Optimus robot will be a 'huge piece' of our world",
-        "Stock Market Today: Dow Tumbles On Shutdown, Surprise Jobs Data; Astera Labs, Nvidia, Tesla Drop ...",
-        "Stock Market Today: Dow Falls On Shutdown, Surprise Jobs Data; Astera, Nvidia, Tesla Drop (Live C...",
-        "Netflix Stock Slides. Elon Musk Says He's Canceling His Subscription."
-      ],
-      "sentiment": "mixed",
-      "marketImpact": "medium"
-    },
-    "articles": [
-      {
-        "title": "Tesla chief designer: Optimus robot will be a 'huge piece' of our world",
-        "url": "https://www.youtube.com/shorts/C-3hM_gH24s",
-        "source": "Finviz",
-        "publishedAt": "2025-10-01T13:29:11.706Z",
-        "content": "Tesla chief designer: Optimus robot will be a 'huge piece' of our world"
-      },
-      {
-        "title": "Stock Market Today: Dow Tumbles On Shutdown, Surprise Jobs Data; Astera Labs, Nvidia, Tesla Drop (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/353692cf-5902-35b0-8d5c-833f422c2c0b/stock-market-today%3A-dow.html",
-        "source": "Finviz",
-        "publishedAt": "2025-10-01T13:29:11.706Z",
-        "content": "Stock Market Today: Dow Tumbles On Shutdown, Surprise Jobs Data; Astera Labs, Nvidia, Tesla Drop (Live Coverage)"
-      },
-      {
-        "title": "Stock Market Today: Dow Falls On Shutdown, Surprise Jobs Data; Astera, Nvidia, Tesla Drop (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/353692cf-5902-35b0-8d5c-833f422c2c0b/stock-market-today%3A-dow-falls.html",
-        "source": "Finviz",
-        "publishedAt": "2025-10-01T13:29:11.706Z",
-        "content": "Stock Market Today: Dow Falls On Shutdown, Surprise Jobs Data; Astera, Nvidia, Tesla Drop (Live Coverage)"
-      },
-      {
-        "title": "Netflix Stock Slides. Elon Musk Says He's Canceling His Subscription.",
-        "url": "https://www.barrons.com/articles/netflix-stock-elon-musk-cancels-subscription-f7a23b58?mod=bar_FV",
-        "source": "Finviz",
-        "publishedAt": "2025-10-01T13:29:11.706Z",
-        "content": "Netflix Stock Slides. Elon Musk Says He's Canceling His Subscription."
-      },
-      {
-        "title": "Tesla Breaks 2025 Slump as Sales Climb in France, Denmark",
-        "url": "https://finance.yahoo.com/news/tesla-breaks-2025-slump-sales-123632656.html",
-        "source": "Finviz",
-        "publishedAt": "2025-10-01T13:29:11.706Z",
-        "content": "Tesla Breaks 2025 Slump as Sales Climb in France, Denmark"
-      }
-    ],
-    "timestamp": "2025-10-01T13:29:11.707Z",
-    "sources": [
-      {
-        "url": "https://www.youtube.com/shorts/C-3hM_gH24s",
-        "headline": "Tesla chief designer: Optimus robot will be a 'huge piece' of our world"
-      },
-      {
-        "url": "https://finance.yahoo.com/m/353692cf-5902-35b0-8d5c-833f422c2c0b/stock-market-today%3A-dow.html",
-        "headline": "Stock Market Today: Dow Tumbles On Shutdown, Surprise Jobs Data; Astera Labs, Nvidia, Tesla Drop (Live Coverage)"
-      },
-      {
-        "url": "https://finance.yahoo.com/m/353692cf-5902-35b0-8d5c-833f422c2c0b/stock-market-today%3A-dow-falls.html",
-        "headline": "Stock Market Today: Dow Falls On Shutdown, Surprise Jobs Data; Astera, Nvidia, Tesla Drop (Live Coverage)"
-      },
-      {
-        "url": "https://www.barrons.com/articles/netflix-stock-elon-musk-cancels-subscription-f7a23b58?mod=bar_FV",
-        "headline": "Netflix Stock Slides. Elon Musk Says He's Canceling His Subscription."
-      },
-      {
-        "url": "https://finance.yahoo.com/news/tesla-breaks-2025-slump-sales-123632656.html",
-        "headline": "Tesla Breaks 2025 Slump as Sales Climb in France, Denmark"
-      }
-    ],
-    "id": 1759325351707,
-    "date": "2025-10-01"
-  },
-  {
-    "summary": {
-      "summary": "Market analysis reveals 5 significant developments from Finviz. Key headlines include business operations, financial performance, and industry trends affecting market sentiment. Recent news suggests negative outlook with medium potential market impact. Investors should monitor these developments closely as they may influence trading decisions and market movements.",
-      "whatChangedToday": "Today's developments show 5 new stories emerging from reliable financial sources. Compared to previous sessions, we observe negative sentiment shift with notable coverage from Finviz. The market appears to be responding to ongoing business developments and industry trends.",
-      "keyPoints": [
-        "Stock Market Today: Dow Falls On Shutdown, Surprise Jobs Data; Astera, Nvidia, Tesla Drop (Live C...",
-        "Netflix Stock Slides. Elon Musk Says He's Canceling His Subscription.",
-        "Tesla Breaks 2025 Slump as Sales Climb in France, Denmark",
-        "ADP Reports Surprise Job Loss As Government Shuts Down. Cue The Fed Rate Cuts. (Live Coverage)"
-      ],
-      "sentiment": "negative",
-      "marketImpact": "medium"
-    },
-    "articles": [
-      {
-        "title": "Stock Market Today: Dow Falls On Shutdown, Surprise Jobs Data; Astera, Nvidia, Tesla Drop (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/353692cf-5902-35b0-8d5c-833f422c2c0b/stock-market-today%3A-dow-falls.html",
-        "source": "Finviz",
-        "publishedAt": "2025-10-01T13:01:08.637Z",
-        "content": "Stock Market Today: Dow Falls On Shutdown, Surprise Jobs Data; Astera, Nvidia, Tesla Drop (Live Coverage)"
-      },
-      {
-        "title": "Netflix Stock Slides. Elon Musk Says He's Canceling His Subscription.",
-        "url": "https://www.barrons.com/articles/netflix-stock-elon-musk-cancels-subscription-f7a23b58?mod=bar_FV",
-        "source": "Finviz",
-        "publishedAt": "2025-10-01T13:01:08.637Z",
-        "content": "Netflix Stock Slides. Elon Musk Says He's Canceling His Subscription."
-      },
-      {
-        "title": "Tesla Breaks 2025 Slump as Sales Climb in France, Denmark",
-        "url": "https://finance.yahoo.com/news/tesla-breaks-2025-slump-sales-123632656.html",
-        "source": "Finviz",
-        "publishedAt": "2025-10-01T13:01:08.637Z",
-        "content": "Tesla Breaks 2025 Slump as Sales Climb in France, Denmark"
-      },
-      {
-        "title": "ADP Reports Surprise Job Loss As Government Shuts Down. Cue The Fed Rate Cuts. (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/1acc7f86-6196-33ee-aa07-97f85c5fd63e/adp-reports-surprise-job-loss.html",
-        "source": "Finviz",
-        "publishedAt": "2025-10-01T13:01:08.637Z",
-        "content": "ADP Reports Surprise Job Loss As Government Shuts Down. Cue The Fed Rate Cuts. (Live Coverage)"
-      },
-      {
-        "title": "Tesla Rivals XPeng, Xiaomi, Nio Report Record China EV Sales; BYD, Li Auto Lag",
-        "url": "https://finance.yahoo.com/m/b71450ee-cfbb-3389-8d01-d543771b3f16/tesla-rivals-xpeng%2C-xiaomi%2C.html",
-        "source": "Finviz",
-        "publishedAt": "2025-10-01T13:01:08.637Z",
-        "content": "Tesla Rivals XPeng, Xiaomi, Nio Report Record China EV Sales; BYD, Li Auto Lag"
-      }
-    ],
-    "timestamp": "2025-10-01T13:01:08.654Z",
-    "sources": [
-      {
-        "url": "https://finance.yahoo.com/m/353692cf-5902-35b0-8d5c-833f422c2c0b/stock-market-today%3A-dow-falls.html",
-        "headline": "Stock Market Today: Dow Falls On Shutdown, Surprise Jobs Data; Astera, Nvidia, Tesla Drop (Live Coverage)"
-      },
-      {
-        "url": "https://www.barrons.com/articles/netflix-stock-elon-musk-cancels-subscription-f7a23b58?mod=bar_FV",
-        "headline": "Netflix Stock Slides. Elon Musk Says He's Canceling His Subscription."
-      },
-      {
-        "url": "https://finance.yahoo.com/news/tesla-breaks-2025-slump-sales-123632656.html",
-        "headline": "Tesla Breaks 2025 Slump as Sales Climb in France, Denmark"
-      },
-      {
-        "url": "https://finance.yahoo.com/m/1acc7f86-6196-33ee-aa07-97f85c5fd63e/adp-reports-surprise-job-loss.html",
-        "headline": "ADP Reports Surprise Job Loss As Government Shuts Down. Cue The Fed Rate Cuts. (Live Coverage)"
-      },
-      {
-        "url": "https://finance.yahoo.com/m/b71450ee-cfbb-3389-8d01-d543771b3f16/tesla-rivals-xpeng%2C-xiaomi%2C.html",
-        "headline": "Tesla Rivals XPeng, Xiaomi, Nio Report Record China EV Sales; BYD, Li Auto Lag"
-      }
-    ],
-    "id": 1759323668654,
-    "date": "2025-10-01"
   }
 ]

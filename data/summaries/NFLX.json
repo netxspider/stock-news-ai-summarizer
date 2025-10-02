@@ -1,0 +1,803 @@
+[
+  {
+    "ticker": "NFLX",
+    "summary": {
+      "summary": "Today's news for Netflix (NFLX) is dominated by strong analyst sentiment and strategic developments in its advertising business, though some concerns linger. Bernstein, KeyBanc, and Evercore ISI all reaffirmed their positive ratings (Outperform/Overweight) for NFLX, with Evercore ISI setting a notable $1,375 price target, highlighting the bullish outlook from institutional research. A significant development is Netflix's partnership with Anheuser-Busch InBev, which is expected to bolster its advertising business, a key growth catalyst frequently cited by analysts like Evercore's Mark Mahaney. This reinforces the market's belief in the ad-tier's potential to drive future revenue growth. \n\nDespite this overwhelmingly positive analyst coverage and strategic progress, there are mixed signals from the market. While investors are heavily searching the stock and analysts are advocating for 'big positions,' NFLX stock reportedly dropped today despite broader market gains, and suffered a larger drop than the general market recently in late September. This suggests that while the long-term bull case is strong, there might be short-term pressures or profit-taking at play. Concerns around content licensing costs and potential margin pressure from higher content spend, as noted by Bernstein and in a late September report, remain a factor that could temper investor enthusiasm or introduce volatility.\n\nOverall, the narrative is one of a company executing on its growth strategy, particularly in advertising, and receiving strong backing from the analyst community. The lifted revenue guidance from late September further supports this positive outlook. However, the market's immediate reaction, including recent stock drops, indicates that investors are balancing these growth prospects against cost concerns and potentially high valuation expectations. The emphasis on ad revenue and live events as future catalysts suggests a clear path for continued expansion beyond traditional subscription growth.",
+      "keyPoints": [
+        "Multiple analysts (Bernstein, KeyBanc, Evercore ISI) reaffirmed positive ratings (Outperform/Overweight) for NFLX, with Evercore ISI setting a $1,375 price target.",
+        "Netflix partnered with Anheuser-Busch InBev to bolster its advertising business, validating ad revenue as a key growth driver.",
+        "Ad revenue growth and live events are consistently identified by analysts as Netflix's next major growth catalysts.",
+        "Concerns exist regarding content licensing costs and potential margin pressure from higher content spend, despite recent lifted revenue guidance.",
+        "NFLX stock dropped today despite market gains, indicating some short-term headwinds or profit-taking, even as it remains a heavily searched and trending stock with analysts advising 'big positions'."
+      ],
+      "sentiment": "positive",
+      "sentimentReasoning": "Overwhelmingly positive analyst reaffirmations, high price targets, and a significant strategic partnership for advertising business growth outweigh short-term stock drops and lingering content cost concerns.",
+      "whatChangedToday": "Today's news saw multiple analyst firms (Bernstein, KeyBanc, Evercore ISI) reaffirming their positive ratings for Netflix, with Evercore ISI providing a high price target of $1,375. Crucially, Netflix announced a partnership with Anheuser-Busch InBev to strengthen its advertising business, directly addressing a key growth catalyst. While investor interest remains high, evidenced by heavy searches, the stock reportedly dropped today despite overall market gains, indicating a divergence between analyst sentiment and immediate market performance. The persistent theme of ad revenue as a primary growth driver was reinforced, alongside content licensing concerns.",
+      "marketImplications": "The strong reaffirmations from multiple reputable analyst firms, coupled with a high price target from Evercore ISI, provide a robust bullish signal for NFLX, potentially attracting new institutional and retail investment. The partnership with Anheuser-Busch InBev is a tangible step in realizing the significant growth potential of Netflix's advertising tier, which could lead to increased revenue projections and valuation multiples. However, the reported stock drop despite broader market gains suggests some short-term selling pressure or profit-taking, possibly tied to lingering concerns about content licensing costs and margin compression mentioned by Bernstein and other sources. This could lead to near-term volatility, but the overall strong fundamental outlook and strategic execution in advertising are likely to be supportive of the stock in the medium to long term, potentially leading to a rebound as the ad business scales.",
+      "marketImpact": "high",
+      "confidence": "high",
+      "articlesAnalyzed": 17,
+      "totalArticles": 17,
+      "historicalArticlesUsed": 0,
+      "lastUpdated": "2025-10-02T16:16:39.077Z",
+      "ticker": "NFLX"
+    },
+    "articles": [
+      {
+        "title": "NFLX",
+        "url": "/symbols/NASDAQ-NFLX/",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T16:16:07.634Z",
+        "content": "NFLX"
+      },
+      {
+        "title": "NFLX news",
+        "url": "https://in.tradingview.com/symbols/NASDAQ-NFLX/news/",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T16:16:07.634Z",
+        "content": "NFLX news"
+      },
+      {
+        "title": "Bernstein Maintains Outperform Rating for Netflix (NFLX) Amid Content Licensing Concerns",
+        "url": "/news/171540/bernstein-maintains-outperform-rating-for-netflix-nflx-amid-content-licensing-concerns",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.610Z",
+        "content": "Bernstein Maintains Outperform Rating for Netflix (NFLX) Amid Content Licensing Concerns",
+        "dateText": "04:11AM"
+      },
+      {
+        "title": "KeyBanc Reaffirms Overweight Rating for Netflix (NFLX), Sees Strong Ad Revenue Growth",
+        "url": "/news/171531/keybanc-reaffirms-overweight-rating-for-netflix-nflx-sees-strong-ad-revenue-growth",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.610Z",
+        "content": "KeyBanc Reaffirms Overweight Rating for Netflix (NFLX), Sees Strong Ad Revenue Growth",
+        "dateText": "03:59AM"
+      },
+      {
+        "title": "Investors Heavily Search Netflix, Inc. (NFLX): Here is What You Need to Know",
+        "url": "/news/170731/investors-heavily-search-netflix-inc-nflx-here-is-what-you-need-to-know",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.610Z",
+        "content": "Investors Heavily Search Netflix, Inc. (NFLX): Here is What You Need to Know",
+        "dateText": "09:00AM"
+      },
+      {
+        "title": "Netflix (NFLX) Stock Drops Despite Market Gains: Important Facts to Note",
+        "url": "/news/181572/netflix-nflx-stock-drops-despite-market-gains-important-facts-to-note",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.609Z",
+        "content": "Netflix (NFLX) Stock Drops Despite Market Gains: Important Facts to Note",
+        "dateText": "05:45PM"
+      },
+      {
+        "title": "Analyst Says You Should Take 'Big Positions' in Netflix (NFLX) - Here's Why",
+        "url": "/news/181461/analyst-says-you-should-take-big-positions-in-netflix-nflx-heres-why",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.609Z",
+        "content": "Analyst Says You Should Take 'Big Positions' in Netflix (NFLX) - Here's Why",
+        "dateText": "04:29PM"
+      },
+      {
+        "title": "Evercore ISI Reaffirms its Outperform Rating on Netflix Inc. (NFLX) with a $1,375 Price Target",
+        "url": "/news/180191/evercore-isi-reaffirms-its-outperform-rating-on-netflix-inc-nflx-with-a-1375-price-target",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.609Z",
+        "content": "Evercore ISI Reaffirms its Outperform Rating on Netflix Inc. (NFLX) with a $1,375 Price Target",
+        "dateText": "04:34PM"
+      },
+      {
+        "title": "Netflix, Inc. (NFLX): A Bull Case Theory",
+        "url": "/news/179697/netflix-inc-nflx-a-bull-case-theory",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.609Z",
+        "content": "Netflix, Inc. (NFLX): A Bull Case Theory",
+        "dateText": "10:41AM"
+      },
+      {
+        "title": "Netflix, Inc. (NFLX) Is a Trending Stock: Facts to Know Before Betting on It",
+        "url": "/news/179559/netflix-inc-nflx-is-a-trending-stock-facts-to-know-before-betting-on-it",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.609Z",
+        "content": "Netflix, Inc. (NFLX) Is a Trending Stock: Facts to Know Before Betting on It",
+        "dateText": "09:00AM"
+      },
+      {
+        "title": "Netflix, Inc. (NASDAQ:NFLX) Partners Anheuser-Busch InBev to Bolster Advertising Business",
+        "url": "/news/177855/netflix-inc-nasdaq-nflx-partners-anheuser-busch-inbev-to-bolster-advertising-business",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.609Z",
+        "content": "Netflix, Inc. (NASDAQ:NFLX) Partners Anheuser-Busch InBev to Bolster Advertising Business",
+        "dateText": "12:56AM"
+      },
+      {
+        "title": "Netflix Lifts Revenue Guidance While Raising Concern Margin Pressure from Higher Content Spend",
+        "url": "/news/177590/netflix-lifts-revenue-guidance-while-raising-concern-margin-pressure-from-higher-content-spend",
+        "source": "Finviz",
+        "publishedAt": "2025-09-26T18:30:00.000Z",
+        "content": "Netflix Lifts Revenue Guidance While Raising Concern Margin Pressure from Higher Content Spend",
+        "dateText": "Sep-27-25 02:16PM"
+      },
+      {
+        "title": "Loop Capital Upgrades Netflix, Inc. (NFLX) To Buy, Lifts Price Target",
+        "url": "/news/176970/loop-capital-upgrades-netflix-inc-nflx-to-buy-lifts-price-target",
+        "source": "Finviz",
+        "publishedAt": "2025-09-25T18:30:00.000Z",
+        "content": "Loop Capital Upgrades Netflix, Inc. (NFLX) To Buy, Lifts Price Target",
+        "dateText": "Sep-26-25 10:46AM"
+      },
+      {
+        "title": "Netflix (NFLX) Suffers a Larger Drop Than the General Market: Key Insights",
+        "url": "/news/175113/netflix-nflx-suffers-a-larger-drop-than-the-general-market-key-insights",
+        "source": "Finviz",
+        "publishedAt": "2025-09-23T18:30:00.000Z",
+        "content": "Netflix (NFLX) Suffers a Larger Drop Than the General Market: Key Insights",
+        "dateText": "Sep-24-25 05:45PM"
+      },
+      {
+        "title": "Netflix's next growth catalyst is a ramp on ad revenue and more live events: Evercore's Mark Mahaney",
+        "url": "https://www.youtube.com/watch?v=Kf7pqv-PPkc",
+        "source": "Finviz",
+        "publishedAt": "2025-09-22T18:30:00.000Z",
+        "content": "Netflix's next growth catalyst is a ramp on ad revenue and more live events: Evercore's Mark Mahaney",
+        "dateText": "Sep-23-25 04:36PM"
+      },
+      {
+        "title": "Netflix Stock Is Up 40% in 2025 But Wall Street Isnt Backing Down. Should You Buy NFLX Now?",
+        "url": "https://finance.yahoo.com/m/0c6f75b1-3062-344d-8b45-5a418292d34d/netflix-stock-is-up-40%25-in.html",
+        "source": "Finviz",
+        "publishedAt": "2025-09-21T18:30:00.000Z",
+        "content": "Netflix Stock Is Up 40% in 2025 But Wall Street Isnt Backing Down. Should You Buy NFLX Now?",
+        "dateText": "Sep-22-25 03:17PM"
+      },
+      {
+        "title": "A Look Back at Consumer Subscription Stocks' Q2 Earnings: Netflix (NASDAQ:NFLX) Vs The Rest Of The Pack",
+        "url": "/news/171852/a-look-back-at-consumer-subscription-stocks-q2-earnings-netflix-nasdaq-nflx-vs-the-rest-of-the-pack",
+        "source": "Finviz",
+        "publishedAt": "2025-09-20T18:30:00.000Z",
+        "content": "A Look Back at Consumer Subscription Stocks' Q2 Earnings: Netflix (NASDAQ:NFLX) Vs The Rest Of The Pack",
+        "dateText": "Sep-21-25 11:36PM"
+      }
+    ],
+    "timestamp": "2025-10-02T16:16:39.077Z",
+    "date": "2025-10-02",
+    "sources": [
+      {
+        "url": "/symbols/NASDAQ-NFLX/",
+        "headline": "NFLX",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T16:16:07.634Z"
+      },
+      {
+        "url": "https://in.tradingview.com/symbols/NASDAQ-NFLX/news/",
+        "headline": "NFLX news",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T16:16:07.634Z"
+      },
+      {
+        "url": "/news/171540/bernstein-maintains-outperform-rating-for-netflix-nflx-amid-content-licensing-concerns",
+        "headline": "Bernstein Maintains Outperform Rating for Netflix (NFLX) Amid Content Licensing Concerns",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.610Z"
+      },
+      {
+        "url": "/news/171531/keybanc-reaffirms-overweight-rating-for-netflix-nflx-sees-strong-ad-revenue-growth",
+        "headline": "KeyBanc Reaffirms Overweight Rating for Netflix (NFLX), Sees Strong Ad Revenue Growth",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.610Z"
+      },
+      {
+        "url": "/news/170731/investors-heavily-search-netflix-inc-nflx-here-is-what-you-need-to-know",
+        "headline": "Investors Heavily Search Netflix, Inc. (NFLX): Here is What You Need to Know",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.610Z"
+      },
+      {
+        "url": "/news/181572/netflix-nflx-stock-drops-despite-market-gains-important-facts-to-note",
+        "headline": "Netflix (NFLX) Stock Drops Despite Market Gains: Important Facts to Note",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.609Z"
+      },
+      {
+        "url": "/news/181461/analyst-says-you-should-take-big-positions-in-netflix-nflx-heres-why",
+        "headline": "Analyst Says You Should Take 'Big Positions' in Netflix (NFLX) - Here's Why",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.609Z"
+      },
+      {
+        "url": "/news/180191/evercore-isi-reaffirms-its-outperform-rating-on-netflix-inc-nflx-with-a-1375-price-target",
+        "headline": "Evercore ISI Reaffirms its Outperform Rating on Netflix Inc. (NFLX) with a $1,375 Price Target",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.609Z"
+      },
+      {
+        "url": "/news/179697/netflix-inc-nflx-a-bull-case-theory",
+        "headline": "Netflix, Inc. (NFLX): A Bull Case Theory",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.609Z"
+      },
+      {
+        "url": "/news/179559/netflix-inc-nflx-is-a-trending-stock-facts-to-know-before-betting-on-it",
+        "headline": "Netflix, Inc. (NFLX) Is a Trending Stock: Facts to Know Before Betting on It",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.609Z"
+      },
+      {
+        "url": "/news/177855/netflix-inc-nasdaq-nflx-partners-anheuser-busch-inbev-to-bolster-advertising-business",
+        "headline": "Netflix, Inc. (NASDAQ:NFLX) Partners Anheuser-Busch InBev to Bolster Advertising Business",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.609Z"
+      },
+      {
+        "url": "/news/177590/netflix-lifts-revenue-guidance-while-raising-concern-margin-pressure-from-higher-content-spend",
+        "headline": "Netflix Lifts Revenue Guidance While Raising Concern Margin Pressure from Higher Content Spend",
+        "source": "Finviz",
+        "publishedAt": "2025-09-26T18:30:00.000Z"
+      },
+      {
+        "url": "/news/176970/loop-capital-upgrades-netflix-inc-nflx-to-buy-lifts-price-target",
+        "headline": "Loop Capital Upgrades Netflix, Inc. (NFLX) To Buy, Lifts Price Target",
+        "source": "Finviz",
+        "publishedAt": "2025-09-25T18:30:00.000Z"
+      },
+      {
+        "url": "/news/175113/netflix-nflx-suffers-a-larger-drop-than-the-general-market-key-insights",
+        "headline": "Netflix (NFLX) Suffers a Larger Drop Than the General Market: Key Insights",
+        "source": "Finviz",
+        "publishedAt": "2025-09-23T18:30:00.000Z"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=Kf7pqv-PPkc",
+        "headline": "Netflix's next growth catalyst is a ramp on ad revenue and more live events: Evercore's Mark Mahaney",
+        "source": "Finviz",
+        "publishedAt": "2025-09-22T18:30:00.000Z"
+      },
+      {
+        "url": "https://finance.yahoo.com/m/0c6f75b1-3062-344d-8b45-5a418292d34d/netflix-stock-is-up-40%25-in.html",
+        "headline": "Netflix Stock Is Up 40% in 2025 But Wall Street Isnt Backing Down. Should You Buy NFLX Now?",
+        "source": "Finviz",
+        "publishedAt": "2025-09-21T18:30:00.000Z"
+      },
+      {
+        "url": "/news/171852/a-look-back-at-consumer-subscription-stocks-q2-earnings-netflix-nasdaq-nflx-vs-the-rest-of-the-pack",
+        "headline": "A Look Back at Consumer Subscription Stocks' Q2 Earnings: Netflix (NASDAQ:NFLX) Vs The Rest Of The Pack",
+        "source": "Finviz",
+        "publishedAt": "2025-09-20T18:30:00.000Z"
+      }
+    ],
+    "isProcessing": false,
+    "meta": {
+      "totalArticlesFound": 17,
+      "articlesAnalyzed": 17,
+      "historicalArticlesUsed": 0,
+      "daysOfHistoryAnalyzed": 7,
+      "processingTime": "2025-10-02T16:16:39.077Z",
+      "processingStatus": "complete",
+      "enhancedFeatures": {
+        "tradingViewScraping": true,
+        "finvizEnhanced": true,
+        "polygonAPI": true,
+        "geminiAnalysis": true,
+        "historicalComparison": true
+      }
+    },
+    "id": 1759421799079
+  },
+  {
+    "ticker": "NFLX",
+    "summary": null,
+    "articles": [
+      {
+        "title": "NFLX",
+        "url": "/symbols/NASDAQ-NFLX/",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T16:16:07.634Z",
+        "content": "NFLX"
+      },
+      {
+        "title": "NFLX news",
+        "url": "https://in.tradingview.com/symbols/NASDAQ-NFLX/news/",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T16:16:07.634Z",
+        "content": "NFLX news"
+      },
+      {
+        "title": "Bernstein Maintains Outperform Rating for Netflix (NFLX) Amid Content Licensing Concerns",
+        "url": "/news/171540/bernstein-maintains-outperform-rating-for-netflix-nflx-amid-content-licensing-concerns",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.610Z",
+        "content": "Bernstein Maintains Outperform Rating for Netflix (NFLX) Amid Content Licensing Concerns",
+        "dateText": "04:11AM"
+      },
+      {
+        "title": "KeyBanc Reaffirms Overweight Rating for Netflix (NFLX), Sees Strong Ad Revenue Growth",
+        "url": "/news/171531/keybanc-reaffirms-overweight-rating-for-netflix-nflx-sees-strong-ad-revenue-growth",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.610Z",
+        "content": "KeyBanc Reaffirms Overweight Rating for Netflix (NFLX), Sees Strong Ad Revenue Growth",
+        "dateText": "03:59AM"
+      },
+      {
+        "title": "Investors Heavily Search Netflix, Inc. (NFLX): Here is What You Need to Know",
+        "url": "/news/170731/investors-heavily-search-netflix-inc-nflx-here-is-what-you-need-to-know",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.610Z",
+        "content": "Investors Heavily Search Netflix, Inc. (NFLX): Here is What You Need to Know",
+        "dateText": "09:00AM"
+      },
+      {
+        "title": "Netflix (NFLX) Stock Drops Despite Market Gains: Important Facts to Note",
+        "url": "/news/181572/netflix-nflx-stock-drops-despite-market-gains-important-facts-to-note",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.609Z",
+        "content": "Netflix (NFLX) Stock Drops Despite Market Gains: Important Facts to Note",
+        "dateText": "05:45PM"
+      },
+      {
+        "title": "Analyst Says You Should Take 'Big Positions' in Netflix (NFLX) - Here's Why",
+        "url": "/news/181461/analyst-says-you-should-take-big-positions-in-netflix-nflx-heres-why",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.609Z",
+        "content": "Analyst Says You Should Take 'Big Positions' in Netflix (NFLX) - Here's Why",
+        "dateText": "04:29PM"
+      },
+      {
+        "title": "Evercore ISI Reaffirms its Outperform Rating on Netflix Inc. (NFLX) with a $1,375 Price Target",
+        "url": "/news/180191/evercore-isi-reaffirms-its-outperform-rating-on-netflix-inc-nflx-with-a-1375-price-target",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.609Z",
+        "content": "Evercore ISI Reaffirms its Outperform Rating on Netflix Inc. (NFLX) with a $1,375 Price Target",
+        "dateText": "04:34PM"
+      },
+      {
+        "title": "Netflix, Inc. (NFLX): A Bull Case Theory",
+        "url": "/news/179697/netflix-inc-nflx-a-bull-case-theory",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.609Z",
+        "content": "Netflix, Inc. (NFLX): A Bull Case Theory",
+        "dateText": "10:41AM"
+      },
+      {
+        "title": "Netflix, Inc. (NFLX) Is a Trending Stock: Facts to Know Before Betting on It",
+        "url": "/news/179559/netflix-inc-nflx-is-a-trending-stock-facts-to-know-before-betting-on-it",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.609Z",
+        "content": "Netflix, Inc. (NFLX) Is a Trending Stock: Facts to Know Before Betting on It",
+        "dateText": "09:00AM"
+      },
+      {
+        "title": "Netflix, Inc. (NASDAQ:NFLX) Partners Anheuser-Busch InBev to Bolster Advertising Business",
+        "url": "/news/177855/netflix-inc-nasdaq-nflx-partners-anheuser-busch-inbev-to-bolster-advertising-business",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.609Z",
+        "content": "Netflix, Inc. (NASDAQ:NFLX) Partners Anheuser-Busch InBev to Bolster Advertising Business",
+        "dateText": "12:56AM"
+      },
+      {
+        "title": "Netflix Lifts Revenue Guidance While Raising Concern Margin Pressure from Higher Content Spend",
+        "url": "/news/177590/netflix-lifts-revenue-guidance-while-raising-concern-margin-pressure-from-higher-content-spend",
+        "source": "Finviz",
+        "publishedAt": "2025-09-26T18:30:00.000Z",
+        "content": "Netflix Lifts Revenue Guidance While Raising Concern Margin Pressure from Higher Content Spend",
+        "dateText": "Sep-27-25 02:16PM"
+      },
+      {
+        "title": "Loop Capital Upgrades Netflix, Inc. (NFLX) To Buy, Lifts Price Target",
+        "url": "/news/176970/loop-capital-upgrades-netflix-inc-nflx-to-buy-lifts-price-target",
+        "source": "Finviz",
+        "publishedAt": "2025-09-25T18:30:00.000Z",
+        "content": "Loop Capital Upgrades Netflix, Inc. (NFLX) To Buy, Lifts Price Target",
+        "dateText": "Sep-26-25 10:46AM"
+      },
+      {
+        "title": "Netflix (NFLX) Suffers a Larger Drop Than the General Market: Key Insights",
+        "url": "/news/175113/netflix-nflx-suffers-a-larger-drop-than-the-general-market-key-insights",
+        "source": "Finviz",
+        "publishedAt": "2025-09-23T18:30:00.000Z",
+        "content": "Netflix (NFLX) Suffers a Larger Drop Than the General Market: Key Insights",
+        "dateText": "Sep-24-25 05:45PM"
+      },
+      {
+        "title": "Netflix's next growth catalyst is a ramp on ad revenue and more live events: Evercore's Mark Mahaney",
+        "url": "https://www.youtube.com/watch?v=Kf7pqv-PPkc",
+        "source": "Finviz",
+        "publishedAt": "2025-09-22T18:30:00.000Z",
+        "content": "Netflix's next growth catalyst is a ramp on ad revenue and more live events: Evercore's Mark Mahaney",
+        "dateText": "Sep-23-25 04:36PM"
+      },
+      {
+        "title": "Netflix Stock Is Up 40% in 2025 But Wall Street Isnt Backing Down. Should You Buy NFLX Now?",
+        "url": "https://finance.yahoo.com/m/0c6f75b1-3062-344d-8b45-5a418292d34d/netflix-stock-is-up-40%25-in.html",
+        "source": "Finviz",
+        "publishedAt": "2025-09-21T18:30:00.000Z",
+        "content": "Netflix Stock Is Up 40% in 2025 But Wall Street Isnt Backing Down. Should You Buy NFLX Now?",
+        "dateText": "Sep-22-25 03:17PM"
+      },
+      {
+        "title": "A Look Back at Consumer Subscription Stocks' Q2 Earnings: Netflix (NASDAQ:NFLX) Vs The Rest Of The Pack",
+        "url": "/news/171852/a-look-back-at-consumer-subscription-stocks-q2-earnings-netflix-nasdaq-nflx-vs-the-rest-of-the-pack",
+        "source": "Finviz",
+        "publishedAt": "2025-09-20T18:30:00.000Z",
+        "content": "A Look Back at Consumer Subscription Stocks' Q2 Earnings: Netflix (NASDAQ:NFLX) Vs The Rest Of The Pack",
+        "dateText": "Sep-21-25 11:36PM"
+      }
+    ],
+    "timestamp": "2025-10-02T16:16:08.532Z",
+    "date": "2025-10-02",
+    "sources": [
+      {
+        "url": "/symbols/NASDAQ-NFLX/",
+        "headline": "NFLX",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T16:16:07.634Z"
+      },
+      {
+        "url": "https://in.tradingview.com/symbols/NASDAQ-NFLX/news/",
+        "headline": "NFLX news",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T16:16:07.634Z"
+      },
+      {
+        "url": "/news/171540/bernstein-maintains-outperform-rating-for-netflix-nflx-amid-content-licensing-concerns",
+        "headline": "Bernstein Maintains Outperform Rating for Netflix (NFLX) Amid Content Licensing Concerns",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.610Z"
+      },
+      {
+        "url": "/news/171531/keybanc-reaffirms-overweight-rating-for-netflix-nflx-sees-strong-ad-revenue-growth",
+        "headline": "KeyBanc Reaffirms Overweight Rating for Netflix (NFLX), Sees Strong Ad Revenue Growth",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.610Z"
+      },
+      {
+        "url": "/news/170731/investors-heavily-search-netflix-inc-nflx-here-is-what-you-need-to-know",
+        "headline": "Investors Heavily Search Netflix, Inc. (NFLX): Here is What You Need to Know",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.610Z"
+      },
+      {
+        "url": "/news/181572/netflix-nflx-stock-drops-despite-market-gains-important-facts-to-note",
+        "headline": "Netflix (NFLX) Stock Drops Despite Market Gains: Important Facts to Note",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.609Z"
+      },
+      {
+        "url": "/news/181461/analyst-says-you-should-take-big-positions-in-netflix-nflx-heres-why",
+        "headline": "Analyst Says You Should Take 'Big Positions' in Netflix (NFLX) - Here's Why",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.609Z"
+      },
+      {
+        "url": "/news/180191/evercore-isi-reaffirms-its-outperform-rating-on-netflix-inc-nflx-with-a-1375-price-target",
+        "headline": "Evercore ISI Reaffirms its Outperform Rating on Netflix Inc. (NFLX) with a $1,375 Price Target",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.609Z"
+      },
+      {
+        "url": "/news/179697/netflix-inc-nflx-a-bull-case-theory",
+        "headline": "Netflix, Inc. (NFLX): A Bull Case Theory",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.609Z"
+      },
+      {
+        "url": "/news/179559/netflix-inc-nflx-is-a-trending-stock-facts-to-know-before-betting-on-it",
+        "headline": "Netflix, Inc. (NFLX) Is a Trending Stock: Facts to Know Before Betting on It",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.609Z"
+      },
+      {
+        "url": "/news/177855/netflix-inc-nasdaq-nflx-partners-anheuser-busch-inbev-to-bolster-advertising-business",
+        "headline": "Netflix, Inc. (NASDAQ:NFLX) Partners Anheuser-Busch InBev to Bolster Advertising Business",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.609Z"
+      },
+      {
+        "url": "/news/177590/netflix-lifts-revenue-guidance-while-raising-concern-margin-pressure-from-higher-content-spend",
+        "headline": "Netflix Lifts Revenue Guidance While Raising Concern Margin Pressure from Higher Content Spend",
+        "source": "Finviz",
+        "publishedAt": "2025-09-26T18:30:00.000Z"
+      },
+      {
+        "url": "/news/176970/loop-capital-upgrades-netflix-inc-nflx-to-buy-lifts-price-target",
+        "headline": "Loop Capital Upgrades Netflix, Inc. (NFLX) To Buy, Lifts Price Target",
+        "source": "Finviz",
+        "publishedAt": "2025-09-25T18:30:00.000Z"
+      },
+      {
+        "url": "/news/175113/netflix-nflx-suffers-a-larger-drop-than-the-general-market-key-insights",
+        "headline": "Netflix (NFLX) Suffers a Larger Drop Than the General Market: Key Insights",
+        "source": "Finviz",
+        "publishedAt": "2025-09-23T18:30:00.000Z"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=Kf7pqv-PPkc",
+        "headline": "Netflix's next growth catalyst is a ramp on ad revenue and more live events: Evercore's Mark Mahaney",
+        "source": "Finviz",
+        "publishedAt": "2025-09-22T18:30:00.000Z"
+      },
+      {
+        "url": "https://finance.yahoo.com/m/0c6f75b1-3062-344d-8b45-5a418292d34d/netflix-stock-is-up-40%25-in.html",
+        "headline": "Netflix Stock Is Up 40% in 2025 But Wall Street Isnt Backing Down. Should You Buy NFLX Now?",
+        "source": "Finviz",
+        "publishedAt": "2025-09-21T18:30:00.000Z"
+      },
+      {
+        "url": "/news/171852/a-look-back-at-consumer-subscription-stocks-q2-earnings-netflix-nasdaq-nflx-vs-the-rest-of-the-pack",
+        "headline": "A Look Back at Consumer Subscription Stocks' Q2 Earnings: Netflix (NASDAQ:NFLX) Vs The Rest Of The Pack",
+        "source": "Finviz",
+        "publishedAt": "2025-09-20T18:30:00.000Z"
+      }
+    ],
+    "isProcessing": true,
+    "meta": {
+      "totalArticlesFound": 17,
+      "articlesAnalyzed": 0,
+      "processingStatus": "generating_ai_summary"
+    },
+    "id": 1759421768535
+  },
+  {
+    "ticker": "NFLX",
+    "summary": null,
+    "articles": [
+      {
+        "title": "NFLX",
+        "url": "/symbols/NASDAQ-NFLX/",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T16:16:07.634Z",
+        "content": "NFLX"
+      },
+      {
+        "title": "NFLX news",
+        "url": "https://in.tradingview.com/symbols/NASDAQ-NFLX/news/",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T16:16:07.634Z",
+        "content": "NFLX news"
+      },
+      {
+        "title": "Bernstein Maintains Outperform Rating for Netflix (NFLX) Amid Content Licensing Concerns",
+        "url": "/news/171540/bernstein-maintains-outperform-rating-for-netflix-nflx-amid-content-licensing-concerns",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.610Z",
+        "content": "Bernstein Maintains Outperform Rating for Netflix (NFLX) Amid Content Licensing Concerns",
+        "dateText": "04:11AM"
+      },
+      {
+        "title": "KeyBanc Reaffirms Overweight Rating for Netflix (NFLX), Sees Strong Ad Revenue Growth",
+        "url": "/news/171531/keybanc-reaffirms-overweight-rating-for-netflix-nflx-sees-strong-ad-revenue-growth",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.610Z",
+        "content": "KeyBanc Reaffirms Overweight Rating for Netflix (NFLX), Sees Strong Ad Revenue Growth",
+        "dateText": "03:59AM"
+      },
+      {
+        "title": "Investors Heavily Search Netflix, Inc. (NFLX): Here is What You Need to Know",
+        "url": "/news/170731/investors-heavily-search-netflix-inc-nflx-here-is-what-you-need-to-know",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.610Z",
+        "content": "Investors Heavily Search Netflix, Inc. (NFLX): Here is What You Need to Know",
+        "dateText": "09:00AM"
+      },
+      {
+        "title": "Netflix (NFLX) Stock Drops Despite Market Gains: Important Facts to Note",
+        "url": "/news/181572/netflix-nflx-stock-drops-despite-market-gains-important-facts-to-note",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.609Z",
+        "content": "Netflix (NFLX) Stock Drops Despite Market Gains: Important Facts to Note",
+        "dateText": "05:45PM"
+      },
+      {
+        "title": "Analyst Says You Should Take 'Big Positions' in Netflix (NFLX) - Here's Why",
+        "url": "/news/181461/analyst-says-you-should-take-big-positions-in-netflix-nflx-heres-why",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.609Z",
+        "content": "Analyst Says You Should Take 'Big Positions' in Netflix (NFLX) - Here's Why",
+        "dateText": "04:29PM"
+      },
+      {
+        "title": "Evercore ISI Reaffirms its Outperform Rating on Netflix Inc. (NFLX) with a $1,375 Price Target",
+        "url": "/news/180191/evercore-isi-reaffirms-its-outperform-rating-on-netflix-inc-nflx-with-a-1375-price-target",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.609Z",
+        "content": "Evercore ISI Reaffirms its Outperform Rating on Netflix Inc. (NFLX) with a $1,375 Price Target",
+        "dateText": "04:34PM"
+      },
+      {
+        "title": "Netflix, Inc. (NFLX): A Bull Case Theory",
+        "url": "/news/179697/netflix-inc-nflx-a-bull-case-theory",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.609Z",
+        "content": "Netflix, Inc. (NFLX): A Bull Case Theory",
+        "dateText": "10:41AM"
+      },
+      {
+        "title": "Netflix, Inc. (NFLX) Is a Trending Stock: Facts to Know Before Betting on It",
+        "url": "/news/179559/netflix-inc-nflx-is-a-trending-stock-facts-to-know-before-betting-on-it",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.609Z",
+        "content": "Netflix, Inc. (NFLX) Is a Trending Stock: Facts to Know Before Betting on It",
+        "dateText": "09:00AM"
+      },
+      {
+        "title": "Netflix, Inc. (NASDAQ:NFLX) Partners Anheuser-Busch InBev to Bolster Advertising Business",
+        "url": "/news/177855/netflix-inc-nasdaq-nflx-partners-anheuser-busch-inbev-to-bolster-advertising-business",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.609Z",
+        "content": "Netflix, Inc. (NASDAQ:NFLX) Partners Anheuser-Busch InBev to Bolster Advertising Business",
+        "dateText": "12:56AM"
+      },
+      {
+        "title": "Netflix Lifts Revenue Guidance While Raising Concern Margin Pressure from Higher Content Spend",
+        "url": "/news/177590/netflix-lifts-revenue-guidance-while-raising-concern-margin-pressure-from-higher-content-spend",
+        "source": "Finviz",
+        "publishedAt": "2025-09-26T18:30:00.000Z",
+        "content": "Netflix Lifts Revenue Guidance While Raising Concern Margin Pressure from Higher Content Spend",
+        "dateText": "Sep-27-25 02:16PM"
+      },
+      {
+        "title": "Loop Capital Upgrades Netflix, Inc. (NFLX) To Buy, Lifts Price Target",
+        "url": "/news/176970/loop-capital-upgrades-netflix-inc-nflx-to-buy-lifts-price-target",
+        "source": "Finviz",
+        "publishedAt": "2025-09-25T18:30:00.000Z",
+        "content": "Loop Capital Upgrades Netflix, Inc. (NFLX) To Buy, Lifts Price Target",
+        "dateText": "Sep-26-25 10:46AM"
+      },
+      {
+        "title": "Netflix (NFLX) Suffers a Larger Drop Than the General Market: Key Insights",
+        "url": "/news/175113/netflix-nflx-suffers-a-larger-drop-than-the-general-market-key-insights",
+        "source": "Finviz",
+        "publishedAt": "2025-09-23T18:30:00.000Z",
+        "content": "Netflix (NFLX) Suffers a Larger Drop Than the General Market: Key Insights",
+        "dateText": "Sep-24-25 05:45PM"
+      },
+      {
+        "title": "Netflix's next growth catalyst is a ramp on ad revenue and more live events: Evercore's Mark Mahaney",
+        "url": "https://www.youtube.com/watch?v=Kf7pqv-PPkc",
+        "source": "Finviz",
+        "publishedAt": "2025-09-22T18:30:00.000Z",
+        "content": "Netflix's next growth catalyst is a ramp on ad revenue and more live events: Evercore's Mark Mahaney",
+        "dateText": "Sep-23-25 04:36PM"
+      },
+      {
+        "title": "Netflix Stock Is Up 40% in 2025 But Wall Street Isnt Backing Down. Should You Buy NFLX Now?",
+        "url": "https://finance.yahoo.com/m/0c6f75b1-3062-344d-8b45-5a418292d34d/netflix-stock-is-up-40%25-in.html",
+        "source": "Finviz",
+        "publishedAt": "2025-09-21T18:30:00.000Z",
+        "content": "Netflix Stock Is Up 40% in 2025 But Wall Street Isnt Backing Down. Should You Buy NFLX Now?",
+        "dateText": "Sep-22-25 03:17PM"
+      },
+      {
+        "title": "A Look Back at Consumer Subscription Stocks' Q2 Earnings: Netflix (NASDAQ:NFLX) Vs The Rest Of The Pack",
+        "url": "/news/171852/a-look-back-at-consumer-subscription-stocks-q2-earnings-netflix-nasdaq-nflx-vs-the-rest-of-the-pack",
+        "source": "Finviz",
+        "publishedAt": "2025-09-20T18:30:00.000Z",
+        "content": "A Look Back at Consumer Subscription Stocks' Q2 Earnings: Netflix (NASDAQ:NFLX) Vs The Rest Of The Pack",
+        "dateText": "Sep-21-25 11:36PM"
+      }
+    ],
+    "timestamp": "2025-10-02T16:16:08.532Z",
+    "date": "2025-10-02",
+    "sources": [
+      {
+        "url": "/symbols/NASDAQ-NFLX/",
+        "headline": "NFLX",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T16:16:07.634Z"
+      },
+      {
+        "url": "https://in.tradingview.com/symbols/NASDAQ-NFLX/news/",
+        "headline": "NFLX news",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T16:16:07.634Z"
+      },
+      {
+        "url": "/news/171540/bernstein-maintains-outperform-rating-for-netflix-nflx-amid-content-licensing-concerns",
+        "headline": "Bernstein Maintains Outperform Rating for Netflix (NFLX) Amid Content Licensing Concerns",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.610Z"
+      },
+      {
+        "url": "/news/171531/keybanc-reaffirms-overweight-rating-for-netflix-nflx-sees-strong-ad-revenue-growth",
+        "headline": "KeyBanc Reaffirms Overweight Rating for Netflix (NFLX), Sees Strong Ad Revenue Growth",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.610Z"
+      },
+      {
+        "url": "/news/170731/investors-heavily-search-netflix-inc-nflx-here-is-what-you-need-to-know",
+        "headline": "Investors Heavily Search Netflix, Inc. (NFLX): Here is What You Need to Know",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.610Z"
+      },
+      {
+        "url": "/news/181572/netflix-nflx-stock-drops-despite-market-gains-important-facts-to-note",
+        "headline": "Netflix (NFLX) Stock Drops Despite Market Gains: Important Facts to Note",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.609Z"
+      },
+      {
+        "url": "/news/181461/analyst-says-you-should-take-big-positions-in-netflix-nflx-heres-why",
+        "headline": "Analyst Says You Should Take 'Big Positions' in Netflix (NFLX) - Here's Why",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.609Z"
+      },
+      {
+        "url": "/news/180191/evercore-isi-reaffirms-its-outperform-rating-on-netflix-inc-nflx-with-a-1375-price-target",
+        "headline": "Evercore ISI Reaffirms its Outperform Rating on Netflix Inc. (NFLX) with a $1,375 Price Target",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.609Z"
+      },
+      {
+        "url": "/news/179697/netflix-inc-nflx-a-bull-case-theory",
+        "headline": "Netflix, Inc. (NFLX): A Bull Case Theory",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.609Z"
+      },
+      {
+        "url": "/news/179559/netflix-inc-nflx-is-a-trending-stock-facts-to-know-before-betting-on-it",
+        "headline": "Netflix, Inc. (NFLX) Is a Trending Stock: Facts to Know Before Betting on It",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.609Z"
+      },
+      {
+        "url": "/news/177855/netflix-inc-nasdaq-nflx-partners-anheuser-busch-inbev-to-bolster-advertising-business",
+        "headline": "Netflix, Inc. (NASDAQ:NFLX) Partners Anheuser-Busch InBev to Bolster Advertising Business",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T16:16:07.609Z"
+      },
+      {
+        "url": "/news/177590/netflix-lifts-revenue-guidance-while-raising-concern-margin-pressure-from-higher-content-spend",
+        "headline": "Netflix Lifts Revenue Guidance While Raising Concern Margin Pressure from Higher Content Spend",
+        "source": "Finviz",
+        "publishedAt": "2025-09-26T18:30:00.000Z"
+      },
+      {
+        "url": "/news/176970/loop-capital-upgrades-netflix-inc-nflx-to-buy-lifts-price-target",
+        "headline": "Loop Capital Upgrades Netflix, Inc. (NFLX) To Buy, Lifts Price Target",
+        "source": "Finviz",
+        "publishedAt": "2025-09-25T18:30:00.000Z"
+      },
+      {
+        "url": "/news/175113/netflix-nflx-suffers-a-larger-drop-than-the-general-market-key-insights",
+        "headline": "Netflix (NFLX) Suffers a Larger Drop Than the General Market: Key Insights",
+        "source": "Finviz",
+        "publishedAt": "2025-09-23T18:30:00.000Z"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=Kf7pqv-PPkc",
+        "headline": "Netflix's next growth catalyst is a ramp on ad revenue and more live events: Evercore's Mark Mahaney",
+        "source": "Finviz",
+        "publishedAt": "2025-09-22T18:30:00.000Z"
+      },
+      {
+        "url": "https://finance.yahoo.com/m/0c6f75b1-3062-344d-8b45-5a418292d34d/netflix-stock-is-up-40%25-in.html",
+        "headline": "Netflix Stock Is Up 40% in 2025 But Wall Street Isnt Backing Down. Should You Buy NFLX Now?",
+        "source": "Finviz",
+        "publishedAt": "2025-09-21T18:30:00.000Z"
+      },
+      {
+        "url": "/news/171852/a-look-back-at-consumer-subscription-stocks-q2-earnings-netflix-nasdaq-nflx-vs-the-rest-of-the-pack",
+        "headline": "A Look Back at Consumer Subscription Stocks' Q2 Earnings: Netflix (NASDAQ:NFLX) Vs The Rest Of The Pack",
+        "source": "Finviz",
+        "publishedAt": "2025-09-20T18:30:00.000Z"
+      }
+    ],
+    "isProcessing": true,
+    "meta": {
+      "totalArticlesFound": 17,
+      "articlesAnalyzed": 0,
+      "processingStatus": "collecting_news"
+    },
+    "id": 1759421768532
+  }
+]

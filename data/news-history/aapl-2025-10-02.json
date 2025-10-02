@@ -1,70 +1,70 @@
 {
   "ticker": "AAPL",
   "date": "2025-10-02",
-  "timestamp": "2025-10-02T13:45:18.549Z",
+  "timestamp": "2025-10-02T16:59:28.797Z",
   "articles": [
     {
       "title": "AAPL",
       "url": "/symbols/NASDAQ-AAPL/",
       "source": "TradingView",
       "provider": "TradingView",
-      "publishedAt": "2025-10-02T13:45:17.786Z",
+      "publishedAt": "2025-10-02T16:59:27.943Z",
       "content": "AAPL",
-      "storedAt": "2025-10-02T13:45:18.549Z"
+      "storedAt": "2025-10-02T16:59:28.797Z"
     },
     {
       "title": "AAPL news",
       "url": "https://in.tradingview.com/symbols/NASDAQ-AAPL/news/",
       "source": "TradingView",
       "provider": "TradingView",
-      "publishedAt": "2025-10-02T13:45:17.786Z",
+      "publishedAt": "2025-10-02T16:59:27.943Z",
       "content": "AAPL news",
-      "storedAt": "2025-10-02T13:45:18.549Z"
-    },
-    {
-      "title": "Will Apple (AAPL) Beat Estimates Again in Its Next Earnings Report?",
-      "url": "/news/181237/will-apple-aapl-beat-estimates-again-in-its-next-earnings-report",
-      "source": "Finviz",
-      "publishedAt": "2025-10-02T13:45:17.391Z",
-      "content": "Will Apple (AAPL) Beat Estimates Again in Its Next Earnings Report?",
-      "dateText": "12:10PM",
-      "storedAt": "2025-10-02T13:45:18.549Z"
+      "storedAt": "2025-10-02T16:59:28.797Z"
     },
     {
       "title": "Apple hardware ecosystem safe from AI smart glasses for next 2-3 years: analyst",
       "url": "https://finance.yahoo.com/news/apple-hardware-ecosystem-safe-ai-130909907.html",
       "source": "Finviz",
-      "publishedAt": "2025-10-02T13:45:17.390Z",
+      "publishedAt": "2025-10-02T16:59:27.728Z",
       "content": "Apple hardware ecosystem safe from AI smart glasses for next 2-3 years: analyst",
       "dateText": "09:09AM",
-      "storedAt": "2025-10-02T13:45:18.549Z"
+      "storedAt": "2025-10-02T16:59:28.797Z"
     },
     {
       "title": "Analyst Report: Taiwan Semiconductor Manufacturing Company Limited",
       "url": "https://finance.yahoo.com/m/6d2d80a9-ce68-3bc0-8cd9-7c5628465486/analyst-report%3A-taiwan.html",
       "source": "Finviz",
-      "publishedAt": "2025-10-02T13:45:17.390Z",
+      "publishedAt": "2025-10-02T16:59:27.728Z",
       "content": "Analyst Report: Taiwan Semiconductor Manufacturing Company Limited",
       "dateText": "08:02PM",
-      "storedAt": "2025-10-02T13:45:18.549Z"
+      "storedAt": "2025-10-02T16:59:28.797Z"
     },
     {
       "title": "iPhone 17 Outsells On Speed, Not AI Hype: Analyst",
       "url": "https://finance.yahoo.com/news/iphone-17-outsells-speed-not-184236613.html",
       "source": "Finviz",
-      "publishedAt": "2025-10-02T13:45:17.390Z",
+      "publishedAt": "2025-10-02T16:59:27.728Z",
       "content": "iPhone 17 Outsells On Speed, Not AI Hype: Analyst",
       "dateText": "02:42PM",
-      "storedAt": "2025-10-02T13:45:18.549Z"
+      "storedAt": "2025-10-02T16:59:28.797Z"
     },
     {
       "title": "AT&T Stock Gets a Downgrade. Why 'Free' iPhones Are Partly to Blame.",
       "url": "https://www.barrons.com/articles/att-stock-price-free-iphone-d9ab0b39?mod=bar_FV",
       "source": "Finviz",
-      "publishedAt": "2025-10-02T13:45:17.390Z",
+      "publishedAt": "2025-10-02T16:59:27.728Z",
       "content": "AT&T Stock Gets a Downgrade. Why 'Free' iPhones Are Partly to Blame.",
       "dateText": "02:14PM",
-      "storedAt": "2025-10-02T13:45:18.549Z"
+      "storedAt": "2025-10-02T16:59:28.797Z"
+    },
+    {
+      "title": "Will Apple (AAPL) Beat Estimates Again in Its Next Earnings Report?",
+      "url": "/news/181237/will-apple-aapl-beat-estimates-again-in-its-next-earnings-report",
+      "source": "Finviz",
+      "publishedAt": "2025-10-02T16:59:27.728Z",
+      "content": "Will Apple (AAPL) Beat Estimates Again in Its Next Earnings Report?",
+      "dateText": "12:10PM",
+      "storedAt": "2025-10-02T16:59:28.797Z"
     },
     {
       "title": "S&P 500 Earnings: Tech EPS Expectations Point to Strong Q3 Results",
@@ -81,7 +81,7 @@
         "MSFT",
         "AAPL"
       ],
-      "storedAt": "2025-10-02T13:45:18.549Z"
+      "storedAt": "2025-10-02T16:59:28.797Z"
     },
     {
       "title": "Jim Cramer Points To 1,000-Person Tokyo Apple Store Line As Proof Of Why AAPL Stock Keeps Defying Doubters: Tim Cook Hails 'New Chapter'",
@@ -94,7 +94,7 @@
       "tickers": [
         "AAPL"
       ],
-      "storedAt": "2025-10-02T13:45:18.549Z"
+      "storedAt": "2025-10-02T16:59:28.797Z"
     },
     {
       "title": "S&P 500: Tech-Led Rally Masks Weakness in Broader Sectors Ahead of Earnings Season",
@@ -110,7 +110,7 @@
         "AMZN",
         "AAPL"
       ],
-      "storedAt": "2025-10-02T13:45:18.549Z"
+      "storedAt": "2025-10-02T16:59:28.797Z"
     }
   ],
   "totalArticles": 10
