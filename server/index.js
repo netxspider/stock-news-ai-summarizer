@@ -9,7 +9,7 @@ import fs from 'fs/promises';
 import { NewsCollector } from './services/newsCollector.js';
 import { AIProcessor } from './services/aiProcessor.js';
 import { MockAIProcessor } from './services/mockAIProcessor.js';
-import { DataStorage } from './services/dataStorage.js';
+import { DataStorage } from './services/productionDataStorage.js';
 
 dotenv.config();
 
@@ -23,11 +23,30 @@ const PORT = process.env.PORT || 3002;
 app.use(cors());
 app.use(express.json());
 
+// Request logging middleware
+app.use((req, res, next) => {
+  console.log(`${new Date().toISOString()} ${req.method} ${req.path}`, req.query);
+  next();
+});
+
+// Async error handler wrapper
+const asyncHandler = (fn) => (req, res, next) => {
+  Promise.resolve(fn(req, res, next)).catch(next);
+};
+
 // Initialize services
 const newsCollector = new NewsCollector();
 // Use MockAIProcessor for demonstration (replace with AIProcessor when Gemini API is working)
 const aiProcessor = process.env.USE_REAL_AI === 'true' ? new AIProcessor() : new MockAIProcessor();
 const dataStorage = new DataStorage();
+
+// Initialize data storage
+console.log('Initializing data storage...');
+dataStorage.init().then(() => {
+  console.log('Data storage initialized successfully');
+}).catch(error => {
+  console.error('Failed to initialize data storage:', error);
+});
 
 // Routes
 
@@ -380,17 +399,36 @@ cron.schedule('30 2 * * *', async () => {
 });
 
 // Health check endpoint
-app.get('/api/health', (req, res) => {
-  res.json({ 
-    status: 'ok', 
-    timestamp: new Date().toISOString(),
-    uptime: process.uptime(),
-    environment: {
-      hasPolygonKey: !!process.env.POLYGON_API_KEY,
-      hasGeminiKey: !!process.env.GEMINI_API_KEY,
-      useRealAI: process.env.USE_REAL_AI === 'true'
-    }
-  });
+app.get('/api/health', async (req, res) => {
+  try {
+    const storageStats = await dataStorage.getStorageStats();
+    const tickers = await dataStorage.getTickers();
+    
+    res.json({ 
+      status: 'ok', 
+      timestamp: new Date().toISOString(),
+      uptime: process.uptime(),
+      environment: {
+        hasPolygonKey: !!process.env.POLYGON_API_KEY,
+        hasGeminiKey: !!process.env.GEMINI_API_KEY,
+        useRealAI: process.env.USE_REAL_AI === 'true',
+        nodeEnv: process.env.NODE_ENV,
+        isVercel: !!process.env.VERCEL
+      },
+      data: {
+        tickersCount: tickers.length,
+        tickers: tickers,
+        ...storageStats
+      }
+    });
+  } catch (error) {
+    console.error('Health check error:', error);
+    res.status(500).json({
+      status: 'error',
+      error: error.message,
+      timestamp: new Date().toISOString()
+    });
+  }
 });
 
 // Test endpoint for debugging
