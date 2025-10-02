@@ -137,10 +137,11 @@ export default async function handler(req, res) {
   try {
     await initializeStorage();
     
-    const { url, method } = req;
-    // Parse URL to get pathname and remove /api prefix
-    const urlObj = new URL(url, 'https://example.com');
-    const path = urlObj.pathname.replace('/api', '');
+    const { method, query } = req;
+    
+    // Extract path from Vercel's routing
+    const pathParts = query.path || [];
+    const path = '/' + (Array.isArray(pathParts) ? pathParts.join('/') : pathParts);
     
     console.log(`${new Date().toISOString()} ${method} ${path}`);
     
