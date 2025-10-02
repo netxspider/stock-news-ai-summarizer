@@ -2,6 +2,430 @@
   {
     "ticker": "AAPL",
     "summary": {
+      "summary": "Today's news for Apple (AAPL) paints a largely positive picture, with analysts questioning if the company will once again beat earnings estimates in its upcoming report, aligning with broader strong Q3 2025 EPS expectations for the technology sector. Product-specific insights indicate robust demand for the iPhone 17, driven by performance rather than AI hype, suggesting Apple's core product strategy remains effective. Furthermore, an analyst report provides comfort regarding Apple's hardware ecosystem, projecting its safety from competitive threats posed by AI smart glasses for the next 2-3 years, reinforcing the stability of its current market position.",
+      "keyPoints": [
+        "Analysts anticipate Apple may beat estimates in its next earnings report, consistent with strong Q3 tech sector expectations.",
+        "The iPhone 17 is reportedly selling well due to speed, not AI, indicating robust core product performance.",
+        "Apple's hardware ecosystem is considered safe from AI smart glasses competition for the next 2-3 years.",
+        "High demand for iPhones, even through 'free' promotions, contributes to carrier financial strain but demonstrates strong product pull.",
+        "Strong consumer enthusiasm for Apple products is evident from the 1,000-person line at a Tokyo store reopening, hailed by CEO Tim Cook as a 'new chapter'."
+      ],
+      "sentiment": "positive",
+      "sentimentReasoning": "Multiple analyst reports suggest strong earnings potential and product performance (iPhone 17 sales, ecosystem safety). High consumer demand indicators (Tokyo store line) and positive comments from CEO Tim Cook further bolster this. While carrier subsidy issues are noted, they primarily reflect strong iPhone demand, which is positive for Apple's sales volume.",
+      "whatChangedToday": "Today's news reinforced several positive trends for Apple while introducing new analyst perspectives. The specific mention of the iPhone 17 outselling on speed rather than AI hype provides a current snapshot of consumer preferences and product success, shifting the focus from speculative AI integration to tangible performance. The analyst's view on the safety of Apple's hardware ecosystem from AI smart glasses for the next 2-3 years offers a clear runway for Apple's current strategy, alleviating immediate competitive pressure. The question regarding Apple beating estimates again directly addresses investor focus on upcoming financial results, supported by broader positive tech sector earnings expectations. The AT&T downgrade, while not directly about AAPL, highlights the intense market demand for iPhones which, while beneficial for sales volume, also signals potential challenges for carrier profitability and future subsidy models.",
+      "marketImplications": "The news is broadly positive for AAPL stock. Strong indications of an earnings beat, coupled with robust iPhone 17 sales driven by performance, are likely to reassure investors about Apple's fundamental strength and product cycle. The analyst's assessment of the ecosystem's safety from emerging AI smart glasses competition provides a sense of stability and reduces near-term competitive risk, potentially supporting a higher valuation multiple. The visible consumer enthusiasm, as evidenced by the Tokyo store line, reinforces brand loyalty and market demand, which are crucial for sustained growth. While the AT&T downgrade points to carrier subsidy issues, the underlying cause—high demand for iPhones—is a net positive for Apple's sales volume. The overall positive sentiment in the tech sector regarding Q3 earnings further provides a tailwind. Investors may interpret this as a strong buy signal or a reason to hold, potentially leading to upward pressure on AAPL's share price as earnings season approaches.",
+      "marketImpact": "high",
+      "confidence": "high",
+      "articlesAnalyzed": 10,
+      "totalArticles": 10,
+      "historicalArticlesUsed": 0,
+      "lastUpdated": "2025-10-02T13:45:45.189Z",
+      "ticker": "AAPL"
+    },
+    "articles": [
+      {
+        "title": "AAPL",
+        "url": "/symbols/NASDAQ-AAPL/",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T13:45:17.786Z",
+        "content": "AAPL"
+      },
+      {
+        "title": "AAPL news",
+        "url": "https://in.tradingview.com/symbols/NASDAQ-AAPL/news/",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T13:45:17.786Z",
+        "content": "AAPL news"
+      },
+      {
+        "title": "Will Apple (AAPL) Beat Estimates Again in Its Next Earnings Report?",
+        "url": "/news/181237/will-apple-aapl-beat-estimates-again-in-its-next-earnings-report",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T13:45:17.391Z",
+        "content": "Will Apple (AAPL) Beat Estimates Again in Its Next Earnings Report?",
+        "dateText": "12:10PM"
+      },
+      {
+        "title": "Apple hardware ecosystem safe from AI smart glasses for next 2-3 years: analyst",
+        "url": "https://finance.yahoo.com/news/apple-hardware-ecosystem-safe-ai-130909907.html",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T13:45:17.390Z",
+        "content": "Apple hardware ecosystem safe from AI smart glasses for next 2-3 years: analyst",
+        "dateText": "09:09AM"
+      },
+      {
+        "title": "Analyst Report: Taiwan Semiconductor Manufacturing Company Limited",
+        "url": "https://finance.yahoo.com/m/6d2d80a9-ce68-3bc0-8cd9-7c5628465486/analyst-report%3A-taiwan.html",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T13:45:17.390Z",
+        "content": "Analyst Report: Taiwan Semiconductor Manufacturing Company Limited",
+        "dateText": "08:02PM"
+      },
+      {
+        "title": "iPhone 17 Outsells On Speed, Not AI Hype: Analyst",
+        "url": "https://finance.yahoo.com/news/iphone-17-outsells-speed-not-184236613.html",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T13:45:17.390Z",
+        "content": "iPhone 17 Outsells On Speed, Not AI Hype: Analyst",
+        "dateText": "02:42PM"
+      },
+      {
+        "title": "AT&T Stock Gets a Downgrade. Why 'Free' iPhones Are Partly to Blame.",
+        "url": "https://www.barrons.com/articles/att-stock-price-free-iphone-d9ab0b39?mod=bar_FV",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T13:45:17.390Z",
+        "content": "AT&T Stock Gets a Downgrade. Why 'Free' iPhones Are Partly to Blame.",
+        "dateText": "02:14PM"
+      },
+      {
+        "title": "S&P 500 Earnings: Tech EPS Expectations Point to Strong Q3 Results",
+        "url": "https://www.investing.com/analysis/sp-500-earnings-tech-eps-expectations-point-to-strong-q3-results-200667620",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-29T08:19:00Z",
+        "content": "Technology sector earnings are showing strong growth expectations for Q3 2025, with potential peak earnings and significant AI-driven investment impacting sector performance.",
+        "author": "Brian Gilmartin",
+        "tickers": [
+          "AMZN",
+          "TSLA",
+          "NKE",
+          "MSFT",
+          "AAPL"
+        ]
+      },
+      {
+        "title": "Jim Cramer Points To 1,000-Person Tokyo Apple Store Line As Proof Of Why AAPL Stock Keeps Defying Doubters: Tim Cook Hails 'New Chapter'",
+        "url": "https://www.benzinga.com/markets/tech/25/09/47886994/jim-cramer-points-to-1000-person-tokyo-apple-store-line-as-proof-of-why-aapl-stock-keeps-defying-dou",
+        "source": "Polygon",
+        "provider": "Benzinga",
+        "publishedAt": "2025-09-26T12:24:52Z",
+        "content": "Jim Cramer highlighted the reopening of Apple's Tokyo store, noting a 1,000-person line as evidence of the company's strong market performance. CEO Tim Cook celebrated the store's reopening as a 'new chapter', while early indicators suggest strong demand for the iPhone 17 series.",
+        "author": "Namrata Sen",
+        "tickers": [
+          "AAPL"
+        ]
+      },
+      {
+        "title": "S&P 500: Tech-Led Rally Masks Weakness in Broader Sectors Ahead of Earnings Season",
+        "url": "https://www.investing.com/analysis/sp-500-techled-rally-masks-weakness-in-broader-sectors-ahead-of-earnings-season-200667487",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-25T11:02:00Z",
+        "content": "The S&P 500 is experiencing a tech-driven rally that masks underlying sector weaknesses, with investors anticipating the upcoming earnings season and potential market valuation challenges outside the technology sector.",
+        "author": "Fawad Razaqzada",
+        "tickers": [
+          "TSLA",
+          "NVDA",
+          "AMZN",
+          "AAPL"
+        ]
+      }
+    ],
+    "timestamp": "2025-10-02T13:45:45.189Z",
+    "date": "2025-10-02",
+    "sources": [
+      {
+        "url": "/symbols/NASDAQ-AAPL/",
+        "headline": "AAPL",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T13:45:17.786Z"
+      },
+      {
+        "url": "https://in.tradingview.com/symbols/NASDAQ-AAPL/news/",
+        "headline": "AAPL news",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T13:45:17.786Z"
+      },
+      {
+        "url": "/news/181237/will-apple-aapl-beat-estimates-again-in-its-next-earnings-report",
+        "headline": "Will Apple (AAPL) Beat Estimates Again in Its Next Earnings Report?",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T13:45:17.391Z"
+      },
+      {
+        "url": "https://finance.yahoo.com/news/apple-hardware-ecosystem-safe-ai-130909907.html",
+        "headline": "Apple hardware ecosystem safe from AI smart glasses for next 2-3 years: analyst",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T13:45:17.390Z"
+      },
+      {
+        "url": "https://finance.yahoo.com/m/6d2d80a9-ce68-3bc0-8cd9-7c5628465486/analyst-report%3A-taiwan.html",
+        "headline": "Analyst Report: Taiwan Semiconductor Manufacturing Company Limited",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T13:45:17.390Z"
+      },
+      {
+        "url": "https://finance.yahoo.com/news/iphone-17-outsells-speed-not-184236613.html",
+        "headline": "iPhone 17 Outsells On Speed, Not AI Hype: Analyst",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T13:45:17.390Z"
+      },
+      {
+        "url": "https://www.barrons.com/articles/att-stock-price-free-iphone-d9ab0b39?mod=bar_FV",
+        "headline": "AT&T Stock Gets a Downgrade. Why 'Free' iPhones Are Partly to Blame.",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T13:45:17.390Z"
+      },
+      {
+        "url": "https://www.investing.com/analysis/sp-500-earnings-tech-eps-expectations-point-to-strong-q3-results-200667620",
+        "headline": "S&P 500 Earnings: Tech EPS Expectations Point to Strong Q3 Results",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-29T08:19:00Z"
+      },
+      {
+        "url": "https://www.benzinga.com/markets/tech/25/09/47886994/jim-cramer-points-to-1000-person-tokyo-apple-store-line-as-proof-of-why-aapl-stock-keeps-defying-dou",
+        "headline": "Jim Cramer Points To 1,000-Person Tokyo Apple Store Line As Proof Of Why AAPL Stock Keeps Defying Doubters: Tim Cook Hails 'New Chapter'",
+        "source": "Polygon",
+        "provider": "Benzinga",
+        "publishedAt": "2025-09-26T12:24:52Z"
+      },
+      {
+        "url": "https://www.investing.com/analysis/sp-500-techled-rally-masks-weakness-in-broader-sectors-ahead-of-earnings-season-200667487",
+        "headline": "S&P 500: Tech-Led Rally Masks Weakness in Broader Sectors Ahead of Earnings Season",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-25T11:02:00Z"
+      }
+    ],
+    "isProcessing": false,
+    "meta": {
+      "totalArticlesFound": 10,
+      "articlesAnalyzed": 10,
+      "historicalArticlesUsed": 0,
+      "daysOfHistoryAnalyzed": 7,
+      "processingTime": "2025-10-02T13:45:45.189Z",
+      "processingStatus": "complete",
+      "enhancedFeatures": {
+        "tradingViewScraping": true,
+        "finvizEnhanced": true,
+        "polygonAPI": true,
+        "geminiAnalysis": true,
+        "historicalComparison": true
+      }
+    },
+    "id": 1759412745190
+  },
+  {
+    "ticker": "AAPL",
+    "summary": {
+      "summary": "Today's news paints a highly positive picture for Apple (AAPL), characterized by strong product performance, optimistic analyst sentiment, and robust consumer demand. A significant development is the analyst commentary highlighting the iPhone 17's strong sales, driven primarily by its speed and performance rather than solely by AI hype. This suggests Apple's core product innovation and user experience continue to be compelling differentiators in a competitive market. Furthermore, Apple has received a new analyst initiation, a development that typically signals positive coverage and can lead to increased institutional interest and a more favorable market perception.",
+      "keyPoints": [
+        "iPhone 17 sales are strong, driven by speed and performance, not just AI hype.",
+        "Apple has received a new analyst initiation, typically a positive signal.",
+        "Analysts are speculating Apple will beat earnings estimates again in its next report.",
+        "Strong consumer demand for Apple products was evidenced by a 1,000-person line at a Tokyo store reopening.",
+        "The broader technology sector is showing strong Q3 2025 earnings expectations, providing a positive tailwind.",
+        "AT&T's stock downgrade, partly due to 'free' iPhone promotions, indirectly confirms strong iPhone demand.",
+        "A positive analyst report on Taiwan Semiconductor Manufacturing Company (TSMC) bodes well for Apple's supply chain and future chip development."
+      ],
+      "sentiment": "positive",
+      "sentimentReasoning": "Multiple direct and indirect positive catalysts are present, including strong product sales, new analyst coverage, optimistic earnings outlook, robust consumer demand, and a supportive tech sector environment.",
+      "whatChangedToday": "Key new developments today include a fresh analyst initiation for Apple, which often signifies a new 'buy' or 'outperform' rating. Specific analyst commentary emerged regarding the iPhone 17's sales drivers, emphasizing speed over AI hype, providing new insight into current product success. Direct speculation about Apple beating its upcoming earnings estimates adds to the positive momentum. Additionally, the AT&T downgrade, linked to 'free' iPhone promotions, offers a new perspective on the financial impact of Apple's strong product demand on its carrier partners, implicitly confirming robust iPhone sales figures.",
+      "marketImplications": "The confluence of positive news is likely to generate upward pressure on AAPL's stock price. The analyst initiation and speculation about beating earnings estimates could lead to increased investor confidence and potentially higher price targets. Strong iPhone 17 sales data, even if anecdotal, reinforces Apple's market leadership and product vitality. While the AT&T downgrade highlights carrier pressure, for Apple, it underscores successful product distribution and demand. Overall, these developments position AAPL favorably, potentially attracting more capital and solidifying its role as a key driver in the ongoing tech-led market rally, especially ahead of the earnings season.",
+      "marketImpact": "high",
+      "confidence": "high",
+      "articlesAnalyzed": 10,
+      "totalArticles": 10,
+      "historicalArticlesUsed": 0,
+      "lastUpdated": "2025-10-02T10:55:18.099Z",
+      "ticker": "AAPL"
+    },
+    "articles": [
+      {
+        "title": "AT&T Stock Gets a Downgrade. Why 'Free' iPhones Are Partly to Blame.",
+        "url": "https://www.barrons.com/articles/att-stock-price-free-iphone-d9ab0b39?mod=bar_FV",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T10:54:58.163Z",
+        "content": "AT&T Stock Gets a Downgrade. Why 'Free' iPhones Are Partly to Blame.",
+        "dateText": "02:14PM"
+      },
+      {
+        "title": "Will Apple (AAPL) Beat Estimates Again in Its Next Earnings Report?",
+        "url": "/news/181237/will-apple-aapl-beat-estimates-again-in-its-next-earnings-report",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T10:54:58.163Z",
+        "content": "Will Apple (AAPL) Beat Estimates Again in Its Next Earnings Report?",
+        "dateText": "12:10PM"
+      },
+      {
+        "title": "Apple initiated, DraftKings downgraded: Wall Street's top analyst calls",
+        "url": "https://finance.yahoo.com/news/apple-initiated-draftkings-downgraded-wall-134447703.html",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T10:54:58.163Z",
+        "content": "Apple initiated, DraftKings downgraded: Wall Street's top analyst calls",
+        "dateText": "09:44AM"
+      },
+      {
+        "title": "Analyst Report: Taiwan Semiconductor Manufacturing Company Limited",
+        "url": "https://finance.yahoo.com/m/6d2d80a9-ce68-3bc0-8cd9-7c5628465486/analyst-report%3A-taiwan.html",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T10:54:58.162Z",
+        "content": "Analyst Report: Taiwan Semiconductor Manufacturing Company Limited",
+        "dateText": "08:02PM"
+      },
+      {
+        "title": "iPhone 17 Outsells On Speed, Not AI Hype: Analyst",
+        "url": "https://finance.yahoo.com/news/iphone-17-outsells-speed-not-184236613.html",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T10:54:58.162Z",
+        "content": "iPhone 17 Outsells On Speed, Not AI Hype: Analyst",
+        "dateText": "02:42PM"
+      },
+      {
+        "title": "AAPL",
+        "url": "/symbols/NASDAQ-AAPL/",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T10:54:57.983Z",
+        "content": "AAPL"
+      },
+      {
+        "title": "AAPL news",
+        "url": "https://in.tradingview.com/symbols/NASDAQ-AAPL/news/",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T10:54:57.983Z",
+        "content": "AAPL news"
+      },
+      {
+        "title": "S&P 500 Earnings: Tech EPS Expectations Point to Strong Q3 Results",
+        "url": "https://www.investing.com/analysis/sp-500-earnings-tech-eps-expectations-point-to-strong-q3-results-200667620",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-29T08:19:00Z",
+        "content": "Technology sector earnings are showing strong growth expectations for Q3 2025, with potential peak earnings and significant AI-driven investment impacting sector performance.",
+        "author": "Brian Gilmartin",
+        "tickers": [
+          "AMZN",
+          "TSLA",
+          "NKE",
+          "MSFT",
+          "AAPL"
+        ]
+      },
+      {
+        "title": "Jim Cramer Points To 1,000-Person Tokyo Apple Store Line As Proof Of Why AAPL Stock Keeps Defying Doubters: Tim Cook Hails 'New Chapter'",
+        "url": "https://www.benzinga.com/markets/tech/25/09/47886994/jim-cramer-points-to-1000-person-tokyo-apple-store-line-as-proof-of-why-aapl-stock-keeps-defying-dou",
+        "source": "Polygon",
+        "provider": "Benzinga",
+        "publishedAt": "2025-09-26T12:24:52Z",
+        "content": "Jim Cramer highlighted the reopening of Apple's Tokyo store, noting a 1,000-person line as evidence of the company's strong market performance. CEO Tim Cook celebrated the store's reopening as a 'new chapter', while early indicators suggest strong demand for the iPhone 17 series.",
+        "author": "Namrata Sen",
+        "tickers": [
+          "AAPL"
+        ]
+      },
+      {
+        "title": "S&P 500: Tech-Led Rally Masks Weakness in Broader Sectors Ahead of Earnings Season",
+        "url": "https://www.investing.com/analysis/sp-500-techled-rally-masks-weakness-in-broader-sectors-ahead-of-earnings-season-200667487",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-25T11:02:00Z",
+        "content": "The S&P 500 is experiencing a tech-driven rally that masks underlying sector weaknesses, with investors anticipating the upcoming earnings season and potential market valuation challenges outside the technology sector.",
+        "author": "Fawad Razaqzada",
+        "tickers": [
+          "TSLA",
+          "NVDA",
+          "AMZN",
+          "AAPL"
+        ]
+      }
+    ],
+    "timestamp": "2025-10-02T10:55:18.099Z",
+    "date": "2025-10-02",
+    "sources": [
+      {
+        "url": "https://www.barrons.com/articles/att-stock-price-free-iphone-d9ab0b39?mod=bar_FV",
+        "headline": "AT&T Stock Gets a Downgrade. Why 'Free' iPhones Are Partly to Blame.",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T10:54:58.163Z"
+      },
+      {
+        "url": "/news/181237/will-apple-aapl-beat-estimates-again-in-its-next-earnings-report",
+        "headline": "Will Apple (AAPL) Beat Estimates Again in Its Next Earnings Report?",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T10:54:58.163Z"
+      },
+      {
+        "url": "https://finance.yahoo.com/news/apple-initiated-draftkings-downgraded-wall-134447703.html",
+        "headline": "Apple initiated, DraftKings downgraded: Wall Street's top analyst calls",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T10:54:58.163Z"
+      },
+      {
+        "url": "https://finance.yahoo.com/m/6d2d80a9-ce68-3bc0-8cd9-7c5628465486/analyst-report%3A-taiwan.html",
+        "headline": "Analyst Report: Taiwan Semiconductor Manufacturing Company Limited",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T10:54:58.162Z"
+      },
+      {
+        "url": "https://finance.yahoo.com/news/iphone-17-outsells-speed-not-184236613.html",
+        "headline": "iPhone 17 Outsells On Speed, Not AI Hype: Analyst",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T10:54:58.162Z"
+      },
+      {
+        "url": "/symbols/NASDAQ-AAPL/",
+        "headline": "AAPL",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T10:54:57.983Z"
+      },
+      {
+        "url": "https://in.tradingview.com/symbols/NASDAQ-AAPL/news/",
+        "headline": "AAPL news",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T10:54:57.983Z"
+      },
+      {
+        "url": "https://www.investing.com/analysis/sp-500-earnings-tech-eps-expectations-point-to-strong-q3-results-200667620",
+        "headline": "S&P 500 Earnings: Tech EPS Expectations Point to Strong Q3 Results",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-29T08:19:00Z"
+      },
+      {
+        "url": "https://www.benzinga.com/markets/tech/25/09/47886994/jim-cramer-points-to-1000-person-tokyo-apple-store-line-as-proof-of-why-aapl-stock-keeps-defying-dou",
+        "headline": "Jim Cramer Points To 1,000-Person Tokyo Apple Store Line As Proof Of Why AAPL Stock Keeps Defying Doubters: Tim Cook Hails 'New Chapter'",
+        "source": "Polygon",
+        "provider": "Benzinga",
+        "publishedAt": "2025-09-26T12:24:52Z"
+      },
+      {
+        "url": "https://www.investing.com/analysis/sp-500-techled-rally-masks-weakness-in-broader-sectors-ahead-of-earnings-season-200667487",
+        "headline": "S&P 500: Tech-Led Rally Masks Weakness in Broader Sectors Ahead of Earnings Season",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-25T11:02:00Z"
+      }
+    ],
+    "isProcessing": false,
+    "meta": {
+      "totalArticlesFound": 10,
+      "articlesAnalyzed": 10,
+      "historicalArticlesUsed": 0,
+      "daysOfHistoryAnalyzed": 7,
+      "processingTime": "2025-10-02T10:55:18.099Z",
+      "processingStatus": "generating_ai_summary",
+      "enhancedFeatures": {
+        "tradingViewScraping": true,
+        "finvizEnhanced": true,
+        "polygonAPI": true,
+        "geminiAnalysis": true,
+        "historicalComparison": true
+      }
+    },
+    "id": 1759412718552
+  },
+  {
+    "ticker": "AAPL",
+    "summary": {
       "summary": "Today's news paints a highly positive picture for Apple (AAPL), characterized by strong product performance, optimistic analyst sentiment, and robust consumer demand. A significant development is the analyst commentary highlighting the iPhone 17's strong sales, driven primarily by its speed and performance rather than solely by AI hype. This suggests Apple's core product innovation and user experience continue to be compelling differentiators in a competitive market. Furthermore, Apple has received a new analyst initiation, a development that typically signals positive coverage and can lead to increased institutional interest and a more favorable market perception.",
       "keyPoints": [
         "iPhone 17 sales are strong, driven by speed and performance, not just AI hype.",
@@ -989,419 +1413,5 @@
       }
     },
     "id": 1759401140012
-  },
-  {
-    "ticker": "AAPL",
-    "summary": {
-      "summary": "Today's news for Apple (AAPL) presents a largely positive outlook, with key insights into the performance of the new iPhone 17. An analyst report indicates that the iPhone 17 is achieving strong sales due to its speed and performance enhancements, rather than being driven by broader AI hype. This suggests that Apple's core hardware innovation continues to be a significant draw for consumers, reinforcing the company's product strategy and market appeal. Additionally, Apple has received a new analyst initiation, which",
-      "keyPoints": [
-        "Analysis continues",
-        "Partial data received"
-      ],
-      "sentiment": "neutral",
-      "sentimentReasoning": "Partial analysis",
-      "whatChangedToday": "Analysis incomplete due to response length",
-      "marketImplications": "Full analysis pending",
-      "marketImpact": "medium",
-      "confidence": "low",
-      "articlesAnalyzed": 10,
-      "totalArticles": 10,
-      "historicalArticlesUsed": 0,
-      "lastUpdated": "2025-10-02T10:29:51.522Z",
-      "ticker": "AAPL",
-      "_recovered": true
-    },
-    "articles": [
-      {
-        "title": "iPhone 17 Outsells On Speed, Not AI Hype: Analyst",
-        "url": "https://finance.yahoo.com/news/iphone-17-outsells-speed-not-184236613.html",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:29:31.606Z",
-        "content": "iPhone 17 Outsells On Speed, Not AI Hype: Analyst",
-        "dateText": "02:42PM"
-      },
-      {
-        "title": "AT&T Stock Gets a Downgrade. Why 'Free' iPhones Are Partly to Blame.",
-        "url": "https://www.barrons.com/articles/att-stock-price-free-iphone-d9ab0b39?mod=bar_FV",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:29:31.606Z",
-        "content": "AT&T Stock Gets a Downgrade. Why 'Free' iPhones Are Partly to Blame.",
-        "dateText": "02:14PM"
-      },
-      {
-        "title": "Will Apple (AAPL) Beat Estimates Again in Its Next Earnings Report?",
-        "url": "/news/181237/will-apple-aapl-beat-estimates-again-in-its-next-earnings-report",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:29:31.606Z",
-        "content": "Will Apple (AAPL) Beat Estimates Again in Its Next Earnings Report?",
-        "dateText": "12:10PM"
-      },
-      {
-        "title": "Apple initiated, DraftKings downgraded: Wall Street's top analyst calls",
-        "url": "https://finance.yahoo.com/news/apple-initiated-draftkings-downgraded-wall-134447703.html",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:29:31.606Z",
-        "content": "Apple initiated, DraftKings downgraded: Wall Street's top analyst calls",
-        "dateText": "09:44AM"
-      },
-      {
-        "title": "Analyst Report: Taiwan Semiconductor Manufacturing Company Limited",
-        "url": "https://finance.yahoo.com/m/6d2d80a9-ce68-3bc0-8cd9-7c5628465486/analyst-report%3A-taiwan.html",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:29:31.605Z",
-        "content": "Analyst Report: Taiwan Semiconductor Manufacturing Company Limited",
-        "dateText": "08:02PM"
-      },
-      {
-        "title": "AAPL news",
-        "url": "https://in.tradingview.com/symbols/NASDAQ-AAPL/news/",
-        "source": "TradingView",
-        "provider": "TradingView",
-        "publishedAt": "2025-10-02T10:29:31.569Z",
-        "content": "AAPL news"
-      },
-      {
-        "title": "AAPL",
-        "url": "/symbols/NASDAQ-AAPL/",
-        "source": "TradingView",
-        "provider": "TradingView",
-        "publishedAt": "2025-10-02T10:29:31.568Z",
-        "content": "AAPL"
-      },
-      {
-        "title": "S&P 500 Earnings: Tech EPS Expectations Point to Strong Q3 Results",
-        "url": "https://www.investing.com/analysis/sp-500-earnings-tech-eps-expectations-point-to-strong-q3-results-200667620",
-        "source": "Polygon",
-        "provider": "Investing.com",
-        "publishedAt": "2025-09-29T08:19:00Z",
-        "content": "Technology sector earnings are showing strong growth expectations for Q3 2025, with potential peak earnings and significant AI-driven investment impacting sector performance.",
-        "author": "Brian Gilmartin",
-        "tickers": [
-          "AMZN",
-          "TSLA",
-          "NKE",
-          "MSFT",
-          "AAPL"
-        ]
-      },
-      {
-        "title": "Jim Cramer Points To 1,000-Person Tokyo Apple Store Line As Proof Of Why AAPL Stock Keeps Defying Doubters: Tim Cook Hails 'New Chapter'",
-        "url": "https://www.benzinga.com/markets/tech/25/09/47886994/jim-cramer-points-to-1000-person-tokyo-apple-store-line-as-proof-of-why-aapl-stock-keeps-defying-dou",
-        "source": "Polygon",
-        "provider": "Benzinga",
-        "publishedAt": "2025-09-26T12:24:52Z",
-        "content": "Jim Cramer highlighted the reopening of Apple's Tokyo store, noting a 1,000-person line as evidence of the company's strong market performance. CEO Tim Cook celebrated the store's reopening as a 'new chapter', while early indicators suggest strong demand for the iPhone 17 series.",
-        "author": "Namrata Sen",
-        "tickers": [
-          "AAPL"
-        ]
-      },
-      {
-        "title": "S&P 500: Tech-Led Rally Masks Weakness in Broader Sectors Ahead of Earnings Season",
-        "url": "https://www.investing.com/analysis/sp-500-techled-rally-masks-weakness-in-broader-sectors-ahead-of-earnings-season-200667487",
-        "source": "Polygon",
-        "provider": "Investing.com",
-        "publishedAt": "2025-09-25T11:02:00Z",
-        "content": "The S&P 500 is experiencing a tech-driven rally that masks underlying sector weaknesses, with investors anticipating the upcoming earnings season and potential market valuation challenges outside the technology sector.",
-        "author": "Fawad Razaqzada",
-        "tickers": [
-          "TSLA",
-          "NVDA",
-          "AMZN",
-          "AAPL"
-        ]
-      }
-    ],
-    "timestamp": "2025-10-02T10:29:51.522Z",
-    "date": "2025-10-02",
-    "sources": [
-      {
-        "url": "https://finance.yahoo.com/news/iphone-17-outsells-speed-not-184236613.html",
-        "headline": "iPhone 17 Outsells On Speed, Not AI Hype: Analyst",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:29:31.606Z"
-      },
-      {
-        "url": "https://www.barrons.com/articles/att-stock-price-free-iphone-d9ab0b39?mod=bar_FV",
-        "headline": "AT&T Stock Gets a Downgrade. Why 'Free' iPhones Are Partly to Blame.",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:29:31.606Z"
-      },
-      {
-        "url": "/news/181237/will-apple-aapl-beat-estimates-again-in-its-next-earnings-report",
-        "headline": "Will Apple (AAPL) Beat Estimates Again in Its Next Earnings Report?",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:29:31.606Z"
-      },
-      {
-        "url": "https://finance.yahoo.com/news/apple-initiated-draftkings-downgraded-wall-134447703.html",
-        "headline": "Apple initiated, DraftKings downgraded: Wall Street's top analyst calls",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:29:31.606Z"
-      },
-      {
-        "url": "https://finance.yahoo.com/m/6d2d80a9-ce68-3bc0-8cd9-7c5628465486/analyst-report%3A-taiwan.html",
-        "headline": "Analyst Report: Taiwan Semiconductor Manufacturing Company Limited",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:29:31.605Z"
-      },
-      {
-        "url": "https://in.tradingview.com/symbols/NASDAQ-AAPL/news/",
-        "headline": "AAPL news",
-        "source": "TradingView",
-        "provider": "TradingView",
-        "publishedAt": "2025-10-02T10:29:31.569Z"
-      },
-      {
-        "url": "/symbols/NASDAQ-AAPL/",
-        "headline": "AAPL",
-        "source": "TradingView",
-        "provider": "TradingView",
-        "publishedAt": "2025-10-02T10:29:31.568Z"
-      },
-      {
-        "url": "https://www.investing.com/analysis/sp-500-earnings-tech-eps-expectations-point-to-strong-q3-results-200667620",
-        "headline": "S&P 500 Earnings: Tech EPS Expectations Point to Strong Q3 Results",
-        "source": "Polygon",
-        "provider": "Investing.com",
-        "publishedAt": "2025-09-29T08:19:00Z"
-      },
-      {
-        "url": "https://www.benzinga.com/markets/tech/25/09/47886994/jim-cramer-points-to-1000-person-tokyo-apple-store-line-as-proof-of-why-aapl-stock-keeps-defying-dou",
-        "headline": "Jim Cramer Points To 1,000-Person Tokyo Apple Store Line As Proof Of Why AAPL Stock Keeps Defying Doubters: Tim Cook Hails 'New Chapter'",
-        "source": "Polygon",
-        "provider": "Benzinga",
-        "publishedAt": "2025-09-26T12:24:52Z"
-      },
-      {
-        "url": "https://www.investing.com/analysis/sp-500-techled-rally-masks-weakness-in-broader-sectors-ahead-of-earnings-season-200667487",
-        "headline": "S&P 500: Tech-Led Rally Masks Weakness in Broader Sectors Ahead of Earnings Season",
-        "source": "Polygon",
-        "provider": "Investing.com",
-        "publishedAt": "2025-09-25T11:02:00Z"
-      }
-    ],
-    "meta": {
-      "totalArticlesFound": 10,
-      "articlesAnalyzed": 10,
-      "historicalArticlesUsed": 0,
-      "daysOfHistoryAnalyzed": 7,
-      "processingTime": "2025-10-02T10:29:51.522Z",
-      "enhancedFeatures": {
-        "tradingViewScraping": true,
-        "finvizEnhanced": true,
-        "polygonAPI": true,
-        "geminiAnalysis": true,
-        "historicalComparison": true
-      }
-    },
-    "id": 1759400991524
-  },
-  {
-    "ticker": "AAPL",
-    "summary": {
-      "summary": "Today's news presents a largely positive outlook for Apple (AAPL), driven by fresh analyst attention, strong product performance, and robust sector tailwinds. A significant development is the 'initiation' of Apple by Wall Street analysts, which typically signals new coverage or a positive rating, potentially leading to increased investor interest and price target revisions. This comes alongside a strong anticipation that Apple will beat earnings estimates in its next report, aligning with broader expectations for a robust Q3 2025 earnings season across the technology sector. \\n\\nFurther reinforcing this optimism are reports highlighting the strong demand for Apple's products. Notably, the iPhone 17 is reportedly outselling expectations, with an analyst attributing its success to speed and performance rather than solely AI hype. This suggests that core product innovation and user experience continue to be powerful drivers for Apple's sales. Anecdotal evidence of overwhelming consumer enthusiasm was also seen with a 1,000-person line at the reopening of an Apple store in Tokyo, underscoring the company's enduring brand strength and global appeal.\\n\\nWhile the news about AT&T's downgrade, partly blamed on 'free' iPhone promotions, might seem negative, it paradoxically highlights the high demand for iPhones, compelling carriers to offer aggressive subsidies to attract and retain customers. This indicates Apple's strong leverage in the mobile market. Overall, the collective news paints a picture of a company with strong product cycles, robust consumer demand, and a favorable analytical and market environment heading into its next earnings report.",
-      "keyPoints": [
-        "Analysis continues",
-        "Partial data received"
-      ],
-      "sentiment": "neutral",
-      "sentimentReasoning": "Partial analysis",
-      "whatChangedToday": "Analysis incomplete due to response length",
-      "marketImplications": "Full analysis pending",
-      "marketImpact": "medium",
-      "confidence": "low",
-      "articlesAnalyzed": 10,
-      "totalArticles": 10,
-      "historicalArticlesUsed": 0,
-      "lastUpdated": "2025-10-02T10:22:33.860Z",
-      "ticker": "AAPL",
-      "_recovered": true
-    },
-    "articles": [
-      {
-        "title": "AAPL",
-        "url": "/symbols/NASDAQ-AAPL/",
-        "source": "TradingView",
-        "provider": "TradingView",
-        "publishedAt": "2025-10-02T10:18:10.260Z",
-        "content": "AAPL"
-      },
-      {
-        "title": "AAPL news",
-        "url": "https://in.tradingview.com/symbols/NASDAQ-AAPL/news/",
-        "source": "TradingView",
-        "provider": "TradingView",
-        "publishedAt": "2025-10-02T10:18:10.260Z",
-        "content": "AAPL news"
-      },
-      {
-        "title": "Will Apple (AAPL) Beat Estimates Again in Its Next Earnings Report?",
-        "url": "/news/181237/will-apple-aapl-beat-estimates-again-in-its-next-earnings-report",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:18:10.234Z",
-        "content": "Will Apple (AAPL) Beat Estimates Again in Its Next Earnings Report?",
-        "dateText": "12:10PM"
-      },
-      {
-        "title": "Apple initiated, DraftKings downgraded: Wall Street's top analyst calls",
-        "url": "https://finance.yahoo.com/news/apple-initiated-draftkings-downgraded-wall-134447703.html",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:18:10.234Z",
-        "content": "Apple initiated, DraftKings downgraded: Wall Street's top analyst calls",
-        "dateText": "09:44AM"
-      },
-      {
-        "title": "Analyst Report: Taiwan Semiconductor Manufacturing Company Limited",
-        "url": "https://finance.yahoo.com/m/6d2d80a9-ce68-3bc0-8cd9-7c5628465486/analyst-report%3A-taiwan.html",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:18:10.233Z",
-        "content": "Analyst Report: Taiwan Semiconductor Manufacturing Company Limited",
-        "dateText": "08:02PM"
-      },
-      {
-        "title": "iPhone 17 Outsells On Speed, Not AI Hype: Analyst",
-        "url": "https://finance.yahoo.com/news/iphone-17-outsells-speed-not-184236613.html",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:18:10.233Z",
-        "content": "iPhone 17 Outsells On Speed, Not AI Hype: Analyst",
-        "dateText": "02:42PM"
-      },
-      {
-        "title": "AT&T Stock Gets a Downgrade. Why 'Free' iPhones Are Partly to Blame.",
-        "url": "https://www.barrons.com/articles/att-stock-price-free-iphone-d9ab0b39?mod=bar_FV",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:18:10.233Z",
-        "content": "AT&T Stock Gets a Downgrade. Why 'Free' iPhones Are Partly to Blame.",
-        "dateText": "02:14PM"
-      },
-      {
-        "title": "S&P 500 Earnings: Tech EPS Expectations Point to Strong Q3 Results",
-        "url": "https://www.investing.com/analysis/sp-500-earnings-tech-eps-expectations-point-to-strong-q3-results-200667620",
-        "source": "Polygon",
-        "provider": "Investing.com",
-        "publishedAt": "2025-09-29T08:19:00Z",
-        "content": "Technology sector earnings are showing strong growth expectations for Q3 2025, with potential peak earnings and significant AI-driven investment impacting sector performance.",
-        "author": "Brian Gilmartin",
-        "tickers": [
-          "AMZN",
-          "TSLA",
-          "NKE",
-          "MSFT",
-          "AAPL"
-        ]
-      },
-      {
-        "title": "Jim Cramer Points To 1,000-Person Tokyo Apple Store Line As Proof Of Why AAPL Stock Keeps Defying Doubters: Tim Cook Hails 'New Chapter'",
-        "url": "https://www.benzinga.com/markets/tech/25/09/47886994/jim-cramer-points-to-1000-person-tokyo-apple-store-line-as-proof-of-why-aapl-stock-keeps-defying-dou",
-        "source": "Polygon",
-        "provider": "Benzinga",
-        "publishedAt": "2025-09-26T12:24:52Z",
-        "content": "Jim Cramer highlighted the reopening of Apple's Tokyo store, noting a 1,000-person line as evidence of the company's strong market performance. CEO Tim Cook celebrated the store's reopening as a 'new chapter', while early indicators suggest strong demand for the iPhone 17 series.",
-        "author": "Namrata Sen",
-        "tickers": [
-          "AAPL"
-        ]
-      },
-      {
-        "title": "S&P 500: Tech-Led Rally Masks Weakness in Broader Sectors Ahead of Earnings Season",
-        "url": "https://www.investing.com/analysis/sp-500-techled-rally-masks-weakness-in-broader-sectors-ahead-of-earnings-season-200667487",
-        "source": "Polygon",
-        "provider": "Investing.com",
-        "publishedAt": "2025-09-25T11:02:00Z",
-        "content": "The S&P 500 is experiencing a tech-driven rally that masks underlying sector weaknesses, with investors anticipating the upcoming earnings season and potential market valuation challenges outside the technology sector.",
-        "author": "Fawad Razaqzada",
-        "tickers": [
-          "TSLA",
-          "NVDA",
-          "AMZN",
-          "AAPL"
-        ]
-      }
-    ],
-    "timestamp": "2025-10-02T10:22:33.860Z",
-    "date": "2025-10-02",
-    "sources": [
-      {
-        "url": "/symbols/NASDAQ-AAPL/",
-        "headline": "AAPL",
-        "source": "TradingView",
-        "provider": "TradingView",
-        "publishedAt": "2025-10-02T10:18:10.260Z"
-      },
-      {
-        "url": "https://in.tradingview.com/symbols/NASDAQ-AAPL/news/",
-        "headline": "AAPL news",
-        "source": "TradingView",
-        "provider": "TradingView",
-        "publishedAt": "2025-10-02T10:18:10.260Z"
-      },
-      {
-        "url": "/news/181237/will-apple-aapl-beat-estimates-again-in-its-next-earnings-report",
-        "headline": "Will Apple (AAPL) Beat Estimates Again in Its Next Earnings Report?",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:18:10.234Z"
-      },
-      {
-        "url": "https://finance.yahoo.com/news/apple-initiated-draftkings-downgraded-wall-134447703.html",
-        "headline": "Apple initiated, DraftKings downgraded: Wall Street's top analyst calls",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:18:10.234Z"
-      },
-      {
-        "url": "https://finance.yahoo.com/m/6d2d80a9-ce68-3bc0-8cd9-7c5628465486/analyst-report%3A-taiwan.html",
-        "headline": "Analyst Report: Taiwan Semiconductor Manufacturing Company Limited",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:18:10.233Z"
-      },
-      {
-        "url": "https://finance.yahoo.com/news/iphone-17-outsells-speed-not-184236613.html",
-        "headline": "iPhone 17 Outsells On Speed, Not AI Hype: Analyst",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:18:10.233Z"
-      },
-      {
-        "url": "https://www.barrons.com/articles/att-stock-price-free-iphone-d9ab0b39?mod=bar_FV",
-        "headline": "AT&T Stock Gets a Downgrade. Why 'Free' iPhones Are Partly to Blame.",
-        "source": "Finviz",
-        "publishedAt": "2025-10-02T10:18:10.233Z"
-      },
-      {
-        "url": "https://www.investing.com/analysis/sp-500-earnings-tech-eps-expectations-point-to-strong-q3-results-200667620",
-        "headline": "S&P 500 Earnings: Tech EPS Expectations Point to Strong Q3 Results",
-        "source": "Polygon",
-        "provider": "Investing.com",
-        "publishedAt": "2025-09-29T08:19:00Z"
-      },
-      {
-        "url": "https://www.benzinga.com/markets/tech/25/09/47886994/jim-cramer-points-to-1000-person-tokyo-apple-store-line-as-proof-of-why-aapl-stock-keeps-defying-dou",
-        "headline": "Jim Cramer Points To 1,000-Person Tokyo Apple Store Line As Proof Of Why AAPL Stock Keeps Defying Doubters: Tim Cook Hails 'New Chapter'",
-        "source": "Polygon",
-        "provider": "Benzinga",
-        "publishedAt": "2025-09-26T12:24:52Z"
-      },
-      {
-        "url": "https://www.investing.com/analysis/sp-500-techled-rally-masks-weakness-in-broader-sectors-ahead-of-earnings-season-200667487",
-        "headline": "S&P 500: Tech-Led Rally Masks Weakness in Broader Sectors Ahead of Earnings Season",
-        "source": "Polygon",
-        "provider": "Investing.com",
-        "publishedAt": "2025-09-25T11:02:00Z"
-      }
-    ],
-    "meta": {
-      "totalArticlesFound": 10,
-      "articlesAnalyzed": 10,
-      "historicalArticlesUsed": 0,
-      "daysOfHistoryAnalyzed": 7,
-      "processingTime": "2025-10-02T10:22:33.860Z",
-      "enhancedFeatures": {
-        "tradingViewScraping": true,
-        "finvizEnhanced": true,
-        "polygonAPI": true,
-        "geminiAnalysis": true,
-        "historicalComparison": true
-      }
-    },
-    "id": 1759400553862
   }
 ]

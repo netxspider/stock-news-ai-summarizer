@@ -1,79 +1,61 @@
 {
   "ticker": "MSFT",
   "date": "2025-10-02",
-  "timestamp": "2025-10-02T10:44:39.104Z",
+  "timestamp": "2025-10-02T13:46:21.769Z",
   "articles": [
     {
       "title": "MSFT",
       "url": "/symbols/NASDAQ-MSFT/",
       "source": "TradingView",
       "provider": "TradingView",
-      "publishedAt": "2025-10-02T10:44:38.501Z",
+      "publishedAt": "2025-10-02T13:46:20.772Z",
       "content": "MSFT",
-      "storedAt": "2025-10-02T10:44:39.104Z"
+      "storedAt": "2025-10-02T13:46:21.769Z"
     },
     {
       "title": "MSFT news",
       "url": "https://in.tradingview.com/symbols/NASDAQ-MSFT/news/",
       "source": "TradingView",
       "provider": "TradingView",
-      "publishedAt": "2025-10-02T10:44:38.501Z",
+      "publishedAt": "2025-10-02T13:46:20.772Z",
       "content": "MSFT news",
-      "storedAt": "2025-10-02T10:44:39.104Z"
-    },
-    {
-      "title": "Is the AI bubble about to burst? Think again, say these analysts",
-      "url": "https://finance.yahoo.com/video/ai-bubble-burst-think-again-124324574.html",
-      "source": "Finviz",
-      "publishedAt": "2025-10-02T10:44:38.067Z",
-      "content": "Is the AI bubble about to burst? Think again, say these analysts",
-      "dateText": "08:43AM",
-      "storedAt": "2025-10-02T10:44:39.104Z"
-    },
-    {
-      "title": "The Zacks Analyst Blog Highlights Comcast, Amazon, Microsoft and Cisco",
-      "url": "/news/180501/the-zacks-analyst-blog-highlights-comcast-amazon-microsoft-and-cisco",
-      "source": "Finviz",
-      "publishedAt": "2025-10-02T10:44:38.067Z",
-      "content": "The Zacks Analyst Blog Highlights Comcast, Amazon, Microsoft and Cisco",
-      "dateText": "04:21AM",
-      "storedAt": "2025-10-02T10:44:39.104Z"
-    },
-    {
-      "title": "Was This Analyst Right About Microsoft (MSFT)?",
-      "url": "/news/181450/was-this-analyst-right-about-microsoft-msft",
-      "source": "Finviz",
-      "publishedAt": "2025-10-02T10:44:38.066Z",
-      "content": "Was This Analyst Right About Microsoft (MSFT)?",
-      "dateText": "04:21PM",
-      "storedAt": "2025-10-02T10:44:39.104Z"
-    },
-    {
-      "title": "MSFT: Microsoft Stock Slips As Xbox Game Pass Ultimate Price Jumps 50%",
-      "url": "https://finance.yahoo.com/news/msft-microsoft-stock-slips-xbox-173642077.html",
-      "source": "Finviz",
-      "publishedAt": "2025-10-02T10:44:38.066Z",
-      "content": "MSFT: Microsoft Stock Slips As Xbox Game Pass Ultimate Price Jumps 50%",
-      "dateText": "01:36PM",
-      "storedAt": "2025-10-02T10:44:39.104Z"
+      "storedAt": "2025-10-02T13:46:21.769Z"
     },
     {
       "title": "Marvell Stock Is Downgraded. Future Sales to Amazon and Microsoft Are Uncertain.",
       "url": "https://www.barrons.com/articles/marvell-stock-downgraded-amazon-microsoft-37ce1f32?mod=bar_FV",
       "source": "Finviz",
-      "publishedAt": "2025-10-02T10:44:38.066Z",
+      "publishedAt": "2025-10-02T13:46:20.727Z",
       "content": "Marvell Stock Is Downgraded. Future Sales to Amazon and Microsoft Are Uncertain.",
       "dateText": "10:43AM",
-      "storedAt": "2025-10-02T10:44:39.104Z"
+      "storedAt": "2025-10-02T13:46:21.769Z"
     },
     {
       "title": "AI Stocks Face 'Show Me' Test. Why Oracle Analyst Day Will Be Big Event.",
       "url": "https://finance.yahoo.com/m/684c930d-1475-3adc-b013-ae604c056ebc/ai-stocks-face-%27show-me%27.html",
       "source": "Finviz",
-      "publishedAt": "2025-10-02T10:44:38.066Z",
+      "publishedAt": "2025-10-02T13:46:20.727Z",
       "content": "AI Stocks Face 'Show Me' Test. Why Oracle Analyst Day Will Be Big Event.",
       "dateText": "10:06AM",
-      "storedAt": "2025-10-02T10:44:39.104Z"
+      "storedAt": "2025-10-02T13:46:21.769Z"
+    },
+    {
+      "title": "Was This Analyst Right About Microsoft (MSFT)?",
+      "url": "/news/181450/was-this-analyst-right-about-microsoft-msft",
+      "source": "Finviz",
+      "publishedAt": "2025-10-02T13:46:20.726Z",
+      "content": "Was This Analyst Right About Microsoft (MSFT)?",
+      "dateText": "04:21PM",
+      "storedAt": "2025-10-02T13:46:21.769Z"
+    },
+    {
+      "title": "MSFT: Microsoft Stock Slips As Xbox Game Pass Ultimate Price Jumps 50%",
+      "url": "https://finance.yahoo.com/news/msft-microsoft-stock-slips-xbox-173642077.html",
+      "source": "Finviz",
+      "publishedAt": "2025-10-02T13:46:20.726Z",
+      "content": "MSFT: Microsoft Stock Slips As Xbox Game Pass Ultimate Price Jumps 50%",
+      "dateText": "01:36PM",
+      "storedAt": "2025-10-02T13:46:21.769Z"
     },
     {
       "title": "S&P 500 Earnings: Tech EPS Expectations Point to Strong Q3 Results",
@@ -90,8 +72,8 @@
         "MSFT",
         "AAPL"
       ],
-      "storedAt": "2025-10-02T10:44:39.104Z"
+      "storedAt": "2025-10-02T13:46:21.769Z"
     }
   ],
-  "totalArticles": 9
+  "totalArticles": 7
 }

@@ -1,79 +1,79 @@
 {
   "ticker": "AMZN",
   "date": "2025-10-02",
-  "timestamp": "2025-10-02T10:55:32.925Z",
+  "timestamp": "2025-10-02T13:45:48.821Z",
   "articles": [
     {
       "title": "AMZN",
       "url": "/symbols/NASDAQ-AMZN/",
       "source": "TradingView",
       "provider": "TradingView",
-      "publishedAt": "2025-10-02T10:55:31.914Z",
+      "publishedAt": "2025-10-02T13:45:47.845Z",
       "content": "AMZN",
-      "storedAt": "2025-10-02T10:55:32.925Z"
+      "storedAt": "2025-10-02T13:45:48.821Z"
     },
     {
       "title": "AMZN news",
       "url": "https://in.tradingview.com/symbols/NASDAQ-AMZN/news/",
       "source": "TradingView",
       "provider": "TradingView",
-      "publishedAt": "2025-10-02T10:55:31.914Z",
+      "publishedAt": "2025-10-02T13:45:47.845Z",
       "content": "AMZN news",
-      "storedAt": "2025-10-02T10:55:32.925Z"
-    },
-    {
-      "title": "Marvell Stock Is Downgraded. Future Sales to Amazon and Microsoft Are Uncertain.",
-      "url": "https://www.barrons.com/articles/marvell-stock-downgraded-amazon-microsoft-37ce1f32?mod=bar_FV",
-      "source": "Finviz",
-      "publishedAt": "2025-10-02T10:55:31.890Z",
-      "content": "Marvell Stock Is Downgraded. Future Sales to Amazon and Microsoft Are Uncertain.",
-      "dateText": "10:43AM",
-      "storedAt": "2025-10-02T10:55:32.925Z"
-    },
-    {
-      "title": "TD Cowen downgrades Marvell on weaker visibility in custom chip business",
-      "url": "https://finance.yahoo.com/news/td-cowen-downgrades-marvell-weaker-142812509.html",
-      "source": "Finviz",
-      "publishedAt": "2025-10-02T10:55:31.890Z",
-      "content": "TD Cowen downgrades Marvell on weaker visibility in custom chip business",
-      "dateText": "10:28AM",
-      "storedAt": "2025-10-02T10:55:32.925Z"
-    },
-    {
-      "title": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
-      "url": "/news/181527/amazoncom-inc-amzn-agrees-to-pay-25-billion-in-fines-and-reimbursements-to-resolve-claims-made-by-the-federal-trade-commission",
-      "source": "Finviz",
-      "publishedAt": "2025-10-02T10:55:31.889Z",
-      "content": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
-      "dateText": "05:30PM",
-      "storedAt": "2025-10-02T10:55:32.925Z"
-    },
-    {
-      "title": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
-      "url": "/news/181517/amazon-strengthens-growth-outlook-with-earnings-beat-and-expanded-dsp-investment",
-      "source": "Finviz",
-      "publishedAt": "2025-10-02T10:55:31.889Z",
-      "content": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
-      "dateText": "05:07PM",
-      "storedAt": "2025-10-02T10:55:32.925Z"
-    },
-    {
-      "title": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
-      "url": "/news/181454/josh-brown-predicted-amazoncom-amzn-will-breakout-was-he-right",
-      "source": "Finviz",
-      "publishedAt": "2025-10-02T10:55:31.889Z",
-      "content": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
-      "dateText": "04:22PM",
-      "storedAt": "2025-10-02T10:55:32.925Z"
+      "storedAt": "2025-10-02T13:45:48.821Z"
     },
     {
       "title": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
       "url": "https://www.youtube.com/watch?v=6H27Ke3kHWo",
       "source": "Finviz",
-      "publishedAt": "2025-10-02T10:55:31.889Z",
+      "publishedAt": "2025-10-02T13:45:47.796Z",
       "content": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
       "dateText": "03:20PM",
-      "storedAt": "2025-10-02T10:55:32.925Z"
+      "storedAt": "2025-10-02T13:45:48.821Z"
+    },
+    {
+      "title": "Marvell Stock Is Downgraded. Future Sales to Amazon and Microsoft Are Uncertain.",
+      "url": "https://www.barrons.com/articles/marvell-stock-downgraded-amazon-microsoft-37ce1f32?mod=bar_FV",
+      "source": "Finviz",
+      "publishedAt": "2025-10-02T13:45:47.796Z",
+      "content": "Marvell Stock Is Downgraded. Future Sales to Amazon and Microsoft Are Uncertain.",
+      "dateText": "10:43AM",
+      "storedAt": "2025-10-02T13:45:48.821Z"
+    },
+    {
+      "title": "TD Cowen downgrades Marvell on weaker visibility in custom chip business",
+      "url": "https://finance.yahoo.com/news/td-cowen-downgrades-marvell-weaker-142812509.html",
+      "source": "Finviz",
+      "publishedAt": "2025-10-02T13:45:47.796Z",
+      "content": "TD Cowen downgrades Marvell on weaker visibility in custom chip business",
+      "dateText": "10:28AM",
+      "storedAt": "2025-10-02T13:45:48.821Z"
+    },
+    {
+      "title": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
+      "url": "/news/181527/amazoncom-inc-amzn-agrees-to-pay-25-billion-in-fines-and-reimbursements-to-resolve-claims-made-by-the-federal-trade-commission",
+      "source": "Finviz",
+      "publishedAt": "2025-10-02T13:45:47.795Z",
+      "content": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
+      "dateText": "05:30PM",
+      "storedAt": "2025-10-02T13:45:48.821Z"
+    },
+    {
+      "title": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
+      "url": "/news/181517/amazon-strengthens-growth-outlook-with-earnings-beat-and-expanded-dsp-investment",
+      "source": "Finviz",
+      "publishedAt": "2025-10-02T13:45:47.795Z",
+      "content": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
+      "dateText": "05:07PM",
+      "storedAt": "2025-10-02T13:45:48.821Z"
+    },
+    {
+      "title": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
+      "url": "/news/181454/josh-brown-predicted-amazoncom-amzn-will-breakout-was-he-right",
+      "source": "Finviz",
+      "publishedAt": "2025-10-02T13:45:47.795Z",
+      "content": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
+      "dateText": "04:22PM",
+      "storedAt": "2025-10-02T13:45:48.821Z"
     },
     {
       "title": "Amazon: Why Stock's Latest Upgrade Might Be Its Most Important Yet",
@@ -86,7 +86,7 @@
       "tickers": [
         "AMZN"
       ],
-      "storedAt": "2025-10-02T10:55:32.925Z"
+      "storedAt": "2025-10-02T13:45:48.821Z"
     },
     {
       "title": "S&P 500 Earnings: Tech EPS Expectations Point to Strong Q3 Results",
@@ -103,7 +103,7 @@
         "MSFT",
         "AAPL"
       ],
-      "storedAt": "2025-10-02T10:55:32.925Z"
+      "storedAt": "2025-10-02T13:45:48.821Z"
     }
   ],
   "totalArticles": 10
