@@ -432,11 +432,33 @@ app.get('/api/health', async (req, res) => {
 });
 
 // Test endpoint for debugging
-app.get('/api/test', (req, res) => {
-  res.json({ 
-    message: 'Server is working!',
-    timestamp: new Date().toISOString() 
-  });
+app.get('/api/test', async (req, res) => {
+  try {
+    const tickers = await dataStorage.getTickers();
+    const summaries = await dataStorage.getAllSummaries();
+    
+    res.json({ 
+      message: 'Server is working!',
+      timestamp: new Date().toISOString(),
+      environment: process.env.NODE_ENV,
+      isVercel: !!process.env.VERCEL,
+      hasEnvVars: {
+        gemini: !!process.env.GEMINI_API_KEY,
+        polygon: !!process.env.POLYGON_API_KEY,
+        useRealAI: process.env.USE_REAL_AI
+      },
+      dataStatus: {
+        tickerCount: tickers.length,
+        summaryKeys: Object.keys(summaries)
+      }
+    });
+  } catch (error) {
+    res.status(500).json({
+      error: error.message,
+      stack: error.stack,
+      timestamp: new Date().toISOString()
+    });
+  }
 });
 
 // Error handling middleware
