@@ -10,7 +10,7 @@ export class AIProcessor {
         temperature: 0.7,
         topK: 40,
         topP: 0.95,
-        maxOutputTokens: 2048,
+        maxOutputTokens: 8192,
       }
     });
     this.requestCount = 0;
@@ -69,9 +69,16 @@ ${articlesText}
 
 Respond with ONLY a JSON array of the article numbers you selected (e.g., [1, 3, 5, 7, 9]). No explanation needed.`;
 
+      console.log(`🤖 Making Gemini request for article selection (${articles.length} articles)`);
+      
       const result = await this.model.generateContent(prompt);
       const response = await result.response;
       const text = response.text().trim();
+
+      console.log(`\n🟢 GEMINI ARTICLE SELECTION RESPONSE:`);
+      console.log('─'.repeat(60));
+      console.log(`📊 Response: "${text}"`);
+      console.log('─'.repeat(60));
 
       // Parse the response to get selected indices
       let selectedIndices;
@@ -97,11 +104,15 @@ Respond with ONLY a JSON array of the article numbers you selected (e.g., [1, 3,
         .slice(0, 7) // Ensure max 7 articles
         .map(index => articles[index]);
 
-      console.log(`Selected ${selectedArticles.length} articles from ${articles.length} total`);
+      console.log(`✅ Selected ${selectedArticles.length} articles from ${articles.length} total via Gemini`);
+      console.log(`📋 Selected articles:`, selectedArticles.map((a, i) => `${i+1}. ${a.title.substring(0, 60)}...`));
+      console.log('═'.repeat(60));
+      
       return selectedArticles.length > 0 ? selectedArticles : articles.slice(0, 6);
 
     } catch (error) {
-      console.error('Error in article selection:', error);
+      console.error('🚨 ERROR in Gemini article selection:', error);
+      console.log(`🔄 Falling back to manual selection`);
       // Fallback: return first 6 articles sorted by source credibility
       const prioritizedArticles = articles
         .sort((a, b) => {
@@ -114,130 +125,254 @@ Respond with ONLY a JSON array of the article numbers you selected (e.g., [1, 3,
     }
   }
 
-  async generateSummary(articles, historicalSummaries = []) {
-    if (articles.length === 0) {
+  async generateSummary(ticker, articles, historicalData = null) {
+    if (!articles || articles.length === 0) {
       return {
-        summary: 'No recent news available for analysis.',
-        whatChangedToday: 'No significant changes detected.',
+        summary: `No recent news available for ${ticker}. Please check back later for the latest updates.`,
         keyPoints: [],
         sentiment: 'neutral',
-        marketImpact: 'minimal'
+        articlesAnalyzed: 0,
+        whatChangedToday: 'No recent news to analyze changes.'
       };
     }
 
     try {
       await this.rateLimit();
+      
+      // Prepare current articles for analysis
+      const articlesToAnalyze = articles.slice(0, 25); // Increased limit for better analysis
+      const todayArticlesText = articlesToAnalyze.map((article, index) => 
+        `${index + 1}. "${article.title}"
+   Source: ${article.source}${article.provider ? ` (${article.provider})` : ''}
+   Published: ${new Date(article.publishedAt).toLocaleDateString()}
+   Content: ${(article.content || article.title).substring(0, 200)}...`
+      ).join('\n\n');
 
-      const articlesText = articles.map(article => 
-        `Title: ${article.title}
-Source: ${article.source}
-Published: ${article.publishedAt}
-Content: ${article.content || 'No content available'}
----`
-      ).join('\n');
+      // Prepare historical context if available
+      let historicalContext = '';
+      if (historicalData && historicalData.length > 0) {
+        const historicalArticles = historicalData.slice(0, 15);
+        historicalContext = `\n\nFOR COMPARISON - Historical News (Past 7 days):
+${historicalArticles.map((article, index) => 
+  `${index + 1}. "${article.title}" (${new Date(article.publishedAt).toLocaleDateString()})`
+).join('\n')}`;
+      }
 
-      // Enhanced historical context with sentiment and trend analysis
-      const historicalContext = historicalSummaries.length > 0 
-        ? `HISTORICAL CONTEXT (Past 7 days):
-${historicalSummaries.map((summary, index) => {
-  const dayLabel = index === 0 ? 'Yesterday' : `${index + 1} days ago`;
-  const summaryData = summary.summary || summary;
-  return `${dayLabel}:
-- Summary: ${summaryData.summary || 'No summary available'}
-- Sentiment: ${summaryData.sentiment || 'unknown'}
-- Market Impact: ${summaryData.marketImpact || 'unknown'}
-- Key Points: ${Array.isArray(summaryData.keyPoints) ? summaryData.keyPoints.slice(0, 2).join('; ') : 'None'}`;
-}).join('\n')}
----`
-        : 'No historical data available for comparison.';
+      const prompt = `As a senior financial analyst, analyze today's news about ${ticker}.
 
-      const prompt = `You are a senior financial analyst. Analyze today's news and provide dynamic insights comparing with historical trends.
+TODAY'S NEWS:
+${todayArticlesText}${historicalContext}
 
-${historicalContext}
+Provide comprehensive analysis in exactly this JSON format:
 
-TODAY'S NEWS ARTICLES:
-${articlesText}
-
-Create a JSON response with this EXACT structure:
 {
-  "summary": "Comprehensive analysis of today's key developments (200-300 words). Focus on business fundamentals, financial performance, strategic moves, and market positioning.",
-  "whatChangedToday": "CRITICAL: Compare today's developments against the historical context above. Identify NEW trends, sentiment shifts, breaking developments, or changes in business trajectory that differ from previous days. Be specific about what's different from the pattern.",
-  "keyPoints": ["3-5 actionable insights for investors"],
-  "sentiment": "positive/negative/neutral/mixed",
-  "marketImpact": "high/medium/low/minimal"
+  "summary": "Detailed 3-4 paragraph daily summary covering all key developments and their implications",
+  "keyPoints": ["Point 1", "Point 2", "Point 3", "Point 4", "Point 5"],
+  "sentiment": "positive/negative/neutral",
+  "sentimentReasoning": "Brief explanation",
+  "whatChangedToday": "Comprehensive analysis of new developments and changes",
+  "marketImplications": "Detailed potential stock impact assessment",
+  "marketImpact": "high/medium/low",
+  "confidence": "high/medium/low"
 }
 
-REQUIREMENTS:
-1. Make "whatChangedToday" truly dynamic by comparing against historical data
-2. If no historical data exists, focus on today's unique developments
-3. Identify emerging patterns, sentiment shifts, or breaking news
-4. Be specific about changes from previous trading sessions
-5. Use professional financial language
-6. Ensure all content is based on provided articles only
+IMPORTANT: 
+- Provide complete, comprehensive analysis
+- Return ONLY valid JSON with no truncation
+- No markdown formatting, just the JSON object
+- Ensure all JSON fields are properly closed`;
 
-Respond with ONLY valid JSON, no additional text.`;
-
+      this.requestCount++;
+      console.log(`🤖 Making enhanced Gemini API request for ${ticker} (${this.requestCount}/${this.maxRequestsPerMinute})`);
+      console.log(`📝 Request details: ${articlesToAnalyze.length} articles, ${historicalData ? historicalData.length : 0} historical`);
+      
       const result = await this.model.generateContent(prompt);
       const response = await result.response;
-      const text = response.text().trim();
+      let text = response.text();
 
+      console.log(`\n🟢 GEMINI RESPONSE FOR ${ticker}:`);
+      console.log('─'.repeat(80));
+      console.log(`📊 Response length: ${text.length} characters`);
+      console.log(`🔤 Raw response:\n${text}`);
+      console.log('─'.repeat(80));
+
+      // Clean up the response to extract JSON
+      const originalText = text;
+      text = text.replace(/```json\n?/, '').replace(/\n?```/, '').trim();
+      
+      if (originalText !== text) {
+        console.log(`🧹 Cleaned response (removed markdown):\n${text}`);
+        console.log('─'.repeat(40));
+      }
+      
       try {
-        // Clean the response to extract JSON
-        let cleanedText = text;
+        const parsed = JSON.parse(text);
+        console.log(`✅ Successfully parsed JSON response for ${ticker}`);
+        console.log(`📋 Parsed data:`, JSON.stringify(parsed, null, 2));
+        console.log('═'.repeat(80));
         
-        // Remove markdown code blocks if present
-        cleanedText = cleanedText.replace(/```json\n?|\n?```/g, '');
+        const finalResult = {
+          ...parsed,
+          articlesAnalyzed: articlesToAnalyze.length,
+          totalArticles: articles.length,
+          historicalArticlesUsed: historicalData ? historicalData.length : 0,
+          lastUpdated: new Date().toISOString(),
+          ticker: ticker
+        };
         
-        // Find JSON object boundaries
-        const startIndex = cleanedText.indexOf('{');
-        const endIndex = cleanedText.lastIndexOf('}') + 1;
-        
-        if (startIndex !== -1 && endIndex > startIndex) {
-          cleanedText = cleanedText.substring(startIndex, endIndex);
-        }
-
-        const summaryData = JSON.parse(cleanedText);
-
-        // Validate required fields
-        const requiredFields = ['summary', 'whatChangedToday', 'keyPoints', 'sentiment', 'marketImpact'];
-        for (const field of requiredFields) {
-          if (!summaryData[field]) {
-            throw new Error(`Missing required field: ${field}`);
-          }
-        }
-
-        // Ensure keyPoints is an array
-        if (!Array.isArray(summaryData.keyPoints)) {
-          summaryData.keyPoints = [];
-        }
-
-        return summaryData;
-
+        console.log(`🎯 Final enhanced result for ${ticker}:`, JSON.stringify(finalResult, null, 2));
+        return finalResult;
       } catch (parseError) {
-        console.error('Error parsing AI summary response:', parseError);
-        console.error('Raw response:', text);
+        console.error(`❌ JSON parsing failed for ${ticker}. Attempting recovery...`);
         
-        // Fallback summary
+        // Try to fix incomplete JSON
+        let fixedText = text;
+        try {
+          // Try to extract and reconstruct JSON from partial response
+          if (text.includes('"summary":')) {
+            // Extract what we can and create a valid JSON
+            const summaryMatch = text.match(/"summary":\s*"([^"]*(?:[^"\\]|\\.)*)/);
+            const keyPointsMatch = text.match(/"keyPoints":\s*(\[[^\]]*\])/);
+            const sentimentMatch = text.match(/"sentiment":\s*"([^"]*)"/);
+            const marketImpactMatch = text.match(/"marketImpact":\s*"([^"]*)"/);
+            const whatChangedMatch = text.match(/"whatChangedToday":\s*"([^"]*(?:[^"\\]|\\.)*)/);
+            const marketImplicationsMatch = text.match(/"marketImplications":\s*"([^"]*(?:[^"\\]|\\.)*)/);
+            
+            const reconstructed = {
+              summary: summaryMatch ? summaryMatch[1].replace(/\\"/g, '"') : "Analysis in progress - partial data received",
+              keyPoints: keyPointsMatch ? JSON.parse(keyPointsMatch[1]) : ["Analysis continues", "Partial data received"],
+              sentiment: sentimentMatch ? sentimentMatch[1] : "neutral",
+              sentimentReasoning: "Partial analysis - full response was truncated",
+              whatChangedToday: whatChangedMatch ? whatChangedMatch[1].replace(/\\"/g, '"') : "Recent developments are being analyzed. Please refresh for complete analysis.",
+              marketImplications: marketImplicationsMatch ? marketImplicationsMatch[1].replace(/\\"/g, '"') : "Market analysis available but truncated",
+              marketImpact: marketImpactMatch ? marketImpactMatch[1] : "medium",
+              confidence: "low"
+            };
+            
+            console.log(`🔧 Reconstructed JSON for ${ticker}:`, JSON.stringify(reconstructed, null, 2));
+            
+            return {
+              ...reconstructed,
+              articlesAnalyzed: articlesToAnalyze.length,
+              totalArticles: articles.length,
+              historicalArticlesUsed: historicalData ? historicalData.length : 0,
+              lastUpdated: new Date().toISOString(),
+              ticker: ticker,
+              _recovered: true
+            };
+          }
+        } catch (recoveryError) {
+          console.error(`❌ Recovery attempt failed for ${ticker}:`, recoveryError);
+        }
+        console.error(`❌ Failed to parse Gemini response for ${ticker}:`, parseError);
+        console.log(`📏 Raw response length: ${text.length} characters`);
+        console.log(`🔍 Attempting to parse: "${text.substring(0, 200)}..."`);
+        console.log('─'.repeat(40));
+        
+        // Fallback: create structured response from text
         return {
-          summary: `Analysis of ${articles.length} news articles reveals ongoing market developments. Key sources include ${[...new Set(articles.map(a => a.source))].join(', ')}. Recent headlines focus on business operations, market performance, and industry trends.`,
-          whatChangedToday: 'Multiple news sources report various developments affecting market sentiment and business operations.',
-          keyPoints: articles.slice(0, 4).map(article => article.title),
-          sentiment: 'mixed',
-          marketImpact: 'medium'
+          summary: text.substring(0, 500) + '...',
+          keyPoints: this.extractKeyPoints(text),
+          sentiment: this.extractSentiment(text),
+          whatChangedToday: this.extractWhatChanged(text),
+          marketImplications: this.extractMarketImplications(text),
+          articlesAnalyzed: articlesToAnalyze.length,
+          totalArticles: articles.length,
+          lastUpdated: new Date().toISOString(),
+          ticker: ticker,
+          fallback: true
         };
       }
 
     } catch (error) {
-      console.error('Error generating summary:', error);
+      console.error(`🚨 ERROR generating summary for ${ticker}:`, error);
+      console.log(`🔍 Error type: ${error.constructor.name}`);
+      console.log(`📄 Error message: ${error.message}`);
+      if (error.response) {
+        console.log(`📡 API Response status: ${error.response.status}`);
+        console.log(`📝 API Response data:`, error.response.data);
+      }
+      console.log('═'.repeat(80));
       
-      // Fallback summary
-      return {
-        summary: `Unable to generate detailed summary. Monitoring ${articles.length} news articles from ${[...new Set(articles.map(a => a.source))].join(', ')}.`,
-        whatChangedToday: 'Summary generation temporarily unavailable.',
-        keyPoints: articles.slice(0, 3).map(article => article.title),
+      // Enhanced fallback summary
+      const recentTitles = articles.slice(0, 3).map(a => a.title);
+      const fallbackResult = {
+        summary: `Analysis of ${articles.length} recent articles about ${ticker}. Recent developments include: ${recentTitles.join('; ')}. For detailed analysis, please check individual sources.`,
+        keyPoints: recentTitles,
         sentiment: 'neutral',
-        marketImpact: 'unknown'
+        whatChangedToday: 'Unable to analyze changes due to processing error.',
+        marketImplications: 'Analysis temporarily unavailable.',
+        articlesAnalyzed: articles.length,
+        error: error.message,
+        lastUpdated: new Date().toISOString(),
+        ticker: ticker
       };
+      
+      console.log(`🔄 Using fallback result for ${ticker}:`, JSON.stringify(fallbackResult, null, 2));
+      return fallbackResult;
     }
+  }
+
+  extractKeyPoints(text) {
+    // Simple extraction of bullet points or numbered items
+    const bulletPattern = /[•\-\*]\s*(.+)$/gm;
+    const numberPattern = /^\d+\.\s*(.+)$/gm;
+    
+    const bullets = [...text.matchAll(bulletPattern)];
+    const numbers = [...text.matchAll(numberPattern)];
+    
+    const points = [...bullets, ...numbers].map(match => match[1].trim()).slice(0, 5);
+    
+    return points.length > 0 ? points : ['Market activity continues', 'News developments ongoing', 'Investor attention warranted'];
+  }
+
+  extractSentiment(text) {
+    const positive = /(positive|bullish|optimistic|growth|increase|up|gain|strong|good|excellent|surge|rally|beat|exceeds)/gi;
+    const negative = /(negative|bearish|pessimistic|decline|decrease|down|loss|weak|bad|poor|fall|drop|miss|below)/gi;
+    
+    const positiveMatches = (text.match(positive) || []).length;
+    const negativeMatches = (text.match(negative) || []).length;
+    
+    if (positiveMatches > negativeMatches) return 'positive';
+    if (negativeMatches > positiveMatches) return 'negative';
+    return 'neutral';
+  }
+
+  extractWhatChanged(text) {
+    // Look for change indicators in the text
+    const changePatterns = [
+      /what changed[^.!?]*[.!?]/gi,
+      /new developments?[^.!?]*[.!?]/gi,
+      /today['s\s][^.!?]*[.!?]/gi,
+      /recently[^.!?]*[.!?]/gi
+    ];
+    
+    for (const pattern of changePatterns) {
+      const matches = text.match(pattern);
+      if (matches && matches.length > 0) {
+        return matches[0].trim();
+      }
+    }
+    
+    return 'Recent developments indicate continued market activity.';
+  }
+
+  extractMarketImplications(text) {
+    // Look for market implication indicators
+    const implicationPatterns = [
+      /market implications?[^.!?]*[.!?]/gi,
+      /stock.*impact[^.!?]*[.!?]/gi,
+      /investors?[^.!?]*[.!?]/gi,
+      /price.*target[^.!?]*[.!?]/gi
+    ];
+    
+    for (const pattern of implicationPatterns) {
+      const matches = text.match(pattern);
+      if (matches && matches.length > 0) {
+        return matches[0].trim();
+      }
+    }
+    
+    return 'Market implications remain to be determined.';
   }
 }

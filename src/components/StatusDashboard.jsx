@@ -6,18 +6,43 @@ const StatusDashboard = ({ apiUrl }) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    // Initial check immediately
     checkStatus();
-    const interval = setInterval(checkStatus, 30000); // Check every 30 seconds
-    return () => clearInterval(interval);
+    
+    // More frequent checks initially, then every 30 seconds
+    const quickInterval = setInterval(checkStatus, 5000); // Every 5 seconds for first minute
+    const slowInterval = setTimeout(() => {
+      clearInterval(quickInterval);
+      const normalInterval = setInterval(checkStatus, 30000); // Then every 30 seconds
+      return () => clearInterval(normalInterval);
+    }, 60000);
+    
+    return () => {
+      clearInterval(quickInterval);
+      clearTimeout(slowInterval);
+    };
   }, [apiUrl]);
 
   const checkStatus = async () => {
     try {
+      console.log('🔍 StatusDashboard: Checking API status at:', `${apiUrl}/api/health`);
       const response = await fetch(`${apiUrl}/api/health`);
+      console.log('📡 StatusDashboard: Response status:', response.status);
+      
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+      }
+      
       const data = await response.json();
+      console.log('✅ StatusDashboard: Received data:', data);
       setStatus(data);
     } catch (error) {
-      console.error('Status check failed:', error);
+      console.error('❌ StatusDashboard: Status check failed:', error);
+      console.error('🔍 Error details:', {
+        message: error.message,
+        name: error.name,
+        stack: error.stack
+      });
       setStatus(null);
     } finally {
       setLoading(false);
@@ -39,6 +64,13 @@ const StatusDashboard = ({ apiUrl }) => {
       <div className="status-header">
         <Activity className="status-icon" />
         <h4>System Status</h4>
+        <button 
+          onClick={checkStatus} 
+          className="refresh-status-btn"
+          style={{ marginLeft: '10px', padding: '2px 8px', fontSize: '12px' }}
+        >
+          🔄 Refresh
+        </button>
       </div>
       
       <div className="status-grid">
@@ -48,7 +80,13 @@ const StatusDashboard = ({ apiUrl }) => {
           </div>
           <div className="status-details">
             <span className="status-label">API Status</span>
-            <span className="status-value">{status ? 'Online' : 'Offline'}</span>
+            <span className="status-value">
+              {status ? 'Online' : 'Offline'}
+              {loading && ' (Checking...)'}
+            </span>
+            <div style={{ fontSize: '10px', opacity: 0.7 }}>
+              URL: {apiUrl}/api/health
+            </div>
           </div>
         </div>
         

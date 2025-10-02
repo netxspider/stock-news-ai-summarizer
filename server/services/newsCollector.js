@@ -106,10 +106,144 @@ export class NewsCollector {
       const $ = cheerio.load(response.data);
       const news = [];
 
-      console.log(`TradingView: Extracting news articles for ${ticker}...`);
+      console.log(`TradingView: Extracting news for ${ticker} using enhanced methods...`);
       
+      // Method 1: Extract from embedded JSON in scripts
+      let foundInScripts = false;
+      $('script').each((i, element) => {
+        if (news.length >= 15) return false;
+        
+        const scriptContent = $(element).html();
+        if (!scriptContent) return;
+        
+        try {
+          // Look for news data patterns in scripts
+          const newsPatterns = [
+            /window\.__INITIAL_STATE__\s*=\s*({.+?});/,
+            /window\.__PRELOADED_STATE__\s*=\s*({.+?});/,
+            /"news":\s*(\[.+?\])/,
+            /"articles":\s*(\[.+?\])/,
+            /"feed":\s*(\[.+?\])/
+          ];
+          
+          for (const pattern of newsPatterns) {
+            const match = scriptContent.match(pattern);
+            if (match) {
+              try {
+                const data = JSON.parse(match[1]);
+                const articles = this.extractNewsFromObject(data, ticker);
+                if (articles.length > 0) {
+                  news.push(...articles);
+                  foundInScripts = true;
+                  console.log(`TradingView: Found ${articles.length} articles in script data`);
+                }
+              } catch (e) {
+                // Continue to next pattern
+              }
+            }
+          }
+          
+          // Also look for individual news objects
+          const jsonObjects = scriptContent.match(/\{[^{}]*"title"[^{}]*"[^{}]*\}/g);
+          if (jsonObjects) {
+            jsonObjects.forEach(jsonStr => {
+              try {
+                const newsObj = JSON.parse(jsonStr);
+                if (newsObj.title && this.isRelevantNews(newsObj.title, ticker)) {
+                  news.push({
+                    title: newsObj.title,
+                    url: newsObj.url || newsObj.link || url,
+                    source: 'TradingView',
+                    provider: newsObj.provider || newsObj.source || 'TradingView',
+                    publishedAt: newsObj.published_at || newsObj.publishedAt || new Date().toISOString(),
+                    content: newsObj.description || newsObj.title
+                  });
+                  foundInScripts = true;
+                }
+              } catch (e) {
+                // Invalid JSON, continue
+              }
+            });
+          }
+          
+        } catch (error) {
+          // Continue to next script
+        }
+      });
+
+      console.log(`TradingView: Script extraction found ${news.length} articles`);
+      
+      // Method 2: DOM-based extraction if script method didn't work
+      if (!foundInScripts || news.length === 0) {
+        console.log(`TradingView: Trying DOM-based extraction...`);
+        
+        // Try to find news feed elements
+        const feedSelectors = [
+          '[class*="news"] table tr',
+          '[class*="feed"] tr',
+          'table[class*="table"] tr',
+          '.js-news-stream tr',
+          'tbody tr'
+        ];
+        
+        for (const selector of feedSelectors) {
+          const rows = $(selector);
+          if (rows.length > 1) { // Skip header row
+            console.log(`TradingView: Found ${rows.length} rows with ${selector}`);
+            
+            rows.each((i, row) => {
+              if (news.length >= 15) return false;
+              
+              const $row = $(row);
+              const cells = $row.find('td');
+              
+              if (cells.length >= 3) {
+                const timeText = $(cells[0]).text().trim();
+                const symbolText = $(cells[1]).text().trim();
+                const headlineElement = $(cells[2]);
+                const providerText = cells.length > 3 ? $(cells[3]).text().trim() : '';
+                
+                const headline = headlineElement.text().trim();
+                const link = headlineElement.find('a').attr('href') || '';
+                
+                if (this.isValidNewsHeadline(headline, timeText) && 
+                    this.isRelevantNews(headline, ticker)) {
+                  
+                  const article = this.createNewsItem(headline, link, url, timeText, providerText);
+                  news.push(article);
+                  console.log(`TradingView DOM: ${headline.substring(0, 80)}...`);
+                }
+              }
+            });
+            
+            if (news.length > 0) break;
+          }
+        }
+      }
+      
+      // Method 3: Alternative API endpoint (sometimes TradingView exposes JSON endpoints)
+      if (news.length === 0) {
+        try {
+          console.log(`TradingView: Trying alternative news API...`);
+          const apiUrl = `https://news-headlines.tradingview.com/headlines/yahoo/symbol/${ticker}`;
+          const apiResponse = await axios.get(apiUrl, { 
+            headers: this.headers,
+            timeout: 10000,
+            validateStatus: status => status < 500
+          });
+          
+          if (apiResponse.status === 200 && apiResponse.data) {
+            const apiNews = this.parseAlternativeAPI(apiResponse.data, ticker);
+            news.push(...apiNews);
+            console.log(`TradingView API: Found ${apiNews.length} articles`);
+          }
+        } catch (error) {
+          console.log(`TradingView API failed: ${error.message}`);
+        }
+      }
+
       // Multiple strategies to find news content
-      let newsFound = false;
+      let newsFound = news.length > 0;
       
       // Strategy 1: Look for news in the main content area with specific selectors
       const newsSelectors = [
@@ -338,19 +472,123 @@ export class NewsCollector {
     };
   }
 
+  extractNewsFromObject(data, ticker) {
+    const articles = [];
+    
+    // Recursively search for news articles in the data structure
+    const findArticles = (obj, path = '') => {
+      if (typeof obj !== 'object' || obj === null) return;
+      
+      for (const [key, value] of Object.entries(obj)) {
+        const currentPath = path ? `${path}.${key}` : key;
+        
+        if (Array.isArray(value)) {
+          // Check if this array contains news articles
+          value.forEach((item, index) => {
+            if (typeof item === 'object' && item.title) {
+              if (this.isRelevantNews(item.title, ticker)) {
+                articles.push({
+                  title: item.title,
+                  url: item.url || item.link || '',
+                  source: 'TradingView',
+                  provider: item.provider || item.source || 'TradingView',
+                  publishedAt: item.published_at || item.publishedAt || item.time || new Date().toISOString(),
+                  content: item.description || item.summary || item.title
+                });
+              }
+            } else {
+              findArticles(item, `${currentPath}[${index}]`);
+            }
+          });
+        } else if (typeof value === 'object') {
+          findArticles(value, currentPath);
+        }
+      }
+    };
+    
+    findArticles(data);
+    return articles;
+  }
+
+  isValidNewsHeadline(headline, timeText) {
+    return headline && 
+           headline.length > 20 && 
+           headline.length < 300 &&
+           !headline.toLowerCase().includes('more in news flow') &&
+           !headline.toLowerCase().includes('time symbol headline') &&
+           !headline.toLowerCase().includes('tradingview') &&
+           headline.includes(' '); // Must have spaces (not just symbols)
+  }
+
+  isRelevantNews(text, ticker) {
+    const textLower = text.toLowerCase();
+    const tickerLower = ticker.toLowerCase();
+    
+    const companyNames = {
+      'AAPL': 'apple',
+      'MSFT': 'microsoft', 
+      'GOOGL': 'google|alphabet',
+      'AMZN': 'amazon',
+      'TSLA': 'tesla',
+      'META': 'meta|facebook',
+      'NVDA': 'nvidia'
+    };
+    
+    const companyPattern = companyNames[ticker] || tickerLower;
+    const companyRegex = new RegExp(companyPattern, 'i');
+    
+    return textLower.includes(tickerLower) ||
+           companyRegex.test(text) ||
+           textLower.includes('earnings') ||
+           textLower.includes('revenue') ||
+           textLower.includes('analyst') ||
+           textLower.includes('upgrade') ||
+           textLower.includes('downgrade') ||
+           textLower.includes('price target');
+  }
+
+  parseAlternativeAPI(data, ticker) {
+    const articles = [];
+    
+    try {
+      if (data.items && Array.isArray(data.items)) {
+        data.items.forEach(item => {
+          if (item.title && this.isRelevantNews(item.title, ticker)) {
+            articles.push({
+              title: item.title,
+              url: item.link || '',
+              source: 'TradingView',
+              provider: item.provider || 'Yahoo Finance',
+              publishedAt: item.published_at || new Date().toISOString(),
+              content: item.title
+            });
+          }
+        });
+      }
+    } catch (error) {
+      console.log(`Error parsing alternative API data: ${error.message}`);
+    }
+    
+    return articles;
+  }
+
   async scrapeFinviz(ticker) {
     try {
+      console.log(`Finviz: Scraping news for ${ticker}...`);
+      
       const url = `https://finviz.com/quote.ashx?t=${ticker}&p=d`;
       const headers = {
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
         'Accept-Language': 'en-US,en;q=0.5',
         'Referer': 'https://finviz.com/',
+        'Cache-Control': 'no-cache',
+        'Pragma': 'no-cache'
       };
 
       const response = await axios.get(url, { 
         headers,
-        timeout: 10000,
+        timeout: 15000,
         validateStatus: status => status < 500
       });
 
@@ -362,87 +600,95 @@ export class NewsCollector {
       const $ = cheerio.load(response.data);
       const news = [];
       
-      // Get company name for filtering relevance
+      // Get company name for better filtering
       const companyName = $('.fullview-title').text().trim();
-      const tickerLower = ticker.toLowerCase();
+      console.log(`Finviz: Company name detected: ${companyName}`);
 
-      // Look for news table
-      $('.fullview-news-outer table tr').each((i, element) => {
-        if (news.length >= 10) return false;
-
-        const $row = $(element);
-        const dateCell = $row.find('td').first();
-        const newsCell = $row.find('td').last();
-
-        if (dateCell.length && newsCell.length && dateCell.get(0) !== newsCell.get(0)) {
-          const dateText = dateCell.text().trim();
-          const $link = newsCell.find('a');
-
-          if ($link.length) {
-            const title = $link.text().trim();
-            const href = $link.attr('href');
-
-            if (title && title.length > 10 && href) {
-              // Check relevance to ticker
-              const titleLower = title.toLowerCase();
+      // Enhanced news table scraping
+      const newsTable = $('.fullview-news-outer table, #news-table, table.fullview-news-outer');
+      
+      if (newsTable.length === 0) {
+        console.log('Finviz: No news table found, trying alternative selectors...');
+        
+        // Try alternative news containers
+        const alternativeSelectors = [
+          '.news-link-container',
+          '.news-link-left',
+          '[class*="news"] a',
+          'table tr:has(a[href*="news"])'
+        ];
+        
+        for (const selector of alternativeSelectors) {
+          const elements = $(selector);
+          if (elements.length > 0) {
+            console.log(`Finviz: Found ${elements.length} elements with ${selector}`);
+            
+            elements.each((i, element) => {
+              if (news.length >= 15) return false;
               
-              const companyNames = {
-                'AAPL': 'apple',
-                'MSFT': 'microsoft',
-                'GOOGL': 'google|alphabet',
-                'AMZN': 'amazon',
-                'TSLA': 'tesla',
-                'META': 'meta|facebook',
-                'NVDA': 'nvidia'
-              };
+              const $element = $(element);
+              const $link = $element.is('a') ? $element : $element.find('a').first();
               
-              const companyPattern = companyNames[ticker] || tickerLower;
-              const companyRegex = new RegExp(companyPattern, 'i');
-              
-              const isRelevant = titleLower.includes(tickerLower) ||
-                                companyRegex.test(title) ||
-                                titleLower.includes('earnings') ||
-                                titleLower.includes('revenue') ||
-                                titleLower.includes('analyst') ||
-                                titleLower.includes('price target') ||
-                                titleLower.includes('upgrade') ||
-                                titleLower.includes('downgrade');
-
-              if (isRelevant) {
-                // Parse date
-                let publishedAt;
-                try {
-                  const dateMatch = dateText.match(/(\w+)-(\d+)-(\d+)/);
-                  if (dateMatch) {
-                    const [, month, day, year] = dateMatch;
-                    const monthMap = {
-                      'Jan': 0, 'Feb': 1, 'Mar': 2, 'Apr': 3, 'May': 4, 'Jun': 5,
-                      'Jul': 6, 'Aug': 7, 'Sep': 8, 'Oct': 9, 'Nov': 10, 'Dec': 11
-                    };
-                    publishedAt = new Date(2000 + parseInt(year), monthMap[month], parseInt(day)).toISOString();
-                  } else {
-                    publishedAt = new Date().toISOString();
-                  }
-                } catch (e) {
-                  publishedAt = new Date().toISOString();
+              if ($link.length) {
+                const title = $link.text().trim();
+                const href = $link.attr('href');
+                
+                if (this.isValidFinvizNews(title, href, ticker)) {
+                  news.push({
+                    title: title,
+                    url: href,
+                    source: 'Finviz',
+                    publishedAt: new Date().toISOString(),
+                    content: title
+                  });
+                  
+                  console.log(`Finviz alt: ${title.substring(0, 80)}...`);
                 }
+              }
+            });
+            
+            if (news.length > 0) break;
+          }
+        }
+      } else {
+        // Primary news table processing
+        newsTable.find('tr').each((i, element) => {
+          if (news.length >= 15) return false;
 
+          const $row = $(element);
+          const cells = $row.find('td');
+
+          if (cells.length >= 2) {
+            const dateCell = $(cells[0]);
+            const newsCell = $(cells[cells.length - 1]); // Last cell contains news
+
+            const dateText = dateCell.text().trim();
+            const $link = newsCell.find('a').first();
+
+            if ($link.length) {
+              const title = $link.text().trim();
+              const href = $link.attr('href');
+
+              if (this.isValidFinvizNews(title, href, ticker)) {
+                const publishedAt = this.parseFinvizDate(dateText);
+                
                 news.push({
                   title: title,
                   url: href,
                   source: 'Finviz',
                   publishedAt: publishedAt,
-                  content: title
+                  content: title,
+                  dateText: dateText
                 });
                 
-                console.log(`Finviz found: ${title.substring(0, 80)}...`);
+                console.log(`Finviz: ${title.substring(0, 80)}... (${dateText})`);
               }
             }
           }
-        }
-      });
+        });
+      }
 
-      console.log(`Finviz: Found ${news.length} articles for ${ticker}`);
+      console.log(`Finviz: Found ${news.length} relevant articles for ${ticker}`);
       return news;
       
     } catch (error) {
@@ -453,53 +699,91 @@ export class NewsCollector {
 
   async fetchPolygonNews(ticker) {
     if (!this.polygonApiKey) {
-      console.log('Polygon API key not available');
+      console.log('Polygon: API key not configured');
       return [];
     }
 
     try {
-      const url = `https://api.polygon.io/v2/reference/news?ticker=${ticker}&limit=20&apikey=${this.polygonApiKey}`;
+      console.log(`Polygon: Fetching news for ${ticker}...`);
+      
+      // Enhanced Polygon API call with proper parameters
+      const baseUrl = 'https://api.polygon.io/v2/reference/news';
+      const params = new URLSearchParams({
+        'ticker': ticker,
+        'limit': '50', // Get more articles
+        'sort': 'published_utc',
+        'order': 'desc',
+        'apikey': this.polygonApiKey
+      });
+      
+      // Add date range for recent news (last 7 days)
+      const sevenDaysAgo = new Date();
+      sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
+      params.append('published_utc.gte', sevenDaysAgo.toISOString().split('T')[0]);
+      
+      const url = `${baseUrl}?${params.toString()}`;
       
       const response = await axios.get(url, {
-        timeout: 10000,
+        timeout: 15000,
+        headers: {
+          'Authorization': `Bearer ${this.polygonApiKey}`,
+          'User-Agent': 'Stock-News-AI-Summarizer/1.0'
+        },
         validateStatus: status => status < 500
       });
 
-      if (response.status === 401) {
-        console.error(`Polygon API error for ${ticker}: Request failed with status code 401`);
-        console.error(`Response status: ${response.status}`);
-        console.error(`Response data:`, response.data);
+      console.log(`Polygon: Response status ${response.status}`);
+
+      if (response.status === 401 || response.status === 403) {
+        console.error(`Polygon: Authentication failed (${response.status})`);
+        console.error('Response:', response.data);
         return [];
       }
 
       if (response.status !== 200) {
-        console.error(`Polygon API returned status ${response.status} for ${ticker}`);
+        console.error(`Polygon: API returned status ${response.status}`);
+        console.error('Response data:', response.data);
         return [];
       }
 
       const data = response.data;
       
       if (!data || !data.results || !Array.isArray(data.results)) {
-        console.log(`No news results from Polygon API for ${ticker}`);
+        console.log(`Polygon: No results found for ${ticker}`);
+        console.log('Response structure:', Object.keys(data || {}));
         return [];
       }
 
-      const news = data.results.map(article => ({
-        title: article.title,
-        url: article.article_url,
-        source: 'Polygon',
-        publishedAt: article.published_utc,
-        content: article.description || article.title
-      }));
+      // Filter and process articles
+      const news = [];
+      data.results.forEach(article => {
+        if (!article.title) return;
+        
+        // Check relevance before adding
+        if (this.isRelevantNews(article.title, ticker)) {
+          news.push({
+            title: article.title,
+            url: article.article_url || article.amp_url || '',
+            source: 'Polygon',
+            provider: article.publisher?.name || 'Polygon',
+            publishedAt: article.published_utc,
+            content: article.description || article.title,
+            author: article.author,
+            tickers: article.tickers || [ticker]
+          });
+        }
+      });
 
-      console.log(`Polygon: Found ${news.length} articles for ${ticker}`);
+      console.log(`Polygon: Found ${news.length} relevant articles out of ${data.results.length} total for ${ticker}`);
       return news;
       
     } catch (error) {
       if (error.response) {
-        console.error(`Polygon API error for ${ticker}: ${error.message}`);
-        console.error(`Response status: ${error.response.status}`);
-        console.error(`Response data:`, error.response.data);
+        console.error(`Polygon API error for ${ticker}:`);
+        console.error(`Status: ${error.response.status}`);
+        console.error(`Data:`, error.response.data);
+      } else if (error.code === 'ECONNABORTED') {
+        console.error(`Polygon API timeout for ${ticker}`);
       } else {
         console.error(`Polygon API error for ${ticker}:`, error.message);
       }
@@ -526,5 +810,53 @@ export class NewsCollector {
     }
 
     return unique.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+  }
+
+  isValidFinvizNews(title, href, ticker) {
+    if (!title || !href || title.length < 10) return false;
+    
+    // Check if it's a valid news link
+    const validNewsLink = href.includes('http') || href.includes('news') || href.includes('reuters') || href.includes('bloomberg');
+    
+    if (!validNewsLink) return false;
+    
+    // Check relevance
+    return this.isRelevantNews(title, ticker);
+  }
+
+  parseFinvizDate(dateText) {
+    try {
+      // Handle different Finviz date formats
+      const formats = [
+        /(\w+)-(\d+)-(\d+)/, // Dec-01-24
+        /(\d+)\/(\d+)\/(\d+)/, // 12/01/24
+        /(\w+)\s+(\d+),?\s+(\d+)/ // Dec 01, 2024
+      ];
+
+      for (const format of formats) {
+        const match = dateText.match(format);
+        if (match) {
+          if (format.source.includes('\\w')) {
+            // Month name format
+            const [, month, day, year] = match;
+            const monthMap = {
+              'Jan': 0, 'Feb': 1, 'Mar': 2, 'Apr': 3, 'May': 4, 'Jun': 5,
+              'Jul': 6, 'Aug': 7, 'Sep': 8, 'Oct': 9, 'Nov': 10, 'Dec': 11
+            };
+            const fullYear = parseInt(year) < 100 ? 2000 + parseInt(year) : parseInt(year);
+            return new Date(fullYear, monthMap[month], parseInt(day)).toISOString();
+          } else {
+            // Numeric format
+            const [, month, day, year] = match;
+            const fullYear = parseInt(year) < 100 ? 2000 + parseInt(year) : parseInt(year);
+            return new Date(fullYear, parseInt(month) - 1, parseInt(day)).toISOString();
+          }
+        }
+      }
+    } catch (e) {
+      // Fallback to current date
+    }
+    
+    return new Date().toISOString();
   }
 }

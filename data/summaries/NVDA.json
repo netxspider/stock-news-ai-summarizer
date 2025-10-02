@@ -1,0 +1,736 @@
+[
+  {
+    "ticker": "NVDA",
+    "summary": {
+      "summary": "...",
+      "keyPoints": [
+        "Market activity continues",
+        "News developments ongoing",
+        "Investor attention warranted"
+      ],
+      "sentiment": "neutral",
+      "whatChangedToday": "Recent developments indicate continued market activity.",
+      "marketImplications": "Market implications remain to be determined.",
+      "articlesAnalyzed": 10,
+      "totalArticles": 10,
+      "lastUpdated": "2025-10-02T10:17:39.751Z",
+      "ticker": "NVDA",
+      "fallback": true
+    },
+    "articles": [
+      {
+        "title": "NVDA",
+        "url": "/symbols/NASDAQ-NVDA/",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T10:17:12.507Z",
+        "content": "NVDA"
+      },
+      {
+        "title": "NVDA news",
+        "url": "https://in.tradingview.com/symbols/NASDAQ-NVDA/news/",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T10:17:12.507Z",
+        "content": "NVDA news"
+      },
+      {
+        "title": "ASML Has Fans Ahead of Earnings. 2 Reasons to Believe in the Stock.",
+        "url": "https://finance.yahoo.com/m/dab6af39-69b5-3b2d-bb5e-bf52988e4b77/asml-has-fans-ahead-of.html",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T10:17:12.381Z",
+        "content": "ASML Has Fans Ahead of Earnings. 2 Reasons to Believe in the Stock.",
+        "dateText": "10:08AM"
+      },
+      {
+        "title": "AI Stocks Face 'Show Me' Test. Why Oracle Analyst Day Will Be Big Event.",
+        "url": "https://finance.yahoo.com/m/684c930d-1475-3adc-b013-ae604c056ebc/ai-stocks-face-%27show-me%27.html",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T10:17:12.381Z",
+        "content": "AI Stocks Face 'Show Me' Test. Why Oracle Analyst Day Will Be Big Event.",
+        "dateText": "10:06AM"
+      },
+      {
+        "title": "This Nvidia move has sparked criticism, but it could help the stock, one analyst says",
+        "url": "https://www.marketwatch.com/story/this-nvidia-move-has-sparked-criticism-but-it-could-help-the-stock-one-analyst-says-406c5234?mod=mw_FV",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T10:17:12.381Z",
+        "content": "This Nvidia move has sparked criticism, but it could help the stock, one analyst says",
+        "dateText": "09:47AM"
+      },
+      {
+        "title": "Analyst Report: Taiwan Semiconductor Manufacturing Company Limited",
+        "url": "https://finance.yahoo.com/m/6d2d80a9-ce68-3bc0-8cd9-7c5628465486/analyst-report%3A-taiwan.html",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T10:17:12.380Z",
+        "content": "Analyst Report: Taiwan Semiconductor Manufacturing Company Limited",
+        "dateText": "08:02PM"
+      },
+      {
+        "title": "Analyst Highlights Red Flags in Nvidia (NVDA)-OpenAI $100 Billion Deal - 'Feature of Past Bubbles'",
+        "url": "/news/181460/analyst-highlights-red-flags-in-nvidia-nvda-openai-100-billion-deal-feature-of-past-bubbles",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T10:17:12.380Z",
+        "content": "Analyst Highlights Red Flags in Nvidia (NVDA)-OpenAI $100 Billion Deal - 'Feature of Past Bubbles'",
+        "dateText": "04:28PM"
+      },
+      {
+        "title": "Analyst Says He's Not 'Worried At All' About Nvidia (NVDA)'s Customer Concentration Problem",
+        "url": "/news/181357/analyst-says-hes-not-worried-at-all-about-nvidia-nvdas-customer-concentration-problem",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T10:17:12.380Z",
+        "content": "Analyst Says He's Not 'Worried At All' About Nvidia (NVDA)'s Customer Concentration Problem",
+        "dateText": "03:49PM"
+      },
+      {
+        "title": "The Best AI Stock to Buy Right Now, According to a Wall Street Analyst (Hint: Not Nvidia or Palantir)",
+        "url": "https://www.fool.com/investing/2025/10/01/best-ai-stock-buy-now-wall-street-nvidia-palantir/?source=iedfolrf0000001",
+        "source": "Polygon",
+        "provider": "The Motley Fool",
+        "publishedAt": "2025-10-01T08:12:00Z",
+        "content": "Wedbush analyst Dan Ives believes Tesla is the most undervalued AI stock, citing significant potential in autonomous driving and robotics, despite recent market share losses and financial challenges.",
+        "author": "Trevor Jennewine",
+        "tickers": [
+          "TSLA",
+          "NVDA",
+          "PLTR",
+          "BYDDY"
+        ]
+      },
+      {
+        "title": "Alibaba Price Target Lifted by JPMorgan to Street High on Cloud",
+        "url": "https://finance.yahoo.com/news/alibaba-price-target-lifted-jpmorgan-031420141.html",
+        "source": "Finviz",
+        "publishedAt": "2025-09-30T18:30:00.000Z",
+        "content": "Alibaba Price Target Lifted by JPMorgan to Street High on Cloud",
+        "dateText": "Oct-01-25 11:14PM"
+      }
+    ],
+    "timestamp": "2025-10-02T10:17:39.751Z",
+    "date": "2025-10-02",
+    "sources": [
+      {
+        "url": "/symbols/NASDAQ-NVDA/",
+        "headline": "NVDA",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T10:17:12.507Z"
+      },
+      {
+        "url": "https://in.tradingview.com/symbols/NASDAQ-NVDA/news/",
+        "headline": "NVDA news",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T10:17:12.507Z"
+      },
+      {
+        "url": "https://finance.yahoo.com/m/dab6af39-69b5-3b2d-bb5e-bf52988e4b77/asml-has-fans-ahead-of.html",
+        "headline": "ASML Has Fans Ahead of Earnings. 2 Reasons to Believe in the Stock.",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T10:17:12.381Z"
+      },
+      {
+        "url": "https://finance.yahoo.com/m/684c930d-1475-3adc-b013-ae604c056ebc/ai-stocks-face-%27show-me%27.html",
+        "headline": "AI Stocks Face 'Show Me' Test. Why Oracle Analyst Day Will Be Big Event.",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T10:17:12.381Z"
+      },
+      {
+        "url": "https://www.marketwatch.com/story/this-nvidia-move-has-sparked-criticism-but-it-could-help-the-stock-one-analyst-says-406c5234?mod=mw_FV",
+        "headline": "This Nvidia move has sparked criticism, but it could help the stock, one analyst says",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T10:17:12.381Z"
+      },
+      {
+        "url": "https://finance.yahoo.com/m/6d2d80a9-ce68-3bc0-8cd9-7c5628465486/analyst-report%3A-taiwan.html",
+        "headline": "Analyst Report: Taiwan Semiconductor Manufacturing Company Limited",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T10:17:12.380Z"
+      },
+      {
+        "url": "/news/181460/analyst-highlights-red-flags-in-nvidia-nvda-openai-100-billion-deal-feature-of-past-bubbles",
+        "headline": "Analyst Highlights Red Flags in Nvidia (NVDA)-OpenAI $100 Billion Deal - 'Feature of Past Bubbles'",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T10:17:12.380Z"
+      },
+      {
+        "url": "/news/181357/analyst-says-hes-not-worried-at-all-about-nvidia-nvdas-customer-concentration-problem",
+        "headline": "Analyst Says He's Not 'Worried At All' About Nvidia (NVDA)'s Customer Concentration Problem",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T10:17:12.380Z"
+      },
+      {
+        "url": "https://www.fool.com/investing/2025/10/01/best-ai-stock-buy-now-wall-street-nvidia-palantir/?source=iedfolrf0000001",
+        "headline": "The Best AI Stock to Buy Right Now, According to a Wall Street Analyst (Hint: Not Nvidia or Palantir)",
+        "source": "Polygon",
+        "provider": "The Motley Fool",
+        "publishedAt": "2025-10-01T08:12:00Z"
+      },
+      {
+        "url": "https://finance.yahoo.com/news/alibaba-price-target-lifted-jpmorgan-031420141.html",
+        "headline": "Alibaba Price Target Lifted by JPMorgan to Street High on Cloud",
+        "source": "Finviz",
+        "publishedAt": "2025-09-30T18:30:00.000Z"
+      }
+    ],
+    "meta": {
+      "totalArticlesFound": 10,
+      "articlesAnalyzed": 10,
+      "historicalArticlesUsed": 0,
+      "daysOfHistoryAnalyzed": 7,
+      "processingTime": "2025-10-02T10:17:39.751Z",
+      "enhancedFeatures": {
+        "tradingViewScraping": true,
+        "finvizEnhanced": true,
+        "polygonAPI": true,
+        "geminiAnalysis": true,
+        "historicalComparison": true
+      }
+    },
+    "id": 1759400259765
+  },
+  {
+    "ticker": "NVDA",
+    "summary": {
+      "summary": "...",
+      "keyPoints": [
+        "Market activity continues",
+        "News developments ongoing",
+        "Investor attention warranted"
+      ],
+      "sentiment": "neutral",
+      "whatChangedToday": "Recent developments indicate continued market activity.",
+      "marketImplications": "Market implications remain to be determined.",
+      "articlesAnalyzed": 10,
+      "totalArticles": 10,
+      "lastUpdated": "2025-10-02T10:04:12.030Z",
+      "ticker": "NVDA",
+      "fallback": true
+    },
+    "articles": [
+      {
+        "title": "ASML Has Fans Ahead of Earnings. 2 Reasons to Believe in the Stock.",
+        "url": "https://finance.yahoo.com/m/dab6af39-69b5-3b2d-bb5e-bf52988e4b77/asml-has-fans-ahead-of.html",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T10:03:52.873Z",
+        "content": "ASML Has Fans Ahead of Earnings. 2 Reasons to Believe in the Stock.",
+        "dateText": "10:08AM"
+      },
+      {
+        "title": "AI Stocks Face 'Show Me' Test. Why Oracle Analyst Day Will Be Big Event.",
+        "url": "https://finance.yahoo.com/m/684c930d-1475-3adc-b013-ae604c056ebc/ai-stocks-face-%27show-me%27.html",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T10:03:52.873Z",
+        "content": "AI Stocks Face 'Show Me' Test. Why Oracle Analyst Day Will Be Big Event.",
+        "dateText": "10:06AM"
+      },
+      {
+        "title": "This Nvidia move has sparked criticism, but it could help the stock, one analyst says",
+        "url": "https://www.marketwatch.com/story/this-nvidia-move-has-sparked-criticism-but-it-could-help-the-stock-one-analyst-says-406c5234?mod=mw_FV",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T10:03:52.873Z",
+        "content": "This Nvidia move has sparked criticism, but it could help the stock, one analyst says",
+        "dateText": "09:47AM"
+      },
+      {
+        "title": "Analyst Highlights Red Flags in Nvidia (NVDA)-OpenAI $100 Billion Deal - 'Feature of Past Bubbles'",
+        "url": "/news/181460/analyst-highlights-red-flags-in-nvidia-nvda-openai-100-billion-deal-feature-of-past-bubbles",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T10:03:52.872Z",
+        "content": "Analyst Highlights Red Flags in Nvidia (NVDA)-OpenAI $100 Billion Deal - 'Feature of Past Bubbles'",
+        "dateText": "04:28PM"
+      },
+      {
+        "title": "Analyst Says He's Not 'Worried At All' About Nvidia (NVDA)'s Customer Concentration Problem",
+        "url": "/news/181357/analyst-says-hes-not-worried-at-all-about-nvidia-nvdas-customer-concentration-problem",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T10:03:52.872Z",
+        "content": "Analyst Says He's Not 'Worried At All' About Nvidia (NVDA)'s Customer Concentration Problem",
+        "dateText": "03:49PM"
+      },
+      {
+        "title": "Analyst Report: Taiwan Semiconductor Manufacturing Company Limited",
+        "url": "https://finance.yahoo.com/m/6d2d80a9-ce68-3bc0-8cd9-7c5628465486/analyst-report%3A-taiwan.html",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T10:03:52.871Z",
+        "content": "Analyst Report: Taiwan Semiconductor Manufacturing Company Limited",
+        "dateText": "08:02PM"
+      },
+      {
+        "title": "NVDA",
+        "url": "/symbols/NASDAQ-NVDA/",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T10:03:51.849Z",
+        "content": "NVDA"
+      },
+      {
+        "title": "NVDA news",
+        "url": "https://in.tradingview.com/symbols/NASDAQ-NVDA/news/",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T10:03:51.849Z",
+        "content": "NVDA news"
+      },
+      {
+        "title": "The Best AI Stock to Buy Right Now, According to a Wall Street Analyst (Hint: Not Nvidia or Palantir)",
+        "url": "https://www.fool.com/investing/2025/10/01/best-ai-stock-buy-now-wall-street-nvidia-palantir/?source=iedfolrf0000001",
+        "source": "Polygon",
+        "provider": "The Motley Fool",
+        "publishedAt": "2025-10-01T08:12:00Z",
+        "content": "Wedbush analyst Dan Ives believes Tesla is the most undervalued AI stock, citing significant potential in autonomous driving and robotics, despite recent market share losses and financial challenges.",
+        "author": "Trevor Jennewine",
+        "tickers": [
+          "TSLA",
+          "NVDA",
+          "PLTR",
+          "BYDDY"
+        ]
+      },
+      {
+        "title": "Alibaba Price Target Lifted by JPMorgan to Street High on Cloud",
+        "url": "https://finance.yahoo.com/news/alibaba-price-target-lifted-jpmorgan-031420141.html",
+        "source": "Finviz",
+        "publishedAt": "2025-09-30T18:30:00.000Z",
+        "content": "Alibaba Price Target Lifted by JPMorgan to Street High on Cloud",
+        "dateText": "Oct-01-25 11:14PM"
+      }
+    ],
+    "timestamp": "2025-10-02T10:04:12.030Z",
+    "date": "2025-10-02",
+    "sources": [
+      {
+        "url": "https://finance.yahoo.com/m/dab6af39-69b5-3b2d-bb5e-bf52988e4b77/asml-has-fans-ahead-of.html",
+        "headline": "ASML Has Fans Ahead of Earnings. 2 Reasons to Believe in the Stock.",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T10:03:52.873Z"
+      },
+      {
+        "url": "https://finance.yahoo.com/m/684c930d-1475-3adc-b013-ae604c056ebc/ai-stocks-face-%27show-me%27.html",
+        "headline": "AI Stocks Face 'Show Me' Test. Why Oracle Analyst Day Will Be Big Event.",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T10:03:52.873Z"
+      },
+      {
+        "url": "https://www.marketwatch.com/story/this-nvidia-move-has-sparked-criticism-but-it-could-help-the-stock-one-analyst-says-406c5234?mod=mw_FV",
+        "headline": "This Nvidia move has sparked criticism, but it could help the stock, one analyst says",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T10:03:52.873Z"
+      },
+      {
+        "url": "/news/181460/analyst-highlights-red-flags-in-nvidia-nvda-openai-100-billion-deal-feature-of-past-bubbles",
+        "headline": "Analyst Highlights Red Flags in Nvidia (NVDA)-OpenAI $100 Billion Deal - 'Feature of Past Bubbles'",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T10:03:52.872Z"
+      },
+      {
+        "url": "/news/181357/analyst-says-hes-not-worried-at-all-about-nvidia-nvdas-customer-concentration-problem",
+        "headline": "Analyst Says He's Not 'Worried At All' About Nvidia (NVDA)'s Customer Concentration Problem",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T10:03:52.872Z"
+      },
+      {
+        "url": "https://finance.yahoo.com/m/6d2d80a9-ce68-3bc0-8cd9-7c5628465486/analyst-report%3A-taiwan.html",
+        "headline": "Analyst Report: Taiwan Semiconductor Manufacturing Company Limited",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T10:03:52.871Z"
+      },
+      {
+        "url": "/symbols/NASDAQ-NVDA/",
+        "headline": "NVDA",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T10:03:51.849Z"
+      },
+      {
+        "url": "https://in.tradingview.com/symbols/NASDAQ-NVDA/news/",
+        "headline": "NVDA news",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T10:03:51.849Z"
+      },
+      {
+        "url": "https://www.fool.com/investing/2025/10/01/best-ai-stock-buy-now-wall-street-nvidia-palantir/?source=iedfolrf0000001",
+        "headline": "The Best AI Stock to Buy Right Now, According to a Wall Street Analyst (Hint: Not Nvidia or Palantir)",
+        "source": "Polygon",
+        "provider": "The Motley Fool",
+        "publishedAt": "2025-10-01T08:12:00Z"
+      },
+      {
+        "url": "https://finance.yahoo.com/news/alibaba-price-target-lifted-jpmorgan-031420141.html",
+        "headline": "Alibaba Price Target Lifted by JPMorgan to Street High on Cloud",
+        "source": "Finviz",
+        "publishedAt": "2025-09-30T18:30:00.000Z"
+      }
+    ],
+    "meta": {
+      "totalArticlesFound": 10,
+      "articlesAnalyzed": 10,
+      "historicalArticlesUsed": 0,
+      "daysOfHistoryAnalyzed": 7,
+      "processingTime": "2025-10-02T10:04:12.030Z",
+      "enhancedFeatures": {
+        "tradingViewScraping": true,
+        "finvizEnhanced": true,
+        "polygonAPI": true,
+        "geminiAnalysis": true,
+        "historicalComparison": true
+      }
+    },
+    "id": 1759399452031
+  },
+  {
+    "ticker": "NVDA",
+    "summary": {
+      "summary": "{\n  \"summary\": \"Today's news presents a mixed but predominantly cautious outlook for Nvidia (NVDA), highlighting both potential risks and differing analyst perspectives on its business strategy. A significant development involves an analyst raising \\\"red flags\\\" concerning a reported $100 billion deal between Nvidia and OpenAI, likening it to a \\\"feature of past bubbles\\\" and suggesting potential overvaluation or speculative activity. This criticism adds a layer of scrutiny to Nvidia's rapid exp...",
+      "keyPoints": [
+        "term stability. This provides a counter-narrative to a common bearish argument. Furthermore, a strategic \\\"Nvidia move,\\\" though criticized, is also seen by an analyst as potentially beneficial for the stock, suggesting the company is actively navigating its growth trajectory with calculated decisions. The broader AI market is also facing a \\\"show me\\\" test, with upcoming events like Oracle Analyst Day expected to validate the high valuations of AI stocks, including Nvidia, placing pressure on the entire sector to demonstrate tangible results.\",",
+        "OpenAI deal as a potential \\\"feature of past bubbles,\\\" introducing significant valuation concerns.\","
+      ],
+      "sentiment": "negative",
+      "whatChangedToday": "Today's news presents a mixed but predominantly cautious outlook for Nvidia (NVDA), highlighting both potential risks and differing analyst perspectives on its business strategy.",
+      "marketImplications": "investors.",
+      "articlesAnalyzed": 10,
+      "totalArticles": 10,
+      "lastUpdated": "2025-10-02T09:02:00.576Z",
+      "ticker": "NVDA",
+      "fallback": true
+    },
+    "articles": [
+      {
+        "title": "Analyst Report: Taiwan Semiconductor Manufacturing Company Limited",
+        "url": "https://finance.yahoo.com/m/6d2d80a9-ce68-3bc0-8cd9-7c5628465486/analyst-report%3A-taiwan.html",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T09:01:36.884Z",
+        "content": "Analyst Report: Taiwan Semiconductor Manufacturing Company Limited",
+        "dateText": "08:02PM"
+      },
+      {
+        "title": "Analyst Highlights Red Flags in Nvidia (NVDA)-OpenAI $100 Billion Deal - 'Feature of Past Bubbles'",
+        "url": "/news/181460/analyst-highlights-red-flags-in-nvidia-nvda-openai-100-billion-deal-feature-of-past-bubbles",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T09:01:36.884Z",
+        "content": "Analyst Highlights Red Flags in Nvidia (NVDA)-OpenAI $100 Billion Deal - 'Feature of Past Bubbles'",
+        "dateText": "04:28PM"
+      },
+      {
+        "title": "Analyst Says He's Not 'Worried At All' About Nvidia (NVDA)'s Customer Concentration Problem",
+        "url": "/news/181357/analyst-says-hes-not-worried-at-all-about-nvidia-nvdas-customer-concentration-problem",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T09:01:36.884Z",
+        "content": "Analyst Says He's Not 'Worried At All' About Nvidia (NVDA)'s Customer Concentration Problem",
+        "dateText": "03:49PM"
+      },
+      {
+        "title": "ASML Has Fans Ahead of Earnings. 2 Reasons to Believe in the Stock.",
+        "url": "https://finance.yahoo.com/m/dab6af39-69b5-3b2d-bb5e-bf52988e4b77/asml-has-fans-ahead-of.html",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T09:01:36.884Z",
+        "content": "ASML Has Fans Ahead of Earnings. 2 Reasons to Believe in the Stock.",
+        "dateText": "10:08AM"
+      },
+      {
+        "title": "AI Stocks Face 'Show Me' Test. Why Oracle Analyst Day Will Be Big Event.",
+        "url": "https://finance.yahoo.com/m/684c930d-1475-3adc-b013-ae604c056ebc/ai-stocks-face-%27show-me%27.html",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T09:01:36.884Z",
+        "content": "AI Stocks Face 'Show Me' Test. Why Oracle Analyst Day Will Be Big Event.",
+        "dateText": "10:06AM"
+      },
+      {
+        "title": "This Nvidia move has sparked criticism, but it could help the stock, one analyst says",
+        "url": "https://www.marketwatch.com/story/this-nvidia-move-has-sparked-criticism-but-it-could-help-the-stock-one-analyst-says-406c5234?mod=mw_FV",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T09:01:36.884Z",
+        "content": "This Nvidia move has sparked criticism, but it could help the stock, one analyst says",
+        "dateText": "09:47AM"
+      },
+      {
+        "title": "NVDA",
+        "url": "/symbols/NASDAQ-NVDA/",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T09:01:36.842Z",
+        "content": "NVDA"
+      },
+      {
+        "title": "NVDA news",
+        "url": "https://in.tradingview.com/symbols/NASDAQ-NVDA/news/",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T09:01:36.842Z",
+        "content": "NVDA news"
+      },
+      {
+        "title": "The Best AI Stock to Buy Right Now, According to a Wall Street Analyst (Hint: Not Nvidia or Palantir)",
+        "url": "https://www.fool.com/investing/2025/10/01/best-ai-stock-buy-now-wall-street-nvidia-palantir/?source=iedfolrf0000001",
+        "source": "Polygon",
+        "provider": "The Motley Fool",
+        "publishedAt": "2025-10-01T08:12:00Z",
+        "content": "Wedbush analyst Dan Ives believes Tesla is the most undervalued AI stock, citing significant potential in autonomous driving and robotics, despite recent market share losses and financial challenges.",
+        "author": "Trevor Jennewine",
+        "tickers": [
+          "TSLA",
+          "NVDA",
+          "PLTR",
+          "BYDDY"
+        ]
+      },
+      {
+        "title": "Alibaba Price Target Lifted by JPMorgan to Street High on Cloud",
+        "url": "https://finance.yahoo.com/news/alibaba-price-target-lifted-jpmorgan-031420141.html",
+        "source": "Finviz",
+        "publishedAt": "2025-09-30T18:30:00.000Z",
+        "content": "Alibaba Price Target Lifted by JPMorgan to Street High on Cloud",
+        "dateText": "Oct-01-25 11:14PM"
+      }
+    ],
+    "timestamp": "2025-10-02T09:02:00.576Z",
+    "date": "2025-10-02",
+    "sources": [
+      {
+        "url": "https://finance.yahoo.com/m/6d2d80a9-ce68-3bc0-8cd9-7c5628465486/analyst-report%3A-taiwan.html",
+        "headline": "Analyst Report: Taiwan Semiconductor Manufacturing Company Limited",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T09:01:36.884Z"
+      },
+      {
+        "url": "/news/181460/analyst-highlights-red-flags-in-nvidia-nvda-openai-100-billion-deal-feature-of-past-bubbles",
+        "headline": "Analyst Highlights Red Flags in Nvidia (NVDA)-OpenAI $100 Billion Deal - 'Feature of Past Bubbles'",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T09:01:36.884Z"
+      },
+      {
+        "url": "/news/181357/analyst-says-hes-not-worried-at-all-about-nvidia-nvdas-customer-concentration-problem",
+        "headline": "Analyst Says He's Not 'Worried At All' About Nvidia (NVDA)'s Customer Concentration Problem",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T09:01:36.884Z"
+      },
+      {
+        "url": "https://finance.yahoo.com/m/dab6af39-69b5-3b2d-bb5e-bf52988e4b77/asml-has-fans-ahead-of.html",
+        "headline": "ASML Has Fans Ahead of Earnings. 2 Reasons to Believe in the Stock.",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T09:01:36.884Z"
+      },
+      {
+        "url": "https://finance.yahoo.com/m/684c930d-1475-3adc-b013-ae604c056ebc/ai-stocks-face-%27show-me%27.html",
+        "headline": "AI Stocks Face 'Show Me' Test. Why Oracle Analyst Day Will Be Big Event.",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T09:01:36.884Z"
+      },
+      {
+        "url": "https://www.marketwatch.com/story/this-nvidia-move-has-sparked-criticism-but-it-could-help-the-stock-one-analyst-says-406c5234?mod=mw_FV",
+        "headline": "This Nvidia move has sparked criticism, but it could help the stock, one analyst says",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T09:01:36.884Z"
+      },
+      {
+        "url": "/symbols/NASDAQ-NVDA/",
+        "headline": "NVDA",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T09:01:36.842Z"
+      },
+      {
+        "url": "https://in.tradingview.com/symbols/NASDAQ-NVDA/news/",
+        "headline": "NVDA news",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T09:01:36.842Z"
+      },
+      {
+        "url": "https://www.fool.com/investing/2025/10/01/best-ai-stock-buy-now-wall-street-nvidia-palantir/?source=iedfolrf0000001",
+        "headline": "The Best AI Stock to Buy Right Now, According to a Wall Street Analyst (Hint: Not Nvidia or Palantir)",
+        "source": "Polygon",
+        "provider": "The Motley Fool",
+        "publishedAt": "2025-10-01T08:12:00Z"
+      },
+      {
+        "url": "https://finance.yahoo.com/news/alibaba-price-target-lifted-jpmorgan-031420141.html",
+        "headline": "Alibaba Price Target Lifted by JPMorgan to Street High on Cloud",
+        "source": "Finviz",
+        "publishedAt": "2025-09-30T18:30:00.000Z"
+      }
+    ],
+    "meta": {
+      "totalArticlesFound": 10,
+      "articlesAnalyzed": 10,
+      "historicalArticlesUsed": 0,
+      "daysOfHistoryAnalyzed": 7,
+      "processingTime": "2025-10-02T09:02:00.576Z",
+      "enhancedFeatures": {
+        "tradingViewScraping": true,
+        "finvizEnhanced": true,
+        "polygonAPI": true,
+        "geminiAnalysis": true,
+        "historicalComparison": true
+      }
+    },
+    "id": 1759395720577
+  },
+  {
+    "ticker": "NVDA",
+    "summary": {
+      "summary": "10/2/2025 NVDA Analysis: Comprehensive review of 9 key developments from Finviz, TradingView. Current market sentiment for NVDA reflects neutral outlook driven by multiple business developments. Analysis indicates high market impact potential based on news significance and coverage volume. Key focus areas include operational updates, strategic initiatives, and market positioning changes affecting NVDA investor sentiment.",
+      "whatChangedToday": "Today marks initial analysis with 9 breaking developments from Finviz, TradingView. Current sentiment establishes neutral baseline with high market impact potential. Emerging themes focus on ASML Has Fans Ahead of Earnings. 2 Reaso and AI Stocks Face 'Show Me' Test. Why Oracl.",
+      "keyPoints": [
+        "9 news stories analyzed with neutral sentiment",
+        "Market impact assessed as high based on content analysis",
+        "Primary sources: Finviz, TradingView",
+        "ASML Has Fans Ahead of Earnings. 2 Reasons to Believe in the Stock.",
+        "AI Stocks Face 'Show Me' Test. Why Oracle Analyst Day Will Be Big Event."
+      ],
+      "sentiment": "neutral",
+      "marketImpact": "high"
+    },
+    "articles": [
+      {
+        "title": "ASML Has Fans Ahead of Earnings. 2 Reasons to Believe in the Stock.",
+        "url": "https://finance.yahoo.com/m/dab6af39-69b5-3b2d-bb5e-bf52988e4b77/asml-has-fans-ahead-of.html",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T08:25:53.894Z",
+        "content": "ASML Has Fans Ahead of Earnings. 2 Reasons to Believe in the Stock.",
+        "dateText": "10:08AM"
+      },
+      {
+        "title": "AI Stocks Face 'Show Me' Test. Why Oracle Analyst Day Will Be Big Event.",
+        "url": "https://finance.yahoo.com/m/684c930d-1475-3adc-b013-ae604c056ebc/ai-stocks-face-%27show-me%27.html",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T08:25:53.894Z",
+        "content": "AI Stocks Face 'Show Me' Test. Why Oracle Analyst Day Will Be Big Event.",
+        "dateText": "10:06AM"
+      },
+      {
+        "title": "This Nvidia move has sparked criticism, but it could help the stock, one analyst says",
+        "url": "https://www.marketwatch.com/story/this-nvidia-move-has-sparked-criticism-but-it-could-help-the-stock-one-analyst-says-406c5234?mod=mw_FV",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T08:25:53.894Z",
+        "content": "This Nvidia move has sparked criticism, but it could help the stock, one analyst says",
+        "dateText": "09:47AM"
+      },
+      {
+        "title": "Analyst Report: Taiwan Semiconductor Manufacturing Company Limited",
+        "url": "https://finance.yahoo.com/m/6d2d80a9-ce68-3bc0-8cd9-7c5628465486/analyst-report%3A-taiwan.html",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T08:25:53.893Z",
+        "content": "Analyst Report: Taiwan Semiconductor Manufacturing Company Limited",
+        "dateText": "08:02PM"
+      },
+      {
+        "title": "Analyst Highlights Red Flags in Nvidia (NVDA)-OpenAI $100 Billion Deal - 'Feature of Past Bubbles'",
+        "url": "/news/181460/analyst-highlights-red-flags-in-nvidia-nvda-openai-100-billion-deal-feature-of-past-bubbles",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T08:25:53.893Z",
+        "content": "Analyst Highlights Red Flags in Nvidia (NVDA)-OpenAI $100 Billion Deal - 'Feature of Past Bubbles'",
+        "dateText": "04:28PM"
+      },
+      {
+        "title": "Analyst Says He's Not 'Worried At All' About Nvidia (NVDA)'s Customer Concentration Problem",
+        "url": "/news/181357/analyst-says-hes-not-worried-at-all-about-nvidia-nvdas-customer-concentration-problem",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T08:25:53.893Z",
+        "content": "Analyst Says He's Not 'Worried At All' About Nvidia (NVDA)'s Customer Concentration Problem",
+        "dateText": "03:49PM"
+      },
+      {
+        "title": "NVDA",
+        "url": "/symbols/NASDAQ-NVDA/",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T08:25:53.202Z",
+        "content": "NVDA"
+      },
+      {
+        "title": "NVDA news",
+        "url": "https://in.tradingview.com/symbols/NASDAQ-NVDA/news/",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T08:25:53.202Z",
+        "content": "NVDA news"
+      },
+      {
+        "title": "Alibaba Price Target Lifted by JPMorgan to Street High on Cloud",
+        "url": "https://finance.yahoo.com/news/alibaba-price-target-lifted-jpmorgan-031420141.html",
+        "source": "Finviz",
+        "publishedAt": "2025-09-30T18:30:00.000Z",
+        "content": "Alibaba Price Target Lifted by JPMorgan to Street High on Cloud",
+        "dateText": "Oct-01-25 11:14PM"
+      }
+    ],
+    "timestamp": "2025-10-02T08:25:53.896Z",
+    "date": "2025-10-02",
+    "sources": [
+      {
+        "url": "https://finance.yahoo.com/m/dab6af39-69b5-3b2d-bb5e-bf52988e4b77/asml-has-fans-ahead-of.html",
+        "headline": "ASML Has Fans Ahead of Earnings. 2 Reasons to Believe in the Stock.",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T08:25:53.894Z"
+      },
+      {
+        "url": "https://finance.yahoo.com/m/684c930d-1475-3adc-b013-ae604c056ebc/ai-stocks-face-%27show-me%27.html",
+        "headline": "AI Stocks Face 'Show Me' Test. Why Oracle Analyst Day Will Be Big Event.",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T08:25:53.894Z"
+      },
+      {
+        "url": "https://www.marketwatch.com/story/this-nvidia-move-has-sparked-criticism-but-it-could-help-the-stock-one-analyst-says-406c5234?mod=mw_FV",
+        "headline": "This Nvidia move has sparked criticism, but it could help the stock, one analyst says",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T08:25:53.894Z"
+      },
+      {
+        "url": "https://finance.yahoo.com/m/6d2d80a9-ce68-3bc0-8cd9-7c5628465486/analyst-report%3A-taiwan.html",
+        "headline": "Analyst Report: Taiwan Semiconductor Manufacturing Company Limited",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T08:25:53.893Z"
+      },
+      {
+        "url": "/news/181460/analyst-highlights-red-flags-in-nvidia-nvda-openai-100-billion-deal-feature-of-past-bubbles",
+        "headline": "Analyst Highlights Red Flags in Nvidia (NVDA)-OpenAI $100 Billion Deal - 'Feature of Past Bubbles'",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T08:25:53.893Z"
+      },
+      {
+        "url": "/news/181357/analyst-says-hes-not-worried-at-all-about-nvidia-nvdas-customer-concentration-problem",
+        "headline": "Analyst Says He's Not 'Worried At All' About Nvidia (NVDA)'s Customer Concentration Problem",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T08:25:53.893Z"
+      },
+      {
+        "url": "/symbols/NASDAQ-NVDA/",
+        "headline": "NVDA",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T08:25:53.202Z"
+      },
+      {
+        "url": "https://in.tradingview.com/symbols/NASDAQ-NVDA/news/",
+        "headline": "NVDA news",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T08:25:53.202Z"
+      },
+      {
+        "url": "https://finance.yahoo.com/news/alibaba-price-target-lifted-jpmorgan-031420141.html",
+        "headline": "Alibaba Price Target Lifted by JPMorgan to Street High on Cloud",
+        "source": "Finviz",
+        "publishedAt": "2025-09-30T18:30:00.000Z"
+      }
+    ],
+    "meta": {
+      "totalArticlesFound": 9,
+      "articlesAnalyzed": 9,
+      "historicalArticlesUsed": 0,
+      "daysOfHistoryAnalyzed": 7,
+      "processingTime": "2025-10-02T08:25:53.896Z",
+      "enhancedFeatures": {
+        "tradingViewScraping": true,
+        "finvizEnhanced": true,
+        "polygonAPI": true,
+        "geminiAnalysis": true,
+        "historicalComparison": true
+      }
+    },
+    "id": 1759393553897
+  }
+]

@@ -11,6 +11,14 @@ const TickerSidebar = ({
 }) => {
   const [newTicker, setNewTicker] = useState('');
   const [isAdding, setIsAdding] = useState(false);
+  const [showSuggestions, setShowSuggestions] = useState(false);
+
+  // Popular stock suggestions
+  const suggestedTickers = [
+    'AMZN', 'MSFT', 'TSLA', 'GOOGL', 'AAPL', 'META', 'NFLX', 'NVDA', 
+    'AMD', 'BABA', 'CRM', 'ORCL', 'ADBE', 'PYPL', 'SHOP', 'ZOOM',
+    'DIS', 'BA', 'JPM', 'V', 'MA', 'WMT', 'PG', 'KO'
+  ].filter(ticker => !tickers.includes(ticker));
 
   const handleAddTicker = async (e) => {
     e.preventDefault();
@@ -53,6 +61,7 @@ const TickerSidebar = ({
             type="text"
             value={newTicker}
             onChange={(e) => setNewTicker(e.target.value.toUpperCase())}
+            onFocus={() => setShowSuggestions(true)}
             placeholder="Add ticker (e.g., AAPL)"
             className="ticker-input"
             disabled={isAdding}
@@ -69,6 +78,36 @@ const TickerSidebar = ({
             )}
           </button>
         </div>
+        
+        {showSuggestions && suggestedTickers.length > 0 && (
+          <div className="suggestions-panel">
+            <div className="suggestions-header">
+              <span>Suggested Tickers</span>
+              <button 
+                type="button"
+                onClick={() => setShowSuggestions(false)}
+                className="close-suggestions"
+              >
+                ×
+              </button>
+            </div>
+            <div className="suggestions-grid">
+              {suggestedTickers.slice(0, 12).map(ticker => (
+                <button
+                  key={ticker}
+                  type="button"
+                  onClick={() => {
+                    setNewTicker(ticker);
+                    setShowSuggestions(false);
+                  }}
+                  className="suggestion-item"
+                >
+                  {ticker}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
       </form>
 
       <div className="ticker-list">
@@ -96,7 +135,7 @@ const TickerSidebar = ({
                   </button>
                 </div>
                 
-                {summary && (
+                {summary ? (
                   <div className="ticker-meta">
                     <div className="sentiment-indicator">
                       <div 
@@ -117,11 +156,20 @@ const TickerSidebar = ({
                       </span>
                     </div>
                   </div>
+                ) : (
+                  <div className="processing-indicator">
+                    <RefreshCw className="icon spinning" />
+                    <span className="processing-text">Generating AI summary...</span>
+                  </div>
                 )}
                 
-                {summary && (
+                {summary ? (
                   <div className="last-updated">
                     Updated: {new Date(summary.timestamp).toLocaleDateString()}
+                  </div>
+                ) : (
+                  <div className="last-updated">
+                    Fetching latest news...
                   </div>
                 )}
               </div>

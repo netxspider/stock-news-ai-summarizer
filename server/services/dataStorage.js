@@ -11,6 +11,8 @@ export class DataStorage {
     this.dataDir = join(__dirname, '../../data');
     this.tickersFile = join(this.dataDir, 'tickers.json');
     this.summariesDir = join(this.dataDir, 'summaries');
+    this.newsHistoryDir = join(this.dataDir, 'news-history');
+    this.maxHistoryDays = 7;
     this.init();
   }
 
@@ -19,6 +21,7 @@ export class DataStorage {
       // Create directories if they don't exist
       await fs.mkdir(this.dataDir, { recursive: true });
       await fs.mkdir(this.summariesDir, { recursive: true });
+      await fs.mkdir(this.newsHistoryDir, { recursive: true });
       
       // Initialize tickers file if it doesn't exist
       try {
@@ -154,6 +157,112 @@ export class DataStorage {
       }
     } catch (error) {
       console.error('Error cleaning up old data:', error);
+    }
+  }
+
+  async storeNewsHistory(ticker, articles) {
+    try {
+      const today = new Date().toISOString().split('T')[0]; // YYYY-MM-DD format
+      const historyFile = join(this.newsHistoryDir, `${ticker.toLowerCase()}-${today}.json`);
+      
+      const historyData = {
+        ticker,
+        date: today,
+        timestamp: new Date().toISOString(),
+        articles: articles.map(article => ({
+          ...article,
+          storedAt: new Date().toISOString()
+        })),
+        totalArticles: articles.length
+      };
+
+      await fs.writeFile(historyFile, JSON.stringify(historyData, null, 2));
+      console.log(`Stored ${articles.length} articles for ${ticker} history on ${today}`);
+
+      // Clean up old history files (keep only last 7 days)
+      await this.cleanOldHistory(ticker);
+      
+      return true;
+    } catch (error) {
+      console.error(`Error storing news history for ${ticker}:`, error);
+      return false;
+    }
+  }
+
+  async getNewsHistory(ticker, days = 7) {
+    try {
+      const historicalArticles = [];
+      const today = new Date();
+      
+      for (let i = 1; i <= days; i++) {
+        const date = new Date(today);
+        date.setDate(date.getDate() - i);
+        const dateStr = date.toISOString().split('T')[0];
+        
+        const historyFile = join(this.newsHistoryDir, `${ticker.toLowerCase()}-${dateStr}.json`);
+        
+        try {
+          const data = await fs.readFile(historyFile, 'utf8');
+          const historyData = JSON.parse(data);
+          
+          if (historyData.articles && Array.isArray(historyData.articles)) {
+            historicalArticles.push(...historyData.articles.map(article => ({
+              ...article,
+              historyDate: dateStr,
+              daysAgo: i
+            })));
+          }
+        } catch (fileError) {
+          // File doesn't exist for this date, continue
+          console.log(`No history file found for ${ticker} on ${dateStr}`);
+        }
+      }
+
+      console.log(`Retrieved ${historicalArticles.length} historical articles for ${ticker} (${days} days)`);
+      return historicalArticles;
+      
+    } catch (error) {
+      console.error(`Error retrieving news history for ${ticker}:`, error);
+      return [];
+    }
+  }
+
+  async cleanOldHistory(ticker) {
+    try {
+      const files = await fs.readdir(this.newsHistoryDir);
+      const tickerFiles = files.filter(file => file.startsWith(`${ticker.toLowerCase()}-`));
+      
+      const cutoffDate = new Date();
+      cutoffDate.setDate(cutoffDate.getDate() - this.maxHistoryDays);
+      
+      for (const file of tickerFiles) {
+        const dateMatch = file.match(/(\d{4}-\d{2}-\d{2})/);
+        if (dateMatch) {
+          const fileDate = new Date(dateMatch[1]);
+          if (fileDate < cutoffDate) {
+            await fs.unlink(join(this.newsHistoryDir, file));
+            console.log(`Cleaned old history file: ${file}`);
+          }
+        }
+      }
+    } catch (error) {
+      console.error(`Error cleaning old history for ${ticker}:`, error);
+    }
+  }
+
+  async getStorageStats() {
+    try {
+      const summaryFiles = await fs.readdir(this.summariesDir);
+      const historyFiles = await fs.readdir(this.newsHistoryDir);
+      
+      return {
+        summaryCount: summaryFiles.length,
+        historyCount: historyFiles.length,
+        lastUpdated: new Date().toISOString()
+      };
+    } catch (error) {
+      console.error('Error getting storage stats:', error);
+      return { summaryCount: 0, historyCount: 0, lastUpdated: null };
     }
   }
 }

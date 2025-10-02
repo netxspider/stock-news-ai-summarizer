@@ -1,5 +1,439 @@
 [
   {
+    "ticker": "TSLA",
+    "summary": {
+      "summary": "{\n  \"summary\":...",
+      "keyPoints": [
+        "Market activity continues",
+        "News developments ongoing",
+        "Investor attention warranted"
+      ],
+      "sentiment": "neutral",
+      "whatChangedToday": "Recent developments indicate continued market activity.",
+      "marketImplications": "Market implications remain to be determined.",
+      "articlesAnalyzed": 10,
+      "totalArticles": 10,
+      "lastUpdated": "2025-10-02T09:07:29.737Z",
+      "ticker": "TSLA",
+      "fallback": true
+    },
+    "articles": [
+      {
+        "title": "Unusual Tesla Call Options Volume Shows Investors Bullish on TSLA",
+        "url": "https://finance.yahoo.com/m/30cdf59c-a044-3901-a15b-d8eaf537ba92/unusual-tesla-call-options.html",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T09:07:06.050Z",
+        "content": "Unusual Tesla Call Options Volume Shows Investors Bullish on TSLA",
+        "dateText": "01:30PM"
+      },
+      {
+        "title": "Analyst Report: Tesla, Inc.",
+        "url": "https://finance.yahoo.com/m/0acbb367-73bf-3842-a70b-34a2b128753e/analyst-report%3A-tesla%2C-inc..html",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T09:07:06.049Z",
+        "content": "Analyst Report: Tesla, Inc.",
+        "dateText": "06:44PM"
+      },
+      {
+        "title": "Analyst Explains Why He Downgraded Tesla (TSLA) to Sell Ahead of Upcoming Earnings",
+        "url": "/news/181467/analyst-explains-why-he-downgraded-tesla-tsla-to-sell-ahead-of-upcoming-earnings",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T09:07:06.049Z",
+        "content": "Analyst Explains Why He Downgraded Tesla (TSLA) to Sell Ahead of Upcoming Earnings",
+        "dateText": "04:31PM"
+      },
+      {
+        "title": "TSLA",
+        "url": "/symbols/NASDAQ-TSLA/",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T09:07:06.007Z",
+        "content": "TSLA"
+      },
+      {
+        "title": "TSLA news",
+        "url": "https://in.tradingview.com/symbols/NASDAQ-TSLA/news/",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T09:07:06.007Z",
+        "content": "TSLA news"
+      },
+      {
+        "title": "TSLA INVESTOR ALERT: Bronstein, Gewirtz & Grossman LLC Announces that Tesla, Inc. Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit",
+        "url": "https://www.globenewswire.com/news-release/2025/10/01/3159787/9788/en/TSLA-INVESTOR-ALERT-Bronstein-Gewirtz-Grossman-LLC-Announces-that-Tesla-Inc-Investors-with-Substantial-Losses-Have-Opportunity-to-Lead-Class-Action-Lawsuit.html",
+        "source": "Polygon",
+        "provider": "GlobeNewswire Inc.",
+        "publishedAt": "2025-10-01T16:00:00Z",
+        "content": "A class action lawsuit has been filed against Tesla, alleging false statements about autonomous driving technology and potential regulatory risks during the period of April 19, 2023 to June 22, 2025.",
+        "author": "Bronstein, Gewirtz & Grossman Llc",
+        "tickers": [
+          "TSLA"
+        ]
+      },
+      {
+        "title": "The Best AI Stock to Buy Right Now, According to a Wall Street Analyst (Hint: Not Nvidia or Palantir)",
+        "url": "https://www.fool.com/investing/2025/10/01/best-ai-stock-buy-now-wall-street-nvidia-palantir/?source=iedfolrf0000001",
+        "source": "Polygon",
+        "provider": "The Motley Fool",
+        "publishedAt": "2025-10-01T08:12:00Z",
+        "content": "Wedbush analyst Dan Ives believes Tesla is the most undervalued AI stock, citing significant potential in autonomous driving and robotics, despite recent market share losses and financial challenges.",
+        "author": "Trevor Jennewine",
+        "tickers": [
+          "TSLA",
+          "NVDA",
+          "PLTR",
+          "BYDDY"
+        ]
+      },
+      {
+        "title": "Tesla Earnings Loom: Bulls Eye $600, Bears Warn of $300",
+        "url": "https://www.investing.com/analysis/tesla-earnings-loom-bulls-eye-600-bears-warn-of-300-200667732",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-30T12:06:00Z",
+        "content": "Tesla stock has surged over 100% in 2025, reaching $440, with bulls targeting $600 and bears warning of potential drop to $300. The upcoming Q3 earnings report will be crucial in determining the stock's trajectory, with key focus on AI initiatives, autonomous driving, and robotics.",
+        "author": "Sam Quirke",
+        "tickers": [
+          "TSLA"
+        ]
+      },
+      {
+        "title": "S&P 500 Earnings: Tech EPS Expectations Point to Strong Q3 Results",
+        "url": "https://www.investing.com/analysis/sp-500-earnings-tech-eps-expectations-point-to-strong-q3-results-200667620",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-29T08:19:00Z",
+        "content": "Technology sector earnings are showing strong growth expectations for Q3 2025, with potential peak earnings and significant AI-driven investment impacting sector performance.",
+        "author": "Brian Gilmartin",
+        "tickers": [
+          "AMZN",
+          "TSLA",
+          "NKE",
+          "MSFT",
+          "AAPL"
+        ]
+      },
+      {
+        "title": "S&P 500: Tech-Led Rally Masks Weakness in Broader Sectors Ahead of Earnings Season",
+        "url": "https://www.investing.com/analysis/sp-500-techled-rally-masks-weakness-in-broader-sectors-ahead-of-earnings-season-200667487",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-25T11:02:00Z",
+        "content": "The S&P 500 is experiencing a tech-driven rally that masks underlying sector weaknesses, with investors anticipating the upcoming earnings season and potential market valuation challenges outside the technology sector.",
+        "author": "Fawad Razaqzada",
+        "tickers": [
+          "TSLA",
+          "NVDA",
+          "AMZN",
+          "AAPL"
+        ]
+      }
+    ],
+    "timestamp": "2025-10-02T09:07:29.737Z",
+    "date": "2025-10-02",
+    "sources": [
+      {
+        "url": "https://finance.yahoo.com/m/30cdf59c-a044-3901-a15b-d8eaf537ba92/unusual-tesla-call-options.html",
+        "headline": "Unusual Tesla Call Options Volume Shows Investors Bullish on TSLA",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T09:07:06.050Z"
+      },
+      {
+        "url": "https://finance.yahoo.com/m/0acbb367-73bf-3842-a70b-34a2b128753e/analyst-report%3A-tesla%2C-inc..html",
+        "headline": "Analyst Report: Tesla, Inc.",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T09:07:06.049Z"
+      },
+      {
+        "url": "/news/181467/analyst-explains-why-he-downgraded-tesla-tsla-to-sell-ahead-of-upcoming-earnings",
+        "headline": "Analyst Explains Why He Downgraded Tesla (TSLA) to Sell Ahead of Upcoming Earnings",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T09:07:06.049Z"
+      },
+      {
+        "url": "/symbols/NASDAQ-TSLA/",
+        "headline": "TSLA",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T09:07:06.007Z"
+      },
+      {
+        "url": "https://in.tradingview.com/symbols/NASDAQ-TSLA/news/",
+        "headline": "TSLA news",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T09:07:06.007Z"
+      },
+      {
+        "url": "https://www.globenewswire.com/news-release/2025/10/01/3159787/9788/en/TSLA-INVESTOR-ALERT-Bronstein-Gewirtz-Grossman-LLC-Announces-that-Tesla-Inc-Investors-with-Substantial-Losses-Have-Opportunity-to-Lead-Class-Action-Lawsuit.html",
+        "headline": "TSLA INVESTOR ALERT: Bronstein, Gewirtz & Grossman LLC Announces that Tesla, Inc. Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit",
+        "source": "Polygon",
+        "provider": "GlobeNewswire Inc.",
+        "publishedAt": "2025-10-01T16:00:00Z"
+      },
+      {
+        "url": "https://www.fool.com/investing/2025/10/01/best-ai-stock-buy-now-wall-street-nvidia-palantir/?source=iedfolrf0000001",
+        "headline": "The Best AI Stock to Buy Right Now, According to a Wall Street Analyst (Hint: Not Nvidia or Palantir)",
+        "source": "Polygon",
+        "provider": "The Motley Fool",
+        "publishedAt": "2025-10-01T08:12:00Z"
+      },
+      {
+        "url": "https://www.investing.com/analysis/tesla-earnings-loom-bulls-eye-600-bears-warn-of-300-200667732",
+        "headline": "Tesla Earnings Loom: Bulls Eye $600, Bears Warn of $300",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-30T12:06:00Z"
+      },
+      {
+        "url": "https://www.investing.com/analysis/sp-500-earnings-tech-eps-expectations-point-to-strong-q3-results-200667620",
+        "headline": "S&P 500 Earnings: Tech EPS Expectations Point to Strong Q3 Results",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-29T08:19:00Z"
+      },
+      {
+        "url": "https://www.investing.com/analysis/sp-500-techled-rally-masks-weakness-in-broader-sectors-ahead-of-earnings-season-200667487",
+        "headline": "S&P 500: Tech-Led Rally Masks Weakness in Broader Sectors Ahead of Earnings Season",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-25T11:02:00Z"
+      }
+    ],
+    "meta": {
+      "totalArticlesFound": 10,
+      "articlesAnalyzed": 10,
+      "historicalArticlesUsed": 0,
+      "daysOfHistoryAnalyzed": 7,
+      "processingTime": "2025-10-02T09:07:29.737Z",
+      "enhancedFeatures": {
+        "tradingViewScraping": true,
+        "finvizEnhanced": true,
+        "polygonAPI": true,
+        "geminiAnalysis": true,
+        "historicalComparison": true
+      }
+    },
+    "id": 1759396049739
+  },
+  {
+    "ticker": "TSLA",
+    "summary": {
+      "summary": "...",
+      "keyPoints": [
+        "Market activity continues",
+        "News developments ongoing",
+        "Investor attention warranted"
+      ],
+      "sentiment": "neutral",
+      "whatChangedToday": "Recent developments indicate continued market activity.",
+      "marketImplications": "Market implications remain to be determined.",
+      "articlesAnalyzed": 10,
+      "totalArticles": 10,
+      "lastUpdated": "2025-10-02T09:01:34.248Z",
+      "ticker": "TSLA",
+      "fallback": true
+    },
+    "articles": [
+      {
+        "title": "TSLA",
+        "url": "/symbols/NASDAQ-TSLA/",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T09:01:14.867Z",
+        "content": "TSLA"
+      },
+      {
+        "title": "TSLA news",
+        "url": "https://in.tradingview.com/symbols/NASDAQ-TSLA/news/",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T09:01:14.867Z",
+        "content": "TSLA news"
+      },
+      {
+        "title": "Analyst Report: Tesla, Inc.",
+        "url": "https://finance.yahoo.com/m/0acbb367-73bf-3842-a70b-34a2b128753e/analyst-report%3A-tesla%2C-inc..html",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T09:01:13.322Z",
+        "content": "Analyst Report: Tesla, Inc.",
+        "dateText": "06:44PM"
+      },
+      {
+        "title": "Analyst Explains Why He Downgraded Tesla (TSLA) to Sell Ahead of Upcoming Earnings",
+        "url": "/news/181467/analyst-explains-why-he-downgraded-tesla-tsla-to-sell-ahead-of-upcoming-earnings",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T09:01:13.322Z",
+        "content": "Analyst Explains Why He Downgraded Tesla (TSLA) to Sell Ahead of Upcoming Earnings",
+        "dateText": "04:31PM"
+      },
+      {
+        "title": "Unusual Tesla Call Options Volume Shows Investors Bullish on TSLA",
+        "url": "https://finance.yahoo.com/m/30cdf59c-a044-3901-a15b-d8eaf537ba92/unusual-tesla-call-options.html",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T09:01:13.322Z",
+        "content": "Unusual Tesla Call Options Volume Shows Investors Bullish on TSLA",
+        "dateText": "01:30PM"
+      },
+      {
+        "title": "TSLA INVESTOR ALERT: Bronstein, Gewirtz & Grossman LLC Announces that Tesla, Inc. Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit",
+        "url": "https://www.globenewswire.com/news-release/2025/10/01/3159787/9788/en/TSLA-INVESTOR-ALERT-Bronstein-Gewirtz-Grossman-LLC-Announces-that-Tesla-Inc-Investors-with-Substantial-Losses-Have-Opportunity-to-Lead-Class-Action-Lawsuit.html",
+        "source": "Polygon",
+        "provider": "GlobeNewswire Inc.",
+        "publishedAt": "2025-10-01T16:00:00Z",
+        "content": "A class action lawsuit has been filed against Tesla, alleging false statements about autonomous driving technology and potential regulatory risks during the period of April 19, 2023 to June 22, 2025.",
+        "author": "Bronstein, Gewirtz & Grossman Llc",
+        "tickers": [
+          "TSLA"
+        ]
+      },
+      {
+        "title": "The Best AI Stock to Buy Right Now, According to a Wall Street Analyst (Hint: Not Nvidia or Palantir)",
+        "url": "https://www.fool.com/investing/2025/10/01/best-ai-stock-buy-now-wall-street-nvidia-palantir/?source=iedfolrf0000001",
+        "source": "Polygon",
+        "provider": "The Motley Fool",
+        "publishedAt": "2025-10-01T08:12:00Z",
+        "content": "Wedbush analyst Dan Ives believes Tesla is the most undervalued AI stock, citing significant potential in autonomous driving and robotics, despite recent market share losses and financial challenges.",
+        "author": "Trevor Jennewine",
+        "tickers": [
+          "TSLA",
+          "NVDA",
+          "PLTR",
+          "BYDDY"
+        ]
+      },
+      {
+        "title": "Tesla Earnings Loom: Bulls Eye $600, Bears Warn of $300",
+        "url": "https://www.investing.com/analysis/tesla-earnings-loom-bulls-eye-600-bears-warn-of-300-200667732",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-30T12:06:00Z",
+        "content": "Tesla stock has surged over 100% in 2025, reaching $440, with bulls targeting $600 and bears warning of potential drop to $300. The upcoming Q3 earnings report will be crucial in determining the stock's trajectory, with key focus on AI initiatives, autonomous driving, and robotics.",
+        "author": "Sam Quirke",
+        "tickers": [
+          "TSLA"
+        ]
+      },
+      {
+        "title": "S&P 500 Earnings: Tech EPS Expectations Point to Strong Q3 Results",
+        "url": "https://www.investing.com/analysis/sp-500-earnings-tech-eps-expectations-point-to-strong-q3-results-200667620",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-29T08:19:00Z",
+        "content": "Technology sector earnings are showing strong growth expectations for Q3 2025, with potential peak earnings and significant AI-driven investment impacting sector performance.",
+        "author": "Brian Gilmartin",
+        "tickers": [
+          "AMZN",
+          "TSLA",
+          "NKE",
+          "MSFT",
+          "AAPL"
+        ]
+      },
+      {
+        "title": "S&P 500: Tech-Led Rally Masks Weakness in Broader Sectors Ahead of Earnings Season",
+        "url": "https://www.investing.com/analysis/sp-500-techled-rally-masks-weakness-in-broader-sectors-ahead-of-earnings-season-200667487",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-25T11:02:00Z",
+        "content": "The S&P 500 is experiencing a tech-driven rally that masks underlying sector weaknesses, with investors anticipating the upcoming earnings season and potential market valuation challenges outside the technology sector.",
+        "author": "Fawad Razaqzada",
+        "tickers": [
+          "TSLA",
+          "NVDA",
+          "AMZN",
+          "AAPL"
+        ]
+      }
+    ],
+    "timestamp": "2025-10-02T09:01:34.248Z",
+    "date": "2025-10-02",
+    "sources": [
+      {
+        "url": "/symbols/NASDAQ-TSLA/",
+        "headline": "TSLA",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T09:01:14.867Z"
+      },
+      {
+        "url": "https://in.tradingview.com/symbols/NASDAQ-TSLA/news/",
+        "headline": "TSLA news",
+        "source": "TradingView",
+        "provider": "TradingView",
+        "publishedAt": "2025-10-02T09:01:14.867Z"
+      },
+      {
+        "url": "https://finance.yahoo.com/m/0acbb367-73bf-3842-a70b-34a2b128753e/analyst-report%3A-tesla%2C-inc..html",
+        "headline": "Analyst Report: Tesla, Inc.",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T09:01:13.322Z"
+      },
+      {
+        "url": "/news/181467/analyst-explains-why-he-downgraded-tesla-tsla-to-sell-ahead-of-upcoming-earnings",
+        "headline": "Analyst Explains Why He Downgraded Tesla (TSLA) to Sell Ahead of Upcoming Earnings",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T09:01:13.322Z"
+      },
+      {
+        "url": "https://finance.yahoo.com/m/30cdf59c-a044-3901-a15b-d8eaf537ba92/unusual-tesla-call-options.html",
+        "headline": "Unusual Tesla Call Options Volume Shows Investors Bullish on TSLA",
+        "source": "Finviz",
+        "publishedAt": "2025-10-02T09:01:13.322Z"
+      },
+      {
+        "url": "https://www.globenewswire.com/news-release/2025/10/01/3159787/9788/en/TSLA-INVESTOR-ALERT-Bronstein-Gewirtz-Grossman-LLC-Announces-that-Tesla-Inc-Investors-with-Substantial-Losses-Have-Opportunity-to-Lead-Class-Action-Lawsuit.html",
+        "headline": "TSLA INVESTOR ALERT: Bronstein, Gewirtz & Grossman LLC Announces that Tesla, Inc. Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit",
+        "source": "Polygon",
+        "provider": "GlobeNewswire Inc.",
+        "publishedAt": "2025-10-01T16:00:00Z"
+      },
+      {
+        "url": "https://www.fool.com/investing/2025/10/01/best-ai-stock-buy-now-wall-street-nvidia-palantir/?source=iedfolrf0000001",
+        "headline": "The Best AI Stock to Buy Right Now, According to a Wall Street Analyst (Hint: Not Nvidia or Palantir)",
+        "source": "Polygon",
+        "provider": "The Motley Fool",
+        "publishedAt": "2025-10-01T08:12:00Z"
+      },
+      {
+        "url": "https://www.investing.com/analysis/tesla-earnings-loom-bulls-eye-600-bears-warn-of-300-200667732",
+        "headline": "Tesla Earnings Loom: Bulls Eye $600, Bears Warn of $300",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-30T12:06:00Z"
+      },
+      {
+        "url": "https://www.investing.com/analysis/sp-500-earnings-tech-eps-expectations-point-to-strong-q3-results-200667620",
+        "headline": "S&P 500 Earnings: Tech EPS Expectations Point to Strong Q3 Results",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-29T08:19:00Z"
+      },
+      {
+        "url": "https://www.investing.com/analysis/sp-500-techled-rally-masks-weakness-in-broader-sectors-ahead-of-earnings-season-200667487",
+        "headline": "S&P 500: Tech-Led Rally Masks Weakness in Broader Sectors Ahead of Earnings Season",
+        "source": "Polygon",
+        "provider": "Investing.com",
+        "publishedAt": "2025-09-25T11:02:00Z"
+      }
+    ],
+    "meta": {
+      "totalArticlesFound": 10,
+      "articlesAnalyzed": 10,
+      "historicalArticlesUsed": 0,
+      "daysOfHistoryAnalyzed": 7,
+      "processingTime": "2025-10-02T09:01:34.248Z",
+      "enhancedFeatures": {
+        "tradingViewScraping": true,
+        "finvizEnhanced": true,
+        "polygonAPI": true,
+        "geminiAnalysis": true,
+        "historicalComparison": true
+      }
+    },
+    "id": 1759395694250
+  },
+  {
     "summary": {
       "summary": "Market analysis reveals 5 significant developments from Finviz. Key headlines include business operations, financial performance, and industry trends affecting market sentiment. Recent news suggests mixed outlook with medium potential market impact. Investors should monitor these developments closely as they may influence trading decisions and market movements.",
       "whatChangedToday": "Today's developments show 5 new stories emerging from reliable financial sources. Compared to previous sessions, we observe mixed sentiment shift with notable coverage from Finviz. The market appears to be responding to ongoing business developments and industry trends.",
@@ -473,158 +907,6 @@
       }
     ],
     "id": 1759322339379,
-    "date": "2025-10-01"
-  },
-  {
-    "summary": {
-      "summary": "Market analysis reveals 5 significant developments from Finviz. Key headlines include business operations, financial performance, and industry trends affecting market sentiment. Recent news suggests negative outlook with medium potential market impact. Investors should monitor these developments closely as they may influence trading decisions and market movements.",
-      "whatChangedToday": "Today's developments show 5 new stories emerging from reliable financial sources. Compared to previous sessions, we observe negative sentiment shift with notable coverage from Finviz. The market appears to be responding to ongoing business developments and industry trends.",
-      "keyPoints": [
-        "ADP Reports Surprise Job Loss Ahead Of Government Shutdown (Live Coverage)",
-        "Stock Market Today: Dow Falls On Shutdown; Astera, Nvidia, Tesla Drop (Live Coverage)",
-        "Tesla Rivals XPeng, Xiaomi, Nio Report Record China EV Sales; BYD, Li Auto Lag",
-        "ADP Jobs Report In Focus Amid Government Shutdown (Live Coverage)"
-      ],
-      "sentiment": "negative",
-      "marketImpact": "medium"
-    },
-    "articles": [
-      {
-        "title": "ADP Reports Surprise Job Loss Ahead Of Government Shutdown (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/1acc7f86-6196-33ee-aa07-97f85c5fd63e/adp-reports-surprise-job-loss.html",
-        "source": "Finviz",
-        "publishedAt": "2025-10-01T12:34:08.703Z",
-        "content": "ADP Reports Surprise Job Loss Ahead Of Government Shutdown (Live Coverage)"
-      },
-      {
-        "title": "Stock Market Today: Dow Falls On Shutdown; Astera, Nvidia, Tesla Drop (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/353692cf-5902-35b0-8d5c-833f422c2c0b/stock-market-today%3A-dow-falls.html",
-        "source": "Finviz",
-        "publishedAt": "2025-10-01T12:34:08.703Z",
-        "content": "Stock Market Today: Dow Falls On Shutdown; Astera, Nvidia, Tesla Drop (Live Coverage)"
-      },
-      {
-        "title": "Tesla Rivals XPeng, Xiaomi, Nio Report Record China EV Sales; BYD, Li Auto Lag",
-        "url": "https://finance.yahoo.com/m/b71450ee-cfbb-3389-8d01-d543771b3f16/tesla-rivals-xpeng%2C-xiaomi%2C.html",
-        "source": "Finviz",
-        "publishedAt": "2025-10-01T12:34:08.703Z",
-        "content": "Tesla Rivals XPeng, Xiaomi, Nio Report Record China EV Sales; BYD, Li Auto Lag"
-      },
-      {
-        "title": "ADP Jobs Report In Focus Amid Government Shutdown (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/1acc7f86-6196-33ee-aa07-97f85c5fd63e/adp-jobs-report-in-focus-amid.html",
-        "source": "Finviz",
-        "publishedAt": "2025-10-01T12:34:08.703Z",
-        "content": "ADP Jobs Report In Focus Amid Government Shutdown (Live Coverage)"
-      },
-      {
-        "title": "Tesla Stock Is Falling. Its Cars Just Got More Expensive.",
-        "url": "https://www.barrons.com/articles/tesla-stock-ev-credits-trump-b351037b?mod=bar_FV",
-        "source": "Finviz",
-        "publishedAt": "2025-10-01T12:34:08.703Z",
-        "content": "Tesla Stock Is Falling. Its Cars Just Got More Expensive."
-      }
-    ],
-    "timestamp": "2025-10-01T12:34:35.734Z",
-    "sources": [
-      {
-        "url": "https://finance.yahoo.com/m/1acc7f86-6196-33ee-aa07-97f85c5fd63e/adp-reports-surprise-job-loss.html",
-        "headline": "ADP Reports Surprise Job Loss Ahead Of Government Shutdown (Live Coverage)"
-      },
-      {
-        "url": "https://finance.yahoo.com/m/353692cf-5902-35b0-8d5c-833f422c2c0b/stock-market-today%3A-dow-falls.html",
-        "headline": "Stock Market Today: Dow Falls On Shutdown; Astera, Nvidia, Tesla Drop (Live Coverage)"
-      },
-      {
-        "url": "https://finance.yahoo.com/m/b71450ee-cfbb-3389-8d01-d543771b3f16/tesla-rivals-xpeng%2C-xiaomi%2C.html",
-        "headline": "Tesla Rivals XPeng, Xiaomi, Nio Report Record China EV Sales; BYD, Li Auto Lag"
-      },
-      {
-        "url": "https://finance.yahoo.com/m/1acc7f86-6196-33ee-aa07-97f85c5fd63e/adp-jobs-report-in-focus-amid.html",
-        "headline": "ADP Jobs Report In Focus Amid Government Shutdown (Live Coverage)"
-      },
-      {
-        "url": "https://www.barrons.com/articles/tesla-stock-ev-credits-trump-b351037b?mod=bar_FV",
-        "headline": "Tesla Stock Is Falling. Its Cars Just Got More Expensive."
-      }
-    ],
-    "id": 1759322075735,
-    "date": "2025-10-01"
-  },
-  {
-    "summary": {
-      "summary": "Market analysis reveals 5 significant developments from Finviz. Key headlines include business operations, financial performance, and industry trends affecting market sentiment. Recent news suggests negative outlook with medium potential market impact. Investors should monitor these developments closely as they may influence trading decisions and market movements.",
-      "whatChangedToday": "Today's developments show 5 new stories emerging from reliable financial sources. Compared to previous sessions, we observe negative sentiment shift with notable coverage from Finviz. The market appears to be responding to ongoing business developments and industry trends.",
-      "keyPoints": [
-        "ADP Reports Surprise Job Loss Ahead Of Government Shutdown (Live Coverage)",
-        "Stock Market Today: Dow Falls On Shutdown; Astera, Nvidia, Tesla Drop (Live Coverage)",
-        "Tesla Rivals XPeng, Xiaomi, Nio Report Record China EV Sales; BYD, Li Auto Lag",
-        "ADP Jobs Report In Focus Amid Government Shutdown (Live Coverage)"
-      ],
-      "sentiment": "negative",
-      "marketImpact": "medium"
-    },
-    "articles": [
-      {
-        "title": "ADP Reports Surprise Job Loss Ahead Of Government Shutdown (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/1acc7f86-6196-33ee-aa07-97f85c5fd63e/adp-reports-surprise-job-loss.html",
-        "source": "Finviz",
-        "publishedAt": "2025-10-01T12:34:08.703Z",
-        "content": "ADP Reports Surprise Job Loss Ahead Of Government Shutdown (Live Coverage)"
-      },
-      {
-        "title": "Stock Market Today: Dow Falls On Shutdown; Astera, Nvidia, Tesla Drop (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/353692cf-5902-35b0-8d5c-833f422c2c0b/stock-market-today%3A-dow-falls.html",
-        "source": "Finviz",
-        "publishedAt": "2025-10-01T12:34:08.703Z",
-        "content": "Stock Market Today: Dow Falls On Shutdown; Astera, Nvidia, Tesla Drop (Live Coverage)"
-      },
-      {
-        "title": "Tesla Rivals XPeng, Xiaomi, Nio Report Record China EV Sales; BYD, Li Auto Lag",
-        "url": "https://finance.yahoo.com/m/b71450ee-cfbb-3389-8d01-d543771b3f16/tesla-rivals-xpeng%2C-xiaomi%2C.html",
-        "source": "Finviz",
-        "publishedAt": "2025-10-01T12:34:08.703Z",
-        "content": "Tesla Rivals XPeng, Xiaomi, Nio Report Record China EV Sales; BYD, Li Auto Lag"
-      },
-      {
-        "title": "ADP Jobs Report In Focus Amid Government Shutdown (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/1acc7f86-6196-33ee-aa07-97f85c5fd63e/adp-jobs-report-in-focus-amid.html",
-        "source": "Finviz",
-        "publishedAt": "2025-10-01T12:34:08.703Z",
-        "content": "ADP Jobs Report In Focus Amid Government Shutdown (Live Coverage)"
-      },
-      {
-        "title": "Tesla Stock Is Falling. Its Cars Just Got More Expensive.",
-        "url": "https://www.barrons.com/articles/tesla-stock-ev-credits-trump-b351037b?mod=bar_FV",
-        "source": "Finviz",
-        "publishedAt": "2025-10-01T12:34:08.703Z",
-        "content": "Tesla Stock Is Falling. Its Cars Just Got More Expensive."
-      }
-    ],
-    "timestamp": "2025-10-01T12:34:08.707Z",
-    "sources": [
-      {
-        "url": "https://finance.yahoo.com/m/1acc7f86-6196-33ee-aa07-97f85c5fd63e/adp-reports-surprise-job-loss.html",
-        "headline": "ADP Reports Surprise Job Loss Ahead Of Government Shutdown (Live Coverage)"
-      },
-      {
-        "url": "https://finance.yahoo.com/m/353692cf-5902-35b0-8d5c-833f422c2c0b/stock-market-today%3A-dow-falls.html",
-        "headline": "Stock Market Today: Dow Falls On Shutdown; Astera, Nvidia, Tesla Drop (Live Coverage)"
-      },
-      {
-        "url": "https://finance.yahoo.com/m/b71450ee-cfbb-3389-8d01-d543771b3f16/tesla-rivals-xpeng%2C-xiaomi%2C.html",
-        "headline": "Tesla Rivals XPeng, Xiaomi, Nio Report Record China EV Sales; BYD, Li Auto Lag"
-      },
-      {
-        "url": "https://finance.yahoo.com/m/1acc7f86-6196-33ee-aa07-97f85c5fd63e/adp-jobs-report-in-focus-amid.html",
-        "headline": "ADP Jobs Report In Focus Amid Government Shutdown (Live Coverage)"
-      },
-      {
-        "url": "https://www.barrons.com/articles/tesla-stock-ev-credits-trump-b351037b?mod=bar_FV",
-        "headline": "Tesla Stock Is Falling. Its Cars Just Got More Expensive."
-      }
-    ],
-    "id": 1759322048708,
     "date": "2025-10-01"
   }
 ]

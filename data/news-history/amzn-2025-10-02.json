@@ -1,0 +1,110 @@
+{
+  "ticker": "AMZN",
+  "date": "2025-10-02",
+  "timestamp": "2025-10-02T10:55:32.925Z",
+  "articles": [
+    {
+      "title": "AMZN",
+      "url": "/symbols/NASDAQ-AMZN/",
+      "source": "TradingView",
+      "provider": "TradingView",
+      "publishedAt": "2025-10-02T10:55:31.914Z",
+      "content": "AMZN",
+      "storedAt": "2025-10-02T10:55:32.925Z"
+    },
+    {
+      "title": "AMZN news",
+      "url": "https://in.tradingview.com/symbols/NASDAQ-AMZN/news/",
+      "source": "TradingView",
+      "provider": "TradingView",
+      "publishedAt": "2025-10-02T10:55:31.914Z",
+      "content": "AMZN news",
+      "storedAt": "2025-10-02T10:55:32.925Z"
+    },
+    {
+      "title": "Marvell Stock Is Downgraded. Future Sales to Amazon and Microsoft Are Uncertain.",
+      "url": "https://www.barrons.com/articles/marvell-stock-downgraded-amazon-microsoft-37ce1f32?mod=bar_FV",
+      "source": "Finviz",
+      "publishedAt": "2025-10-02T10:55:31.890Z",
+      "content": "Marvell Stock Is Downgraded. Future Sales to Amazon and Microsoft Are Uncertain.",
+      "dateText": "10:43AM",
+      "storedAt": "2025-10-02T10:55:32.925Z"
+    },
+    {
+      "title": "TD Cowen downgrades Marvell on weaker visibility in custom chip business",
+      "url": "https://finance.yahoo.com/news/td-cowen-downgrades-marvell-weaker-142812509.html",
+      "source": "Finviz",
+      "publishedAt": "2025-10-02T10:55:31.890Z",
+      "content": "TD Cowen downgrades Marvell on weaker visibility in custom chip business",
+      "dateText": "10:28AM",
+      "storedAt": "2025-10-02T10:55:32.925Z"
+    },
+    {
+      "title": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
+      "url": "/news/181527/amazoncom-inc-amzn-agrees-to-pay-25-billion-in-fines-and-reimbursements-to-resolve-claims-made-by-the-federal-trade-commission",
+      "source": "Finviz",
+      "publishedAt": "2025-10-02T10:55:31.889Z",
+      "content": "Amazon.com, Inc. (AMZN) Agrees to Pay $2.5 Billion in Fines and Reimbursements to Resolve Claims Made by the Federal Trade Commission",
+      "dateText": "05:30PM",
+      "storedAt": "2025-10-02T10:55:32.925Z"
+    },
+    {
+      "title": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
+      "url": "/news/181517/amazon-strengthens-growth-outlook-with-earnings-beat-and-expanded-dsp-investment",
+      "source": "Finviz",
+      "publishedAt": "2025-10-02T10:55:31.889Z",
+      "content": "Amazon Strengthens Growth Outlook with Earnings Beat and Expanded DSP Investment",
+      "dateText": "05:07PM",
+      "storedAt": "2025-10-02T10:55:32.925Z"
+    },
+    {
+      "title": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
+      "url": "/news/181454/josh-brown-predicted-amazoncom-amzn-will-breakout-was-he-right",
+      "source": "Finviz",
+      "publishedAt": "2025-10-02T10:55:31.889Z",
+      "content": "Josh Brown Predicted Amazon.com (AMZN) Will 'Breakout' - Was He Right?",
+      "dateText": "04:22PM",
+      "storedAt": "2025-10-02T10:55:32.925Z"
+    },
+    {
+      "title": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
+      "url": "https://www.youtube.com/watch?v=6H27Ke3kHWo",
+      "source": "Finviz",
+      "publishedAt": "2025-10-02T10:55:31.889Z",
+      "content": "Google and Amazon race to upgrade voice assistants with AI as OpenAI raises the stakes",
+      "dateText": "03:20PM",
+      "storedAt": "2025-10-02T10:55:32.925Z"
+    },
+    {
+      "title": "Amazon: Why Stock's Latest Upgrade Might Be Its Most Important Yet",
+      "url": "https://www.investing.com/analysis/amazon-why-stocks-latest-upgrade-might-be-its-most-important-yet-200667808",
+      "source": "Polygon",
+      "provider": "Investing.com",
+      "publishedAt": "2025-10-01T12:41:00Z",
+      "content": "Wells Fargo upgraded Amazon stock from Equal Weight to Overweight, citing strong potential in AWS cloud services and AI workloads, despite recent stock price resistance around $240.",
+      "author": "Sam Quirke",
+      "tickers": [
+        "AMZN"
+      ],
+      "storedAt": "2025-10-02T10:55:32.925Z"
+    },
+    {
+      "title": "S&P 500 Earnings: Tech EPS Expectations Point to Strong Q3 Results",
+      "url": "https://www.investing.com/analysis/sp-500-earnings-tech-eps-expectations-point-to-strong-q3-results-200667620",
+      "source": "Polygon",
+      "provider": "Investing.com",
+      "publishedAt": "2025-09-29T08:19:00Z",
+      "content": "Technology sector earnings are showing strong growth expectations for Q3 2025, with potential peak earnings and significant AI-driven investment impacting sector performance.",
+      "author": "Brian Gilmartin",
+      "tickers": [
+        "AMZN",
+        "TSLA",
+        "NKE",
+        "MSFT",
+        "AAPL"
+      ],
+      "storedAt": "2025-10-02T10:55:32.925Z"
+    }
+  ],
+  "totalArticles": 10
+}

@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import './App.css';
 import TickerSidebar from './components/TickerSidebar';
 import NewsSummary from './components/NewsSummary';
-import SourcesList from './components/SourcesList';
+import SourcesList from './components/SourcesList_new';
 import Header from './components/Header';
 import StatusDashboard from './components/StatusDashboard';
 import ErrorBoundary from './components/ErrorBoundary';
@@ -14,7 +14,9 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [refreshing, setRefreshing] = useState(false);
 
-  const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001';
+  const API_BASE_URL = import.meta.env.VITE_API_URL || (
+    import.meta.env.PROD ? '' : 'http://localhost:3001'
+  );
 
   useEffect(() => {
     fetchTickers();
@@ -71,8 +73,48 @@ function App() {
       });
 
       if (response.ok) {
+        const responseData = await response.json();
         await fetchTickers();
-        setSelectedTicker(ticker.toUpperCase());
+        const upperTicker = ticker.toUpperCase();
+        setSelectedTicker(upperTicker);
+        
+        // If we got preliminary data, update the summaries immediately
+        if (responseData.data) {
+          setSummaries(prev => ({
+            ...prev,
+            [upperTicker]: responseData.data
+          }));
+        }
+        
+        // Set up polling to check for AI processing completion
+        const pollForAICompletion = () => {
+          let attempts = 0;
+          const maxAttempts = 30; // Poll for up to 60 seconds
+          
+          const checkInterval = setInterval(async () => {
+            attempts++;
+            
+            try {
+              const statusResponse = await fetch(`${API_BASE_URL}/api/status/${upperTicker}`);
+              const statusData = await statusResponse.json();
+              
+              // Fetch latest summaries to get updated data
+              await fetchAllSummaries();
+              
+              // Stop polling if AI processing is complete or max attempts reached
+              if (!statusData.isProcessing || attempts >= maxAttempts) {
+                clearInterval(checkInterval);
+              }
+            } catch (error) {
+              console.error('Error checking processing status:', error);
+              if (attempts >= maxAttempts) {
+                clearInterval(checkInterval);
+              }
+            }
+          }, 2000);
+        };
+        
+        pollForAICompletion();
       }
     } catch (error) {
       console.error('Error adding ticker:', error);
@@ -104,11 +146,43 @@ function App() {
       });
 
       if (response.ok) {
+        // Immediately fetch updated summaries (will show scraped news)
         await fetchAllSummaries();
+        
+        // Set up polling to check for AI processing completion
+        const pollForAICompletion = () => {
+          let attempts = 0;
+          const maxAttempts = 30; // Poll for up to 60 seconds
+          
+          const checkInterval = setInterval(async () => {
+            attempts++;
+            
+            try {
+              const statusResponse = await fetch(`${API_BASE_URL}/api/status/${ticker}`);
+              const statusData = await statusResponse.json();
+              
+              // Fetch latest summaries to get updated AI data
+              await fetchAllSummaries();
+              
+              // Stop polling if AI processing is complete or max attempts reached
+              if (!statusData.isProcessing || attempts >= maxAttempts) {
+                clearInterval(checkInterval);
+                setRefreshing(false);
+              }
+            } catch (error) {
+              console.error('Error checking processing status:', error);
+              if (attempts >= maxAttempts) {
+                clearInterval(checkInterval);
+                setRefreshing(false);
+              }
+            }
+          }, 2000);
+        };
+        
+        pollForAICompletion();
       }
     } catch (error) {
       console.error('Error refreshing ticker:', error);
-    } finally {
       setRefreshing(false);
     }
   };

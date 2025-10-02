@@ -49,10 +49,10 @@ export class MockAIProcessor {
     return prioritizedArticles;
   }
 
-  async generateSummary(articles, historicalSummaries = []) {
-    if (articles.length === 0) {
+  async generateSummary(ticker, articles, historicalSummaries = []) {
+    if (!Array.isArray(articles) || articles.length === 0) {
       return {
-        summary: 'No recent news available for analysis.',
+        summary: `No recent news available for ${ticker} analysis.`,
         whatChangedToday: 'No significant changes detected.',
         keyPoints: [],
         sentiment: 'neutral',
@@ -127,10 +127,10 @@ export class MockAIProcessor {
 
     const currentDate = new Date().toLocaleDateString();
     
-    const summary = `${currentDate} Market Analysis: Comprehensive review of ${articles.length} key developments from ${sources.join(', ')}. ` +
-      `Current market sentiment reflects ${sentiment} outlook driven by ${headlines.length > 3 ? 'multiple' : 'select'} business developments. ` +
+    const summary = `${currentDate} ${ticker} Analysis: Comprehensive review of ${articles.length} key developments from ${sources.join(', ')}. ` +
+      `Current market sentiment for ${ticker} reflects ${sentiment} outlook driven by ${headlines.length > 3 ? 'multiple' : 'select'} business developments. ` +
       `Analysis indicates ${marketImpact} market impact potential based on news significance and coverage volume. ` +
-      `${historicalAnalysis}Key focus areas include operational updates, strategic initiatives, and market positioning changes affecting investor sentiment.`;
+      `${historicalAnalysis}Key focus areas include operational updates, strategic initiatives, and market positioning changes affecting ${ticker} investor sentiment.`;
 
     let whatChangedToday = '';
     

@@ -17,7 +17,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3002;
 
 // Middleware
 app.use(cors());
@@ -42,7 +42,7 @@ app.get('/api/tickers', async (req, res) => {
   }
 });
 
-// Add ticker
+// Add ticker with immediate news scraping
 app.post('/api/tickers', async (req, res) => {
   try {
     const { ticker } = req.body;
@@ -50,8 +50,59 @@ app.post('/api/tickers', async (req, res) => {
       return res.status(400).json({ error: 'Ticker is required' });
     }
     
-    await dataStorage.addTicker(ticker.toUpperCase());
-    res.json({ success: true, ticker: ticker.toUpperCase() });
+    const upperTicker = ticker.toUpperCase();
+    
+    // Add ticker to database
+    await dataStorage.addTicker(upperTicker);
+    
+    // Immediately collect and return raw news data (Step 1)
+    console.log(`� Collecting news for new ticker: ${upperTicker}`);
+    const newsData = await newsCollector.collectNews(upperTicker);
+    
+    if (newsData.length > 0) {
+      // Store a preliminary summary with just raw news data
+      const preliminarySummary = {
+        ticker: upperTicker,
+        summary: null, // Will be populated by AI processing
+        articles: newsData.slice(0, 20),
+        timestamp: new Date().toISOString(),
+        date: new Date().toISOString().split('T')[0],
+        sources: newsData.map(item => ({
+          url: item.url,
+          headline: item.title,
+          source: item.source,
+          provider: item.provider,
+          publishedAt: item.publishedAt,
+          timeAgo: item.timeAgo
+        })),
+        isProcessing: true, // Flag to indicate AI processing is pending
+        meta: {
+          totalArticlesFound: newsData.length,
+          articlesAnalyzed: 0,
+          processingStatus: 'collecting_news'
+        }
+      };
+      
+      await dataStorage.storeSummary(upperTicker, preliminarySummary);
+      
+      // Start AI processing in background (Step 2)
+      processAISummary(upperTicker, newsData).catch(error => {
+        console.error(`❌ AI processing failed for ${upperTicker}:`, error);
+      });
+      
+      res.json({ 
+        success: true, 
+        ticker: upperTicker,
+        message: 'News collected, AI processing started',
+        data: preliminarySummary
+      });
+    } else {
+      res.json({ 
+        success: true, 
+        ticker: upperTicker,
+        message: 'Ticker added but no news found'
+      });
+    }
   } catch (error) {
     console.error('Error adding ticker:', error);
     res.status(500).json({ error: 'Failed to add ticker' });
@@ -102,12 +153,79 @@ app.get('/api/summaries', async (req, res) => {
   }
 });
 
-// Manual refresh for a ticker
+// Get processing status for a ticker
+app.get('/api/status/:ticker', async (req, res) => {
+  try {
+    const { ticker } = req.params;
+    const summaries = await dataStorage.getSummaries(ticker.toUpperCase());
+    
+    if (summaries.length > 0) {
+      const summary = summaries[0];
+      res.json({
+        ticker: ticker.toUpperCase(),
+        isProcessing: summary.isProcessing || false,
+        status: summary.meta?.processingStatus || 'unknown',
+        articlesFound: summary.meta?.totalArticlesFound || 0,
+        lastUpdated: summary.timestamp
+      });
+    } else {
+      res.json({
+        ticker: ticker.toUpperCase(),
+        isProcessing: false,
+        status: 'not_found',
+        articlesFound: 0,
+        lastUpdated: null
+      });
+    }
+  } catch (error) {
+    console.error('Error fetching processing status:', error);
+    res.status(500).json({ error: 'Failed to fetch processing status' });
+  }
+});
+
+// Manual refresh for a ticker with progressive loading
 app.post('/api/refresh/:ticker', async (req, res) => {
   try {
     const { ticker } = req.params;
-    await processTickerNews(ticker.toUpperCase());
-    res.json({ success: true });
+    const upperTicker = ticker.toUpperCase();
+    
+    // Immediately collect and return raw news data
+    console.log(`📰 Refreshing news for ticker: ${upperTicker}`);
+    const newsData = await newsCollector.collectNews(upperTicker);
+    
+    if (newsData.length > 0) {
+      // Store preliminary data first
+      const preliminarySummary = {
+        ticker: upperTicker,
+        summary: null,
+        articles: newsData.slice(0, 20),
+        timestamp: new Date().toISOString(),
+        date: new Date().toISOString().split('T')[0],
+        sources: newsData.map(item => ({
+          url: item.url,
+          headline: item.title,
+          source: item.source,
+          provider: item.provider,
+          publishedAt: item.publishedAt,
+          timeAgo: item.timeAgo
+        })),
+        isProcessing: true,
+        meta: {
+          totalArticlesFound: newsData.length,
+          articlesAnalyzed: 0,
+          processingStatus: 'refreshing_news'
+        }
+      };
+      
+      await dataStorage.storeSummary(upperTicker, preliminarySummary);
+      
+      // Start AI processing in background
+      processAISummary(upperTicker, newsData).catch(error => {
+        console.error(`❌ AI processing failed for ${upperTicker}:`, error);
+      });
+    }
+    
+    res.json({ success: true, message: 'News refresh started' });
   } catch (error) {
     console.error('Error refreshing ticker:', error);
     res.status(500).json({ error: 'Failed to refresh ticker data' });
@@ -125,34 +243,35 @@ app.post('/api/refresh-all', async (req, res) => {
   }
 });
 
-// Main processing function for a single ticker
-async function processTickerNews(ticker) {
+// Progressive AI processing function (Step 2: AI Analysis)
+async function processAISummary(ticker, newsData) {
   try {
-    console.log(`Processing news for ${ticker}...`);
+    console.log(`🤖 Starting AI processing for ${ticker}...`);
     
-    // Collect fresh news from all sources
-    const newsData = await newsCollector.collectNews(ticker);
+    // Store current news in history for future comparisons
+    await dataStorage.storeNewsHistory(ticker, newsData);
     
-    if (newsData.length === 0) {
-      console.log(`No news found for ${ticker}`);
-      return;
+    // Get 7-day historical news for comparison
+    const historicalNews = await dataStorage.getNewsHistory(ticker, 7);
+    console.log(`📅 Found ${historicalNews.length} historical articles for ${ticker} (7 days)`);
+    
+    // Process with enhanced AI using current news and 7-day historical context
+    const selectedArticles = newsData.slice(0, 20); // Take top 20 for analysis
+    console.log(`🎯 Selected ${selectedArticles.length} articles for AI analysis`);
+    
+    // Update status to show AI processing
+    const existingSummary = await dataStorage.getSummaries(ticker);
+    if (existingSummary.length > 0) {
+      existingSummary[0].meta.processingStatus = 'generating_ai_summary';
+      await dataStorage.storeSummary(ticker, existingSummary[0]);
     }
     
-    console.log(`Collected ${newsData.length} articles for ${ticker}`);
+    // Generate enhanced summary with "What Changed Today" analysis
+    const summary = await aiProcessor.generateSummary(ticker, selectedArticles, historicalNews);
     
-    // Get historical data for trend analysis (last 7 days excluding today)
-    const historicalSummaries = await dataStorage.getSummaries(ticker, 7);
-    console.log(`Found ${historicalSummaries.length} historical summaries for ${ticker}`);
-    
-    // Process with AI using both current news and historical context
-    const selectedArticles = await aiProcessor.selectTopArticles(newsData);
-    console.log(`Selected ${selectedArticles.length} top articles for analysis`);
-    
-    // Generate dynamic summary with historical comparison
-    const summary = await aiProcessor.generateSummary(selectedArticles, historicalSummaries);
-    
-    // Create comprehensive summary data
-    const summaryData = {
+    // Create final enhanced summary data with AI analysis
+    const finalSummaryData = {
+      ticker,
       summary,
       articles: selectedArticles,
       timestamp: new Date().toISOString(),
@@ -161,20 +280,68 @@ async function processTickerNews(ticker) {
         url: item.url,
         headline: item.title,
         source: item.source,
-        publishedAt: item.publishedAt
+        provider: item.provider,
+        publishedAt: item.publishedAt,
+        timeAgo: item.timeAgo
       })),
+      isProcessing: false, // AI processing complete
       meta: {
         totalArticlesFound: newsData.length,
         articlesAnalyzed: selectedArticles.length,
-        historicalDaysUsed: historicalSummaries.length,
-        processingTime: new Date().toISOString()
+        historicalArticlesUsed: historicalNews.length,
+        daysOfHistoryAnalyzed: 7,
+        processingTime: new Date().toISOString(),
+        processingStatus: 'complete',
+        enhancedFeatures: {
+          tradingViewScraping: true,
+          finvizEnhanced: true,
+          polygonAPI: true,
+          geminiAnalysis: true,
+          historicalComparison: true
+        }
       }
     };
     
-    // Store the complete summary
-    await dataStorage.storeSummary(ticker, summaryData);
+    // Store the final enhanced summary
+    await dataStorage.storeSummary(ticker, finalSummaryData);
     
-    console.log(`✅ Successfully processed ${ticker} with ${newsData.length} articles and ${historicalSummaries.length} historical summaries`);
+    console.log(`✅ AI processing completed for ${ticker}:`);
+    console.log(`   📊 ${newsData.length} articles found, ${selectedArticles.length} analyzed`);
+    console.log(`   📅 ${historicalNews.length} historical articles used for comparison`);
+    console.log(`   🤖 AI summary generated with "What Changed Today" analysis`);
+  } catch (error) {
+    console.error(`❌ Error in AI processing for ${ticker}:`, error);
+    
+    // Update error state
+    const existingSummary = await dataStorage.getSummaries(ticker);
+    if (existingSummary.length > 0) {
+      existingSummary[0].isProcessing = false;
+      existingSummary[0].meta.processingStatus = 'error';
+      existingSummary[0].meta.error = error.message;
+      await dataStorage.storeSummary(ticker, existingSummary[0]);
+    }
+    
+    throw error;
+  }
+}
+
+// Enhanced processing function for a single ticker with 7-day history (legacy support)
+async function processTickerNews(ticker) {
+  try {
+    console.log(`🔄 Processing enhanced news for ${ticker}...`);
+    
+    // Collect fresh news from all enhanced sources
+    const newsData = await newsCollector.collectNews(ticker);
+    
+    if (newsData.length === 0) {
+      console.log(`⚠️ No news found for ${ticker}`);
+      return;
+    }
+    
+    console.log(`📰 Collected ${newsData.length} articles for ${ticker} from enhanced sources`);
+    
+    // Use the new progressive approach
+    await processAISummary(ticker, newsData);
   } catch (error) {
     console.error(`❌ Error processing ${ticker}:`, error);
     throw error;

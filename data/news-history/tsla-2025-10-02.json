@@ -1,0 +1,128 @@
+{
+  "ticker": "TSLA",
+  "date": "2025-10-02",
+  "timestamp": "2025-10-02T09:07:09.955Z",
+  "articles": [
+    {
+      "title": "Unusual Tesla Call Options Volume Shows Investors Bullish on TSLA",
+      "url": "https://finance.yahoo.com/m/30cdf59c-a044-3901-a15b-d8eaf537ba92/unusual-tesla-call-options.html",
+      "source": "Finviz",
+      "publishedAt": "2025-10-02T09:07:06.050Z",
+      "content": "Unusual Tesla Call Options Volume Shows Investors Bullish on TSLA",
+      "dateText": "01:30PM",
+      "storedAt": "2025-10-02T09:07:09.955Z"
+    },
+    {
+      "title": "Analyst Report: Tesla, Inc.",
+      "url": "https://finance.yahoo.com/m/0acbb367-73bf-3842-a70b-34a2b128753e/analyst-report%3A-tesla%2C-inc..html",
+      "source": "Finviz",
+      "publishedAt": "2025-10-02T09:07:06.049Z",
+      "content": "Analyst Report: Tesla, Inc.",
+      "dateText": "06:44PM",
+      "storedAt": "2025-10-02T09:07:09.955Z"
+    },
+    {
+      "title": "Analyst Explains Why He Downgraded Tesla (TSLA) to Sell Ahead of Upcoming Earnings",
+      "url": "/news/181467/analyst-explains-why-he-downgraded-tesla-tsla-to-sell-ahead-of-upcoming-earnings",
+      "source": "Finviz",
+      "publishedAt": "2025-10-02T09:07:06.049Z",
+      "content": "Analyst Explains Why He Downgraded Tesla (TSLA) to Sell Ahead of Upcoming Earnings",
+      "dateText": "04:31PM",
+      "storedAt": "2025-10-02T09:07:09.955Z"
+    },
+    {
+      "title": "TSLA",
+      "url": "/symbols/NASDAQ-TSLA/",
+      "source": "TradingView",
+      "provider": "TradingView",
+      "publishedAt": "2025-10-02T09:07:06.007Z",
+      "content": "TSLA",
+      "storedAt": "2025-10-02T09:07:09.955Z"
+    },
+    {
+      "title": "TSLA news",
+      "url": "https://in.tradingview.com/symbols/NASDAQ-TSLA/news/",
+      "source": "TradingView",
+      "provider": "TradingView",
+      "publishedAt": "2025-10-02T09:07:06.007Z",
+      "content": "TSLA news",
+      "storedAt": "2025-10-02T09:07:09.955Z"
+    },
+    {
+      "title": "TSLA INVESTOR ALERT: Bronstein, Gewirtz & Grossman LLC Announces that Tesla, Inc. Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit",
+      "url": "https://www.globenewswire.com/news-release/2025/10/01/3159787/9788/en/TSLA-INVESTOR-ALERT-Bronstein-Gewirtz-Grossman-LLC-Announces-that-Tesla-Inc-Investors-with-Substantial-Losses-Have-Opportunity-to-Lead-Class-Action-Lawsuit.html",
+      "source": "Polygon",
+      "provider": "GlobeNewswire Inc.",
+      "publishedAt": "2025-10-01T16:00:00Z",
+      "content": "A class action lawsuit has been filed against Tesla, alleging false statements about autonomous driving technology and potential regulatory risks during the period of April 19, 2023 to June 22, 2025.",
+      "author": "Bronstein, Gewirtz & Grossman Llc",
+      "tickers": [
+        "TSLA"
+      ],
+      "storedAt": "2025-10-02T09:07:09.955Z"
+    },
+    {
+      "title": "The Best AI Stock to Buy Right Now, According to a Wall Street Analyst (Hint: Not Nvidia or Palantir)",
+      "url": "https://www.fool.com/investing/2025/10/01/best-ai-stock-buy-now-wall-street-nvidia-palantir/?source=iedfolrf0000001",
+      "source": "Polygon",
+      "provider": "The Motley Fool",
+      "publishedAt": "2025-10-01T08:12:00Z",
+      "content": "Wedbush analyst Dan Ives believes Tesla is the most undervalued AI stock, citing significant potential in autonomous driving and robotics, despite recent market share losses and financial challenges.",
+      "author": "Trevor Jennewine",
+      "tickers": [
+        "TSLA",
+        "NVDA",
+        "PLTR",
+        "BYDDY"
+      ],
+      "storedAt": "2025-10-02T09:07:09.955Z"
+    },
+    {
+      "title": "Tesla Earnings Loom: Bulls Eye $600, Bears Warn of $300",
+      "url": "https://www.investing.com/analysis/tesla-earnings-loom-bulls-eye-600-bears-warn-of-300-200667732",
+      "source": "Polygon",
+      "provider": "Investing.com",
+      "publishedAt": "2025-09-30T12:06:00Z",
+      "content": "Tesla stock has surged over 100% in 2025, reaching $440, with bulls targeting $600 and bears warning of potential drop to $300. The upcoming Q3 earnings report will be crucial in determining the stock's trajectory, with key focus on AI initiatives, autonomous driving, and robotics.",
+      "author": "Sam Quirke",
+      "tickers": [
+        "TSLA"
+      ],
+      "storedAt": "2025-10-02T09:07:09.955Z"
+    },
+    {
+      "title": "S&P 500 Earnings: Tech EPS Expectations Point to Strong Q3 Results",
+      "url": "https://www.investing.com/analysis/sp-500-earnings-tech-eps-expectations-point-to-strong-q3-results-200667620",
+      "source": "Polygon",
+      "provider": "Investing.com",
+      "publishedAt": "2025-09-29T08:19:00Z",
+      "content": "Technology sector earnings are showing strong growth expectations for Q3 2025, with potential peak earnings and significant AI-driven investment impacting sector performance.",
+      "author": "Brian Gilmartin",
+      "tickers": [
+        "AMZN",
+        "TSLA",
+        "NKE",
+        "MSFT",
+        "AAPL"
+      ],
+      "storedAt": "2025-10-02T09:07:09.955Z"
+    },
+    {
+      "title": "S&P 500: Tech-Led Rally Masks Weakness in Broader Sectors Ahead of Earnings Season",
+      "url": "https://www.investing.com/analysis/sp-500-techled-rally-masks-weakness-in-broader-sectors-ahead-of-earnings-season-200667487",
+      "source": "Polygon",
+      "provider": "Investing.com",
+      "publishedAt": "2025-09-25T11:02:00Z",
+      "content": "The S&P 500 is experiencing a tech-driven rally that masks underlying sector weaknesses, with investors anticipating the upcoming earnings season and potential market valuation challenges outside the technology sector.",
+      "author": "Fawad Razaqzada",
+      "tickers": [
+        "TSLA",
+        "NVDA",
+        "AMZN",
+        "AAPL"
+      ],
+      "storedAt": "2025-10-02T09:07:09.955Z"
+    }
+  ],
+  "totalArticles": 10
+}
