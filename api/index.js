@@ -138,7 +138,9 @@ export default async function handler(req, res) {
     await initializeStorage();
     
     const { url, method } = req;
-    const path = url.replace('/api', '');
+    // Parse URL to get pathname and remove /api prefix
+    const urlObj = new URL(url, 'https://example.com');
+    const path = urlObj.pathname.replace('/api', '');
     
     console.log(`${new Date().toISOString()} ${method} ${path}`);
     
