@@ -9,7 +9,7 @@ import fs from 'fs/promises';
 import { NewsCollector } from './services/newsCollector.js';
 import { AIProcessor } from './services/aiProcessor.js';
 import { MockAIProcessor } from './services/mockAIProcessor.js';
-import { DataStorage } from './services/productionDataStorage.js';
+import { DataStorage } from './services/dataStorage.js';
 
 dotenv.config();
 
