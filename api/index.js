@@ -375,6 +375,27 @@ export default async function handler(req, res) {
       return res.json(summaries);
     }
 
+    // Delete a ticker
+    if (method === 'DELETE' && path.startsWith('/tickers/')) {
+      const ticker = path.replace('/tickers/', '').toUpperCase();
+      
+      try {
+        await dataStorage.removeTicker(ticker);
+        await dataStorage.removeSummary(ticker);
+        
+        return res.json({ 
+          success: true, 
+          message: `Ticker ${ticker} removed successfully`
+        });
+      } catch (error) {
+        console.error(`Error removing ticker ${ticker}:`, error);
+        return res.status(500).json({ 
+          error: 'Failed to remove ticker',
+          message: error.message
+        });
+      }
+    }
+
     // Handle other routes...
     return res.status(404).json({ 
       error: 'Not Found',

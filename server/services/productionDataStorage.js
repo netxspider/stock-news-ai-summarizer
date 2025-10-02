@@ -146,6 +146,29 @@ export class ProductionDataStorage {
     }
   }
 
+  async removeSummary(ticker) {
+    try {
+      const upperTicker = ticker.toUpperCase();
+      delete this.memoryStorage.summaries[upperTicker];
+      delete this.memoryStorage.newsHistory[upperTicker];
+      
+      // In development, also remove file
+      if (!this.isProduction) {
+        const tickerFile = join(this.summariesDir, `${upperTicker}.json`);
+        try {
+          await fs.unlink(tickerFile);
+        } catch (error) {
+          // File might not exist, ignore error
+        }
+      }
+      
+      console.log(`Removed summaries and history for ${upperTicker}`);
+    } catch (error) {
+      console.error('Error removing summary:', error);
+      throw error;
+    }
+  }
+
   async getAllSummaries() {
     try {
       const allSummaries = {};
