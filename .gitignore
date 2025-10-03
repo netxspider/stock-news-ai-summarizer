@@ -6,11 +6,16 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+# Environment variables (NEVER commit these!)
 .env
 .env.local
+.env.production
 .env.production.local
+.env.development
+.env.development.local
 server/.env
 server/.env.local
+server/.env.production
 
 node_modules
 dist

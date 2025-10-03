@@ -105,9 +105,9 @@ const StatusDashboard = ({ apiUrl }) => {
             <div className="status-item">
               <Clock className="status-metric-icon" />
               <div className="status-details">
-                <span className="status-label">Uptime</span>
+                <span className="status-label">Deployment</span>
                 <span className="status-value">
-                  {status.uptimeFormatted || formatUptime(status.uptime)}
+                  {status.uptimeFormatted || formatUptime(status.deploymentAge || status.uptime)}
                 </span>
               </div>
             </div>

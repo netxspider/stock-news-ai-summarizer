@@ -160,36 +160,44 @@ export default async function handler(req, res) {
       const storageStats = await dataStorage.getStorageStats();
       const tickers = await dataStorage.getTickers();
       
-      // Calculate uptime for production deployment
-      let uptime = 0;
-      let uptimeFormatted = 'Unknown';
+      // Calculate deployment age (not traditional uptime since this is serverless)
+      let deploymentAge = 0;
+      let uptimeFormatted = 'Serverless (No persistent uptime)';
       
       if (process.env.VERCEL) {
-        // In Vercel, use deployment timestamp or fallback calculation
-        const deploymentTime = process.env.VERCEL_DEPLOYMENT_TIME || 
-                              process.env.VERCEL_GIT_COMMIT_TIME ||
-                              Date.now() - (24 * 60 * 60 * 1000); // Fallback to 24h ago
+        // Show deployment age rather than uptime for serverless functions
+        const now = Date.now();
+        let deploymentTime;
         
-        uptime = Math.floor((Date.now() - parseInt(deploymentTime)) / 1000);
+        if (process.env.VERCEL_DEPLOYMENT_TIME) {
+          deploymentTime = parseInt(process.env.VERCEL_DEPLOYMENT_TIME);
+        } else if (process.env.VERCEL_GIT_COMMIT_TIME) {
+          deploymentTime = parseInt(process.env.VERCEL_GIT_COMMIT_TIME);
+        } else {
+          // Fallback: estimate based on current time
+          deploymentTime = now - (2 * 60 * 60 * 1000); // 2 hours ago
+        }
         
-        // Format uptime nicely
-        const days = Math.floor(uptime / 86400);
-        const hours = Math.floor((uptime % 86400) / 3600);
-        const minutes = Math.floor((uptime % 3600) / 60);
+        deploymentAge = Math.floor((now - deploymentTime) / 1000);
+        
+        // Format deployment age
+        const days = Math.floor(deploymentAge / 86400);
+        const hours = Math.floor((deploymentAge % 86400) / 3600);
+        const minutes = Math.floor((deploymentAge % 3600) / 60);
         
         if (days > 0) {
-          uptimeFormatted = `${days}d ${hours}h ${minutes}m`;
+          uptimeFormatted = `Deployed ${days}d ${hours}h ${minutes}m ago`;
         } else if (hours > 0) {
-          uptimeFormatted = `${hours}h ${minutes}m`;
+          uptimeFormatted = `Deployed ${hours}h ${minutes}m ago`;
         } else {
-          uptimeFormatted = `${minutes}m`;
+          uptimeFormatted = `Deployed ${minutes}m ago`;
         }
       }
       
       return res.json({ 
         status: 'ok', 
         timestamp: new Date().toISOString(),
-        uptime: uptime,
+        deploymentAge: deploymentAge,
         uptimeFormatted: uptimeFormatted,
         deploymentInfo: {
           deploymentTime: process.env.VERCEL_DEPLOYMENT_TIME,
